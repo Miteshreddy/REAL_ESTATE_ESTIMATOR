@@ -27,3 +27,8 @@ data/synthetic_tn20_corrected/
 # local secrets (API keys) — never commit
 .env
 data/market_cache.json
+.setup_done
+tools/searxng/
+tools/searxng_env/
+tools/searxng_settings.yml
+tools/searxng.log

@@ -1,46 +1,43 @@
 @echo off
 setlocal
-title Drawing-based PWD Cost Estimation
+title PWD Estimator
 cd /d "%~dp0"
-
 echo.
 echo   =====================================================
-echo     Drawings -^> Quantities -^> PWD Rates -^> Cost
+echo     PWD Estimator  -  Drawings to PWD cost estimate
 echo   =====================================================
 echo.
 
-where python >nul 2>nul
-if errorlevel 1 (
-  echo [ERROR] Python 3.10+ was not found on PATH. Install it from https://www.python.org/downloads/
+rem ---- 1. Python 3.12 (installed automatically when missing) ----
+set "PYEXE="
+py -3.12 -c "import sys" >nul 2>nul && set "PYEXE=py -3.12"
+if not defined PYEXE (
+  for /f "delims=" %%v in ('python -c "import sys;print(sys.version_info[:2] in [(3,10),(3,11),(3,12)])" 2^>nul') do if "%%v"=="True" set "PYEXE=python"
+)
+if not defined PYEXE (
+  echo [setup] Python 3.12 not found - installing it with winget ^(one time^)...
+  winget install --id Python.Python.3.12 -e --scope user --silent --accept-package-agreements --accept-source-agreements
+  if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PYEXE=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
+)
+if not defined PYEXE (
+  echo [ERROR] Could not install Python automatically. Install Python 3.12 from https://www.python.org/downloads/ ^(tick "Add to PATH"^) and run start.bat again.
   pause
   exit /b 1
 )
 
+rem ---- 2. Private environment for the app ----
 if not exist ".venv\Scripts\python.exe" (
-  echo [1/3] Creating virtual environment...
-  python -m venv .venv
-  if errorlevel 1 (
-    echo [ERROR] Could not create the virtual environment.
-    pause
-    exit /b 1
-  )
+  echo [setup] Creating the app environment...
+  %PYEXE% -m venv .venv
+  if errorlevel 1 ( echo [ERROR] Could not create the environment. & pause & exit /b 1 )
 )
 
-echo [2/3] Installing / verifying dependencies...
-".venv\Scripts\python.exe" -m pip install --disable-pip-version-check -q --upgrade pip >nul
-".venv\Scripts\python.exe" -m pip install --disable-pip-version-check -q -r requirements.txt
-if errorlevel 1 (
-  echo [ERROR] Dependency installation failed. Check your internet connection and retry.
-  pause
-  exit /b 1
+rem ---- 3. One-time setup: libraries, Llama engine, model files, SearXNG ----
+if not exist ".setup_done" (
+  ".venv\Scripts\python.exe" tools\setup_local.py
+  if errorlevel 1 ( echo [ERROR] Setup failed - check the messages above and run start.bat again. & pause & exit /b 1 )
 )
 
-echo [3/3] Starting server (first run trains the ML models, ~30-60 s)...
-echo.
-echo     Open  http://127.0.0.1:8000   (opens automatically)
-echo     Press Ctrl+C in this window to stop.
-echo.
-start "" /min powershell -NoProfile -WindowStyle Hidden -Command "for($i=0;$i -lt 180;$i++){try{Invoke-WebRequest -UseBasicParsing http://127.0.0.1:8000/api/health -TimeoutSec 2 | Out-Null; Start-Process 'http://127.0.0.1:8000'; break}catch{Start-Sleep 1}}"
-cd backend
-"..\.venv\Scripts\python.exe" -m uvicorn app:app --host 127.0.0.1 --port 8000
+rem ---- 4. Run ----
+".venv\Scripts\python.exe" tools\run_local.py
 pause

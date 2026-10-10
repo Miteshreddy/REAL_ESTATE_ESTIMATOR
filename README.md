@@ -18,17 +18,25 @@ the Tamil Nadu PWD Schedule of Rates 2025-26, and produces an itemised estimate 
 
 The estimate itself is always computed by the deterministic engine; the language model only explains it.
 
-## Run locally (Windows)
+## Run on your computer (one click)
 
-```
-start.bat
-```
-or `python -m pip install -r requirements.txt` then `python -m uvicorn app:app --app-dir backend --port 8000`.
+Download the repository (green **Code → Download ZIP**, or `git clone`), unzip, then:
 
-Optional, in a git-ignored `.env`: `SEARXNG_URL`, `LLM_BACKEND` (`llamacpp` / `ollama` / `none`), `LLM_MODEL_PATH`,
-`OLLAMA_URL`, `OLLAMA_MODEL`.
+| System | Run |
+|---|---|
+| **Windows** | double-click **`start.bat`** |
+| **macOS / Linux** | in Terminal: `chmod +x start.sh && ./start.sh` |
 
-Tests: `python -m pip install -r requirements-dev.txt` then `python -m pytest backend/tests -q`.
+The first run sets everything up automatically (about 10–20 minutes, needs internet):
+Python 3.12 if missing (winget / Homebrew / apt) → a private environment `.venv` → all Python libraries → the llama.cpp
+engine → the large model files (a ZIP download contains only Git LFS placeholders; they are downloaded and checksum
+verified) → SearXNG web search. Later runs start in seconds. The app opens at http://127.0.0.1:8000.
+
+Needs about 6 GB of free disk space. DWG files need Windows (bundled converter); PDF, DXF and images work everywhere.
+Optional settings go in `.env` (`SEARXNG_URL`, `LLM_BACKEND` = `llamacpp` / `ollama` / `none`, `LLM_MODEL_PATH`,
+`OLLAMA_URL`, `OLLAMA_MODEL`).
+
+Tests: `.venv` python `-m pip install -r requirements-dev.txt`, then `-m pytest backend/tests -q`.
 
 ## Deploy on Render
 
