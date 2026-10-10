@@ -36,7 +36,18 @@ def open_browser():
             time.sleep(1)
 
 
+def port_free(port: int) -> bool:
+    import socket
+    with socket.socket() as s:
+        return s.connect_ex(("127.0.0.1", port)) != 0
+
+
 def main():
+    if not port_free(PORT):
+        print(f"\n  Port {PORT} is already in use - PWD Estimator may already be running: open http://127.0.0.1:{PORT}")
+        print("  (or close the other window, or set PORT=8001 and start again)\n")
+        webbrowser.open(f"http://127.0.0.1:{PORT}")
+        return
     sx = start_searxng()
     print("  Web search (SearXNG):", "running" if sx else "not installed (curated price pages only)")
     print(f"\n  Open http://127.0.0.1:{PORT}  (opens automatically)   Ctrl+C to stop\n", flush=True)

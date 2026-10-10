@@ -887,7 +887,10 @@ def market_check_route(pid: str, refresh: bool = False):
     bt = d.get("building_type") or (q.get("scope") or {}).get("label") or "building"
     loc = q.get("loc") or {}
     place = f"{loc.get('district')} Tamil Nadu" if loc.get("district") else "Tamil Nadu"
-    bm = market_check.benchmark(bt, place, use_cache=not refresh)
+    bm = None if refresh else market_check.cached(bt, place)
+    if bm is None:  # read the web in the background; the page polls
+        market_check.start(bt, place, refresh)
+        return dict(pending=True, building_type=bt, place=place)
     S = q.get("summary") or {}
     est = S.get("cost_per_sqft")
     area_basis = "budget area from typical room sizes (drawing scale looks wrong)" if S.get("budget_area_m2") else "measured built-up area"
@@ -921,9 +924,8 @@ def ai_summary_route(pid: str):
         return dict(available=False, message=f"Local model not running — start Ollama with {local_llm.model()} to get written summaries.")
     facts = _summary_facts(q)
     try:
-        import market_check
-        mc = market_check_route(pid)
-        if mc["benchmark"].get("ok"):
+        mc = market_check_route(pid)  # cached result only; never waits for a web read
+        if (mc.get("benchmark") or {}).get("ok"):
             facts["market_median_per_sqft_inr"] = mc["benchmark"]["median"]
             facts["market_check"] = mc["verdict"].get("text")
     except Exception:

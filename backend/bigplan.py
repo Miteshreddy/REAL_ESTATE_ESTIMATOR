@@ -386,7 +386,6 @@ def read_page(page, models, analyze_masks, finish_sheet, text_kind, docparse, sc
         if not t or TAG.match(t) or NOTE.search(t) or NUM.match(t):
             continue
         labels.append((t, (x0 + x1) / 2 * f, (y0 + y1) / 2 * f))
-    rows = docparse.group_rows([(w[4], w[0], w[1], w[2], w[3]) for w in page.get_text("words")])
     # keep only the building: drop wall specks far from the main structure (title-block logos etc.)
     n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.dilate(wall, np.ones((41, 41), np.uint8)), connectivity=8)
     if n > 1:

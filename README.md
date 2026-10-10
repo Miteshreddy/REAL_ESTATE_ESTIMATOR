@@ -33,19 +33,18 @@ engine → the large model files (Gemma 3 4B is joined from two parts and checks
 verified) → SearXNG web search. Later runs start in seconds. The app opens at http://127.0.0.1:8000.
 
 Needs about 6 GB of free disk space. DWG files need Windows (bundled converter); PDF, DXF and images work everywhere.
-Optional settings go in `.env` (`SEARXNG_URL`, `LLM_BACKEND` = `llamacpp` / `ollama` / `none`, `LLM_MODEL_PATH`,
-`OLLAMA_URL`, `OLLAMA_MODEL`).
+Optional settings go in `.env` (`SEARXNG_URL`, `LLM_BACKEND=none` to switch the assistant off, `LLM_MODEL_PATH`,
+`LLM_EXTRACT=0` to stop it reading web pages, `LLM_GPU_LAYERS` = `auto` (default) / `-1` all on GPU / `0` CPU only,
+`LLM_MAIN_GPU` to pick the graphics card). Gemma runs on the GPU when the start script finds one (Vulkan on Windows /
+Linux, Metal on Apple Silicon) and falls back to the CPU otherwise.
 
 Tests: `.venv` python `-m pip install -r requirements-dev.txt`, then `-m pytest backend/tests -q`.
 
-## Deploy on Render
+## Large files
 
-The repository contains `render.yaml` (Blueprint) and a `Dockerfile` that runs the app, the Gemma model and SearXNG in
-one service. In Render: **New → Blueprint → this repository**. About 4–6 GB of memory is needed with the language model on; set
-`LLM_BACKEND=none` for smaller plans. Project data lives on the attached disk (`/var/data`).
-
-Large files are stored with **Git LFS** (the Gemma model in two parts, the YOLOv8m model). If a host clones LFS pointers
-only, the app falls back to YOLOv8s and downloads the Gemma file once with checksum verification (`deploy/ensure_model.py`).
+Large files are stored with **Git LFS**: the Gemma model (two parts, joined and checksum-verified at setup) and the
+YOLOv8m model. A GitHub ZIP contains only placeholders for them; the start scripts download the real files. If YOLOv8m
+is missing the app falls back to YOLOv8s.
 
 ## Licences
 

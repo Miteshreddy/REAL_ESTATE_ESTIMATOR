@@ -134,7 +134,7 @@ def _figures(text: str, use_llm: bool = True, slugs: list[str] | None = None) ->
                 why = f"{f['quality']} quality tier (kept for reference, not in the standard median)"
             figs.append(dict(value=f["value"], quote=f["quote"], quality=f["quality"], location=f.get("city"), rejected=why))
         if any(not x["rejected"] for x in figs):
-            return figs, f"Meta {local_llm.model()} (local)"
+            return figs, f"{local_llm.model()} (local, {local_llm.LOADED_ON or 'CPU'})"
     figs = parse_rates_ctx(text)
     for x in figs:
         x.pop("span", None)
@@ -166,9 +166,46 @@ def _record(f: dict, url: str | None, title: str, found_via: str, read_by: str) 
                 status="rejected" if f.get("rejected") else "unreviewed")
 
 
+_JOBS, _JOBS_LOCK = {}, __import__("threading").Lock()
+
+
+def cached(building_type: str, place: str) -> dict | None:
+    """A fresh cached result, or None — never searches (cheap; safe inside a request)."""
+    key = f"{(building_type or 'building').strip().lower()}|{place.lower()}"
+    try:
+        hit = json.load(open(_cache_path(), encoding="utf-8")).get(key)
+    except (OSError, ValueError):
+        hit = None
+    if hit and time.time() - hit.get("at", 0) < CACHE_DAYS * 86400:
+        return dict(hit["data"], cached=True)
+    job = _JOBS.get(key)
+    if job and job.get("done") and time.time() - job["at"] < 600:  # a recent unsuccessful check: do not repeat at once
+        return job["data"]
+    return None
+
+
+def start(building_type: str, place: str, refresh: bool = False) -> None:
+    """Run benchmark() in a background thread (reading pages with the local model can take minutes on a CPU)."""
+    key = f"{(building_type or 'building').strip().lower()}|{place.lower()}"
+    with _JOBS_LOCK:
+        j = _JOBS.get(key)
+        if j and not j.get("done"):
+            return
+        _JOBS[key] = dict(done=False, at=time.time())
+
+    def run():
+        try:
+            data = benchmark(building_type, place, use_cache=not refresh)
+        except Exception as e:  # reported to the page, never raised
+            data = dict(enabled=True, ok=False, message=f"market check failed: {str(e)[:150]}")
+        _JOBS[key] = dict(done=True, at=time.time(), data=data)
+
+    __import__("threading").Thread(target=run, daemon=True).start()
+
+
 def benchmark(building_type: str, place: str = "Tamil Nadu", read_pages: int = 4, use_cache: bool = True) -> dict:
-    """Market ₹/sq ft from (1) the curated public price pages read directly, (2) web search via the configured provider
-    (incl. free self-hosted SearXNG), each page read by Groq or the regex parser; plus (3) the official TN unit costs."""
+    """Market ₹/sq ft from (1) the curated public price pages read directly, (2) SearXNG web search, each page read by
+    Gemma 3 (quote-checked) or the rule-based parser; plus (3) the official TN unit costs as historical context."""
     bt = (building_type or "building").strip()
     key = f"{bt.lower()}|{place.lower()}"
     cp = _cache_path()
@@ -208,7 +245,7 @@ def benchmark(building_type: str, place: str = "Tamil Nadu", read_pages: int = 4
         vals, how = figures(t)
         methods.add(how)
         found += [_record(f, u, name, "curated price page", how) for f in vals[:10]]
-    # (2) web search (Brave / Tavily / Google / SearXNG), when a provider is configured
+    # (2) web search (SearXNG), when running
     year = time.strftime("%Y")
     q = f"{bt} construction cost per sq ft {place} {year}"
     search_note = None
@@ -230,7 +267,7 @@ def benchmark(building_type: str, place: str = "Tamil Nadu", read_pages: int = 4
                 vals += pv[:8]
             found += [_record(f, r.get("url"), (r.get("title") or "")[:120], "web search result", how) for f in vals]
     else:
-        search_note = "web search not configured (free option: run SearXNG and set SEARXNG_URL) — curated price pages only"
+        search_note = "web search (SearXNG) not running — curated price pages only"
     ok_ = [f for f in found if not f["rejected"]]
     if len(ok_) >= 3:  # outliers vs the median of accepted figures are rejected, with the reason kept
         med = statistics.median(f["value"] for f in ok_)

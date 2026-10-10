@@ -285,7 +285,6 @@ def compute_quantities(sheets: list[dict], P: dict) -> list[dict[str, Any]]:
     else:
         colset = [("C (assumed)", Nf, 0.23, 0.40, [(4, 16), (2, 12)], (8, 150))]
         c_basis, c_conf, c_src = "assumed 230×400 — no column schedule", 0.6, f_src
-    Nc = sum(c for _, c, *_ in colset)
 
     # beams
     if beams:
@@ -439,7 +438,6 @@ def compute_quantities(sheets: list[dict], P: dict) -> list[dict[str, Any]]:
         ext_pl, f"Σ envelope perimeter × {h} m − openings per floor + plinth {ph} m + parapet both faces {parapet} m", [w["id"] for s in plans for w in s["walls"] if w["ext"]], "13.1.1", conf)
 
     WETR, toilets, kitchens = rooms_of(WET), rooms_of({"toilet"}), rooms_of({"kitchen"})
-    mult_of = {r["id"] + str(i): mult[i] for i, s in enumerate(plans) for r in s["rooms"]}
 
     def msum(rs, fn):
         return sum(fn(r) * mult[i] for i, s in enumerate(plans) for r in s["rooms"] if r in rs)

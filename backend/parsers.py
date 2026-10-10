@@ -210,7 +210,6 @@ def analyze_masks(wall: np.ndarray, seg: np.ndarray, res: float, labels=None, do
     # merge pockets (door swings, wall cavities) into neighbours; detect door swings
     for i, area, ins in pockets:
         m = (lab == i).astype(np.uint8)
-        a_m2 = area * res * res
         if ins < 0.14:  # wall cavity (double-line CAD walls)
             wall[m > 0] = 1
             continue
@@ -236,7 +235,6 @@ def analyze_masks(wall: np.ndarray, seg: np.ndarray, res: float, labels=None, do
     int_wall = (wall > 0) & ~band & (envelope > 0)
     t_int_px = _ridge_thickness(wall, ~band) or t_ext_px * 0.5
     t_ext, t_int = _snap_t(t_ext_px * res), _snap_t(t_int_px * res)
-    t_int_raw = max(t_int_px * res, 0.05)
 
     cnts, _ = cv2.findContours(envelope, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     env_cnt = max(cnts, key=cv2.contourArea) if cnts else None
@@ -1148,7 +1146,7 @@ def dwg_to_dxf(path: str) -> str:
     out = os.path.splitext(path)[0] + ".converted.dxf"
     if not os.path.exists(DWG2DXF):
         raise ValueError("DWG converter not found - save the drawing as DXF or PDF and upload that")
-    r = subprocess.run([DWG2DXF, "-y", "-o", out, path], capture_output=True, timeout=600)
+    subprocess.run([DWG2DXF, "-y", "-o", out, path], capture_output=True, timeout=600)
     if not os.path.exists(out) or os.path.getsize(out) < 1000:
         raise ValueError("Could not convert this DWG file - please export it as DXF or PDF")
     return out

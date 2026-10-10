@@ -303,7 +303,6 @@ def _inr(v):
 def _quality(full):
     e = html.escape
     st = full.get("stats") or {}
-    comp = st.get("completeness") or {}
     ss = st.get("status_summary") or {}
     out = "<h2>Estimate status</h2>"
     if ss:

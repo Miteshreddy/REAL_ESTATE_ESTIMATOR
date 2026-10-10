@@ -9,7 +9,6 @@ Usage:  python benchmark.py [n_sets] [formats]     e.g.  python benchmark.py 40 
 from __future__ import annotations
 
 import json
-import math
 import os
 import sys
 import tempfile

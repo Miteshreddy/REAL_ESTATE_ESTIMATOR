@@ -52,11 +52,12 @@ def ensure_joined(verbose: bool = False) -> bool:
                 print("[model] joined file failed the checksum — discarded")
             return False
         os.replace(tmp, target)
-        for p in parts:  # the joined file replaces the parts on disk (the repo still has them)
-            try:
-                os.remove(p)
-            except OSError:
-                pass
+        if not os.path.isdir(os.path.join(ROOT, ".git")):  # ZIP install: free the disk space; a git checkout keeps its tracked parts
+            for p in parts:
+                try:
+                    os.remove(p)
+                except OSError:
+                    pass
         if verbose:
             print("[model] Gemma 3 4B ready")
     return True

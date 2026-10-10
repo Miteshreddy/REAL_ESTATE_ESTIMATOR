@@ -31,11 +31,10 @@ def _client():
 
 # 1 — Llama unavailable: the application keeps working
 def test_llama_unavailable_app_keeps_working(monkeypatch):
-    monkeypatch.setenv("LLM_BACKEND", "llamacpp")
+    monkeypatch.delenv("LLM_BACKEND", raising=False)
     monkeypatch.setenv("LLM_MODEL_PATH", os.path.join(tempfile.gettempdir(), "no_such_model.gguf"))
-    assert local_llm.available() is False and local_llm._chat("s", "u", False) is None
-    monkeypatch.setenv("LLM_BACKEND", "ollama")
-    monkeypatch.setenv("OLLAMA_URL", CLOSED)
+    assert local_llm.available() is False and local_llm._chat("s", "u") is None
+    monkeypatch.setenv("LLM_BACKEND", "none")
     assert local_llm.available() is False
     assert local_llm.extract_rates("House construction cost ₹2,300 per sq ft") is None
     figs, how = market_check._figures("House construction cost in Trichy is ₹2,300 per sq ft.")
@@ -125,11 +124,8 @@ def test_implausible_rooms_flag_scale_without_rescaling():
 
 # 7 — SearXNG unavailable: search fails gracefully, the rest keeps working
 def test_searxng_unavailable_is_graceful(monkeypatch):
-    for k in ("PWD_SEARCH_API_KEY", "TAVILY_API_KEY", "GOOGLE_CSE_KEY", "GOOGLE_CSE_CX"):
-        monkeypatch.delenv(k, raising=False)
     monkeypatch.setenv("SEARXNG_URL", CLOSED)
-    monkeypatch.setenv("LLM_BACKEND", "ollama")
-    monkeypatch.setenv("OLLAMA_URL", CLOSED)
+    monkeypatch.setenv("LLM_BACKEND", "none")
     monkeypatch.setattr(web_search, "page_text", lambda url: "")
     r = market_check.benchmark("Residential house", "Tiruchirappalli Tamil Nadu", use_cache=False)
     assert r["enabled"] and not r["ok"] and "search failed" in (r["search_note"] or "")

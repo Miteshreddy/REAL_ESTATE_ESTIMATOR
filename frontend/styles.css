@@ -202,3 +202,4 @@ table.mini td{padding:4px 0;border-bottom:1px solid var(--line)}
 details.more>summary{cursor:pointer;font-size:13px;color:var(--muted)}
 .benchmark{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:12px 0;font-size:13px}
 .benchmark.warn{border-color:#d97706}
+.card:has(> .table){overflow-x:auto}

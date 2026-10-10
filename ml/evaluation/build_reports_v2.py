@@ -74,7 +74,7 @@ def classify_path(rel: str) -> tuple[str, str, str]:
         return "source", "active", "TN drawing dataset builder (data/tn_dataset)"
     if r.startswith("backend/") and n.endswith(".py"):
         dev = {"accuracy_eval.py", "aparna_regression.py", "benchmark.py", "commercial_eval.py", "opening_ab.py", "real_eval.py",
-               "south_compare.py", "tn_eval.py"}
+               "tn_eval.py"}
         return "source", "evaluation/dev script" if n in dev else "active", "backend module"
     if r.startswith("frontend/"):
         return "source", "active", "web UI"

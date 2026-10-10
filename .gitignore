@@ -32,3 +32,21 @@ tools/searxng/
 tools/searxng_env/
 tools/searxng_settings.yml
 tools/searxng.log
+
+# compiled python
+**/__pycache__/
+*.pyc
+# local debug images / supplied packs (not part of the product)
+data/dbg_*.png
+data/dl_ang_*.png
+data/t*.png
+data/real_*.png
+data/tn_*.pdf.png
+data/planbox.png
+data/accuracy_eval.log
+data/previews/
+data/demo_tn5/
+data/tn_batch2_layouts/
+data/tn_batch2_pack/
+data/tn_stress20_pack/
+data/estimate.db

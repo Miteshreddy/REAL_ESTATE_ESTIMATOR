@@ -1,12 +1,8 @@
 """Web search + page reading for live price checks.
 
-Providers (first configured one wins; keys come from the environment, never from code):
-    PWD_SEARCH_API_KEY            Brave Search API
-    TAVILY_API_KEY                Tavily search API
-    GOOGLE_CSE_KEY + GOOGLE_CSE_CX  Google Programmable Search
-    SEARXNG_URL                   self-hosted SearXNG metasearch (free, no key; JSON output must be enabled)
-Search engines' HTML pages are not scraped (bot checks, terms of use). Result pages themselves are fetched — robots.txt
-is honoured, size and time are capped, only http(s) public hosts are contacted.
+Search: self-hosted SearXNG (open-source metasearch, free, no key) at SEARXNG_URL, installed by the start scripts.
+Search engines' own HTML pages are never scraped (bot checks, terms of use). Result pages themselves are fetched —
+robots.txt is honoured, size and time are capped, only public http(s) hosts are contacted.
 """
 from __future__ import annotations
 
@@ -26,43 +22,17 @@ MAX_BYTES = 1_500_000
 
 
 def provider() -> str | None:
-    if os.environ.get("PWD_SEARCH_API_KEY"):
-        return "brave"
-    if os.environ.get("TAVILY_API_KEY"):
-        return "tavily"
-    if os.environ.get("GOOGLE_CSE_KEY") and os.environ.get("GOOGLE_CSE_CX"):
-        return "google"
-    if os.environ.get("SEARXNG_URL"):
-        return "searxng"
-    return None
+    return "searxng" if os.environ.get("SEARXNG_URL") else None
 
 
 def search(q: str, n: int = 10) -> list[dict]:
-    """[{url, title, text}] from the configured provider; [] when none is configured."""
-    p = provider()
-    if p == "brave":
-        r = requests.get("https://api.search.brave.com/res/v1/web/search", params=dict(q=q, count=n, country="IN"), timeout=TIMEOUT,
-                         headers={"Accept": "application/json", "X-Subscription-Token": os.environ["PWD_SEARCH_API_KEY"]})
-        r.raise_for_status()
-        res = (r.json().get("web") or {}).get("results") or []
-        return [dict(url=x.get("url"), title=x.get("title") or "",
-                     text=" ".join([x.get("description") or ""] + list(x.get("extra_snippets") or []))) for x in res]
-    if p == "tavily":
-        r = requests.post("https://api.tavily.com/search", timeout=TIMEOUT * 2,
-                          json=dict(api_key=os.environ["TAVILY_API_KEY"], query=q, max_results=n, include_raw_content=False))
-        r.raise_for_status()
-        return [dict(url=x.get("url"), title=x.get("title") or "", text=x.get("content") or "") for x in r.json().get("results") or []]
-    if p == "google":
-        r = requests.get("https://www.googleapis.com/customsearch/v1", timeout=TIMEOUT,
-                         params=dict(key=os.environ["GOOGLE_CSE_KEY"], cx=os.environ["GOOGLE_CSE_CX"], q=q, num=min(n, 10), gl="in"))
-        r.raise_for_status()
-        return [dict(url=x.get("link"), title=x.get("title") or "", text=x.get("snippet") or "") for x in r.json().get("items") or []]
-    if p == "searxng":
-        r = requests.get(os.environ["SEARXNG_URL"].rstrip("/") + "/search", timeout=TIMEOUT * 2,
-                         params=dict(q=q, format="json", language="en-IN", safesearch=0), headers={"User-Agent": UA})
-        r.raise_for_status()
-        return [dict(url=x.get("url"), title=x.get("title") or "", text=x.get("content") or "") for x in (r.json().get("results") or [])[:n]]
-    return []
+    """[{url, title, text}] from SearXNG; [] when it is not configured. Raises on network errors (callers report them)."""
+    if not provider():
+        return []
+    r = requests.get(os.environ["SEARXNG_URL"].rstrip("/") + "/search", timeout=TIMEOUT * 2,
+                     params=dict(q=q, format="json", language="en-IN", safesearch=0), headers={"User-Agent": UA})
+    r.raise_for_status()
+    return [dict(url=x.get("url"), title=x.get("title") or "", text=x.get("content") or "") for x in (r.json().get("results") or [])[:n]]
 
 
 def _public(host: str) -> bool:

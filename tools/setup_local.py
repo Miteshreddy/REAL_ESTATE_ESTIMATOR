@@ -43,13 +43,32 @@ def install_libraries():
     subprocess.call([PY, "-m", "pip", "install", "-q", "--disable-pip-version-check", "--upgrade", "pip"])
     if not pip("-r", os.path.join(ROOT, "requirements.txt")):
         sys.exit("[setup] library installation failed — check the internet connection and run the start script again")
-    step("Installing the llama.cpp engine (runs the Gemma model inside the app)")
+    step("Installing the llama.cpp engine (runs Gemma inside the app; GPU when available)")
+    rel = "https://github.com/abetlen/llama-cpp-python/releases/download"
     if MAC and platform.machine() == "arm64":
-        index = "https://abetlen.github.io/llama-cpp-python/whl/metal"
+        gpu = [f"{rel}/v0.3.36-metal/llama_cpp_python-0.3.36-py3-none-macosx_11_0_arm64.whl"]  # Apple GPU (Metal)
+    elif WIN:
+        gpu = [f"{rel}/v0.3.36-vulkan/llama_cpp_python-0.3.36-py3-none-win_amd64.whl"]  # NVIDIA / AMD / Intel (Vulkan)
+    elif platform.machine() in ("x86_64", "AMD64"):
+        gpu = [f"{rel}/v0.3.36-vulkan/llama_cpp_python-0.3.36-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"]
     else:
-        index = "https://abetlen.github.io/llama-cpp-python/whl/cpu"
-    if not pip("llama-cpp-python==0.3.36", "--prefer-binary", "--extra-index-url", index):
+        gpu = []
+    pip("diskcache>=5.6.1", "jinja2>=2.11.3", "typing-extensions>=4.5.0")  # the engine's own dependencies (numpy is in requirements)
+    for wheel in gpu:
+        if pip("--force-reinstall", "--no-deps", wheel) and _engine_ok(need_gpu=True):
+            print("  ok  GPU engine (layers that fit go to the GPU, the rest run on the CPU)")
+            return
+    if pip("--force-reinstall", "llama-cpp-python==0.3.36", "--prefer-binary", "--extra-index-url",
+           "https://abetlen.github.io/llama-cpp-python/whl/cpu") and _engine_ok(need_gpu=False):
+        print("  ok  CPU engine (no usable GPU found)")
+    else:
         print("[setup] llama.cpp engine could not be installed — written summaries are off, everything else works")
+
+
+def _engine_ok(need_gpu: bool) -> bool:
+    """Import the engine in a fresh process (a broken GPU driver must not take the setup down)."""
+    code = "import llama_cpp,sys; sys.exit(0 if (llama_cpp.llama_supports_gpu_offload() or not %s) else 3)" % need_gpu
+    return subprocess.call([PY, "-c", code], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) == 0
 
 
 def _pointer(path):

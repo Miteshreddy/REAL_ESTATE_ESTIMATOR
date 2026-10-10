@@ -108,6 +108,11 @@ function rateSourcePanel(P) {
         <div class="muted" style="font-size:12.5px">${esc(MODE[sel.mode] || sel.mode || "")}${sel.reason ? " — " + esc(sel.reason) : ""}</div>${rsKV(s)}</div>`
       : `<div class="rsrc none"><b>No official rate schedule is applied.</b><div style="font-size:12.5px;margin-top:4px">${esc(rs.message || "")}</div><div style="font-size:12.5px;margin-top:4px">Quantities are complete; every item is unpriced until a schedule is selected.</div></div>`}</div>`;
 }
+function rateSourceLine(P) {  // the Estimate tab: one line; the full panel lives on the PWD rates tab
+  const s = P.rate_source?.schedule;
+  return `<div class="muted" style="font-size:13px;margin-bottom:12px">Rates: <b style="color:var(--text)">${s ? esc(s.label) : "no rate schedule applied"}</b>
+    · <a class="btn-link" href="#/p/${P.id}/rates">details / change</a></div>`;
+}
 function bindRateSource() {
   $("#chloc") && ($("#chloc").onclick = async () => {
     modal(`<h2>Project location</h2><p class="muted" style="margin:6px 0 4px">Changing the jurisdiction may change the applicable PWD/SOR rates and therefore the estimated cost. Quantities are not affected.</p><div id="lf"></div>
@@ -148,11 +153,17 @@ async function loadMarketCheck(pid, refresh = false) {
   let r;
   try { r = await api(`/api/projects/${pid}/market-check${refresh ? "?refresh=1" : ""}`); } catch (e) { r = { benchmark: { enabled: true, ok: false, message: String(e) } }; }
   if (!$("#mkt") || WS.P?.id !== pid) return;
+  if (r.pending) {  // the server reads the price pages in the background; check back
+    el.innerHTML = `<b>Market check</b><div class="muted" style="font-size:12.5px;margin-top:6px">Reading current construction prices for ${esc(r.building_type || "this building")}${esc(r.place || "").trim() ? ` in ${esc(r.place).trim()}` : ""}… The first check takes 1–3 minutes; later checks are instant.</div>`;
+    clearTimeout(loadMarketCheck._t);
+    loadMarketCheck._t = setTimeout(() => loadMarketCheck(pid), 10000);
+    return;
+  }
   const b = r.benchmark || {}, v = r.verdict || {};
   const head = `<div class="row"><b class="grow">Market check</b>${b.enabled ? `<button class="btn btn-sm" id="mktr">Refresh</button>` : ""}</div>`;
   if (!b.enabled) { el.innerHTML = `${head}<div class="muted" style="font-size:12.5px;margin-top:6px">${esc(b.message || "")}</div>`; return; }
   if (!b.ok) el.innerHTML = `${head}<div class="muted" style="font-size:12.5px;margin-top:6px">${esc(b.message || `Not enough web prices found for "${b.building_type || "this building"}".`)}</div>`;
-  else el.innerHTML = `${head}<div class="benchmark ${v.level === "ok" ? "" : "warn"}"><b>₹${num(b.low, 0)} – ₹${num(b.high, 0)} per sq ft</b> on the web (median ₹${num(b.median, 0)}, ${b.n} prices, ${esc(b.place)})
+  else el.innerHTML = `${head}<div class="benchmark ${v.level === "ok" ? "" : "warn"}"><b>₹${num(b.low, 0)} – ₹${num(b.high, 0)} per sq ft</b> on the web (median ₹${num(b.median, 0)}, ${b.n} prices, ${esc(b.place).replace(/^[\s,]+|[\s,]+$/g, "") || "statewide"})
       <div style="margin-top:6px">${esc(v.text || "")}</div>
       ${r.market_total ? `<div style="margin-top:6px"><span class="badge warn">Preliminary budget range</span> ${num(r.market_total.built_up_sqft, 0)} sq ft × market rate: <b>${inr(r.market_total.median)}</b> <span class="muted">(${inr(r.market_total.low)} – ${inr(r.market_total.high)})</span>
         <div class="muted" style="font-size:12px">Area: ${esc(r.market_total.area_basis)}. Not a drawing-based BOQ.</div></div>` : ""}</div>
@@ -913,7 +924,7 @@ function stepEstimate() {
   }
   const srcTxt = (k) => src[k] === "user" ? `<span class="src user">set by you · <button class="btn-link" data-reset="${k}">use drawing</button></span>` : src[k] && src[k] !== "default" ? `<span class="src">from ${esc(src[k])}</span>` : `<span class="src">default</span>`;
   const vers = P.versions || [];
-  $("#body").innerHTML = `${rateSourcePanel(P)}${qualityBanner(P)}${gapsBanner(P)}<div class="est-grid">
+  $("#body").innerHTML = `${rateSourceLine(P)}${qualityBanner(P)}${gapsBanner(P)}<div class="est-grid">
     <div class="card"><table class="table"><thead><tr><th style="width:44px">#</th><th>Item description</th><th class="num">Quantity</th><th>Unit</th><th class="num">PWD rate</th><th class="num">Estimated cost</th></tr></thead><tbody>${rows}</tbody></table></div>
     <div class="sticky" style="display:flex;flex-direction:column;gap:12px">
       <div class="card pad"><div class="two-fig"><div><div class="l">1 · Construction cost</div><div class="v">${inr(E.total)}</div><div class="s">Building only, from ${esc(P.rate_source?.schedule?.label || "— no rate schedule")}. Excludes land.</div></div>
@@ -981,7 +992,7 @@ async function renderAnnotate(pid) {
     view.innerHTML = `<div class="wrap"><h1 style="font-size:24px">Drawing annotation review</h1>
       <p class="muted">Pseudo labels are model output and never ground truth. A page becomes VERIFIED only after two reviewers (other than the annotator) approve it. Only verified pages of training-eligible projects can be exported for training.</p>
       <div class="kv">${Object.entries(cov.states).map(([k, v]) => `<span>${esc(k)}</span><span>${v}</span>`).join("")}<span>Verified (training-eligible)</span><span>${cov.verified_training_records}</span></div>
-      <div class="card" style="margin-top:12px"><table class="table"><thead><tr><th>Page</th><th>File</th><th>Type</th><th>Split</th><th>Licence</th><th>State</th></tr></thead><tbody>
+      <div class="card" style="margin-top:12px;overflow-x:auto"><table class="table"><thead><tr><th>Page</th><th>File</th><th>Type</th><th>Split</th><th>Licence</th><th>State</th></tr></thead><tbody>
       ${pages.map((p) => `<tr class="click" data-pg="${esc(p.page_id)}"><td class="mono">${esc(p.page_id)}</td><td>${esc(p.file)} p${p.page}</td><td>${esc(p.drawing_type)}</td><td>${esc(p.split || "")}</td><td>${esc(p.license_status)}</td><td><b>${esc(p.state)}</b></td></tr>`).join("")}</tbody></table></div></div>`;
     $$("[data-pg]").forEach((r) => (r.onclick = () => (location.hash = "#/annotate/" + r.dataset.pg)));
     return;

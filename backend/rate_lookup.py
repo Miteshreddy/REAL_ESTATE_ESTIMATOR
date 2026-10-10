@@ -1,19 +1,17 @@
 """Web price lookup for items without a PWD rate (suggestions only — the user decides).
 
-Uses a web-search API (Brave Search: set env PWD_SEARCH_API_KEY). Result snippets are parsed for rupee amounts
-with a unit ("₹ 300 per sq ft", "Rs. 650/point"); per-sq-ft prices are converted to per-sqm. The median plausible
-value is returned with every source URL. Nothing is written to the rate database: the UI shows the suggestion and
-the user applies it as an editable item rate. Without a key the endpoint reports that lookup is not configured.
+Searches with the local SearXNG (web_search), reads the snippets and the top pages for rupee amounts with a unit
+("₹ 300 per sq ft", "Rs. 650/point"); per-sq-ft prices are converted to per-sqm. The median plausible value is
+returned with every source URL. Nothing is written to the rate database: the UI shows the suggestion and the user
+applies it as an editable item rate. Without SearXNG the endpoint reports that lookup is not available.
 """
 from __future__ import annotations
 
-import os
 import re
 import statistics
 
 import requests
 
-API = "https://api.search.brave.com/res/v1/web/search"
 TIMEOUT = 15
 SQFT_PER_SQM = 10.7639
 UNIT_WORDS = {
@@ -56,7 +54,7 @@ def parse_prices(text: str, unit: str) -> list[float]:
 
 def lookup(description: str, unit: str, place: str = "Chennai") -> dict:
     if not configured():
-        return dict(enabled=False, message="Web price lookup needs a search key: PWD_SEARCH_API_KEY (Brave), TAVILY_API_KEY, or GOOGLE_CSE_KEY + GOOGLE_CSE_CX.")
+        return dict(enabled=False, message="Web price lookup needs the local SearXNG search (installed by start.bat / start.sh; SEARXNG_URL in .env).")
     q = f"{description[:90]} rate per {unit} {place} 2025"
     import web_search
     try:

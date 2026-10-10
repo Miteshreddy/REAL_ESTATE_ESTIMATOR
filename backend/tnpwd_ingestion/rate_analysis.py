@@ -13,7 +13,6 @@ from a partial sum. Lump-sum sundries (LS, no amount printed in the book) are li
 from __future__ import annotations
 
 import re
-from functools import lru_cache
 
 UNIT = {  # canonical unit, factor to it
     "cu.m": ("cum", 1), "cum": ("cum", 1), "cu.m.": ("cum", 1), "m3": ("cum", 1),

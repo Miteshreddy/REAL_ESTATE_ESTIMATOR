@@ -1,0 +1,7 @@
+LibreDWG 0.14 (GNU project) - Windows binaries used by PWD Estimator only to convert DWG drawings to DXF
+(backend/parsers.py calls dwg2dxf.exe). Licensed under the GNU General Public License v3 or later (see COPYING).
+The binaries are unmodified. Complete corresponding source code:
+  https://github.com/LibreDWG/libredwg/releases/tag/0.14
+  https://ftp.gnu.org/gnu/libredwg/
+Only dwg2dxf.exe and the libraries it needs are included; the other LibreDWG tools, examples and documentation
+were removed to keep the project small.

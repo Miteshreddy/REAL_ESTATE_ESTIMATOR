@@ -5,7 +5,6 @@ only validated, structured rows in rate_items / tn_sd_items reach the estimate.
 """
 from __future__ import annotations
 
-import json
 import re
 
 
