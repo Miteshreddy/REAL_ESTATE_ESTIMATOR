@@ -927,7 +927,7 @@ function stepEstimate() {
         <div class="sum-row total"><span>Project cost</span><span class="num">${inr(E.total)}</span></div>
         <div class="muted" style="font-size:12.5px;text-align:right">${lakh(E.total)}${P.summary.cost_per_sqft ? ` · ₹${num(P.summary.cost_per_sqft, 0)} per sq ft built-up` : ""}</div></div></div>
       <div class="card pad" id="aisum"><div class="row"><b class="grow">Summary</b><button class="btn btn-sm" id="aisb">Explain this estimate</button></div>
-        <div class="muted" style="font-size:12.5px;margin-top:4px">Written by a Meta Llama model running on this server, only from this estimate's own numbers. Built with Llama.</div><div id="aisout"></div></div>
+        <div class="muted" style="font-size:12.5px;margin-top:4px">Written by Google Gemma 3 (open model) running on this server, only from this estimate's own numbers.</div><div id="aisout"></div></div>
       <div class="card pad" id="mkt"><b>Market check</b><div class="muted" style="font-size:12.5px;margin-top:4px">Checking current prices on the web…</div></div>
       <div class="card pad" style="display:flex;flex-direction:column;gap:8px">
         ${locked() ? `<div class="badge ok" style="height:34px;justify-content:center">Confirmed · locked (R${vers[vers.length - 1]?.no})</div>` : `<button class="btn btn-dark" id="conf">Confirm final estimate</button>`}

@@ -1,4 +1,4 @@
-# PWD Estimator — single container: FastAPI app + in-app Meta Llama 3.2 3B (llama.cpp, CPU) + private SearXNG.
+# PWD Estimator — single container: FastAPI app + in-app Google Gemma 3 4B (llama.cpp, CPU) + private SearXNG.
 FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 \

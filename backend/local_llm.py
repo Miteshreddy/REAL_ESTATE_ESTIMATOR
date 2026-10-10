@@ -1,9 +1,10 @@
-"""Local open-source LLM (Meta Llama) running on this machine — no cloud API, no key, no data leaves the server.
+"""Local open-weights LLM (Google Gemma 3 4B) running on this machine — no cloud API, no key, no data leaves the server.
 
 Backends (LLM_BACKEND, default 'llamacpp' when the model file exists, else 'ollama'):
     llamacpp  in-process llama.cpp (llama-cpp-python); model file LLM_MODEL_PATH, default
-              data/models/llm/Llama-3.2-3B-Instruct-Q4_K_S.gguf (Meta Llama 3.2 3B Instruct, 4-bit, 1.93 GB, Git LFS)
-    ollama    optional local Ollama server (OLLAMA_URL, OLLAMA_MODEL) — e.g. Llama 3.1 8B on a GPU workstation
+              data/models/llm/google_gemma-3-4b-it-Q4_K_M.gguf (Google Gemma 3 4B instruction-tuned, 4-bit, 2.49 GB;
+              stored as two Git LFS parts and joined at setup, see model_file.py)
+    ollama    optional local Ollama server (OLLAMA_URL, OLLAMA_MODEL)
 
 Two jobs, both grounded so the model cannot invent numbers:
   extract_rates(text)  construction ₹/sq ft figures from a web page; each figure must come with a quote whose
@@ -11,7 +12,7 @@ Two jobs, both grounded so the model cannot invent numbers:
   summarise(facts)     a plain-language explanation of an estimate written ONLY from the facts given; every number in
                        the reply must appear in the facts (else the summary is rejected and the caller shows none)
 Callers fall back to rule-based code whenever no model is available.
-Built with Llama — Llama 3.2 is licensed under the Llama 3.2 Community License (see data/models/llm/LICENSE).
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms (data/models/llm/).
 """
 from __future__ import annotations
 
@@ -24,11 +25,17 @@ import requests
 
 TIMEOUT = 120
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_GGUF = os.path.join(ROOT, "data", "models", "llm", "Llama-3.2-3B-Instruct-Q4_K_S.gguf")
+DEFAULT_GGUF = os.path.join(ROOT, "data", "models", "llm", "google_gemma-3-4b-it-Q4_K_M.gguf")
 _LLM, _LOCK = None, threading.Lock()
 
 
 def _gguf() -> str:
+    import model_file
+    model_file.ensure_joined()  # the repo ships the model in two parts; join once (checksum verified)
+    return _gguf_path()
+
+
+def _gguf_path() -> str:
     """LLM_MODEL_PATH > the repo copy (Git LFS) > a copy fetched into the data disk by deploy/ensure_model.py."""
     if os.environ.get("LLM_MODEL_PATH"):
         return os.environ["LLM_MODEL_PATH"]
@@ -73,11 +80,12 @@ def _llamacpp():
 
 
 def can_extract() -> bool:
-    """Reading web price pages needs a strong model: measured on real pages, Llama 3.2 1B / 3B missed or misread most
-    figures, Llama 3.1 8B read every tier correctly. Small in-app models are used only for summaries (LLM_EXTRACT=1 forces)."""
-    if os.environ.get("LLM_EXTRACT") == "1":
-        return available()
-    return backend() == "ollama" and "8b" in model().lower() and available()
+    """Reading web price pages needs a capable model. Measured on three real price pages: Llama 3.2 1B / 3B missed or
+    misread most figures; Gemma 3 4B and Llama 3.1 8B read them. LLM_EXTRACT=1 / 0 forces it on / off."""
+    if os.environ.get("LLM_EXTRACT") in ("0", "1"):
+        return os.environ["LLM_EXTRACT"] == "1" and available()
+    m = model().lower()
+    return ("gemma-3" in m or "8b" in m) and available()
 
 
 def available() -> bool:
@@ -104,7 +112,7 @@ def _chat(system: str, user: str, as_json: bool, num_predict: int = 900) -> str 
         try:
             with _LOCK:  # one generation at a time (the model is shared by all requests)
                 out = _llamacpp().create_chat_completion(messages=msgs, temperature=0, top_p=0.9, max_tokens=num_predict,
-                                                         response_format={"type": "json_object"} if as_json else None)
+                                                         response_format=None)
             return out["choices"][0]["message"]["content"]
         except Exception:  # never break the app because of the assistant
             return None
@@ -116,6 +124,12 @@ def _chat(system: str, user: str, as_json: bool, num_predict: int = 900) -> str 
         return r.json().get("message", {}).get("content")
     except (requests.RequestException, ValueError):
         return None
+
+
+def _json_part(text: str) -> str:
+    """The JSON object inside a reply that may be wrapped in ``` fences or prose."""
+    a, b = text.find("{"), text.rfind("}")
+    return text[a:b + 1] if a >= 0 and b > a else "{}"
 
 
 def _windows(text: str, size: int = 180, limit: int = 9000) -> str:
@@ -149,7 +163,7 @@ def extract_rates(text: str) -> list[dict] | None:
     if out is None:
         return None
     try:
-        figs = json.loads(out).get("figures") or []
+        figs = json.loads(_json_part(out)).get("figures") or []
     except (ValueError, AttributeError):
         return None
     page_digits = re.sub(r"[,\s]", "", text)

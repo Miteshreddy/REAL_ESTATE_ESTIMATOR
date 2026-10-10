@@ -262,10 +262,10 @@ def verdict(est_per_sqft: float | None, bm: dict) -> dict:
     if not bm.get("ok") or not est_per_sqft:
         return dict(level="none", text="No comparison available.")
     r = est_per_sqft / bm["median"]
-    if r > 1.5:
+    if r > 1.33:
         lvl, t = "high", f"Our estimate (₹{est_per_sqft:,.0f}/sq ft) is {r:.1f}× the market median — check assumed items (structure, finishes, services)."
-    elif r < 0.6:
-        lvl, t = "low", f"Our estimate (₹{est_per_sqft:,.0f}/sq ft) is only {r:.0%} of the market median — work may be missing (floors, services, unresolved lines)."
+    elif r < 0.75:
+        lvl, t = "low", f"Our estimate (₹{est_per_sqft:,.0f}/sq ft) is only {r:.0%} of the market median (₹{bm['median']:,}/sq ft) — work may be missing (floors, services, unresolved lines)."
     else:
-        lvl, t = "ok", f"Our estimate (₹{est_per_sqft:,.0f}/sq ft) is within the market range (median ₹{bm['median']:,}/sq ft)."
+        lvl, t = "ok", f"Our estimate (₹{est_per_sqft:,.0f}/sq ft) is within ±33% of the market median (₹{bm['median']:,}/sq ft, ratio {r:.2f})."
     return dict(level=lvl, ratio=round(r, 2), text=t)

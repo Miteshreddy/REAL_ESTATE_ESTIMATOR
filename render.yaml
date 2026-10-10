@@ -1,5 +1,5 @@
-# Render Blueprint — PWD Estimator (one Docker web service: app + in-app Meta Llama 3.2 3B + private SearXNG)
-# Memory: the app with its vision models uses ~1.5 GB and Llama 3.2 3B ~2.3 GB, so a 4 GB plan ("pro") is needed.
+# Render Blueprint — PWD Estimator (one Docker web service: app + in-app Google Gemma 3 4B + private SearXNG)
+# Memory: the app with its vision models uses ~1.5 GB and Gemma 3 4B ~3 GB: a 4 GB plan ("pro") is the minimum, 8 GB is safer.
 # To run on a smaller plan, set LLM_BACKEND=none (written summaries off; everything else works).
 services:
   - type: web

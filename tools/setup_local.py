@@ -43,7 +43,7 @@ def install_libraries():
     subprocess.call([PY, "-m", "pip", "install", "-q", "--disable-pip-version-check", "--upgrade", "pip"])
     if not pip("-r", os.path.join(ROOT, "requirements.txt")):
         sys.exit("[setup] library installation failed — check the internet connection and run the start script again")
-    step("Installing the llama.cpp engine (runs the Meta Llama model inside the app)")
+    step("Installing the llama.cpp engine (runs the Gemma model inside the app)")
     if MAC and platform.machine() == "arm64":
         index = "https://abetlen.github.io/llama-cpp-python/whl/metal"
     else:
@@ -100,6 +100,9 @@ def fetch_large_files():
                 print(f"  ok  {rel}")
     if not found:
         print("  all model files present")
+    sys.path.insert(0, os.path.join(ROOT, "backend"))
+    import model_file
+    print("  Gemma 3 4B:", "ready" if model_file.ensure_joined(verbose=True) else "not available (written summaries off)")
 
 
 def install_searxng():

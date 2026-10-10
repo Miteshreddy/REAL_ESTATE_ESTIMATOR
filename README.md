@@ -13,7 +13,7 @@ the Tamil Nadu PWD Schedule of Rates 2025-26, and produces an itemised estimate 
 | Vision models (ONNX Runtime) | U-Net (ResNet-34) segmentation; YOLOv8m / YOLOv8s door-window detector |
 | Classical ML / NLP | scikit-learn: room geometry, room labels, PWD item matching |
 | Rates | TN PWD SOR 2025-26 + Standard Data (bundled snapshot); editable estimated rates where PWD has none |
-| Assistant (optional) | Meta Llama 3.2 3B via llama.cpp, in-process: plain-language estimate summaries (numbers checked) |
+| Assistant (optional) | Google Gemma 3 4B via llama.cpp, in-process: estimate summaries and reading web price pages (numbers checked) |
 | Market check | curated public price pages + self-hosted SearXNG search; indicative ranges only, never PWD rates |
 
 The estimate itself is always computed by the deterministic engine; the language model only explains it.
@@ -29,7 +29,7 @@ Download the repository (green **Code → Download ZIP**, or `git clone`), unzip
 
 The first run sets everything up automatically (about 10–20 minutes, needs internet):
 Python 3.12 if missing (winget / Homebrew / apt) → a private environment `.venv` → all Python libraries → the llama.cpp
-engine → the large model files (a ZIP download contains only Git LFS placeholders; they are downloaded and checksum
+engine → the large model files (Gemma 3 4B is joined from two parts and checksum verified) (a ZIP download contains only Git LFS placeholders; they are downloaded and checksum
 verified) → SearXNG web search. Later runs start in seconds. The app opens at http://127.0.0.1:8000.
 
 Needs about 6 GB of free disk space. DWG files need Windows (bundled converter); PDF, DXF and images work everywhere.
@@ -40,14 +40,14 @@ Tests: `.venv` python `-m pip install -r requirements-dev.txt`, then `-m pytest 
 
 ## Deploy on Render
 
-The repository contains `render.yaml` (Blueprint) and a `Dockerfile` that runs the app, the Llama model and SearXNG in
-one service. In Render: **New → Blueprint → this repository**. A 4 GB plan is needed with the language model on; set
+The repository contains `render.yaml` (Blueprint) and a `Dockerfile` that runs the app, the Gemma model and SearXNG in
+one service. In Render: **New → Blueprint → this repository**. About 4–6 GB of memory is needed with the language model on; set
 `LLM_BACKEND=none` for smaller plans. Project data lives on the attached disk (`/var/data`).
 
-Large files are stored with **Git LFS** (`*.gguf`, the YOLOv8m model). If a host clones LFS pointers only, the app falls
-back to YOLOv8s and downloads the Llama file once with checksum verification (`deploy/ensure_model.py`).
+Large files are stored with **Git LFS** (the Gemma model in two parts, the YOLOv8m model). If a host clones LFS pointers
+only, the app falls back to YOLOv8s and downloads the Gemma file once with checksum verification (`deploy/ensure_model.py`).
 
 ## Licences
 
-Built with Llama — Llama 3.2 is licensed under the Llama 3.2 Community License (`data/models/llm/LICENSE`).
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms (copies in `data/models/llm/`).
 LibreDWG converter (`tools/libredwg`, Windows only) is GPL-3. SearXNG is AGPL-3.0 (installed at build time, unmodified).
