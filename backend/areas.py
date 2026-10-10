@@ -20,7 +20,9 @@ def calibration(sheet: dict) -> dict:
     sc = sheet.get("scale") or {}
     m = str(sc.get("method") or "")
     src = str(sheet.get("source") or sheet.get("method") or "")
-    if m.startswith("calibrated from user-entered built-up area"):  # scale guard (checked first: the re-run says 'user calibration')
+    if m.startswith("derived floor:"):
+        basis, status, unc = m, "NEEDS REVIEW", 0.15
+    elif m.startswith("calibrated from user-entered built-up area"):  # scale guard (checked first: the re-run says 'user calibration')
         basis, status, unc = f"scaled to the built-up area entered by the user ({m.split(' — ')[0]})", "USER-CONFIRMED", 0.10
     elif m.startswith("auto: typical room sizes"):
         basis, status, unc = f"ESTIMATED scale from typical room sizes ({m.split(' — ')[0]}) — calibrate to confirm", "NEEDS REVIEW", 0.30

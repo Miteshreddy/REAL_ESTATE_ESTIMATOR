@@ -143,10 +143,16 @@ def _figures(text: str, use_llm: bool = True, slugs: list[str] | None = None) ->
 
 
 def official(building_type: str) -> dict | None:
-    """Official TN government unit costs for the matching building group (with their year — never escalated silently)."""
-    try:
-        T = json.load(open(os.path.join(ROOT_DATA, "tnpwd", "maps", "official_unit_costs.json"), encoding="utf-8"))
-    except (OSError, ValueError):
+    """Official TN government unit costs for the matching building group: the newest published table (2023-24, then
+    2020-21), always with its year — never escalated silently."""
+    T = None
+    for name in ("official_unit_costs_2023_24.json", "official_unit_costs.json"):
+        try:
+            T = json.load(open(os.path.join(ROOT_DATA, "tnpwd", "maps", name), encoding="utf-8"))
+            break
+        except (OSError, ValueError):
+            continue
+    if T is None:
         return None
     bt = (building_type or "").lower()
     grp = next((g for g, words in OFFICIAL_GROUPS.items() if any(w in bt for w in words)), None)
@@ -154,6 +160,8 @@ def official(building_type: str) -> dict | None:
         return None
     rows = [r for r in T["rows"] if r["group"] == grp]
     vals = sorted(r["rate_per_sqft"] for r in rows)
+    if not vals:
+        return None
     return dict(source=T["source"], year=T["year"], group=grp, n=len(rows), median=round(statistics.median(vals)), low=vals[0], high=vals[-1],
                 rows=[dict(building=r["building"], rate=r["rate_per_sqft"]) for r in rows])
 

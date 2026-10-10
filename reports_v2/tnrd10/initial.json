@@ -1,0 +1,1804 @@
+[
+ {
+  "case": "01",
+  "title": "Elementary and Middle School Building",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "a479a194eee7a76a"
+  ],
+  "seconds": 36.4,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (97.06 m²); overall dimensions did not agree"
+  ],
+  "rooms": 2,
+  "room_names": [
+   "CLASS ROOM",
+   "CLASS ROOM"
+  ],
+  "doors_geom_unet": 10,
+  "doors_detector": 0,
+  "windows_geom_unet": 15,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 1051.7,
+  "drawn_area_sqft": 1044.4,
+  "area_err_pct": 0.7,
+  "budget_area_sqft": null,
+  "total_lakh": 29.85,
+  "per_sqft": 2838,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 1044.37,
+  "ref_lakh": 17.32,
+  "ref_rate_sqft": 1658.42,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.72,
+  "lines": 46,
+  "counted": 46,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "34 line(s) use ASSUMED inputs (₹1,983,323)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹532,148)",
+   "4 identified element(s) not quantified — not in the total: Ramp, Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 12,
+   "PROVISIONAL": 34
+  },
+  "rate": {
+   "PWD": 28,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    421107
+   ],
+   [
+    "plaster_ext",
+    153873
+   ],
+   [
+    "steel_beam",
+    149236
+   ],
+   [
+    "mas_plinth",
+    116731
+   ],
+   [
+    "steel_slab",
+    112163
+   ],
+   [
+    "paint_ext",
+    109134
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "fb1d5b5927"
+ },
+ {
+  "case": "01",
+  "title": "Elementary and Middle School Building",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "012a27ca817a0674"
+  ],
+  "seconds": 32.5,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (97.06 m²); overall dimensions did not agree"
+  ],
+  "rooms": 2,
+  "room_names": [
+   "CLASS ROOM",
+   "CLASS ROOM"
+  ],
+  "doors_geom_unet": 11,
+  "doors_detector": 0,
+  "windows_geom_unet": 13,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 1045.1,
+  "drawn_area_sqft": 1044.4,
+  "area_err_pct": 0.1,
+  "budget_area_sqft": null,
+  "total_lakh": 29.88,
+  "per_sqft": 2859,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 1044.37,
+  "ref_lakh": 17.32,
+  "ref_rate_sqft": 1658.42,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.73,
+  "lines": 46,
+  "counted": 46,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "34 line(s) use ASSUMED inputs (₹1,987,128)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹531,644)",
+   "4 identified element(s) not quantified — not in the total: Ramp, Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 12,
+   "PROVISIONAL": 34
+  },
+  "rate": {
+   "PWD": 28,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    426528
+   ],
+   [
+    "plaster_ext",
+    154434
+   ],
+   [
+    "steel_beam",
+    150186
+   ],
+   [
+    "mas_plinth",
+    117473
+   ],
+   [
+    "steel_slab",
+    111362
+   ],
+   [
+    "paint_ext",
+    109531
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "a67251ca7a"
+ },
+ {
+  "case": "02",
+  "title": "Public Distribution Shop (Sloped Roof)",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "41d80b4005502d34"
+  ],
+  "seconds": 25.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (70.38 m²); overall dimensions did not agree"
+  ],
+  "rooms": 5,
+  "room_names": [
+   "TOILET",
+   "ROOF BEAM(MAIN) (3.50mx2.63m）",
+   "CB",
+   "CB",
+   "CB"
+  ],
+  "doors_geom_unet": 1,
+  "doors_detector": 0,
+  "windows_geom_unet": 18,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 779.4,
+  "drawn_area_sqft": 757.29,
+  "area_err_pct": 2.9,
+  "budget_area_sqft": null,
+  "total_lakh": 24.0,
+  "per_sqft": 3079,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 802.45,
+  "ref_lakh": 15.25,
+  "ref_rate_sqft": 1900.43,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 1.57,
+  "lines": 48,
+  "counted": 48,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "35 line(s) use ASSUMED inputs (₹1,550,271)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹456,962)",
+   "2 identified element(s) not quantified — not in the total: Ramp, Sunshade / chajja"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 35
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    231011
+   ],
+   [
+    "steel_beam",
+    130633
+   ],
+   [
+    "dado",
+    119332
+   ],
+   [
+    "plaster_ext",
+    107638
+   ],
+   [
+    "mas_plinth",
+    102177
+   ],
+   [
+    "window_alu",
+    89668
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: DOOR COUNT LOW",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "a4c9f62c01"
+ },
+ {
+  "case": "02",
+  "title": "Public Distribution Shop (Sloped Roof)",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "07ed823ee0fc96ce"
+  ],
+  "seconds": 39.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (70.38 m²)"
+  ],
+  "rooms": 5,
+  "room_names": [
+   "CB CB",
+   "CB",
+   "CB",
+   "VERANDAH",
+   "（6.23mX2.63m) RCC'COLUMN"
+  ],
+  "doors_geom_unet": 3,
+  "doors_detector": 1,
+  "windows_geom_unet": 15,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 757.7,
+  "drawn_area_sqft": 757.29,
+  "area_err_pct": 0.1,
+  "budget_area_sqft": null,
+  "total_lakh": 20.68,
+  "per_sqft": 2729,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 802.45,
+  "ref_lakh": 15.25,
+  "ref_rate_sqft": 1900.43,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 1.36,
+  "lines": 51,
+  "counted": 51,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "38 line(s) use ASSUMED inputs (₹1,338,096)",
+   "21 line(s) priced at estimated (non-PWD) average rates (₹460,200)",
+   "1 identified element(s) not quantified — not in the total: Sunshade / chajja"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 38
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 21
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    114800
+   ],
+   [
+    "steel_beam",
+    103367
+   ],
+   [
+    "dado",
+    90763
+   ],
+   [
+    "mas_115",
+    85070
+   ],
+   [
+    "mas_plinth",
+    80865
+   ],
+   [
+    "steel_slab",
+    79988
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "273c1244cc"
+ },
+ {
+  "case": "03",
+  "title": "Noon Meal Centre / Anganwadi",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "d486ab299c265339"
+  ],
+  "seconds": 32.8,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (46.59 m²)"
+  ],
+  "rooms": 5,
+  "room_names": [
+   "HALL",
+   "STORE",
+   "KITCHEN",
+   "(1.2mx0.6m AREA-100",
+   "SPACE 9"
+  ],
+  "doors_geom_unet": 5,
+  "doors_detector": 0,
+  "windows_geom_unet": 10,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 494.6,
+  "drawn_area_sqft": 501.3,
+  "area_err_pct": -1.3,
+  "budget_area_sqft": null,
+  "total_lakh": 16.14,
+  "per_sqft": 3263,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 528.85,
+  "ref_lakh": 11.1,
+  "ref_rate_sqft": 2098.89,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 1.45,
+  "lines": 51,
+  "counted": 51,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "38 line(s) use ASSUMED inputs (₹1,028,344)",
+   "21 line(s) priced at estimated (non-PWD) average rates (₹361,756)",
+   "3 identified element(s) not quantified — not in the total: Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 38
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 21
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    208808
+   ],
+   [
+    "steel_beam",
+    76821
+   ],
+   [
+    "plaster_ext",
+    70634
+   ],
+   [
+    "mas_plinth",
+    60073
+   ],
+   [
+    "modular_kitchen",
+    54000
+   ],
+   [
+    "steel_slab",
+    52902
+   ]
+  ],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "712119ceae"
+ },
+ {
+  "case": "03",
+  "title": "Noon Meal Centre / Anganwadi",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "021e314101835460"
+  ],
+  "seconds": 31.9,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (46.59 m²)"
+  ],
+  "rooms": 4,
+  "room_names": [
+   "HALL",
+   "STORE",
+   "（1.2mx0.8m AREA-100",
+   "KITCHEN"
+  ],
+  "doors_geom_unet": 5,
+  "doors_detector": 0,
+  "windows_geom_unet": 10,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 488.0,
+  "drawn_area_sqft": 501.3,
+  "area_err_pct": -2.7,
+  "budget_area_sqft": null,
+  "total_lakh": 14.56,
+  "per_sqft": 2984,
+  "cost_range": null,
+  "ref_year": "2020-21",
+  "ref_area_sqft": 528.85,
+  "ref_lakh": 11.1,
+  "ref_rate_sqft": 2098.89,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 1.31,
+  "lines": 50,
+  "counted": 50,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "37 line(s) use ASSUMED inputs (₹910,638)",
+   "21 line(s) priced at estimated (non-PWD) average rates (₹350,218)",
+   "3 identified element(s) not quantified — not in the total: Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 37
+  },
+  "rate": {
+   "PWD": 29,
+   "ESTIMATED": 21
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    116062
+   ],
+   [
+    "steel_beam",
+    72858
+   ],
+   [
+    "plaster_ext",
+    64984
+   ],
+   [
+    "mas_plinth",
+    56955
+   ],
+   [
+    "modular_kitchen",
+    54000
+   ],
+   [
+    "steel_slab",
+    52333
+   ]
+  ],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "462d90ba47"
+ },
+ {
+  "case": "04",
+  "title": "Passenger Shelter",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "b17a6039c64dafb8"
+  ],
+  "seconds": 21.8,
+  "sheet_kinds": [
+   "section"
+  ],
+  "floor_plans": 0,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [],
+  "scale": [],
+  "scale_method": [],
+  "rooms": 0,
+  "room_names": [],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 0,
+  "windows_detector": 0,
+  "detector_models": [],
+  "app_built_up_sqft": 0.0,
+  "drawn_area_sqft": 152.64,
+  "area_err_pct": null,
+  "budget_area_sqft": null,
+  "total_lakh": 0.0,
+  "per_sqft": null,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 152.64,
+  "ref_lakh": 4.1,
+  "ref_rate_sqft": 2686.06,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": null,
+  "lines": 0,
+  "counted": 0,
+  "status": "COMPLETE",
+  "reasons": [],
+  "qty": {},
+  "rate": {},
+  "top_lines": [],
+  "checks": [],
+  "project": "7cff6c3289"
+ },
+ {
+  "case": "04",
+  "title": "Passenger Shelter",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "2a6d21d24dcea94d"
+  ],
+  "seconds": 24.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (14.19 m²)"
+  ],
+  "rooms": 2,
+  "room_names": [
+   "LAB",
+   "110THICK"
+  ],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 2,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 152.7,
+  "drawn_area_sqft": 152.64,
+  "area_err_pct": 0.0,
+  "budget_area_sqft": null,
+  "total_lakh": 5.27,
+  "per_sqft": 3451,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 152.64,
+  "ref_lakh": 4.1,
+  "ref_rate_sqft": 2686.06,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.29,
+  "lines": 44,
+  "counted": 44,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "31 line(s) use ASSUMED inputs (₹353,580)",
+   "16 line(s) priced at estimated (non-PWD) average rates (₹106,484)"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 31
+  },
+  "rate": {
+   "PWD": 28,
+   "ESTIMATED": 16
+  },
+  "top_lines": [
+   [
+    "dado",
+    36279
+   ],
+   [
+    "mas_230",
+    33415
+   ],
+   [
+    "rcc_footing",
+    31214
+   ],
+   [
+    "steel_footing",
+    30122
+   ],
+   [
+    "fw_col",
+    22533
+   ],
+   [
+    "steel_column",
+    21603
+   ]
+  ],
+  "checks": [
+   "WARNING: PLINTH FROM WRITTEN NOTE"
+  ],
+  "project": "c6718ffa20"
+ },
+ {
+  "case": "05",
+  "title": "Village Administrative Office",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "c22b37afda42501c"
+  ],
+  "seconds": 27.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (25.06 m²)"
+  ],
+  "rooms": 6,
+  "room_names": [
+   "SPACE 1",
+   "OFFICE",
+   "TOILET",
+   "WAITING",
+   "SPACE 5",
+   "SPACE 6"
+  ],
+  "doors_geom_unet": 3,
+  "doors_detector": 0,
+  "windows_geom_unet": 4,
+  "windows_detector": 2,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 270.0,
+  "drawn_area_sqft": 269.65,
+  "area_err_pct": 0.1,
+  "budget_area_sqft": null,
+  "total_lakh": 13.33,
+  "per_sqft": 4937,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 269.65,
+  "ref_lakh": 9.8,
+  "ref_rate_sqft": 3634.34,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.36,
+  "lines": 48,
+  "counted": 48,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "35 line(s) use ASSUMED inputs (₹871,445)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹239,502)",
+   "1 identified element(s) not quantified — not in the total: Ramp"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 35
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "dado",
+    183881
+   ],
+   [
+    "steel_beam",
+    66045
+   ],
+   [
+    "mas_115",
+    55951
+   ],
+   [
+    "mas_plinth",
+    51682
+   ],
+   [
+    "rcc_beam",
+    44701
+   ],
+   [
+    "plaster_int",
+    44442
+   ]
+  ],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "5bd78b46f3"
+ },
+ {
+  "case": "05",
+  "title": "Village Administrative Office",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "0981e8fe2761c174"
+  ],
+  "seconds": 33.1,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (25.06 m²)"
+  ],
+  "rooms": 3,
+  "room_names": [
+   "OFFICE",
+   "TOILET",
+   "WAITING"
+  ],
+  "doors_geom_unet": 3,
+  "doors_detector": 0,
+  "windows_geom_unet": 4,
+  "windows_detector": 2,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 269.6,
+  "drawn_area_sqft": 269.65,
+  "area_err_pct": -0.0,
+  "budget_area_sqft": null,
+  "total_lakh": 10.67,
+  "per_sqft": 3957,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 269.65,
+  "ref_lakh": 9.8,
+  "ref_rate_sqft": 3634.34,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.09,
+  "lines": 48,
+  "counted": 48,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "35 line(s) use ASSUMED inputs (₹704,284)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹195,942)",
+   "1 identified element(s) not quantified — not in the total: Ramp"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 35
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "dado",
+    71165
+   ],
+   [
+    "steel_beam",
+    66045
+   ],
+   [
+    "mas_115",
+    55900
+   ],
+   [
+    "mas_plinth",
+    51682
+   ],
+   [
+    "rcc_beam",
+    44701
+   ],
+   [
+    "plaster_ext",
+    42010
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "6484c012d1"
+ },
+ {
+  "case": "06",
+  "title": "Cement Godown",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "f122f9ed38749360"
+  ],
+  "seconds": 31.3,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (80.49 m²)"
+  ],
+  "rooms": 1,
+  "room_names": [
+   "CEMENT GODOWN （12mx6m)"
+  ],
+  "doors_geom_unet": 4,
+  "doors_detector": 0,
+  "windows_geom_unet": 8,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 867.5,
+  "drawn_area_sqft": 866.07,
+  "area_err_pct": 0.2,
+  "budget_area_sqft": null,
+  "total_lakh": 17.22,
+  "per_sqft": 1985,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 866.07,
+  "ref_lakh": 15.65,
+  "ref_rate_sqft": 1807.01,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.1,
+  "lines": 42,
+  "counted": 42,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "31 line(s) use ASSUMED inputs (₹1,036,127)",
+   "16 line(s) priced at estimated (non-PWD) average rates (₹299,871)",
+   "4 identified element(s) not quantified — not in the total: Ramp, Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 11,
+   "PROVISIONAL": 31
+  },
+  "rate": {
+   "PWD": 26,
+   "ESTIMATED": 16
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    134107
+   ],
+   [
+    "steel_slab",
+    88034
+   ],
+   [
+    "steel_beam",
+    79457
+   ],
+   [
+    "rcc_slab",
+    77610
+   ],
+   [
+    "plaster_ext",
+    74717
+   ],
+   [
+    "mas_plinth",
+    62152
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "2a713440d3"
+ },
+ {
+  "case": "06",
+  "title": "Cement Godown",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "34a019a6ddb827ef"
+  ],
+  "seconds": 37.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (80.49 m²)"
+  ],
+  "rooms": 1,
+  "room_names": [
+   "CEMENT GODOWN （12mk6m）"
+  ],
+  "doors_geom_unet": 3,
+  "doors_detector": 0,
+  "windows_geom_unet": 11,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 867.1,
+  "drawn_area_sqft": 866.07,
+  "area_err_pct": 0.1,
+  "budget_area_sqft": null,
+  "total_lakh": 16.79,
+  "per_sqft": 1936,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 866.07,
+  "ref_lakh": 15.65,
+  "ref_rate_sqft": 1807.01,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": 1.07,
+  "lines": 42,
+  "counted": 42,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "31 line(s) use ASSUMED inputs (₹1,040,847)",
+   "16 line(s) priced at estimated (non-PWD) average rates (₹303,140)",
+   "4 identified element(s) not quantified — not in the total: Ramp, Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 11,
+   "PROVISIONAL": 31
+  },
+  "rate": {
+   "PWD": 26,
+   "ESTIMATED": 16
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    130542
+   ],
+   [
+    "steel_slab",
+    88824
+   ],
+   [
+    "steel_beam",
+    79441
+   ],
+   [
+    "rcc_slab",
+    77610
+   ],
+   [
+    "plaster_ext",
+    73920
+   ],
+   [
+    "mas_plinth",
+    62152
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "f27056844e"
+ },
+ {
+  "case": "07",
+  "title": "Threshing Floor",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "14a0287872cc5481"
+  ],
+  "seconds": 20.8,
+  "sheet_kinds": [
+   "other"
+  ],
+  "floor_plans": 0,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [],
+  "scale": [],
+  "scale_method": [],
+  "rooms": 0,
+  "room_names": [],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 0,
+  "windows_detector": 0,
+  "detector_models": [],
+  "app_built_up_sqft": 0.0,
+  "drawn_area_sqft": 2677.63,
+  "area_err_pct": null,
+  "budget_area_sqft": null,
+  "total_lakh": 0.0,
+  "per_sqft": null,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 2677.63,
+  "ref_lakh": 8.8,
+  "ref_rate_sqft": 328.65,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": null,
+  "lines": 0,
+  "counted": 0,
+  "status": "COMPLETE",
+  "reasons": [],
+  "qty": {},
+  "rate": {},
+  "top_lines": [],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "a92cec7e4f"
+ },
+ {
+  "case": "07",
+  "title": "Threshing Floor",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "99383e94f7cbec65"
+  ],
+  "seconds": 20.6,
+  "sheet_kinds": [
+   "other"
+  ],
+  "floor_plans": 0,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [],
+  "scale": [],
+  "scale_method": [],
+  "rooms": 0,
+  "room_names": [],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 0,
+  "windows_detector": 0,
+  "detector_models": [],
+  "app_built_up_sqft": 0.0,
+  "drawn_area_sqft": 2677.63,
+  "area_err_pct": null,
+  "budget_area_sqft": null,
+  "total_lakh": 0.0,
+  "per_sqft": null,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 2677.63,
+  "ref_lakh": 8.8,
+  "ref_rate_sqft": 328.65,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": null,
+  "lines": 0,
+  "counted": 0,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "1 identified element(s) not quantified — not in the total: Ramp"
+  ],
+  "qty": {},
+  "rate": {},
+  "top_lines": [],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "c88dd55e27"
+ },
+ {
+  "case": "08",
+  "title": "Cremation Shed",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "dbe13b0da73cc908"
+  ],
+  "seconds": 16.0,
+  "sheet_kinds": [
+   "section"
+  ],
+  "floor_plans": 0,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [],
+  "scale": [],
+  "scale_method": [],
+  "rooms": 0,
+  "room_names": [],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 0,
+  "windows_detector": 0,
+  "detector_models": [],
+  "app_built_up_sqft": 0.0,
+  "drawn_area_sqft": 645.6,
+  "area_err_pct": null,
+  "budget_area_sqft": null,
+  "total_lakh": 0.0,
+  "per_sqft": null,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 645.6,
+  "ref_lakh": 4.0,
+  "ref_rate_sqft": 619.58,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": null,
+  "lines": 0,
+  "counted": 0,
+  "status": "COMPLETE",
+  "reasons": [],
+  "qty": {},
+  "rate": {},
+  "top_lines": [],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "53e58f113c"
+ },
+ {
+  "case": "08",
+  "title": "Cremation Shed",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "c0193b7247622648"
+  ],
+  "seconds": 18.1,
+  "sheet_kinds": [
+   "section"
+  ],
+  "floor_plans": 0,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [],
+  "scale": [],
+  "scale_method": [],
+  "rooms": 0,
+  "room_names": [],
+  "doors_geom_unet": 0,
+  "doors_detector": 0,
+  "windows_geom_unet": 0,
+  "windows_detector": 0,
+  "detector_models": [],
+  "app_built_up_sqft": 0.0,
+  "drawn_area_sqft": 645.6,
+  "area_err_pct": null,
+  "budget_area_sqft": null,
+  "total_lakh": 0.0,
+  "per_sqft": null,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 645.6,
+  "ref_lakh": 4.0,
+  "ref_rate_sqft": 619.58,
+  "ref_match": "MATCH WITHIN ROUNDING",
+  "cost_ratio": null,
+  "lines": 0,
+  "counted": 0,
+  "status": "COMPLETE",
+  "reasons": [],
+  "qty": {},
+  "rate": {},
+  "top_lines": [],
+  "checks": [
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "97b9cd8fa8"
+ },
+ {
+  "case": "09",
+  "title": "Community Hall - Type Design No. 2",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "e9ef339b154acf5e"
+  ],
+  "seconds": 25.3,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (222.35 m²); overall dimensions did not agre"
+  ],
+  "rooms": 2,
+  "room_names": [
+   "SPACE 1",
+   "HMRIO.L"
+  ],
+  "doors_geom_unet": 9,
+  "doors_detector": 0,
+  "windows_geom_unet": 12,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 2400.9,
+  "drawn_area_sqft": 2392.5,
+  "area_err_pct": 0.4,
+  "budget_area_sqft": null,
+  "total_lakh": 50.05,
+  "per_sqft": 2085,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 2611.97,
+  "ref_lakh": 72.1,
+  "ref_rate_sqft": 2760.37,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 0.69,
+  "lines": 48,
+  "counted": 48,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "37 line(s) use ASSUMED inputs (₹2,808,547)",
+   "21 line(s) priced at estimated (non-PWD) average rates (₹832,558)",
+   "2 identified element(s) not quantified — not in the total: Septic tank / soak pit, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 11,
+   "PROVISIONAL": 37
+  },
+  "rate": {
+   "PWD": 27,
+   "ESTIMATED": 21
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    457270
+   ],
+   [
+    "floor_vit",
+    299311
+   ],
+   [
+    "steel_slab",
+    241605
+   ],
+   [
+    "rcc_slab",
+    214873
+   ],
+   [
+    "fw_slab",
+    176780
+   ],
+   [
+    "steel_beam",
+    171360
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "09a8418285"
+ },
+ {
+  "case": "09",
+  "title": "Community Hall - Type Design No. 2",
+  "fmt": "png",
+  "files": [
+   "layout_300dpi.png"
+  ],
+  "sha256": [
+   "24f385f6767c5345"
+  ],
+  "seconds": 29.6,
+  "sheet_kinds": [
+   "floor_plan"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "default",
+  "floor_labels": [
+   null
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (222.27 m²); overall dimensions did not agre"
+  ],
+  "rooms": 5,
+  "room_names": [
+   "EDOALSTFAN",
+   "ST3HS",
+   "SPACE 4",
+   "HALL",
+   "KITCHEN"
+  ],
+  "doors_geom_unet": 15,
+  "doors_detector": 0,
+  "windows_geom_unet": 20,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 2474.5,
+  "drawn_area_sqft": 2392.5,
+  "area_err_pct": 3.4,
+  "budget_area_sqft": null,
+  "total_lakh": 53.37,
+  "per_sqft": 2157,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 2611.97,
+  "ref_lakh": 72.1,
+  "ref_rate_sqft": 2760.37,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 0.74,
+  "lines": 50,
+  "counted": 50,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "37 line(s) use ASSUMED inputs (₹3,273,406)",
+   "21 line(s) priced at estimated (non-PWD) average rates (₹1,016,724)",
+   "3 identified element(s) not quantified — not in the total: Septic tank / soak pit, Sunshade / chajja, Rain-water harvesting"
+  ],
+  "qty": {
+   "DERIVED": 13,
+   "PROVISIONAL": 37
+  },
+  "rate": {
+   "PWD": 29,
+   "ESTIMATED": 21
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    524991
+   ],
+   [
+    "steel_slab",
+    255084
+   ],
+   [
+    "steel_beam",
+    242908
+   ],
+   [
+    "rcc_slab",
+    221501
+   ],
+   [
+    "floor_vit",
+    206056
+   ],
+   [
+    "mas_plinth",
+    190022
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "af4db5c120"
+ },
+ {
+  "case": "10",
+  "title": "Community Hall - Type Design No. 3 (Ground + First Floor)",
+  "fmt": "pdf",
+  "files": [
+   "original_layout.pdf"
+  ],
+  "sha256": [
+   "ecb4fc553f222ed2"
+  ],
+  "seconds": 54.2,
+  "sheet_kinds": [
+   "floor_plan",
+   "floor_plan"
+  ],
+  "floor_plans": 2,
+  "floors_param": 1,
+  "floors_src": "2 floor plans covering 1 storey(s)",
+  "floor_labels": [
+   "First floor",
+   null
+  ],
+  "scale": [
+   "MEASURED",
+   "NEEDS REVIEW"
+  ],
+  "scale_method": [
+   "from the plinth area note (233.83 m²); overall dimensions did not agre",
+   "auto: external wall thickness 23.8px = 230 mm"
+  ],
+  "rooms": 13,
+  "room_names": [
+   "BED ROOM",
+   "BED ROOM",
+   "TOILET",
+   "TOILET",
+   "SPACE 9",
+   "SPACE 10",
+   "HALL",
+   "STAGE",
+   "VM",
+   "VM",
+   "BRICK WORK IN CM1:5",
+   "SPACE 2",
+   "SPACE 3"
+  ],
+  "doors_geom_unet": 21,
+  "doors_detector": 0,
+  "windows_geom_unet": 25,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 2807.1,
+  "drawn_area_sqft": 4694.16,
+  "area_err_pct": -40.2,
+  "budget_area_sqft": null,
+  "total_lakh": 50.27,
+  "per_sqft": 1791,
+  "cost_range": {
+   "low": 3770596,
+   "high": 6284326,
+   "relative": 0.25,
+   "note": "range from the drawing's scale uncertainty — calibrate one known dimension to narrow it"
+  },
+  "ref_year": "2023-24",
+  "ref_area_sqft": 5156.96,
+  "ref_lakh": 105.9,
+  "ref_rate_sqft": 2053.54,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 0.47,
+  "lines": 48,
+  "counted": 48,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "35 line(s) use ASSUMED inputs (₹2,641,945)",
+   "13 line(s) depend on an unverified drawing scale (₹1,460,765)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹1,015,792)",
+   "4 identified element(s) not quantified — not in the total: Canopy / portico, Rain-water harvesting, Sunshade / chajja, Gate"
+  ],
+  "qty": {
+   "PROVISIONAL": 35,
+   "UNVERIFIED SCALE": 13
+  },
+  "rate": {
+   "PWD": 30,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    535090
+   ],
+   [
+    "steel_slab",
+    289414
+   ],
+   [
+    "rcc_slab",
+    251250
+   ],
+   [
+    "floor_vit",
+    236827
+   ],
+   [
+    "steel_beam",
+    216912
+   ],
+   [
+    "paint_int",
+    196753
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "CONFLICT: SEVERAL FLOOR PLANS ON ONE SHEET",
+   "INFO: DIMENSION vs GEOMETRY",
+   "WARNING: SCALE ASSUMED",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "project": "3e0a5386b1"
+ },
+ {
+  "case": "10",
+  "title": "Community Hall - Type Design No. 3 (Ground + First Floor)",
+  "fmt": "png",
+  "files": [
+   "layout_sheet_01_300dpi.png",
+   "layout_sheet_02_300dpi.png"
+  ],
+  "sha256": [
+   "ea8c11fefeb7406a",
+   "3c8a285841236697"
+  ],
+  "seconds": 53.6,
+  "sheet_kinds": [
+   "floor_plan",
+   "section"
+  ],
+  "floor_plans": 1,
+  "floors_param": 1,
+  "floors_src": "layout_sheet_01_300dpi.png · Image: 'FIRST FLOOR' — plan occurs on floor(s) 1 (confidence 0.98)",
+  "floor_labels": [
+   "First floor"
+  ],
+  "scale": [
+   "MEASURED"
+  ],
+  "scale_method": [
+   "from the plinth area note (233.83 m²)"
+  ],
+  "rooms": 13,
+  "room_names": [
+   "SPACE 1",
+   "LAB",
+   "SPACE 3",
+   "WASH",
+   "VC",
+   "SPACE 6",
+   "STORE",
+   "SPACE 8",
+   "GGUP",
+   "32UEL R020",
+   "WASH",
+   "GGN",
+   "UP."
+  ],
+  "doors_geom_unet": 14,
+  "doors_detector": 2,
+  "windows_geom_unet": 14,
+  "windows_detector": 0,
+  "detector_models": [
+   "opening_det_v8m.onnx"
+  ],
+  "app_built_up_sqft": 2516.9,
+  "drawn_area_sqft": 4694.16,
+  "area_err_pct": -46.4,
+  "budget_area_sqft": null,
+  "total_lakh": 61.54,
+  "per_sqft": 2445,
+  "cost_range": null,
+  "ref_year": "2023-24",
+  "ref_area_sqft": 5156.96,
+  "ref_lakh": 105.9,
+  "ref_rate_sqft": 2053.54,
+  "ref_match": "MISMATCH - REVIEW VARIANT / REVISION",
+  "cost_ratio": 0.58,
+  "lines": 52,
+  "counted": 41,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "30 line(s) use ASSUMED inputs (₹3,104,791)",
+   "18 line(s) priced at estimated (non-PWD) average rates (₹1,166,240)",
+   "4 identified element(s) not quantified — not in the total: Canopy / portico, Rain-water harvesting, Sunshade / chajja, Gate"
+  ],
+  "qty": {
+   "DERIVED": 11,
+   "PROVISIONAL": 30,
+   "EXCLUDED": 11
+  },
+  "rate": {
+   "PWD": 23,
+   "ESTIMATED": 18
+  },
+  "top_lines": [
+   [
+    "mas_230",
+    748280
+   ],
+   [
+    "steel_beam",
+    324740
+   ],
+   [
+    "dado",
+    287627
+   ],
+   [
+    "fw_slab",
+    282617
+   ],
+   [
+    "paint_int",
+    279604
+   ],
+   [
+    "steel_slab",
+    257724
+   ]
+  ],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "CONFLICT: SEVERAL FLOOR PLANS ON ONE SHEET",
+   "ERROR: ROOM AREA > BUILDING AREA",
+   "INFO: DIMENSION vs GEOMETRY",
+   "WARNING: PLINTH FROM WRITTEN NOTE",
+   "WARNING: STRUCTURAL INPUT MISSING",
+   "WARNING: WALL VOLUME"
+  ],
+  "project": "8ae9da8294"
+ }
+]

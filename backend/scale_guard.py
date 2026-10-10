@@ -43,11 +43,11 @@ def prior_factor(sheet: dict) -> tuple[float, str] | None:
             continue
         typ, lo, hi = TYPICAL[k]
         ratios.append(typ / a)
-        out_of_band += not (lo <= a <= hi)
+        out_of_band += a < lo  # only too-SMALL rooms reveal a wrong scale; big halls / classrooms are normal in public buildings
     if len(ratios) < 3 or out_of_band < max(2, math.ceil(0.6 * len(ratios))):
         return None
     k_area = statistics.median(ratios)
-    if 0.6 <= k_area <= 1.7:  # within normal variation: leave the scale alone
+    if k_area <= 1.7:  # normal variation, or rooms larger than typical (halls, classrooms): leave the scale alone
         return None
     k = math.sqrt(k_area)
     return k, f"auto: typical room sizes ({len(ratios)} labelled rooms, {out_of_band} implausible) — area ×{k_area:.2f}"
@@ -67,7 +67,7 @@ def user_area_factor(sheet: dict, user_total_m2: float | None, n_plans: int) -> 
 def needs_guard(sheet: dict) -> bool:
     cal = (sheet.get("areas") or {}).get("calibration") or {}
     return sheet.get("kind") == "floor_plan" and sheet.get("source") in ("image", "pdf") and cal.get("status") not in ("MEASURED", "USER-CONFIRMED") \
-        and "scale_guard" not in sheet
+        and "scale_guard" not in sheet and not sheet.get("derived_floor") and not sheet.get("area_only")
 
 
 def cost_range(total: float, sheets: list[dict]) -> dict | None:

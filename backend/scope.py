@@ -86,13 +86,17 @@ def plan_floors(s: dict) -> set:
     return set()
 
 
+# work that follows from the plinth area alone (open platforms / sheds whose sheet gives only the plinth area)
+AREA_ONLY_KEYS = {"site_clearance", "sand_fill", "anti_termite", "pcc_floor"}
+
+
 def context(sheets: list[dict]) -> dict:
     """Evidence the exclusion rules depend on (recomputed from the current drawings every time)."""
     plans = [s for s in sheets if s.get("enabled", True) and s.get("kind") == "floor_plan"]
     per = [plan_floors(s) for s in plans]
     known = [f for f in per if f]
     floors_all = sorted(set().union(*known)) if known else []
-    return dict(floors=floors_all,
+    return dict(floors=floors_all, area_only=bool(plans) and all(s.get("area_only") for s in plans),
                 upper_only=bool(plans) and len(known) == len(plans) and min(floors_all) >= 1,  # every plan is floor ≥ 1
                 has_structural=any(s.get("enabled", True) and (s.get("kind") == "structural" or s.get("structural")) for s in sheets))
 
@@ -107,6 +111,9 @@ def exclusion(item: dict, sc: dict, ctx: dict):
     if item.get("key") in SUBSTRUCTURE_KEYS and ctx.get("upper_only") and not sc["config"].get("include_foundation"):
         return ("scope", f"upper-floor work only (floors {', '.join(map(str, ctx['floors']))}) — no new foundation / ground-floor "
                          "substructure; include foundation in the scope if this work needs it")
+    if ctx.get("area_only") and item.get("key") not in AREA_ONLY_KEYS:
+        return ("unresolved", "open / area-only structure: only the plinth area is known from the drawing — walls, roof, frame "
+                              "and finishes are not measured; add them as items if this structure has them")
     basis = str(item.get("basis") or "")
     if sc["config"].get("assumption_policy") == "strict" and item.get("category") in STRUCTURE_CATS and "assumed" in basis \
             and not ctx.get("has_structural"):

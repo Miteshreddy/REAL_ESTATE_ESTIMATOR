@@ -1,0 +1,330 @@
+{
+ "source": "TNRD 'Unit Cost of Various Buildings for the year 2023-24' (official, Tamil Nadu Rural Development and Panchayat Raj)",
+ "url": "https://tnrd.tn.gov.in/rdweb_newsite/project/reports/Public/public_page_table_content_getpdf.php?pdf_download_id=MTM4",
+ "sha256": "2a3cf605c639c1842bbc88ca32db0a037dfc7ace96ff197dac9a30edd1ac5bba",
+ "retrieved": "2026-10-10",
+ "year": "2023-24",
+ "unit": "INR per sq ft plinth area (tentative cost / published type cost, not a BOQ)",
+ "rows": [
+  {
+   "sl": 1,
+   "building": "Elementary and middle school Building (Two class room GF only- with out staircase) (Designed for G)",
+   "plinth_sqft": 1114.2,
+   "cost_lakh": 28.35,
+   "rate_per_sqft": 2544,
+   "group": "school"
+  },
+  {
+   "sl": 2,
+   "building": "Elementary and middle school Building (Two class room GF only- with out staircase (Designed for G+1)",
+   "plinth_sqft": 1114.2,
+   "cost_lakh": 32.8,
+   "rate_per_sqft": 2944,
+   "group": "school"
+  },
+  {
+   "sl": 3,
+   "building": "Elementary and middle school Building (Two class room GF Only- With staircase) (Designed for G+2)",
+   "plinth_sqft": 1424.09,
+   "cost_lakh": 46.4,
+   "rate_per_sqft": 3258,
+   "group": "school"
+  },
+  {
+   "sl": 4,
+   "building": "Elementary and middle school Building (3 class room GF Only - With staircase) (Designed for G+1)",
+   "plinth_sqft": 1971.12,
+   "cost_lakh": 60.3,
+   "rate_per_sqft": 3059,
+   "group": "school"
+  },
+  {
+   "sl": 5,
+   "building": "Elementary and middle school Building (GF & FF - 4 Class room) (Designed for G+2)",
+   "plinth_sqft": 2848.18,
+   "cost_lakh": 67.0,
+   "rate_per_sqft": 2352,
+   "group": "school"
+  },
+  {
+   "sl": 6,
+   "building": "Elementary and middle school Building (GF & FF - 6 Class room (Designed for G+2)",
+   "plinth_sqft": 3942.24,
+   "cost_lakh": 95.65,
+   "rate_per_sqft": 2426,
+   "group": "school"
+  },
+  {
+   "sl": 7,
+   "building": "Elementary and middle school Building (GF & FF - 8 Class room (Designed for G+2)",
+   "plinth_sqft": 5036.0,
+   "cost_lakh": 120.55,
+   "rate_per_sqft": 2394,
+   "group": "school"
+  },
+  {
+   "sl": 8,
+   "building": "Anganwadi Building - RCC Roof",
+   "plinth_sqft": 581.79,
+   "cost_lakh": 16.55,
+   "rate_per_sqft": 2845,
+   "group": "community"
+  },
+  {
+   "sl": 9,
+   "building": "Anganwadi Building with Indoor play area (RCC Roof)",
+   "plinth_sqft": 764.5,
+   "cost_lakh": 19.8,
+   "rate_per_sqft": 2590,
+   "group": "community"
+  },
+  {
+   "sl": 10,
+   "building": "Anganwadi - Puf Panel roofing",
+   "plinth_sqft": 581.79,
+   "cost_lakh": 15.75,
+   "rate_per_sqft": 2707,
+   "group": "community"
+  },
+  {
+   "sl": 11,
+   "building": "Kitchen Shed( Elementary School) Type I - (upto 100 children)",
+   "plinth_sqft": 312.0,
+   "cost_lakh": 7.8,
+   "rate_per_sqft": 2500,
+   "group": "school"
+  },
+  {
+   "sl": 12,
+   "building": "Kitchen Shed( Elementary School) Type II - (101 to 300 children)",
+   "plinth_sqft": 373.0,
+   "cost_lakh": 8.7,
+   "rate_per_sqft": 2332,
+   "group": "school"
+  },
+  {
+   "sl": 13,
+   "building": "Kitchen Shed( Elementary School) Type III - (301 to 400 children)",
+   "plinth_sqft": 418.7,
+   "cost_lakh": 9.4,
+   "rate_per_sqft": 2245,
+   "group": "school"
+  },
+  {
+   "sl": 14,
+   "building": "Kitchen Shed( Elementary School) Type IV- (401 to 500 children)",
+   "plinth_sqft": 455.3,
+   "cost_lakh": 9.9,
+   "rate_per_sqft": 2174,
+   "group": "school"
+  },
+  {
+   "sl": 15,
+   "building": "Kitchen Shed( Elementary School) Type V- (501 to 600 children)",
+   "plinth_sqft": 486.5,
+   "cost_lakh": 10.35,
+   "rate_per_sqft": 2127,
+   "group": "school"
+  },
+  {
+   "sl": 16,
+   "building": "School Toilet (Girls)",
+   "plinth_sqft": 313.38,
+   "cost_lakh": 7.25,
+   "rate_per_sqft": 2313,
+   "group": "school"
+  },
+  {
+   "sl": 17,
+   "building": "School Toilet (Boys)",
+   "plinth_sqft": 249.63,
+   "cost_lakh": 5.7,
+   "rate_per_sqft": 2283,
+   "group": "school"
+  },
+  {
+   "sl": 18,
+   "building": "Rural Library Building",
+   "plinth_sqft": 580.39,
+   "cost_lakh": 14.0,
+   "rate_per_sqft": 2412,
+   "group": "community"
+  },
+  {
+   "sl": 19,
+   "building": "Passenger Shelter",
+   "plinth_sqft": 152.64,
+   "cost_lakh": 4.1,
+   "rate_per_sqft": 2686,
+   "group": "community"
+  },
+  {
+   "sl": 20,
+   "building": "Community Hall - Type I",
+   "plinth_sqft": 1963.55,
+   "cost_lakh": 45.2,
+   "rate_per_sqft": 2302,
+   "group": "community"
+  },
+  {
+   "sl": 21,
+   "building": "Community Hall - Type II",
+   "plinth_sqft": 2611.97,
+   "cost_lakh": 72.1,
+   "rate_per_sqft": 2760,
+   "group": "community"
+  },
+  {
+   "sl": 22,
+   "building": "Community Hall - Type III (GF+FF)",
+   "plinth_sqft": 5156.96,
+   "cost_lakh": 105.9,
+   "rate_per_sqft": 2054,
+   "group": "community"
+  },
+  {
+   "sl": 23,
+   "building": "Threshing Floor",
+   "plinth_sqft": 2677.63,
+   "cost_lakh": 8.8,
+   "rate_per_sqft": 329,
+   "group": "other"
+  },
+  {
+   "sl": 24,
+   "building": "Cremation shed",
+   "plinth_sqft": 645.6,
+   "cost_lakh": 4.0,
+   "rate_per_sqft": 620,
+   "group": "other"
+  },
+  {
+   "sl": 25,
+   "building": "Food Grain Godown",
+   "plinth_sqft": 802.45,
+   "cost_lakh": 18.7,
+   "rate_per_sqft": 2330,
+   "group": "commercial"
+  },
+  {
+   "sl": 26,
+   "building": "Public Distribution Shop Model 1",
+   "plinth_sqft": 408.88,
+   "cost_lakh": 12.7,
+   "rate_per_sqft": 3106,
+   "group": "commercial"
+  },
+  {
+   "sl": 27,
+   "building": "Public Distribution Shop Model 2",
+   "plinth_sqft": 301.28,
+   "cost_lakh": 9.45,
+   "rate_per_sqft": 3137,
+   "group": "commercial"
+  },
+  {
+   "sl": 28,
+   "building": "Panchayat Office Building",
+   "plinth_sqft": 1074.99,
+   "cost_lakh": 30.1,
+   "rate_per_sqft": 2800,
+   "group": "office"
+  },
+  {
+   "sl": 29,
+   "building": "Panchayat Union Office Building (with isolated Footing)",
+   "plinth_sqft": 17327.47,
+   "cost_lakh": 386.7,
+   "rate_per_sqft": 2232,
+   "group": "office"
+  },
+  {
+   "sl": 30,
+   "building": "Village Administrative office",
+   "plinth_sqft": 269.65,
+   "cost_lakh": 9.8,
+   "rate_per_sqft": 3634,
+   "group": "office"
+  },
+  {
+   "sl": 31,
+   "building": "Village Secretariat Option I",
+   "plinth_sqft": 1568.0,
+   "cost_lakh": 45.65,
+   "rate_per_sqft": 2911,
+   "group": "office"
+  },
+  {
+   "sl": 32,
+   "building": "Village Secretariat Option II",
+   "plinth_sqft": 1472.0,
+   "cost_lakh": 42.95,
+   "rate_per_sqft": 2918,
+   "group": "office"
+  },
+  {
+   "sl": 33,
+   "building": "District Panchayat Resouce Center",
+   "plinth_sqft": 3136.97,
+   "cost_lakh": 84.2,
+   "rate_per_sqft": 2684,
+   "group": "office"
+  },
+  {
+   "sl": 34,
+   "building": "Self Help Group Building",
+   "plinth_sqft": 3571.0,
+   "cost_lakh": 113.0,
+   "rate_per_sqft": 3164,
+   "group": "commercial"
+  },
+  {
+   "sl": 35,
+   "building": "Milk Producer's Co operative Society Building",
+   "plinth_sqft": 773.86,
+   "cost_lakh": 20.6,
+   "rate_per_sqft": 2662,
+   "group": "commercial"
+  },
+  {
+   "sl": 36,
+   "building": "Integrated Women's Sanitary Complex (excluding cost for creating water source)",
+   "plinth_sqft": 645.4,
+   "cost_lakh": 11.4,
+   "rate_per_sqft": 1766,
+   "group": "community"
+  },
+  {
+   "sl": 37,
+   "building": "Integrated Men's Sanitary Complex (excluding cost for creating water source)",
+   "plinth_sqft": 596.11,
+   "cost_lakh": 11.35,
+   "rate_per_sqft": 1904,
+   "group": "community"
+  },
+  {
+   "sl": 38,
+   "building": "Community Sanitary Complex",
+   "plinth_sqft": 281.05,
+   "cost_lakh": 6.75,
+   "rate_per_sqft": 2402,
+   "group": "community"
+  },
+  {
+   "sl": 39,
+   "building": "Cement Godown",
+   "plinth_sqft": 866.07,
+   "cost_lakh": 15.65,
+   "rate_per_sqft": 1807,
+   "group": "commercial"
+  },
+  {
+   "sl": 40,
+   "building": "Block Panchayat Service Centre (including toilet)",
+   "plinth_sqft": 3244.08,
+   "cost_lakh": 88.65,
+   "rate_per_sqft": 2733,
+   "group": "office"
+  }
+ ]
+}

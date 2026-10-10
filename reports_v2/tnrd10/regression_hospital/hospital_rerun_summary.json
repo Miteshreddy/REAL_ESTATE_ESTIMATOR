@@ -1,0 +1,305 @@
+[
+ {
+  "tag": "a_defaults (no user input)",
+  "floors": [
+   4,
+   5,
+   6
+  ],
+  "floors_param": 3,
+  "scope": "Entire property",
+  "plinth": 454.45,
+  "built_up": 1363.35,
+  "rooms": 18,
+  "discarded_rooms": 2,
+  "doors_geometry": 18,
+  "doors_detector": 26,
+  "doors_combined": 26,
+  "windows_geometry": 12,
+  "windows_detector": 0,
+  "windows_combined": 12,
+  "confirmed": null,
+  "detector_model": "opening_det_v8m.onnx",
+  "scale": "NEEDS REVIEW",
+  "rcc_qty": {
+   "rcc_column": [
+    38.76,
+    "PROVISIONAL"
+   ],
+   "rcc_beam": [
+    77.63,
+    "PROVISIONAL"
+   ],
+   "rcc_slab": [
+    170.42,
+    "PROVISIONAL"
+   ],
+   "rcc_footing": [
+    41.51,
+    "EXCLUDED"
+   ]
+  },
+  "steel_kg_in_total": 31894.5,
+  "total": 20066256.37,
+  "subtotal": 16375270.42,
+  "lines": 46,
+  "counted": 35,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "24 line(s) use ASSUMED inputs (\u20b99,676,337)",
+   "11 line(s) depend on an unverified drawing scale (\u20b96,698,933)",
+   "14 line(s) priced at estimated (non-PWD) average rates (\u20b94,273,785)",
+   "1 identified element(s) not quantified \u2014 not in the total: Lift / elevator"
+  ],
+  "qty": {
+   "PROVISIONAL": 24,
+   "UNVERIFIED SCALE": 11,
+   "EXCLUDED": 11
+  },
+  "rate": {
+   "PWD": 21,
+   "ESTIMATED": 14
+  },
+  "out_of_scope": [
+   "Site clearance, clearing jungle, grass and vegetation over p",
+   "Earth work excavation in foundation trenches for footings an",
+   "Back filling excavated earth in trenches and sides of founda",
+   "Filling sand / murrum under floors in plinth with watering, ",
+   "Anti termite pre-constructional soil treatment with chlorpyr",
+   "Plain cement concrete 1:4:8 lean concrete bed below footings",
+   "Providing and laying in position cement concrete 1:2:4 (1 ce",
+   "Providing and laying in position reinforced cement concrete ",
+   "Centering and shuttering including strutting, propping etc. ",
+   "Steel reinforcement for R.C.C. work including straightening,",
+   "Brick work with common burnt clay F.P.S. (non modular) brick"
+  ],
+  "unresolved": [],
+  "checks": [
+   "CONFLICT: OPENING COUNT CONFLICT",
+   "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+   "WARNING: SCALE ASSUMED",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "cats": {
+   "RCC Works": 2467334.98,
+   "Formwork": 2262210.61,
+   "Reinforcement": 2965227.02,
+   "Masonry": 1562730.15,
+   "Plastering": 1511166.96,
+   "Flooring": 1388209.89,
+   "Painting": 2018095.61,
+   "Doors & Windows": 1221442.85,
+   "Waterproofing": 769493.25,
+   "Electrical": 185700.0,
+   "Plumbing & Sanitary": 23659.1
+  },
+  "cost_per_sqft": 1367
+ },
+ {
+  "tag": "b_reviewed (scope floors 4,5,6; counts confirmed 27/12; floors confirmed; provisional assumptions)",
+  "floors": [
+   4,
+   5,
+   6
+  ],
+  "floors_param": 3,
+  "scope": "Floor or multiple floors \u2014 Additional 4th, 5th & 6th floors",
+  "plinth": 454.45,
+  "built_up": 1363.35,
+  "rooms": 18,
+  "discarded_rooms": 2,
+  "doors_geometry": 18,
+  "doors_detector": 26,
+  "doors_combined": 26,
+  "windows_geometry": 12,
+  "windows_detector": 0,
+  "windows_combined": 12,
+  "confirmed": {
+   "door": 27,
+   "window": 12
+  },
+  "detector_model": "opening_det_v8m.onnx",
+  "scale": "NEEDS REVIEW",
+  "rcc_qty": {
+   "rcc_column": [
+    38.76,
+    "PROVISIONAL"
+   ],
+   "rcc_beam": [
+    77.63,
+    "PROVISIONAL"
+   ],
+   "rcc_slab": [
+    170.42,
+    "PROVISIONAL"
+   ],
+   "rcc_footing": [
+    41.51,
+    "EXCLUDED"
+   ]
+  },
+  "steel_kg_in_total": 31908.9,
+  "total": 20093043.74,
+  "subtotal": 16397130.52,
+  "lines": 46,
+  "counted": 35,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "24 line(s) use ASSUMED inputs (\u20b99,711,273)",
+   "11 line(s) depend on an unverified drawing scale (\u20b96,685,858)",
+   "14 line(s) priced at estimated (non-PWD) average rates (\u20b94,306,815)",
+   "1 identified element(s) not quantified \u2014 not in the total: Lift / elevator"
+  ],
+  "qty": {
+   "PROVISIONAL": 24,
+   "UNVERIFIED SCALE": 11,
+   "EXCLUDED": 11
+  },
+  "rate": {
+   "PWD": 21,
+   "ESTIMATED": 14
+  },
+  "out_of_scope": [
+   "Site clearance, clearing jungle, grass and vegetation over p",
+   "Earth work excavation in foundation trenches for footings an",
+   "Back filling excavated earth in trenches and sides of founda",
+   "Filling sand / murrum under floors in plinth with watering, ",
+   "Anti termite pre-constructional soil treatment with chlorpyr",
+   "Plain cement concrete 1:4:8 lean concrete bed below footings",
+   "Providing and laying in position cement concrete 1:2:4 (1 ce",
+   "Providing and laying in position reinforced cement concrete ",
+   "Centering and shuttering including strutting, propping etc. ",
+   "Steel reinforcement for R.C.C. work including straightening,",
+   "Brick work with common burnt clay F.P.S. (non modular) brick"
+  ],
+  "unresolved": [],
+  "checks": [
+   "INFO: OPENING COUNT CONFIRMED",
+   "WARNING: SCALE ASSUMED",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "cats": {
+   "RCC Works": 2468722.25,
+   "Formwork": 2264257.8,
+   "Reinforcement": 2966574.16,
+   "Masonry": 1554925.05,
+   "Plastering": 1506010.44,
+   "Flooring": 1387534.81,
+   "Painting": 2014977.83,
+   "Doors & Windows": 1255275.83,
+   "Waterproofing": 769493.25,
+   "Electrical": 185700.0,
+   "Plumbing & Sanitary": 23659.1
+  },
+  "cost_per_sqft": 1369
+ },
+ {
+  "tag": "c_reviewed_strict (as b, assumed structure left unresolved)",
+  "floors": [
+   4,
+   5,
+   6
+  ],
+  "floors_param": 3,
+  "scope": "Floor or multiple floors \u2014 Additional 4th, 5th & 6th floors",
+  "plinth": 454.45,
+  "built_up": 1363.35,
+  "rooms": 18,
+  "discarded_rooms": 2,
+  "doors_geometry": 18,
+  "doors_detector": 26,
+  "doors_combined": 26,
+  "windows_geometry": 12,
+  "windows_detector": 0,
+  "windows_combined": 12,
+  "confirmed": {
+   "door": 27,
+   "window": 12
+  },
+  "detector_model": "opening_det_v8m.onnx",
+  "scale": "NEEDS REVIEW",
+  "rcc_qty": {
+   "rcc_column": [
+    38.76,
+    "UNRESOLVED"
+   ],
+   "rcc_beam": [
+    77.63,
+    "UNRESOLVED"
+   ],
+   "rcc_slab": [
+    170.42,
+    "UNRESOLVED"
+   ],
+   "rcc_footing": [
+    41.51,
+    "EXCLUDED"
+   ]
+  },
+  "steel_kg_in_total": 0,
+  "total": 12058906.65,
+  "subtotal": 9840792.11,
+  "lines": 46,
+  "counted": 25,
+  "status": "PRELIMINARY",
+  "reasons": [
+   "14 line(s) use ASSUMED inputs (\u20b93,154,934)",
+   "11 line(s) depend on an unverified drawing scale (\u20b96,685,858)",
+   "12 line(s) priced at estimated (non-PWD) average rates (\u20b93,185,773)",
+   "10 line(s) unresolved \u2014 not in the total",
+   "1 identified element(s) not quantified \u2014 not in the total: Lift / elevator"
+  ],
+  "qty": {
+   "PROVISIONAL": 14,
+   "UNVERIFIED SCALE": 11,
+   "UNRESOLVED": 10,
+   "EXCLUDED": 11
+  },
+  "rate": {
+   "PWD": 13,
+   "ESTIMATED": 12
+  },
+  "out_of_scope": [
+   "Site clearance, clearing jungle, grass and vegetation over p",
+   "Earth work excavation in foundation trenches for footings an",
+   "Back filling excavated earth in trenches and sides of founda",
+   "Filling sand / murrum under floors in plinth with watering, ",
+   "Anti termite pre-constructional soil treatment with chlorpyr",
+   "Plain cement concrete 1:4:8 lean concrete bed below footings",
+   "Providing and laying in position cement concrete 1:2:4 (1 ce",
+   "Providing and laying in position reinforced cement concrete ",
+   "Centering and shuttering including strutting, propping etc. ",
+   "Steel reinforcement for R.C.C. work including straightening,",
+   "Brick work with common burnt clay F.P.S. (non modular) brick"
+  ],
+  "unresolved": [
+   "Reinforced cement concrete work in walls, columns, pillars, ",
+   "Reinforced cement concrete work in beams, suspended floors, ",
+   "Reinforced cement concrete work in beams, suspended floors, ",
+   "Reinforced cement concrete work in beams, lintels, bressumer",
+   "Reinforced cement concrete in staircase waist slab, landings",
+   "Centering and shuttering including strutting, propping etc. ",
+   "Centering and shuttering including strutting, propping etc. ",
+   "Steel reinforcement for R.C.C. work including straightening,",
+   "Steel reinforcement for R.C.C. work including straightening,",
+   "Steel reinforcement for R.C.C. work including straightening,"
+  ],
+  "checks": [
+   "INFO: OPENING COUNT CONFIRMED",
+   "WARNING: SCALE ASSUMED",
+   "WARNING: STRUCTURAL INPUT MISSING"
+  ],
+  "cats": {
+   "Formwork": 1143215.8,
+   "Masonry": 1554925.05,
+   "Plastering": 1506010.44,
+   "Flooring": 1387534.81,
+   "Painting": 2014977.83,
+   "Doors & Windows": 1255275.83,
+   "Waterproofing": 769493.25,
+   "Electrical": 185700.0,
+   "Plumbing & Sanitary": 23659.1
+  },
+  "cost_per_sqft": 822
+ }
+]

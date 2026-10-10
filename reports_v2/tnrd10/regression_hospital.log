@@ -1,0 +1,5 @@
+[server] ready -> http://127.0.0.1:8000
+[seg] model loaded: floorplan_unet.onnx
+a_defaults (no user input) 20066256.37 PRELIMINARY
+b_reviewed (scope floors 4,5,6; counts c 20093043.74 PRELIMINARY
+c_reviewed_strict (as b, assumed structu 12058906.65 PRELIMINARY

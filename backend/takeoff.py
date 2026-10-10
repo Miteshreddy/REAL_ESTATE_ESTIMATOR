@@ -113,7 +113,8 @@ def plan_multipliers(plans, n):
     for s in plans:
         fl = s.get("floor") or {}
         lv, rep = fl.get("level"), max(1, int(fl.get("repeat", 1)))
-        occ = (s.get("floor_info") or {}).get("floor_occurrences") or fl.get("occurrences")
+        # the set floor (user correction / matched written area) wins over the raw text reading — same rule as scope.plan_floors
+        occ = fl.get("occurrences") or (s.get("floor_info") or {}).get("floor_occurrences")
         if lv is None and not occ:
             mult.append(1)
             continue
@@ -174,7 +175,7 @@ def compute_quantities(sheets: list[dict], P: dict) -> list[dict[str, Any]]:
     lintel_h = float(p.get("lintel_height", 2.1))
     items: list[dict] = []
 
-    plans = [s for s in sheets if s.get("kind") == "floor_plan" and s.get("rooms")]
+    plans = [s for s in sheets if s.get("kind") == "floor_plan" and (s.get("rooms") or s.get("area_only"))]
     if not plans:
         return []
     plans = sort_plans(plans, sheets)

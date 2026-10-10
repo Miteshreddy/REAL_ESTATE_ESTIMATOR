@@ -789,16 +789,21 @@ def parse_pdf(path: str, models, user_scale_den: int | None = None) -> list[dict
             sheets.append(r)
             continue
         if not rows and len(drawings) > 400:
-            # vector drawing whose text is drawn as outlines (very common in plotted government drawings)
-            pix = page.get_pixmap(dpi=200)
+            # vector drawing whose text is drawn as outlines (very common in plotted government drawings); 300 dpi so the
+            # outlined small print (e.g. "PLINTH AREA : 20.62 SQM / 221.87 SFT") is readable
+            dpi = int(min(300, 6000 / (max(page.rect.width, page.rect.height) / 72)))
+            pix = page.get_pixmap(dpi=max(150, dpi))
             img = cv2.cvtColor(np.frombuffer(pix.samples, np.uint8).reshape(pix.h, pix.w, pix.n)[:, :, :3].copy(), cv2.COLOR_RGB2BGR)
             r = analyze_full_sheet(img, models, f"Page {pno + 1}", "pdf")
             r["method"] = "Plotted PDF (outlined text) — " + r.get("method", "")
             sheets.append(r)
             continue
         if len(drawings) < 8:
-            # scanned / raster PDF page -> raster pipeline
-            pix = page.get_pixmap(dpi=200)
+            # scanned / raster PDF page -> raster pipeline. 300 dpi (capped at ~6000 px on the long side): at 200 dpi the
+            # small print of type-design sheets (room names, "PLINTH AREA … sq.m") is unreadable and plans were misread as
+            # sections (TNRD passenger shelter); large sheets keep a bounded image size
+            dpi = int(min(300, 6000 / (max(page.rect.width, page.rect.height) / 72)))
+            pix = page.get_pixmap(dpi=max(150, dpi))
             img = np.frombuffer(pix.samples, np.uint8).reshape(pix.h, pix.w, pix.n)[:, :, :3].copy()
             r = analyze_full_sheet(cv2.cvtColor(img, cv2.COLOR_RGB2BGR), models, f"Page {pno + 1}", "pdf")
             r.update(notes={**r.get("notes", {}), **notes})

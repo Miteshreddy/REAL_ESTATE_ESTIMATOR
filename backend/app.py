@@ -225,6 +225,105 @@ def site_plan_reason(sheet: dict) -> str | None:
     return None
 
 
+FLOOR_WORDS = {"GROUND": 0, "FIRST": 1, "SECOND": 2, "THIRD": 3, "FOURTH": 4, "FIFTH": 5}
+
+
+def written_floor_areas(texts: list) -> dict:
+    """Per-floor plinth areas printed on a sheet: 'PLINTH AREA: GROUND FLOOR - 233.83 SQ.M', 'FIRST FLOOR - 202.43 SQ.M'
+    (OCR forms such as 'GROUNDFL00R-233.83SQ.M' included). {level: m²}"""
+    out = {}
+    blob = " ".join(str(t) for t in texts).upper()
+    blob = re.sub(r"FL[O0]{2}R", "FLOOR", blob)
+    for m in re.finditer(r"(GROUND|FIRST|SECOND|THIRD|FOURTH|FIFTH)\s*FLOOR\s*[-:=]?\s*(\d{2,5}(?:\.\d+)?)\s*SQ\.?\s*M", blob):
+        out.setdefault(FLOOR_WORDS[m.group(1)], float(m.group(2)))
+    return out
+
+
+def derived_floors(r: dict) -> list:
+    """A sheet that prints the plinth areas of several floors but holds one measured plan (e.g. TNRD community hall III:
+    ground and first floor side by side). The measured plan is matched to its floor by area; each other floor is added
+    as a DERIVED floor: the measured plan scaled to that floor's written area (lengths × k, areas × k²), scale status
+    NEEDS REVIEW — never presented as measured. Returns the extra sheets."""
+    if r.get("kind") != "floor_plan" or not r.get("rooms") or r.get("area_only"):
+        return []
+    fa = written_floor_areas(list(r.get("texts") or []) + [str(r.get("title") or "")])
+    plinth = (r.get("metrics") or {}).get("plinth_area") or 0
+    if len(fa) < 2 or plinth <= 0:
+        return []
+    own = min(fa, key=lambda lv: abs(fa[lv] / plinth - 1))
+    if abs(fa[own] / plinth - 1) > 0.05:  # the measured plan does not match any written floor area: do not guess
+        return []
+    name = lambda lv: "Ground floor" if lv == 0 else f"{['First', 'Second', 'Third', 'Fourth', 'Fifth'][lv - 1]} floor"
+    r["floor"] = dict(label=name(own), level=own, repeat=1, occurrences=[own])
+    if r.get("floor_info"):  # the raw text reading ("FIRST FLOOR PLAN" printed beside it) no longer decides this plan's floor
+        r["floor_info"] = dict(r["floor_info"], floor_occurrences=[own], label=name(own))
+    r["floor_from_written_area"] = f"matched to the written {name(own).lower()} plinth area {fa[own]:.2f} m²"
+    import copy
+    import math
+    out = []
+    for lv, a in sorted(fa.items()):
+        if lv == own:
+            continue
+        k2 = a / plinth
+        k = math.sqrt(k2)
+        e = copy.deepcopy(r)
+        e["sheet"] = f"{r.get('sheet', 'Sheet')} · {name(lv)} (derived)"
+        e["floor"] = dict(label=name(lv), level=lv, repeat=1, occurrences=[lv])
+        e["derived_floor"] = (f"{name(lv)}: not drawn as a separate measurable view — derived from the {name(own).lower()} plan, "
+                              f"scaled to the written {name(lv).lower()} plinth area {a:.2f} m² (×{k2:.3f}); review its rooms and openings")
+        m = e["metrics"]
+        for key in ("L_ext", "L_int", "envelope_perimeter"):
+            if key in m:
+                m[key] = round(m[key] * k, 3)
+        for key in ("carpet_area",):
+            if key in m:
+                m[key] = round(m[key] * k2, 3)
+        m["plinth_area"] = round(a, 2)
+        for rm in e.get("rooms") or []:
+            rm["area"] = round((rm.get("area") or 0) * k2, 3)
+            if rm.get("perimeter"):
+                rm["perimeter"] = round(rm["perimeter"] * k, 3)
+        e["scale"] = dict(e.get("scale") or {}, method="derived floor: " + e["derived_floor"], confidence=0.5)
+        e.pop("preview_scale", None)
+        out.append(e)
+    return out
+
+
+def area_only_plan(sheet: dict) -> float | None:
+    """Open structures (threshing floor, cremation shed, shelters) have no enclosed rooms, so the room-based reader finds
+    no plan — but their sheets say "PLAN" and print the plinth area. Returns that written area (m²) for a sheet that was
+    not read as a measured floor plan, else None."""
+    if sheet.get("kind") in ("site_plan", "structural") or (sheet.get("kind") == "floor_plan" and sheet.get("rooms")):
+        return None
+    texts = list(sheet.get("texts") or []) + [str(sheet.get("title") or "")]
+    if not re.search(r"\bPLAN\b", " ".join(texts), re.I):
+        return None
+    import sheetreader
+    pa = sheetreader.plinth_area_m2(texts)
+    # the whole estimate would rest on this one number: accept it only when the m² and sq ft figures printed together
+    # agree (an OCR fragment such as "PLINTH AREA :2" is not enough)
+    return round(pa[0], 2) if pa and pa[1] == "m² and sq ft agree" and 2 <= pa[0] <= 20000 else None
+
+
+def apply_area_only(r: dict, area_m2: float) -> None:
+    """An area-only plan: plinth = the written area (measured); no rooms, walls or openings are invented."""
+    r["kind"], r["area_only"] = "floor_plan", True
+    r["area_only_reason"] = (f"open / area-only structure: no enclosed rooms were found, the sheet states a plinth area of "
+                             f"{area_m2:.2f} m²; only plinth-area work is quantified — walls, roof and frame are not measured")
+    r["discarded_rooms"] = (r.get("discarded_rooms") or []) + [dict(id=x.get("id"), area=x.get("area"), reason="area-only sheet")
+                                                                for x in r.get("rooms") or []]
+    r["rooms"], r["openings"] = [], []
+    m = r.setdefault("metrics", {})
+    # the platform / floor base of an open structure is its plinth area (carpet = plinth); walls are not measured
+    m.update(plinth_area=area_m2, carpet_area=area_m2, envelope_perimeter=0.0, n_doors=0, n_windows=0, L_ext=0.0, L_int=0.0)
+    m.setdefault("t_ext", 0.23)
+    m.setdefault("t_int", 0.115)
+    for k in ("walls", "columns"):
+        r.setdefault(k, [])
+    sc = r.get("scale") or {}
+    r["scale"] = dict(sc, method=f"from the plinth area note ({area_m2:.2f} m²) — area-only open structure", confidence=0.85)
+
+
 def structural_detail_reason(sheet: dict) -> str | None:
     """Reinforcement / joint detail sheets (bars, stirrups, laps) with only unlabelled 'spaces' are not floor plans:
     their boxes and bar hooks must not become rooms, doors or windows (stress-pack REF_229 / REF_230)."""
@@ -267,6 +366,9 @@ def analyze_files(pid: str, paths: list[tuple[str, str]], opts: dict | None = No
                 r["kind"], r["structural_detail_reason"] = "structural", sd
                 r["discarded_rooms"] = (r.get("discarded_rooms") or []) + [dict(id=x.get("id"), area=x.get("area"), reason=sd) for x in r.get("rooms") or []]
                 r["rooms"], r["openings"] = [], []
+            ao = area_only_plan(r)
+            if ao:
+                apply_area_only(r, ao)
             # floor occurrences stated on the sheet ("18TH, 28TH & 38TH FLOOR", "TYPICAL FLOOR PLAN (5TH TO 12TH)" …)
             fi = floors.parse(r.get("texts") or [], r.get("title"))
             if fi:
@@ -278,8 +380,12 @@ def analyze_files(pid: str, paths: list[tuple[str, str]], opts: dict | None = No
             openings.enrich(r)
             r["areas"] = areas.compute(r)
             r.pop("frame", None)
+            extra = derived_floors(r)  # other floors whose plinth area the same sheet prints
             _prefix_ids(r, f"S{start + len(sheets) + 1}")
             sheets.append(clean(r))
+            for e in extra:
+                _prefix_ids(e, f"S{start + len(sheets) + 1}")
+                sheets.append(clean(e))
     return sheets
 
 
@@ -344,9 +450,20 @@ def _rescale_sheet(p, idx, k, note):
     return page[0]
 
 
+def reconcile_area_only(p):
+    """Area-only sheets stand in for a plan only when the project has no measured floor plan; next to a real plan they
+    would count the same building twice, so they are set aside (kept visible, with the reason)."""
+    real = any(s.get("kind") == "floor_plan" and s.get("rooms") and s.get("enabled", True) for s in p["sheets"])
+    for s in p["sheets"]:
+        if s.get("area_only") and real and s.get("kind") == "floor_plan":
+            s["kind"] = "other"
+            s["area_only_reason"] = "set aside: the project has a measured floor plan (this sheet only repeats a written plinth area)"
+
+
 def apply_scale_guard(p):
     """ASSUMED raster scales are checked against the user's built-up area, then against typical room sizes (scale_guard)."""
     import scale_guard
+    reconcile_area_only(p)
     for s in p["sheets"]:
         if s.get("kind") == "floor_plan" and s.get("rooms") is not None:
             s["areas"] = areas.compute(s)

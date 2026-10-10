@@ -104,10 +104,14 @@ def checks(p: dict, est: dict) -> list[dict]:
                                     f"wrong — quantities are UNVERIFIED. Calibrate one known dimension or enter the built-up area. "
                                     f"Typical room sizes suggest about {sg['implied_plinth_m2']} m² per floor (budget range only)."))
         views = multi_plan_views(s)
-        if len(views) >= 2:
+        if len(views) >= 2 and not s.get("floor_from_written_area") and not s.get("derived_floor"):
             out.append(dict(level="CONFLICT", code="SEVERAL FLOOR PLANS ON ONE SHEET", sheet=s.get("sheet"),
                             message=f"the sheet holds {', '.join(views)} but only one plan view was measured — the other floor(s) "
                                     "are missing from the quantities; upload each floor separately or enter the storeys and areas"))
+        if s.get("derived_floor"):
+            out.append(dict(level="WARNING", code="FLOOR DERIVED FROM WRITTEN AREA", sheet=s.get("sheet"), message=s["derived_floor"]))
+        if s.get("area_only"):
+            out.append(dict(level="WARNING", code="AREA-ONLY OPEN STRUCTURE", sheet=s.get("sheet"), message=s.get("area_only_reason")))
         if s.get("plinth_note_override"):
             out.append(dict(level="WARNING", code="PLINTH FROM WRITTEN NOTE", sheet=s.get("sheet"), message=s["plinth_note_override"]))
         hab = sum(1 for r in rooms if (r.get("room_type") or r.get("type")) in ("bedroom", "living", "dining", "kitchen", "toilet", "drawing", "office_zone"))
@@ -272,6 +276,11 @@ def status_summary(p: dict, est: dict, others: list, scale_ok: bool) -> dict:
         reasons.append(f"{len(q['UNRESOLVED'])} line(s) unresolved — not in the total")
     if others:
         reasons.append(f"{len(others)} identified element(s) not quantified — not in the total: " + ", ".join(o["element"] for o in others))
+    # nothing measured is never "complete": an empty estimate (no floor plan read, ₹0) used to pass every test above
+    plans = [s for s in p.get("sheets") or [] if s.get("kind") == "floor_plan" and s.get("enabled", True)]
+    if not plans or not any((i.get("amount") or 0) > 0 for i in counted):
+        reasons.insert(0, "no floor plan was measured from the drawings — nothing is quantified yet (check the sheet type, "
+                          "upload the plan, or enter the plinth area)")
     complete = not reasons
     return dict(
         status="COMPLETE" if complete else "PRELIMINARY",

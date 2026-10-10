@@ -1,0 +1,30 @@
+[server] ready -> http://127.0.0.1:8000
+[seg] model loaded: floorplan_unet.onnx
+{"building": "Elementary / middle school (GF)", "file": "1.ESB-Model.pdf", "ref_plinth_sqft": 1044.37, "ref_cost_lakh": 17.32, "app_plinth_sqft": 1069.7, "plinth_err_pct": 2.4, "app_cost_lakh": 38.44, "cost_err_pct": 121.9, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "PDS shop", "file": "2.PDS-Model.pdf", "ref_plinth_sqft": 802.45, "ref_cost_lakh": 15.25, "app_plinth_sqft": 725.5, "plinth_err_pct": -9.6, "app_cost_lakh": 20.01, "cost_err_pct": 31.2, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Anganwadi centre", "file": "3.Anganwadi-Model.pdf", "ref_plinth_sqft": 528.85, "ref_cost_lakh": 11.1, "app_plinth_sqft": 503.4, "plinth_err_pct": -4.8, "app_cost_lakh": 15.8, "cost_err_pct": 42.3, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Kitchen shed type I", "file": "4.kitchen_shed.pdf", "ref_plinth_sqft": 221.87, "ref_cost_lakh": 4.96, "app_plinth_sqft": 202.3, "plinth_err_pct": -8.8, "app_cost_lakh": 9.75, "cost_err_pct": 96.6, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "School toilet (girls)", "file": "5.STG-Model.pdf", "ref_plinth_sqft": 250.0, "ref_cost_lakh": 4.55, "app_plinth_sqft": 189.0, "plinth_err_pct": -24.4, "app_cost_lakh": 18.52, "cost_err_pct": 307.1, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "School toilet (boys)", "file": "6.STB-Model.pdf", "ref_plinth_sqft": 250.0, "ref_cost_lakh": 4.32, "app_plinth_sqft": 182.8, "plinth_err_pct": -26.9, "app_cost_lakh": 7.87, "cost_err_pct": 82.2, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Passenger shelter", "file": "8.PSTR-Model.pdf", "ref_plinth_sqft": 152.64, "ref_cost_lakh": 3.1, "app_plinth_sqft": 153.0, "plinth_err_pct": 0.2, "app_cost_lakh": 8.0, "cost_err_pct": 158.1, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Panchayat office", "file": "9.PO-Model.pdf", "ref_plinth_sqft": 1075.0, "ref_cost_lakh": 23.45, "app_plinth_sqft": 968.3, "plinth_err_pct": -9.9, "app_cost_lakh": 28.62, "cost_err_pct": 22.0, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Rural library", "file": "10.LB-Model.pdf", "ref_plinth_sqft": 580.39, "ref_cost_lakh": 11.05, "app_plinth_sqft": 536.0, "plinth_err_pct": -7.6, "app_cost_lakh": 0.63, "cost_err_pct": -94.3, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Community hall type I", "file": "11.CH-1-Model.pdf", "ref_plinth_sqft": 1963.55, "ref_cost_lakh": 33.8, "app_plinth_sqft": 1789.6, "plinth_err_pct": -8.9, "app_cost_lakh": 47.72, "cost_err_pct": 41.2, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Community hall type II", "file": "12.CH-2-Model.pdf", "ref_plinth_sqft": 2611.97, "ref_cost_lakh": 55.9, "app_plinth_sqft": 2396.2, "plinth_err_pct": -8.3, "app_cost_lakh": 55.52, "cost_err_pct": -0.7, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Cement godown", "file": "14.cement_godown.pdf", "ref_plinth_sqft": 866.07, "ref_cost_lakh": 11.96, "app_plinth_sqft": 874.0, "plinth_err_pct": 0.9, "app_cost_lakh": 18.18, "cost_err_pct": 52.0, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "VAO office", "file": "15.vao_office.pdf", "ref_plinth_sqft": 313.54, "ref_cost_lakh": 7.75, "app_plinth_sqft": 268.9, "plinth_err_pct": -14.2, "app_cost_lakh": 11.68, "cost_err_pct": 50.7, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Threshing floor", "file": "16.TF-Model.pdf", "ref_plinth_sqft": 2593.16, "ref_cost_lakh": 6.75, "app_plinth_sqft": 2678.6, "plinth_err_pct": 3.3, "app_cost_lakh": 3.16, "cost_err_pct": -53.1, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Cremation shed", "file": "17.CS-Model.pdf", "ref_plinth_sqft": 451.92, "ref_cost_lakh": 3.05, "app_plinth_sqft": 645.8, "plinth_err_pct": 42.9, "app_cost_lakh": 0.76, "cost_err_pct": -75.0, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Milk producers co-op", "file": "18.MC-Model.pdf", "ref_plinth_sqft": 838.2, "ref_cost_lakh": 16.0, "app_plinth_sqft": 548.9, "plinth_err_pct": -34.5, "app_cost_lakh": 17.06, "cost_err_pct": 6.6, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{"building": "Integrated men's sanitary complex", "file": "IMSC.pdf", "ref_plinth_sqft": 871.45, "ref_cost_lakh": 8.72, "app_plinth_sqft": 568.9, "plinth_err_pct": -34.7, "app_cost_lakh": 37.47, "cost_err_pct": 329.7, "status": "PRELIMINARY", "sheets": ["floor_plan"]}
+{
+  "n": 17,
+  "plinth_measured": 17,
+  "plinth_within_10": 11,
+  "plinth_within_25": 13,
+  "plinth_median_abs_err": 8.9,
+  "cost_measured": 17,
+  "cost_within_25": 3,
+  "cost_median_abs_err": 53.1,
+  "caveat": "Development drawings (not sealed holdout). Cost reference is 2020-21 rates; indicative only."
+}
