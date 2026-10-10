@@ -1,0 +1,16 @@
+flowchart LR
+  UI["frontend/index.html + app.js (SPA: projects, upload, review, mapping review, annotate, reports)"] -->|REST /api/*| API["backend/app.py (FastAPI, 57 routes)"]
+  API --> PARSE["parsers.parse_any → PDF / image / DXF / DWG(libredwg)"]
+  PARSE --> VEC["vector PDF: primitive RandomForest (ml.py) + bigplan/sheetreader"]
+  PARSE --> RAS["raster: U-Net ONNX (segmodel) + YOLOv8s ONNX (detector) + RapidOCR"]
+  PARSE --> DXF["DXF: ezdxf layers + nlp.classify_layer"]
+  VEC & RAS & DXF --> SHEET["sheet dict: rooms, walls, openings, texts, scale, kind"]
+  SHEET --> Q["takeoff.py + areas / walls / structural / floors / openings.reconcile"]
+  Q --> PRICE["tn_pricing → rates.py (TN SOR 2025-26) + tnpwd_ingestion.rate_analysis (Standard Data) + nlp.SORMatcher"]
+  PRICE --> EST["estimate items + confidence.py + quality.py"]
+  EST --> REV["mapping_review.py / boq.py compare / learning.py"]
+  EST --> REP["reports.py → HTML / PDF / XLSX"]
+  API --> DB[("data/estimate.db SQLite")]
+  ING["tnpwd_ingestion (offline admin: discover/download/parse/validate/activate)"] --> DB
+  CORP["tn_corpus/ + data/tn_dataset (offline; never read by the estimator)"] -.-> TRAIN["ml/training (offline)"] -.-> MODELS["data/models/*.onnx, *.joblib"]
+  MODELS --> RAS & VEC

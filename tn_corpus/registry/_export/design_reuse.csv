@@ -1,0 +1,3 @@
+project_a,project_b,matching_pairs,grouping,page_a,file_a,page_b,file_b,reason
+tnrd:ihhl_with_leach_pit,tnrd:ihhl_septic_tank_with_soak_pit,1,MERGED (same design / document family),a232d66ac271e5c4-p1,IHHL-12000-15-16-Leach pit.pdf,b30786835b0b2706-p1,IHHL-12000-15-16-Septic tank.pdf,text similarity 0.93
+file:12248530.pdf,file:12248522.pdf,50,MERGED (same design / document family),aa7c802ceada98e7-p18,12248530.pdf,b1b65d0bb7d5df94-p16,12248522.pdf,text similarity 0.95

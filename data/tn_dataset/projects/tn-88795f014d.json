@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-88795f014d",
+ "project_name": "complex-case05",
+ "source": [
+  "scribd_arch"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "png"
+ ],
+ "files": [
+  "case05.png"
+ ],
+ "page_count": 1,
+ "pages": [
+  "28a56bba4860650e-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:37",
+ "source_status": "restricted",
+ "license_status": "restricted"
+}

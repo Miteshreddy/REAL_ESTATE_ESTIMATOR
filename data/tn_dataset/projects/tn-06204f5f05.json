@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-06204f5f05",
+ "project_name": "iay-drawing",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "basic_residential",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "IAY drawing0001.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "e7cc63e3823c911e-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:34",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

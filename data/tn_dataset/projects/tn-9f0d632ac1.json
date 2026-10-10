@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-9f0d632ac1",
+ "project_name": "stb",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "6.STB-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "0115bb94df1be1cf-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

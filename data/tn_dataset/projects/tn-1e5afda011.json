@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-1e5afda011",
+ "project_name": "FF.pdf",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "ARCHITECTURAL PLAN"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "FF.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "cdef991557e9bfe0-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:33",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

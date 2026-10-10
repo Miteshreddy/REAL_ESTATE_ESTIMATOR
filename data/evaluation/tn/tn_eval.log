@@ -1,0 +1,37 @@
+[seg] model loaded: floorplan_unet.onnx
+{'file': '1.ESB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 46, 'view_iou': 0.58, 'view_ok': True, 'plinth': 97.24, 'plinth_gt': 97.06, 'plinth_err': 0.0019, 'scale': 'from the plinth area note (97.06 m²); overall dimensions did', 'rooms': 13}
+{'file': '10.LB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.32, 'view_ok': True, 'plinth': 38.87, 'plinth_gt': 49.8, 'plinth_err': -0.2195, 'scale': 'from the plinth area note (49.80 m²)', 'rooms': 2}
+{'file': '11.CH-1-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.76, 'view_ok': True, 'plinth': 166.39, 'scale': 'from the plinth area note (162.96 m²)', 'rooms': 16}
+{'file': '12.CH-2-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 31, 'view_iou': 0.48, 'view_ok': True, 'plinth': 222.58, 'plinth_gt': 288.35, 'plinth_err': -0.2281, 'scale': 'from the plinth area note (222.35 m²); overall dimensions di', 'rooms': 16}
+{'file': '13.CH-3(1)-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 29, 'view_iou': 0.76, 'view_ok': True, 'plinth': 235.11, 'scale': 'from the plinth area note (233.83 m²)', 'rooms': 13}
+{'file': '13.CH-3(2)-Model.pdf', 'kind': 'none', 'found_plans': 0, 'sec': 21, 'view_ok': True}
+{'file': '14.cement_godown.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.6, 'view_ok': True, 'plinth': 607.5, 'plinth_gt': 80.49, 'plinth_err': 6.5475, 'scale': 'from the plinth area note (80.49 m²)', 'rooms': 5}
+{'file': '15.vao_office.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 20, 'view_ok': False}
+{'file': '17.CS-Model.pdf', 'kind': 'shed', 'found_plans': 0, 'sec': 19, 'view_ok': False}
+{'file': '18.MC-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 28, 'view_iou': 0.7, 'view_ok': True, 'plinth': 50.26, 'plinth_gt': 49.33, 'plinth_err': 0.0189, 'scale': 'from the plinth area note (49.33 m²); overall dimensions did', 'rooms': 9}
+{'file': '2.PDS-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 29, 'view_iou': 0.6, 'view_ok': True, 'plinth': 75.72, 'plinth_gt': 70.38, 'plinth_err': 0.0759, 'scale': 'from the plinth area note (70.38 m²)', 'rooms': 14}
+{'file': '3.Anganwadi-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 32, 'view_iou': 0.38, 'view_ok': True, 'plinth': 46.75, 'plinth_gt': 46.59, 'plinth_err': 0.0034, 'scale': 'from the plinth area note (46.59 m²)', 'rooms': 6}
+{'file': '4.kitchen_shed.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 25, 'view_ok': False}
+{'file': '5.STG-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.6, 'view_ok': True, 'plinth': 39.39, 'plinth_gt': 17.66, 'plinth_err': 1.2305, 'scale': 'from the plinth area note (17.56 m²)', 'rooms': 10}
+{'file': '6.STB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 26, 'view_iou': 0.62, 'view_ok': True, 'plinth': 16.99, 'plinth_gt': 17.63, 'plinth_err': -0.0363, 'scale': 'from the plinth area note (17.03 m²); overall dimensions did', 'rooms': 4}
+{'file': '7.SHGB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.64, 'view_ok': True, 'plinth': 56.61, 'plinth_gt': 56.67, 'plinth_err': -0.0011, 'scale': 'from the plinth area note (56.67 m²); overall dimensions did', 'rooms': 8}
+{'file': '8.PSTR-Model.pdf', 'kind': 'shed', 'found_plans': 1, 'sec': 22, 'view_iou': 0.61, 'view_ok': True, 'plinth': 14.25, 'scale': 'from the plinth area note (14.19 m²)', 'rooms': 3}
+{'file': '9.PO-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 24, 'view_iou': 0.9, 'view_ok': True, 'plinth': 87.89, 'plinth_gt': 87.81, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (87.81 m²)', 'rooms': 12}
+{'file': 'AEE office Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 17, 'view_iou': 0.65, 'view_ok': True, 'plinth': 123.67, 'plinth_gt': 123.56, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (123.56 m²)', 'rooms': 16}
+{'file': 'pvt-Model 29.09.11.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 21, 'view_iou': 0.47, 'view_ok': True, 'plinth': 27.11, 'plinth_gt': 28.0, 'plinth_err': -0.0318, 'scale': 'from the plinth area note (28.00 m²)', 'rooms': 5}
+{'file': 'IMSC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 18, 'view_iou': 0.7, 'view_ok': True, 'plinth': 74.38, 'plinth_gt': 52.83, 'plinth_err': 0.4079, 'scale': 'from the plinth area note (52.85 m²)', 'rooms': 7}
+{'file': '1.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 13, 'view_iou': 0.84, 'view_ok': True, 'plinth': 242.75, 'scale': 'auto (low confidence): 9 door openings, median 24px = 0.85 m', 'rooms': 10}
+{'file': '2.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 14, 'view_iou': 0.64, 'view_ok': True, 'plinth': 187.84, 'scale': 'from written overall dimensions 7790 × 24446 mm', 'rooms': 20}
+{'file': 'GF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 16, 'view_iou': 0.18, 'view_ok': True, 'plinth': 327.32, 'plinth_gt': 328.46, 'plinth_err': -0.0035, 'scale': 'from the plinth area note (328.46 m²)', 'rooms': 12}
+{'file': 'FF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 20, 'view_iou': 0.6, 'view_ok': True, 'plinth': 291.4, 'plinth_gt': 292.45, 'plinth_err': -0.0036, 'scale': 'from written overall dimensions 24340 × 12019 mm; plinth are', 'rooms': 15}
+{'file': 'GF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 24, 'view_iou': 0.77, 'view_ok': True, 'plinth': 763.77, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 32}
+{'file': 'FF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.9, 'view_ok': True, 'plinth': 763.48, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 35}
+{
+ "sheets": 27,
+ "errors": 0,
+ "view_correct_pct": 88.9,
+ "plinth_checked": 16,
+ "plinth_median_err_pct": 2.54,
+ "plinth_within_5pct": 62.5,
+ "plinth_within_10pct": 68.8
+}

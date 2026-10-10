@@ -1,0 +1,39 @@
+{
+ "project_id": "tn-6406510c31",
+ "project_name": "case",
+ "source": [
+  "scribd_arch"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "png"
+ ],
+ "files": [
+  "case01.png",
+  "case02.png",
+  "case03.png",
+  "case04.png",
+  "case05.png"
+ ],
+ "page_count": 5,
+ "pages": [
+  "28a56bba4860650e-p1",
+  "2b454e6e00283128-p1",
+  "5a5c939fdb21c6ad-p1",
+  "6f2067a255eb2abc-p1",
+  "87dfcb667587fb17-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:05",
+ "source_status": "restricted",
+ "license_status": "restricted"
+}

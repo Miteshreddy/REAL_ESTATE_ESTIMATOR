@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-67f994533a",
+ "project_name": "cs",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "17.CS-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "c597968939d70d34-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

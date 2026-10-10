@@ -1,0 +1,133 @@
+{
+ "source": "TNRD 'Unit Cost of Various Buildings for the year 2020-21' (official, Tamil Nadu Rural Development); tn_corpus/raw_candidates/61dd80a5\u2026pdf",
+ "year": "2020-21",
+ "unit": "INR per sq ft plinth area",
+ "rows": [
+  {
+   "building": "Elementary / middle school (GF)",
+   "plinth_sqft": 1044.37,
+   "cost_lakh": 17.32,
+   "group": "school",
+   "rate_per_sqft": 1658
+  },
+  {
+   "building": "PDS shop",
+   "plinth_sqft": 802.45,
+   "cost_lakh": 15.25,
+   "group": "commercial",
+   "rate_per_sqft": 1900
+  },
+  {
+   "building": "Anganwadi centre",
+   "plinth_sqft": 528.85,
+   "cost_lakh": 11.1,
+   "group": "community",
+   "rate_per_sqft": 2099
+  },
+  {
+   "building": "Kitchen shed type I",
+   "plinth_sqft": 221.87,
+   "cost_lakh": 4.96,
+   "group": "school",
+   "rate_per_sqft": 2236
+  },
+  {
+   "building": "School toilet (girls)",
+   "plinth_sqft": 250.0,
+   "cost_lakh": 4.55,
+   "group": "school",
+   "rate_per_sqft": 1820
+  },
+  {
+   "building": "School toilet (boys)",
+   "plinth_sqft": 250.0,
+   "cost_lakh": 4.32,
+   "group": "school",
+   "rate_per_sqft": 1728
+  },
+  {
+   "building": "Passenger shelter",
+   "plinth_sqft": 152.64,
+   "cost_lakh": 3.1,
+   "group": "community",
+   "rate_per_sqft": 2031
+  },
+  {
+   "building": "Panchayat office",
+   "plinth_sqft": 1075.0,
+   "cost_lakh": 23.45,
+   "group": "office",
+   "rate_per_sqft": 2181
+  },
+  {
+   "building": "Rural library",
+   "plinth_sqft": 580.39,
+   "cost_lakh": 11.05,
+   "group": "community",
+   "rate_per_sqft": 1904
+  },
+  {
+   "building": "Community hall type I",
+   "plinth_sqft": 1963.55,
+   "cost_lakh": 33.8,
+   "group": "community",
+   "rate_per_sqft": 1721
+  },
+  {
+   "building": "Community hall type II",
+   "plinth_sqft": 2611.97,
+   "cost_lakh": 55.9,
+   "group": "community",
+   "rate_per_sqft": 2140
+  },
+  {
+   "building": "Community hall type III",
+   "plinth_sqft": 5157.0,
+   "cost_lakh": 85.1,
+   "group": "community",
+   "rate_per_sqft": 1650
+  },
+  {
+   "building": "Cement godown",
+   "plinth_sqft": 866.07,
+   "cost_lakh": 11.96,
+   "group": "commercial",
+   "rate_per_sqft": 1381
+  },
+  {
+   "building": "VAO office",
+   "plinth_sqft": 313.54,
+   "cost_lakh": 7.75,
+   "group": "office",
+   "rate_per_sqft": 2472
+  },
+  {
+   "building": "Threshing floor",
+   "plinth_sqft": 2593.16,
+   "cost_lakh": 6.75,
+   "group": "other",
+   "rate_per_sqft": 260
+  },
+  {
+   "building": "Cremation shed",
+   "plinth_sqft": 451.92,
+   "cost_lakh": 3.05,
+   "group": "other",
+   "rate_per_sqft": 675
+  },
+  {
+   "building": "Milk producers co-op",
+   "plinth_sqft": 838.2,
+   "cost_lakh": 16.0,
+   "group": "commercial",
+   "rate_per_sqft": 1909
+  },
+  {
+   "building": "Integrated men's sanitary complex",
+   "plinth_sqft": 871.45,
+   "cost_lakh": 8.72,
+   "group": "community",
+   "rate_per_sqft": 1001
+  }
+ ]
+}

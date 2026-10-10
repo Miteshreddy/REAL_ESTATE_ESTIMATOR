@@ -1,0 +1,99 @@
+{
+ "title": "Approved BOQ reference (Tamil Nadu)",
+ "type": "object",
+ "required": [
+  "project_id",
+  "boq_stage",
+  "approving_authority",
+  "approval_reference",
+  "approval_date",
+  "drawing_revision",
+  "currency",
+  "sor_year",
+  "lines"
+ ],
+ "properties": {
+  "project_id": {
+   "type": "string"
+  },
+  "boq_stage": {
+   "enum": [
+    "TENDERED",
+    "PROVISIONAL",
+    "AWARDED",
+    "REVISED",
+    "FINAL_APPROVED",
+    "PAID_AS_BUILT"
+   ],
+   "description": "A tender file is TENDERED, never FINAL_APPROVED"
+  },
+  "approving_authority": {
+   "type": "string"
+  },
+  "approval_reference": {
+   "type": "string"
+  },
+  "approval_date": {
+   "type": "string",
+   "format": "date"
+  },
+  "drawing_revision": {
+   "type": "string"
+  },
+  "currency": {
+   "const": "INR"
+  },
+  "sor_year": {
+   "type": "string"
+  },
+  "source_document_sha256": {
+   "type": "string"
+  },
+  "selling_price": {
+   "type": "null",
+   "description": "Never used: selling/market price is not construction cost"
+  },
+  "lines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "item_no",
+     "description",
+     "unit",
+     "quantity"
+    ],
+    "properties": {
+     "item_no": {},
+     "sor_code": {},
+     "description": {},
+     "unit": {},
+     "quantity": {
+      "type": "number"
+     },
+     "rate": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "amount": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "quantity_kind": {
+      "enum": [
+       "tendered",
+       "awarded",
+       "revised",
+       "final",
+       "paid"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+ml/weights/
+ml/test_drawings/
+backend/__pycache__/
+data/tnpwd/documents/
+data/tnpwd/cache/
+data/*.bak
+data/estimate.db.*
+data/tn_dataset/raw/
+data/tn_dataset/processed/
+data/tn_dataset/yolo/
+
+# TN drawing corpus (large binaries / renders stay local)
+tn_corpus/raw_candidates/*.pdf
+tn_corpus/supplied/
+tn_corpus/pages/
+tn_corpus/thumbs/
+tn_corpus/ocr_cache/
+tn_corpus/pseudo_labels/
+tn_corpus/STOP_CRAWL
+tn_corpus/rejected/**/*.pdf
+tn_corpus/sources/
+tn_corpus/rejected/
+data/synthetic_tn20/
+reports_v2/door_window_audit/checkpoints/
+data/synthetic_tn20_corrected/
+
+# local secrets (API keys) — never commit
+.env
+data/market_cache.json

@@ -1,0 +1,8 @@
+== GET /api/health
+{"ok":true,"active_rate_schedules":1}
+== GET /api/rate-schedules/applicable
+{"status":"selected","schedule":{"id":"tn-pwd-sor-2025-26-amd-2025-08-08","name":"Tamil Nadu PWD Schedule of Rates 2025-26 — Vol I (incl. amendment)","authority":"Tamil Nadu PWD","department":"Public Works Department, Government of Tamil Nadu","country":"India","region":"Tamil Nadu","district":null,"city":null,"authority_level":"state","schedule_type":"SOR","code_system":"TN-SOR","year":"2025","
+== GET /api/tnpwd/status
+{"documents":[{"sha256":"0cee169bde79524e6cc34a76266dc5b5a408691c62c4fd69d7a8857eefb49e90","title":"Schedule of rates 2025-26 - Vol - I","doc_type":"sor","financial_year":"2025-26","effective_from":"2025-07-22","revision":null,"pages":393,"verification_status":"cross-verified","verification_note":"identical file (SHA-256) published on 2 independent public hosts: tnebes.org, tnpwdea.org; not a Gove
+== GET /
+200

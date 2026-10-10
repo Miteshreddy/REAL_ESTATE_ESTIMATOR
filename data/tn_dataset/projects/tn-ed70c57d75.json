@@ -1,0 +1,33 @@
+{
+ "project_id": "tn-ed70c57d75",
+ "project_name": "ff",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "FF-ARC.pdf",
+  "FF-Roof.pdf"
+ ],
+ "page_count": 2,
+ "pages": [
+  "27edfce28b4c62d0-p1",
+  "43806f56ea3e3096-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:32",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

@@ -1,0 +1,38 @@
+GATES
+  G01 Room & area extraction                          NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G02 Door detection                                  NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G03 Window detection                                NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G04 Wall quantities                                 NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G05 Structural quantities                           NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmar
+  G06 Other construction quantities                   NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmar
+  G07 Drawing classification                          NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G08 Floor & unit identification                     NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G09 PWD item mapping                                NOT VALIDATED      0 engineer-approved mapping(s); 30 required
+  G10 Rate coverage                            58.8%  FAIL               coverage of applicable take-off lines on the sample drawings (needs no ground truth)
+  G11 Quantity agreement vs approved BOQs             NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G12 Item-cost accuracy                              NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G13 Total project-cost accuracy                     NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G14 Estimate completeness                           NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G15 Confidence calibration                          NOT MEASURED       NOT CALIBRATED — no labelled TN validation predictions
+EVIDENCE (cannot satisfy a gate)
+  Plinth area within ±10 %                       68.8%  n=16    DEVELOPMENT (exposed)
+  Sheet view classification                      88.9%  n=27    DEVELOPMENT (exposed)
+  Floor occurrences (refuge floor)              100.0%  n=1     REFERENCE (non-TN: Hyderabad)
+  Apartments found                                100%  n=1     REFERENCE (non-TN: Hyderabad)
+  Openings detected (no reference)                      n=1     REFERENCE (non-TN: Hyderabad)
+  Site-plan vs floor-plan classification         75.0%  n=4     SMOKE (third-party images, exposed after one fix)
+  Door count within ±10 % of tags                20.8%  n=24    REFERENCE (non-TN: Bihar)
+  Window count within ±10 % of tags               0.0%  n=24    REFERENCE (non-TN: Bihar)
+  Room area within ±10 %                         78.5%  n=242   REFERENCE (non-TN: Uttarakhand)
+  Detector door F1 (train)                       88.3%  n=4200  GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (train)                     91.8%  n=4200  GENERIC (CubiCasa5K — not TN)
+  Detector door F1 (val)                         86.5%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (val)                       89.8%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector door F1 (test)                        86.9%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (test)                      88.1%  n=400   GENERIC (CubiCasa5K — not TN)
+  Total vs exact geometry (dxf)                 100.0%  n=12    SYNTHETIC
+  Total vs exact geometry (pdf)                 100.0%  n=12    SYNTHETIC
+  Total vs exact geometry (png)                 100.0%  n=12    SYNTHETIC
+  Take-off lines priced from TN data             58.8%  n=153   COVERAGE (sample drawings)
+FINAL: FAIL
+EXIT_CODE=0

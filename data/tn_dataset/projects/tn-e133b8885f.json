@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-e133b8885f",
+ "project_name": "pds",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "commercial",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "2.PDS-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "bace83eeb89c2bdb-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

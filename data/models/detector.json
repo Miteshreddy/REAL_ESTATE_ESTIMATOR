@@ -1,0 +1,9 @@
+{
+ "_about": "Active door/window detector for the app (file name inside data/models). Rollback: set active to opening_det.onnx (YOLOv8s, production). Candidate: opening_det_v8m.onnx (YOLOv8m e25, exported from reports_v2/door_window_audit/checkpoints/yolov8m_final_e25_best.pt). Env EST_DETECTOR_MODEL overrides this file.",
+ "active": "opening_det_v8m.onnx",
+ "candidates": {
+  "opening_det.onnx": "YOLOv8s 1024 px, CubiCasa5K, val mAP50 0.892 (production)",
+  "opening_det_v8m.onnx": "YOLOv8m 1024 px, CubiCasa5K, 25 epochs, val mAP50 0.891 (candidate)"
+ },
+ "decision": "2026-10-09: YOLOv8m made active. Evidence: CubiCasa val tie (mAP50 0.891 vs 0.892); on the 5 synthetic demo images through the app path doors TP 67/87 vs 30/87 (0 FP both), window FP 15 vs 27; full-analysis time 3.51 vs 3.41 s/image. Windows drawn as flat bars are not detected by either model. Rollback: set active to opening_det.onnx."
+}

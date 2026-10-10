@@ -1,0 +1,105 @@
+{
+ "kind": "SMOKE TEST \u2014 third-party images, NOT ground truth, n=4 (case02 placeholder rejected)",
+ "rows": [
+  {
+   "case": "case01",
+   "expected": "floor_plan",
+   "observed": "floor_plan",
+   "correct": true,
+   "sheet_kinds": [
+    "floor_plan"
+   ],
+   "site_plan_reason": [],
+   "rooms": 16,
+   "openings": 130,
+   "scale": [
+    "auto (low confidence): 21 door openings, median 12px = 0.85 m (wall-thickness estimate disagreed) - please calibrate"
+   ],
+   "floors": [
+    null
+   ],
+   "checks": [
+    "SCALE ASSUMED",
+    "OPENING COUNT CONFLICT",
+    "OPENING COUNT CONFLICT",
+    "WALL VOLUME",
+    "STRUCTURAL INPUT MISSING"
+   ],
+   "completeness": "30 / 48 items priced",
+   "total_inr": 15900410.65,
+   "note": "Apollo Hospital Chennai \u2014 dense hospital floor plan"
+  },
+  {
+   "case": "case03",
+   "expected": "floor_plan",
+   "observed": "floor_plan",
+   "correct": true,
+   "sheet_kinds": [
+    "floor_plan"
+   ],
+   "site_plan_reason": [],
+   "rooms": 21,
+   "openings": 147,
+   "scale": [
+    "auto (low confidence): 12 door openings, median 8px = 0.85 m (wall-thickness estimate disagreed) - please calibrate"
+   ],
+   "floors": [
+    null
+   ],
+   "checks": [
+    "SCALE ASSUMED",
+    "OPENING COUNT CONFLICT",
+    "OPENING COUNT CONFLICT",
+    "WALL VOLUME",
+    "STRUCTURAL INPUT MISSING"
+   ],
+   "completeness": "30 / 48 items priced",
+   "total_inr": 24076010.24,
+   "note": "Tiruppur GH oncology \u2014 site plan + ground floor plan on one sheet"
+  },
+  {
+   "case": "case04",
+   "expected": "site_plan",
+   "observed": "site_plan",
+   "correct": true,
+   "sheet_kinds": [
+    "site_plan"
+   ],
+   "site_plan_reason": [
+    "printed scale 1:2006 \u2014 site / layout scale, not a building floor plan"
+   ],
+   "rooms": 0,
+   "openings": 0,
+   "scale": [],
+   "floors": [],
+   "checks": [
+    "STRUCTURAL INPUT MISSING"
+   ],
+   "completeness": "0 / 0 items priced",
+   "total_inr": 0.0,
+   "note": "AIIMS Madurai \u2014 campus site layout 1:2000: must NOT be costed as a floor plan"
+  },
+  {
+   "case": "case05",
+   "expected": "floor_plan",
+   "observed": "other",
+   "correct": false,
+   "sheet_kinds": [
+    "other"
+   ],
+   "site_plan_reason": [],
+   "rooms": 0,
+   "openings": 0,
+   "scale": [],
+   "floors": [],
+   "checks": [
+    "STRUCTURAL INPUT MISSING"
+   ],
+   "completeness": "0 / 0 items priced",
+   "total_inr": 0.0,
+   "note": "Vishwaksena Global School \u2014 rendered presentation board with a floor plan"
+  }
+ ],
+ "sheet_class_correct": 3,
+ "sheet_class_total": 4
+}

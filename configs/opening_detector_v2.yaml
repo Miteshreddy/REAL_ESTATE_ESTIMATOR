@@ -1,0 +1,14 @@
+# Door / window detector v2: larger model + longer schedule on the same CubiCasa5K split (train/val for training & model
+# selection; test split never used for tuning). Replaces production only if test F1 improves (see train_detector.py).
+model: yolov8m.pt
+stage1_data: G:/velo/real-estate/prepared_det/data.yaml
+stage2_data: data/tn_dataset/yolo/data.yaml
+imgsz: 1024
+epochs: 70
+patience: 15
+batch: 4
+seed: 0
+deterministic: true
+classes: [door, window]
+project: G:/velo/real-estate/runs/det
+name: opening_v2_m

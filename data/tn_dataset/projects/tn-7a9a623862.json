@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-7a9a623862",
+ "project_name": "stg",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "5.STG-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "4700c685825bb340-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

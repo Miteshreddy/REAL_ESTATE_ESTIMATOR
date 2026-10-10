@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-4f6ebb34f5",
+ "project_name": "sanitary",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "SERVICES"
+ ],
+ "disciplines": [
+  "services"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Sanitary.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "b5be7f3ef33f408b-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:36",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

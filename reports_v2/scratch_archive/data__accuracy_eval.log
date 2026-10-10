@@ -1,0 +1,44 @@
+[seg] model loaded: floorplan_unet.onnx
+basic 1/12 done
+basic 2/12 done
+basic 3/12 done
+basic 4/12 done
+basic 5/12 done
+basic 6/12 done
+basic 7/12 done
+basic 8/12 done
+basic 9/12 done
+basic 10/12 done
+basic 11/12 done
+basic 12/12 done
+large 1/6 done
+large 2/6 done
+large 3/6 done
+large 4/6 done
+large 5/6 done
+large 6/6 done
+{'file': 'nalanda_a.2.1-ground-first-floor-plan.pdf', 'door_tags': 18, 'doors_found': 12, 'window_tags': 21, 'windows_found': 3, 'rooms': 43, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.1-type-1b-ground-floor-plan.pdf', 'door_tags': 33, 'doors_found': 15, 'window_tags': 26, 'windows_found': 4, 'rooms': 50, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.13-type-3-ground-floor-plan.pdf', 'door_tags': 19, 'doors_found': 25, 'window_tags': 12, 'windows_found': 4, 'rooms': 35, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.14-type-3-first-floor-plan.pdf', 'door_tags': 16, 'doors_found': 16, 'window_tags': 12, 'windows_found': 5, 'rooms': 33, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.2-type-1b-first-floor-plan.pdf', 'door_tags': 30, 'doors_found': 26, 'window_tags': 26, 'windows_found': 2, 'rooms': 51, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.3-ground-floor-plan.pdf', 'door_tags': 39, 'doors_found': 22, 'window_tags': 29, 'windows_found': 0, 'rooms': 73, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.3-type-1b-second-floor-plan.pdf', 'door_tags': 30, 'doors_found': 21, 'window_tags': 26, 'windows_found': 4, 'rooms': 50, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.4-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 13, 'window_tags': 25, 'windows_found': 5, 'rooms': 69, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.7-type-2-ground-floor-plan.pdf', 'door_tags': 25, 'doors_found': 21, 'window_tags': 20, 'windows_found': 5, 'rooms': 44, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.2.8-type-2-first-floor-plan.pdf', 'door_tags': 22, 'doors_found': 26, 'window_tags': 20, 'windows_found': 4, 'rooms': 44, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t1.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 20, 'window_tags': 16, 'windows_found': 4, 'rooms': 40, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t1.2.2-second-third-floor-plan.pdf', 'door_tags': 24, 'doors_found': 21, 'window_tags': 16, 'windows_found': 1, 'rooms': 41, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t10.2.1-ground-first-floor-plan.pdf', 'door_tags': 20, 'doors_found': 19, 'window_tags': 12, 'windows_found': 1, 'rooms': 30, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t11.2.1-ground-first-floor-plan.pdf', 'door_tags': 34, 'doors_found': 21, 'window_tags': 14, 'windows_found': 2, 'rooms': 30, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t12.2.1-ground-first-floor-plan.pdf', 'door_tags': 34, 'doors_found': 20, 'window_tags': 14, 'windows_found': 2, 'rooms': 30, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t13.2.1-ground-first-floor-plan.pdf', 'door_tags': 34, 'doors_found': 20, 'window_tags': 14, 'windows_found': 2, 'rooms': 31, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t2.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 23, 'window_tags': 14, 'windows_found': 1, 'rooms': 39, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t3.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 18, 'window_tags': 16, 'windows_found': 4, 'rooms': 39, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t4.2.1-ground-first-floor-plan.pdf', 'door_tags': 34, 'doors_found': 20, 'window_tags': 14, 'windows_found': 2, 'rooms': 39, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t5.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 20, 'window_tags': 16, 'windows_found': 5, 'rooms': 40, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t6.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 22, 'window_tags': 16, 'windows_found': 1, 'rooms': 38, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t7.2.1-ground-first-floor-plan.pdf', 'door_tags': 34, 'doors_found': 20, 'window_tags': 14, 'windows_found': 2, 'rooms': 30, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t8.2.1-ground-first-floor-plan.pdf', 'door_tags': 20, 'doors_found': 23, 'window_tags': 12, 'windows_found': 2, 'rooms': 35, 'scale': 100, 'unit': 0.01}
+{'file': 'nalanda_a.t9.2.1-ground-first-floor-plan.pdf', 'door_tags': 24, 'doors_found': 22, 'window_tags': 16, 'windows_found': 1, 'rooms': 38, 'scale': 100, 'unit': 0.01}
+done in 352 s

@@ -1,0 +1,35 @@
+{
+ "640": {
+  "map50": 0.8704,
+  "door_ap50": 0.8585,
+  "window_ap50": 0.8823,
+  "door_p": 0.8787,
+  "door_r": 0.8168,
+  "win_p": 0.8843,
+  "win_r": 0.8413
+ },
+ "1024": {
+  "map50": 0.8976,
+  "door_ap50": 0.8875,
+  "window_ap50": 0.9078,
+  "door_p": 0.8705,
+  "door_r": 0.8672,
+  "win_p": 0.8893,
+  "win_r": 0.8722
+ },
+ "1280": {
+  "map50": 0.8911,
+  "door_ap50": 0.8782,
+  "window_ap50": 0.9039,
+  "door_p": 0.8444,
+  "door_r": 0.8626,
+  "win_p": 0.8745,
+  "win_r": 0.8684
+ },
+ "env": {
+  "torch": "2.6.0+cu124",
+  "ultralytics": "8.4.174",
+  "python": "3.12.10",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU"
+ }
+}

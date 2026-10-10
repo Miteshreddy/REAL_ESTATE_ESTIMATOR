@@ -1,0 +1,93 @@
+{
+ "_about": "Production model registry. ml/training/register_model.py refuses to replace a model whose test score is higher than the candidate's.",
+ "models": [
+  {
+   "model_name": "floorplan_unet",
+   "file": "floorplan_unet.onnx",
+   "version": "1.0",
+   "training_dataset_version": "CubiCasa5K (4,199 plans) + sheet-clutter augmentation",
+   "training_date": "2026-10 (earlier session)",
+   "validation_score": {
+    "miou_fg": 0.741
+   },
+   "test_score": {
+    "miou_fg": 0.74,
+    "door_f1": 0.867,
+    "window_f1": 0.822,
+    "room_f1": 0.772
+   },
+   "supported_document_types": [
+    "raster plan",
+    "rasterised vector PDF"
+   ],
+   "supported_TN_domain": "NOT TN fine-tuned. Trained on Finnish CubiCasa5K plans; on rendered TN marketing plans (Aparna) it detects no openings.",
+   "notes": "TN fine-tuning blocked: no annotated Tamil Nadu drawings (walls / doors / windows masks) are available."
+  },
+  {
+   "model_name": "room_label / room_geom classifiers",
+   "file": "models_v5.joblib",
+   "version": "5",
+   "training_dataset_version": "synthetic generator + label vocabulary",
+   "test_score": null,
+   "supported_TN_domain": "room names in English as used on TN drawings; OCR-typo normalisation in backend/rooms.py",
+   "notes": "no TN-specific retraining"
+  },
+  {
+   "model_name": "opening_det",
+   "file": "opening_det.onnx",
+   "version": "1.0",
+   "training_dataset_version": "CubiCasa5K official split \u2192 YOLO boxes (4,200 / 400 / 400 plans) \u2014 generic pretraining, NOT Tamil Nadu",
+   "training_date": "2026-10-09",
+   "training_commit": "89222ca",
+   "classes": [
+    "door",
+    "window"
+   ],
+   "train_metrics": {
+    "map50": 0.925697971389416,
+    "map50_95": 0.5906418514260616,
+    "door": {
+     "precision": 0.8812,
+     "recall": 0.8843,
+     "f1": 0.8828,
+     "ap50": 0.9088
+    },
+    "window": {
+     "precision": 0.9204,
+     "recall": 0.9158,
+     "f1": 0.9181,
+     "ap50": 0.9426
+    }
+   },
+   "validation_metrics": {
+    "map50": 0.9016501814536669,
+    "map50_95": 0.5613663635479466,
+    "door": {
+     "precision": 0.8692,
+     "recall": 0.8611,
+     "f1": 0.8652,
+     "ap50": 0.8827
+    },
+    "window": {
+     "precision": 0.9021,
+     "recall": 0.8946,
+     "f1": 0.8984,
+     "ap50": 0.9206
+    }
+   },
+   "test_score": {
+    "door_f1": 0.8688,
+    "window_f1": 0.8807,
+    "map50": 0.8976
+   },
+   "unseen_tn_metrics": "NOT MEASURED \u2014 no TN door/window annotations exist",
+   "checkpoint": "data/models/opening_det.pt",
+   "supported_document_types": [
+    "raster plan",
+    "rendered brochure plan",
+    "rasterised PDF"
+   ],
+   "notes": "YOLOv8s 1024px, 40 epochs, seed 0. Fused in the app as the third opening source. Synthetic PNG A/B: no change (U-Net already complete). Aparna spot check: 16 \u2192 136 openings, visually mostly correct with casement-window/door type confusion; not a scored metric."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+flowchart TD
+  CAT["TNRD catalogue page (54 PDF links)"] --> D1["tnrd_discover.py --download-candidates"]
+  V2["v2 ZIP expanded_source_catalog.csv (110 rows, 20 direct-PDF claims)"] --> D2["fetch_catalog_v2.py"]
+  LEADS["fetch_leads.py (JICA, TNHSP)"] --> SF
+  D1 & D2 --> SF["safe_fetch: allowlist · SSRF · robots · 3 s delay · 45 s timeout · 80 MB cap · %PDF magic · kill switch · decision log"]
+  SF -->|allow| Q["tn_corpus/raw_candidates/&lt;sha256&gt;.pdf + sidecar (RAW_CANDIDATE / REVIEW_REQUIRED)"]
+  SF -->|deny| LOG["logs/fetch_decisions.jsonl + BLOCKED sidecar → manual queue"]
+  SUP["user-supplied PDFs + v2 ZIP seed"] --> B
+  Q --> B["build_corpus.py: render 150 dpi · thumbs · OCR fallback · classify · text-span pseudo-labels"]
+  B --> DEDUP["SHA-256 · dHash (+rotations) · text Jaccard · declared derivation"]
+  DEDUP --> GROUP["project grouping (catalogue entry / multi-sheet set / duplicates)"]
+  GROUP --> REG["registry: file/page/project manifests · licence queue · annotation queue"]
+  REG --> APPROVE{"registry/approvals.csv (human, with evidence)"}
+  APPROVE -->|none yet| STOP["0 approved → no splits"]
+  APPROVE -->|approved| SPLIT["project-level split + leakage audit → offline training"]

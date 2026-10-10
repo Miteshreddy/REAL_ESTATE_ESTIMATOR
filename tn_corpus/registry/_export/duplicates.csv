@@ -1,0 +1,73 @@
+page_a,file_a,page_b,file_b,reason
+ebd2edc143e894d4-p320,Buildings.pdf,3e1e55e10a961a97-p8,TN_Type_Design_Drawings_Extract.pdf,perceptual hash distance 1/256 (rotated)
+ebd2edc143e894d4-p329,Buildings.pdf,3e1e55e10a961a97-p17,TN_Type_Design_Drawings_Extract.pdf,perceptual hash distance 0/256 (rotated)
+ebd2edc143e894d4-p332,Buildings.pdf,3e1e55e10a961a97-p20,TN_Type_Design_Drawings_Extract.pdf,perceptual hash distance 0/256 (rotated)
+ebd2edc143e894d4-p333,Buildings.pdf,3e1e55e10a961a97-p21,TN_Type_Design_Drawings_Extract.pdf,perceptual hash distance 0/256 (rotated)
+a232d66ac271e5c4-p1,IHHL-12000-15-16-Leach pit.pdf,b30786835b0b2706-p1,IHHL-12000-15-16-Septic tank.pdf,text similarity 0.93
+aa7c802ceada98e7-p18,12248530.pdf,b1b65d0bb7d5df94-p16,12248522.pdf,text similarity 0.95
+aa7c802ceada98e7-p18,12248530.pdf,b1b65d0bb7d5df94-p120,12248522.pdf,text similarity 0.94
+aa7c802ceada98e7-p205,12248530.pdf,b1b65d0bb7d5df94-p16,12248522.pdf,text similarity 0.92
+aa7c802ceada98e7-p205,12248530.pdf,b1b65d0bb7d5df94-p120,12248522.pdf,text similarity 0.91
+aa7c802ceada98e7-p231,12248530.pdf,b1b65d0bb7d5df94-p140,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p241,12248530.pdf,b1b65d0bb7d5df94-p202,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p244,12248530.pdf,b1b65d0bb7d5df94-p205,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p245,12248530.pdf,b1b65d0bb7d5df94-p206,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p246,12248530.pdf,b1b65d0bb7d5df94-p207,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p247,12248530.pdf,b1b65d0bb7d5df94-p208,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p248,12248530.pdf,b1b65d0bb7d5df94-p209,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p249,12248530.pdf,b1b65d0bb7d5df94-p210,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p250,12248530.pdf,b1b65d0bb7d5df94-p211,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p251,12248530.pdf,b1b65d0bb7d5df94-p212,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p252,12248530.pdf,b1b65d0bb7d5df94-p213,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p253,12248530.pdf,b1b65d0bb7d5df94-p214,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p254,12248530.pdf,b1b65d0bb7d5df94-p215,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p255,12248530.pdf,b1b65d0bb7d5df94-p216,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p259,12248530.pdf,b1b65d0bb7d5df94-p220,12248522.pdf,text similarity 0.95
+aa7c802ceada98e7-p260,12248530.pdf,b1b65d0bb7d5df94-p221,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p261,12248530.pdf,b1b65d0bb7d5df94-p222,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p262,12248530.pdf,b1b65d0bb7d5df94-p223,12248522.pdf,perceptual hash distance 7/256
+aa7c802ceada98e7-p263,12248530.pdf,b1b65d0bb7d5df94-p224,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p264,12248530.pdf,b1b65d0bb7d5df94-p225,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p265,12248530.pdf,b1b65d0bb7d5df94-p226,12248522.pdf,text similarity 0.90
+aa7c802ceada98e7-p266,12248530.pdf,b1b65d0bb7d5df94-p227,12248522.pdf,text similarity 1.00
+aa7c802ceada98e7-p267,12248530.pdf,b1b65d0bb7d5df94-p228,12248522.pdf,perceptual hash distance 9/256
+aa7c802ceada98e7-p268,12248530.pdf,b1b65d0bb7d5df94-p229,12248522.pdf,perceptual hash distance 9/256
+aa7c802ceada98e7-p269,12248530.pdf,b1b65d0bb7d5df94-p230,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p270,12248530.pdf,b1b65d0bb7d5df94-p231,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p272,12248530.pdf,b1b65d0bb7d5df94-p233,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p273,12248530.pdf,b1b65d0bb7d5df94-p234,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p274,12248530.pdf,b1b65d0bb7d5df94-p235,12248522.pdf,perceptual hash distance 8/256
+aa7c802ceada98e7-p277,12248530.pdf,b1b65d0bb7d5df94-p238,12248522.pdf,text similarity 0.97
+aa7c802ceada98e7-p279,12248530.pdf,b1b65d0bb7d5df94-p240,12248522.pdf,perceptual hash distance 4/256
+aa7c802ceada98e7-p302,12248530.pdf,b1b65d0bb7d5df94-p246,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p304,12248530.pdf,b1b65d0bb7d5df94-p248,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p305,12248530.pdf,b1b65d0bb7d5df94-p249,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p306,12248530.pdf,b1b65d0bb7d5df94-p250,12248522.pdf,perceptual hash distance 6/256
+aa7c802ceada98e7-p307,12248530.pdf,b1b65d0bb7d5df94-p251,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p309,12248530.pdf,b1b65d0bb7d5df94-p253,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p311,12248530.pdf,b1b65d0bb7d5df94-p255,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p312,12248530.pdf,b1b65d0bb7d5df94-p256,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p313,12248530.pdf,b1b65d0bb7d5df94-p257,12248522.pdf,perceptual hash distance 4/256
+aa7c802ceada98e7-p314,12248530.pdf,b1b65d0bb7d5df94-p258,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p318,12248530.pdf,b1b65d0bb7d5df94-p262,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p319,12248530.pdf,b1b65d0bb7d5df94-p263,12248522.pdf,perceptual hash distance 0/256
+aa7c802ceada98e7-p320,12248530.pdf,b1b65d0bb7d5df94-p264,12248522.pdf,perceptual hash distance 4/256
+aa7c802ceada98e7-p321,12248530.pdf,b1b65d0bb7d5df94-p265,12248522.pdf,perceptual hash distance 1/256
+aa7c802ceada98e7-p323,12248530.pdf,b1b65d0bb7d5df94-p267,12248522.pdf,perceptual hash distance 6/256
+ebd2edc143e894d4-p313,Buildings.pdf,3e1e55e10a961a97-p1,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p1 = handbook p313 (printed page number matches)
+ebd2edc143e894d4-p314,Buildings.pdf,3e1e55e10a961a97-p2,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p2 = handbook p314 (printed page number matches)
+ebd2edc143e894d4-p315,Buildings.pdf,3e1e55e10a961a97-p3,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p3 = handbook p315 (printed page number matches)
+ebd2edc143e894d4-p316,Buildings.pdf,3e1e55e10a961a97-p4,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p4 = handbook p316 (printed page number matches)
+ebd2edc143e894d4-p317,Buildings.pdf,3e1e55e10a961a97-p5,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p5 = handbook p317 (printed page number matches)
+ebd2edc143e894d4-p318,Buildings.pdf,3e1e55e10a961a97-p6,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p6 = handbook p318 (printed page number matches)
+ebd2edc143e894d4-p319,Buildings.pdf,3e1e55e10a961a97-p7,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p7 = handbook p319 (printed page number matches)
+ebd2edc143e894d4-p321,Buildings.pdf,3e1e55e10a961a97-p9,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p9 = handbook p321 (printed page number matches)
+ebd2edc143e894d4-p322,Buildings.pdf,3e1e55e10a961a97-p10,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p10 = handbook p322 (printed page number matches)
+ebd2edc143e894d4-p323,Buildings.pdf,3e1e55e10a961a97-p11,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p11 = handbook p323 (printed page number matches)
+ebd2edc143e894d4-p324,Buildings.pdf,3e1e55e10a961a97-p12,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p12 = handbook p324 (printed page number matches)
+ebd2edc143e894d4-p325,Buildings.pdf,3e1e55e10a961a97-p13,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p13 = handbook p325 (printed page number matches)
+ebd2edc143e894d4-p326,Buildings.pdf,3e1e55e10a961a97-p14,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p14 = handbook p326 (printed page number matches)
+ebd2edc143e894d4-p327,Buildings.pdf,3e1e55e10a961a97-p15,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p15 = handbook p327 (printed page number matches)
+ebd2edc143e894d4-p328,Buildings.pdf,3e1e55e10a961a97-p16,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p16 = handbook p328 (printed page number matches)
+ebd2edc143e894d4-p330,Buildings.pdf,3e1e55e10a961a97-p18,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p18 = handbook p330 (printed page number matches)
+ebd2edc143e894d4-p331,Buildings.pdf,3e1e55e10a961a97-p19,TN_Type_Design_Drawings_Extract.pdf,declared derivation: extract p19 = handbook p331 (printed page number matches)

@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-2edd876b57",
+ "project_name": "plinth-beam",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "BEAM PLAN"
+ ],
+ "disciplines": [
+  "structural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Plinth beam.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "f1b82b269ba6ee89-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:35",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

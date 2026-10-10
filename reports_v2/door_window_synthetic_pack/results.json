@@ -1,0 +1,909 @@
+{
+ "model": "C:\\Users\\Mitesh Reddy\\Desktop\\assignment\\real estate\\data\\models\\opening_det.onnx",
+ "assumed_scale": {
+  "px_per_m": 85.56,
+  "basis": "median door box 77.0 px / 0.9 m"
+ },
+ "conf": 0.35,
+ "warning": "SYNTHETIC schematic pack (20 images, one generator). Smoke test only \u2014 not real or Tamil Nadu accuracy.",
+ "iou_0.5": {
+  "door": {
+   "tp": 0,
+   "pred": 232,
+   "gt": 237,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "window": {
+   "tp": 50,
+   "pred": 199,
+   "gt": 178,
+   "precision": 0.2513,
+   "recall": 0.2809,
+   "f1": 0.2653
+  },
+  "per_image": [
+   {
+    "image": "synthetic_tn_001_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 10,
+     "pred": 11,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 2
+    }
+   },
+   {
+    "image": "synthetic_tn_002_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 13,
+     "pred": 12,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 2
+    }
+   },
+   {
+    "image": "synthetic_tn_003_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 2
+    }
+   },
+   {
+    "image": "synthetic_tn_005_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 2
+    }
+   },
+   {
+    "image": "synthetic_tn_006_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 24,
+     "pred": 25,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 5
+    }
+   },
+   {
+    "image": "synthetic_tn_007_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 1
+    }
+   },
+   {
+    "image": "synthetic_tn_009_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 1
+    }
+   },
+   {
+    "image": "synthetic_tn_010_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 5
+    }
+   },
+   {
+    "image": "synthetic_tn_011_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 15,
+     "pred": 14,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 2
+    }
+   },
+   {
+    "image": "synthetic_tn_013_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 4,
+     "pred": 5,
+     "tp": 0
+    },
+    "window": {
+     "gt": 5,
+     "pred": 7,
+     "tp": 3
+    }
+   },
+   {
+    "image": "synthetic_tn_014_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 2,
+     "pred": 2,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 8,
+     "tp": 4
+    }
+   },
+   {
+    "image": "synthetic_tn_015_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 6,
+     "pred": 6,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 0
+    }
+   },
+   {
+    "image": "synthetic_tn_017_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 14,
+     "pred": 13,
+     "tp": 0
+    },
+    "window": {
+     "gt": 7,
+     "pred": 8,
+     "tp": 1
+    }
+   },
+   {
+    "image": "synthetic_tn_018_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 19,
+     "pred": 21,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 3
+    }
+   },
+   {
+    "image": "synthetic_tn_019_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 18,
+     "pred": 13,
+     "tp": 0
+    },
+    "window": {
+     "gt": 12,
+     "pred": 13,
+     "tp": 3
+    }
+   },
+   {
+    "image": "synthetic_tn_004_multi_storey_apartment.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 5,
+     "pred": 6,
+     "tp": 1
+    }
+   },
+   {
+    "image": "synthetic_tn_008_hospital.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 12,
+     "tp": 1
+    }
+   },
+   {
+    "image": "synthetic_tn_012_medical_college_university.png",
+    "split": "val",
+    "door": {
+     "gt": 13,
+     "pred": 11,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 11,
+     "tp": 4
+    }
+   },
+   {
+    "image": "synthetic_tn_016_commercial.png",
+    "split": "val",
+    "door": {
+     "gt": 8,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 10,
+     "tp": 4
+    }
+   },
+   {
+    "image": "synthetic_tn_020_hostel.png",
+    "split": "val",
+    "door": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 4
+    }
+   }
+  ]
+ },
+ "iou_0.3": {
+  "door": {
+   "tp": 0,
+   "pred": 232,
+   "gt": 237,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "window": {
+   "tp": 158,
+   "pred": 199,
+   "gt": 178,
+   "precision": 0.794,
+   "recall": 0.8876,
+   "f1": 0.8382
+  },
+  "per_image": [
+   {
+    "image": "synthetic_tn_001_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 10,
+     "pred": 11,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_002_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 13,
+     "pred": 12,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 7
+    }
+   },
+   {
+    "image": "synthetic_tn_003_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_005_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 6
+    }
+   },
+   {
+    "image": "synthetic_tn_006_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 24,
+     "pred": 25,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_007_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 6
+    }
+   },
+   {
+    "image": "synthetic_tn_009_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_010_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_011_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 15,
+     "pred": 14,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 7
+    }
+   },
+   {
+    "image": "synthetic_tn_013_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 4,
+     "pred": 5,
+     "tp": 0
+    },
+    "window": {
+     "gt": 5,
+     "pred": 7,
+     "tp": 4
+    }
+   },
+   {
+    "image": "synthetic_tn_014_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 2,
+     "pred": 2,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 8,
+     "tp": 6
+    }
+   },
+   {
+    "image": "synthetic_tn_015_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 6,
+     "pred": 6,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_017_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 14,
+     "pred": 13,
+     "tp": 0
+    },
+    "window": {
+     "gt": 7,
+     "pred": 8,
+     "tp": 7
+    }
+   },
+   {
+    "image": "synthetic_tn_018_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 19,
+     "pred": 21,
+     "tp": 0
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_019_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 18,
+     "pred": 13,
+     "tp": 0
+    },
+    "window": {
+     "gt": 12,
+     "pred": 13,
+     "tp": 11
+    }
+   },
+   {
+    "image": "synthetic_tn_004_multi_storey_apartment.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 5,
+     "pred": 6,
+     "tp": 4
+    }
+   },
+   {
+    "image": "synthetic_tn_008_hospital.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 12,
+     "tp": 7
+    }
+   },
+   {
+    "image": "synthetic_tn_012_medical_college_university.png",
+    "split": "val",
+    "door": {
+     "gt": 13,
+     "pred": 11,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 11,
+     "tp": 11
+    }
+   },
+   {
+    "image": "synthetic_tn_016_commercial.png",
+    "split": "val",
+    "door": {
+     "gt": 8,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 11,
+     "pred": 10,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_020_hostel.png",
+    "split": "val",
+    "door": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 0
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 8
+    }
+   }
+  ]
+ },
+ "iou_centre": {
+  "door": {
+   "tp": 211,
+   "pred": 232,
+   "gt": 237,
+   "precision": 0.9095,
+   "recall": 0.8903,
+   "f1": 0.8998
+  },
+  "window": {
+   "tp": 174,
+   "pred": 199,
+   "gt": 178,
+   "precision": 0.8744,
+   "recall": 0.9775,
+   "f1": 0.9231
+  },
+  "per_image": [
+   {
+    "image": "synthetic_tn_001_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 10,
+     "pred": 11,
+     "tp": 10
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_002_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 13,
+     "pred": 12,
+     "tp": 11
+    },
+    "window": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_003_multi_storey_apartment.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 11
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_005_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 14
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_006_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 24,
+     "pred": 25,
+     "tp": 22
+    },
+    "window": {
+     "gt": 11,
+     "pred": 12,
+     "tp": 11
+    }
+   },
+   {
+    "image": "synthetic_tn_007_hospital.png",
+    "split": "train",
+    "door": {
+     "gt": 11,
+     "pred": 9,
+     "tp": 9
+    },
+    "window": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_009_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 16,
+     "pred": 15,
+     "tp": 15
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_010_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 9
+    },
+    "window": {
+     "gt": 10,
+     "pred": 12,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_011_medical_college_university.png",
+    "split": "train",
+    "door": {
+     "gt": 15,
+     "pred": 14,
+     "tp": 13
+    },
+    "window": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_013_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 4,
+     "pred": 5,
+     "tp": 4
+    },
+    "window": {
+     "gt": 5,
+     "pred": 7,
+     "tp": 5
+    }
+   },
+   {
+    "image": "synthetic_tn_014_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 2,
+     "pred": 2,
+     "tp": 2
+    },
+    "window": {
+     "gt": 9,
+     "pred": 8,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_015_commercial.png",
+    "split": "train",
+    "door": {
+     "gt": 6,
+     "pred": 6,
+     "tp": 6
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_017_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 14,
+     "pred": 13,
+     "tp": 12
+    },
+    "window": {
+     "gt": 7,
+     "pred": 8,
+     "tp": 7
+    }
+   },
+   {
+    "image": "synthetic_tn_018_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 19,
+     "pred": 21,
+     "tp": 19
+    },
+    "window": {
+     "gt": 9,
+     "pred": 11,
+     "tp": 9
+    }
+   },
+   {
+    "image": "synthetic_tn_019_hostel.png",
+    "split": "train",
+    "door": {
+     "gt": 18,
+     "pred": 13,
+     "tp": 12
+    },
+    "window": {
+     "gt": 12,
+     "pred": 13,
+     "tp": 12
+    }
+   },
+   {
+    "image": "synthetic_tn_004_multi_storey_apartment.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 10,
+     "tp": 8
+    },
+    "window": {
+     "gt": 5,
+     "pred": 6,
+     "tp": 5
+    }
+   },
+   {
+    "image": "synthetic_tn_008_hospital.png",
+    "split": "val",
+    "door": {
+     "gt": 9,
+     "pred": 9,
+     "tp": 8
+    },
+    "window": {
+     "gt": 8,
+     "pred": 12,
+     "tp": 8
+    }
+   },
+   {
+    "image": "synthetic_tn_012_medical_college_university.png",
+    "split": "val",
+    "door": {
+     "gt": 13,
+     "pred": 11,
+     "tp": 9
+    },
+    "window": {
+     "gt": 11,
+     "pred": 11,
+     "tp": 11
+    }
+   },
+   {
+    "image": "synthetic_tn_016_commercial.png",
+    "split": "val",
+    "door": {
+     "gt": 8,
+     "pred": 10,
+     "tp": 8
+    },
+    "window": {
+     "gt": 11,
+     "pred": 10,
+     "tp": 10
+    }
+   },
+   {
+    "image": "synthetic_tn_020_hostel.png",
+    "split": "val",
+    "door": {
+     "gt": 10,
+     "pred": 10,
+     "tp": 9
+    },
+    "window": {
+     "gt": 8,
+     "pred": 9,
+     "tp": 8
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+flowchart TD
+  S["sheets (kind, scale, rooms, walls, openings, schedules)"] --> SITE{"site_plan_reason?"}
+  SITE -->|site/campus layout| X["not costed"]
+  SITE -->|floor plan| AR["areas.py: carpet / common / plinth / built-up / GFA + calibration status"]
+  AR --> W["walls.py: length · face area · masonry · plaster · paint"]
+  AR --> ST["structural.py: schedules → concrete; BBS → steel (Ø²/162)"]
+  W & ST --> T["takeoff.py lines (unit, basis, assumption)"]
+  T --> M["item mapping: engineer-approved › reviewed map › SORMatcher suggestion"]
+  M --> R["rate: TN SOR 2025-26 (+08.08.2025 amendment) or Standard Data analysis; never other states; missing → excluded list, no ₹0"]
+  R --> C["item cost → totals + completeness + confidence label"]
+  C --> REVIEW["engineer review / confirm-lock / reference BOQ compare"]

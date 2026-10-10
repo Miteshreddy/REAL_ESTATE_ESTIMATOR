@@ -1,0 +1,48 @@
+{
+ "model": "yolov8s_production",
+ "checkpoint": "data/models/opening_det.v1.pt",
+ "checkpoint_sha256": "fe851540a705934259504f58da87672fae7fce5e61e823d8282a0400ae36e7d8",
+ "dataset": "cubicasa_val",
+ "dataset_info": {
+  "source": "G:/velo/real-estate/prepared_det/images/val",
+  "split": "val (model-selection split; test split NOT used)"
+ },
+ "images": 400,
+ "evaluated_at": "2026-10-09T16:01:06+00:00",
+ "config": {
+  "conf_operating": 0.35,
+  "conf_for_ap": 0.001,
+  "iou_match": 0.5,
+  "nms_iou_tiles": 0.45,
+  "imgsz": 1024,
+  "matching": "one-to-one greedy by confidence, same class, IoU>=0.5; ignore regions excluded"
+ },
+ "classes": {
+  "door": {
+   "tp": 3310,
+   "fp": 560,
+   "fn": 514,
+   "precision": 0.8553,
+   "recall": 0.8656,
+   "f1": 0.8604,
+   "ap50": 0.8728,
+   "ap50_95": 0.5098,
+   "gt": 3824,
+   "diagnostic_centre_hit_rate": 0.8936
+  },
+  "window": {
+   "tp": 2797,
+   "fp": 313,
+   "fn": 335,
+   "precision": 0.8994,
+   "recall": 0.893,
+   "f1": 0.8962,
+   "ap50": 0.9116,
+   "ap50_95": 0.6059,
+   "gt": 3132,
+   "diagnostic_centre_hit_rate": 0.9173
+  }
+ },
+ "mAP50": 0.8922,
+ "mAP50_95": 0.5578
+}

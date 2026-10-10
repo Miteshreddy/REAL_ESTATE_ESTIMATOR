@@ -1,0 +1,55 @@
+entry_no,column,catalogue_title,title_basis,url,file_name,category_hint,set_hint,robots_allowed
+1,0,Elementary and middle school Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/1.ESB-Model.pdf,1.ESB-Model.pdf,school,,True
+2,1,Beam L.S-1,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Beam L.S-1.pdf,Beam L.S-1.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+3,2,IAY housing,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/IAY drawing0001.pdf,IAY drawing0001.pdf,house,,True
+4,0,Public Distribution Shop (Sloped Roof),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/2.PDS-Model.pdf,2.PDS-Model.pdf,shop,,True
+5,1,Beam L.S-2,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Beam L.S-2.pdf,Beam L.S-2.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+6,2,Green house,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/pvt-Model 29.09.11.pdf,pvt-Model 29.09.11.pdf,house,,True
+7,0,Anganwadi Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/3.Anganwadi-Model.pdf,3.Anganwadi-Model.pdf,anganwadi,,True
+8,1,Beam L.S-3,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Beam L.S-3.pdf,Beam L.S-3.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+9,0,Kitchen Shed (Elementary School),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/4.kitchen_shed.pdf,4.kitchen_shed.pdf,school,,True
+10,1,Beam L.S-4,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Beam L.S-4.pdf,Beam L.S-4.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+11,0,School Toilet (Girls),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/5.STG-Model.pdf,5.STG-Model.pdf,school,,True
+12,1,Cross Section,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Cross Section.pdf,Cross Section.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+13,2,Buildings,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Buildings.pdf,Buildings.pdf,handbook,,True
+14,0,School Toilet (Boys),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/6.STB-Model.pdf,6.STB-Model.pdf,school,,True
+15,1,Drain,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Drain.pdf,Drain.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+16,2,Roads and Bridges,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Roads_Bridges.pdf,Roads_Bridges.pdf,roads_bridges_handbook_out_of_scope,,True
+17,0,Self Help Group Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/7.SHGB-Model.pdf,7.SHGB-Model.pdf,community,,True
+18,1,FF-ARC,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/FF-ARC.pdf,FF-ARC.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+19,0,Passenger Shelter,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/8.PSTR-Model.pdf,8.PSTR-Model.pdf,shelter,,True
+20,1,FF-Roof,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/FF-Roof.pdf,FF-Roof.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+21,0,Panchayat Office Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/9.PO-Model.pdf,9.PO-Model.pdf,panchayat_office,,True
+22,1,GF Roof,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/GF Roof.pdf,GF Roof.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+23,2,Integrated Men sanitary complex,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/IMSC.pdf,IMSC.pdf,sanitation,,True
+24,0,Rural Library Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/10.LB-Model.pdf,10.LB-Model.pdf,library,,True
+25,1,GF-ARC,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/GF-ARC.pdf,GF-ARC.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+26,2,IHHL With Leach Pit,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/IHHL-12000-15-16-Leach pit.pdf,IHHL-12000-15-16-Leach pit.pdf,sanitation,,True
+27,0,Community Hall - Type I,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/11.CH-1-Model.pdf,11.CH-1-Model.pdf,community_hall,,True
+28,1,Plinth beam,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Plinth beam.pdf,Plinth beam.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+29,2,IHHL Septic tank with Soak Pit,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/IHHL-12000-15-16-Septic tank.pdf,IHHL-12000-15-16-Septic tank.pdf,sanitation,,True
+30,0,Community Hall - Type II,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/12.CH-2-Model.pdf,12.CH-2-Model.pdf,community_hall,,True
+31,1,Portico -Grade Beam,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Portico -Grade Beam.pdf,Portico -Grade Beam.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+32,2,Septic Tank,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/SEptic tank WITH Soak Pit.pdf,SEptic tank WITH Soak Pit.pdf,sanitation,,True
+33,0,Community Hall - Type III(1),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/13.CH-3(1)-Model.pdf,13.CH-3(1)-Model.pdf,community_hall,,True
+34,1,Portico-Elevation,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Portico-Elevation.pdf,Portico-Elevation.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+35,0,Community Hall - Type III(2),link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/13.CH-3(2)-Model.pdf,13.CH-3(2)-Model.pdf,community_hall,,True
+36,1,Portico-Roof Beam 1,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Portico-Roof Beam 1.pdf,Portico-Roof Beam 1.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+37,0,Cement Godown,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/14.cement_godown.pdf,14.cement_godown.pdf,warehouse,,True
+38,1,Portico-Roof beam 2,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Portico-Roof beam 2.pdf,Portico-Roof beam 2.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+39,0,Village Administrative office,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/15.vao_office.pdf,15.vao_office.pdf,office,,True
+40,1,Sanitary,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Sanitary.pdf,Sanitary.pdf,sanitation,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+41,0,Thrashing Floor,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/16.TF-Model.pdf,16.TF-Model.pdf,open_structure,,True
+42,1,SF-ARC,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/SF-ARC.pdf,SF-ARC.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+43,0,Cremation Shed,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/17.CS-Model.pdf,17.CS-Model.pdf,shed,,True
+44,1,Stair case,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Stair case.pdf,Stair case.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+45,0,Milk Producer's Co-operative Building,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/18.MC-Model.pdf,18.MC-Model.pdf,cooperative,,True
+46,1,Tranining Hall-Roof,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Tranining Hall-Roof.pdf,Tranining Hall-Roof.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+47,0,Newly Approved Type design for School Building-I,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/1.pdf,1.pdf,school,,True
+48,1,Water Supply,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/Water Supply.pdf,Water Supply.pdf,UNKNOWN,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+49,0,Newly Approved Type design for School Building-II,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/2.pdf,2.pdf,school,,True
+50,0,Newly Approved Type design for School Building-III,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/3.pdf,3.pdf,school,,True
+51,0,Newly Approved Type design for School Building-IV,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/4.pdf,4.pdf,school,,True
+52,0,Assistant Executive Engineer (RD) office,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/AEE office Model.pdf,AEE office Model.pdf,office,,True
+53,0,District Panchayat Office GF,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/GF.pdf,GF.pdf,panchayat_office,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True
+54,0,District Panchayat Office FF,link text on catalogue page (extracted),https://tnrd.tn.gov.in/buildings_design/FF.pdf,FF.pdf,panchayat_office,INFERRED: multi-sheet office package (District Panchayat Office GF/FF listed separately),True

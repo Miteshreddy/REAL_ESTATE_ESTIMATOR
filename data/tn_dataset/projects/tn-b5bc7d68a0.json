@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-b5bc7d68a0",
+ "project_name": "water-supply",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Water Supply.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "00fc041982d1453f-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:36",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

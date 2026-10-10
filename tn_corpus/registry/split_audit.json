@@ -1,0 +1,13 @@
+{
+ "created": "2026-10-09T14:41:33+00:00",
+ "policy": "Splits are assigned only to human-approved projects; related sheets/variants share a project id; near-duplicate pages across different splits fail the audit; existing development projects stay in development_benchmark (see data/tn_dataset).",
+ "approved_projects": 0,
+ "split_counts": {
+  "UNASSIGNED": 50
+ },
+ "cross_split_duplicate_pairs": 0,
+ "leaks": [],
+ "ok": true,
+ "final_holdout_sealed": true,
+ "note": "0 projects approved \u2192 no train/validation/holdout split created (correct by policy)."
+}

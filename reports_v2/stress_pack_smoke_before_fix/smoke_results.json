@@ -1,0 +1,2094 @@
+[
+  {
+    "file": "TNRD_Buildings_Handbook_334_pages.pdf",
+    "manifest_sha256": "ebd2edc143e894d4a185663c3b54c0f71a6381258a8147bdb90aa306ef05e786",
+    "sha256": "ebd2edc143e894d4a185663c3b54c0f71a6381258a8147bdb90aa306ef05e786",
+    "hash_ok": true,
+    "bytes": 8440029,
+    "result": "SKIPPED",
+    "reason": "334-page prose handbook; drawing pages covered by the type-design extract"
+  },
+  {
+    "file": "TNRD_Type_Design_Drawings_21_pages.pdf",
+    "manifest_sha256": "3e1e55e10a961a97d4e8fc60ce2d202302e800eabc51c5f3b4cabd08cbb0ce86",
+    "sha256": "3e1e55e10a961a97d4e8fc60ce2d202302e800eabc51c5f3b4cabd08cbb0ce86",
+    "hash_ok": true,
+    "bytes": 3219556,
+    "result": "OK",
+    "secs": 1015.7,
+    "sheets": 21,
+    "kinds": [
+      "floor_plan",
+      "other",
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100",
+      "Typical floor \u2014 floors 8 to 100",
+      "Typical floor \u2014 floors 8 to 100",
+      "First floor",
+      "Typical floor \u2014 floors 8 to 100",
+      "Floor \u2014 floors -1",
+      "Floor \u2014 floors -1",
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "MEASURED",
+      "NEEDS REVIEW"
+    ],
+    "rooms": 79,
+    "suspicious_room_names": [],
+    "doors": 103,
+    "windows": 159,
+    "detector_models": [
+      "None",
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "INFO: DIMENSION vs GEOMETRY",
+      "WARNING: DOOR COUNT LOW",
+      "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+      "WARNING: SAME FLOOR IN TWO DRAWINGS",
+      "WARNING: SCALE ASSUMED"
+    ],
+    "status": "PRELIMINARY",
+    "total": 126188593.32
+  },
+  {
+    "file": "Structural_Reinforcement_Reference_Details_13_pages.pdf",
+    "manifest_sha256": "f4fedc11d69ce177c7ab66ac577ab39f188f2f84f9d010305c3836386ce5df30",
+    "sha256": "f4fedc11d69ce177c7ab66ac577ab39f188f2f84f9d010305c3836386ce5df30",
+    "hash_ok": true,
+    "bytes": 2083329,
+    "result": "OK",
+    "secs": 57.4,
+    "sheets": 13,
+    "kinds": [
+      "floor_plan",
+      "structural"
+    ],
+    "floors": [
+      "Floor \u2014 floors 1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 24,
+    "suspicious_room_names": [],
+    "doors": 32,
+    "windows": 19,
+    "detector_models": [
+      "None",
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STOREY COUNT REQUIRED"
+    ],
+    "status": "PRELIMINARY",
+    "total": 18234850.65
+  },
+  {
+    "file": "REF_227_isolated_footing_details.pdf",
+    "manifest_sha256": "0fcedee115d553ba666f1401bd8e8812aea60875f059009af7308cf0f494f644",
+    "sha256": "0fcedee115d553ba666f1401bd8e8812aea60875f059009af7308cf0f494f644",
+    "hash_ok": true,
+    "bytes": 171018,
+    "result": "OK",
+    "secs": 1.4,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [
+      "Floor \u2014 floors 1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_228_column_reinforcement_details.pdf",
+    "manifest_sha256": "9a21fcac285e43978e7086185bfb98115c8efce334edc499a923499743b2995e",
+    "sha256": "9a21fcac285e43978e7086185bfb98115c8efce334edc499a923499743b2995e",
+    "hash_ok": true,
+    "bytes": 256577,
+    "result": "OK",
+    "secs": 1.4,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_229_beam_column_joint_details_1.pdf",
+    "manifest_sha256": "9e166e27d11fac6165881e2725d0ea1eb8d5110d80f29efd8c819fb04c77e69f",
+    "sha256": "9e166e27d11fac6165881e2725d0ea1eb8d5110d80f29efd8c819fb04c77e69f",
+    "hash_ok": true,
+    "bytes": 71453,
+    "result": "OK",
+    "secs": 31.4,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 5,
+    "suspicious_room_names": [],
+    "doors": 28,
+    "windows": 0,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STRUCTURAL INPUT MISSING",
+      "WARNING: WALL VOLUME"
+    ],
+    "status": "PRELIMINARY",
+    "total": 13771871.54
+  },
+  {
+    "file": "REF_230_beam_column_joint_details_2.pdf",
+    "manifest_sha256": "6371b2b72f412a9ff924f52a81a784344e6724d1e5daf9ed1b7ad3b917c5de3f",
+    "sha256": "6371b2b72f412a9ff924f52a81a784344e6724d1e5daf9ed1b7ad3b917c5de3f",
+    "hash_ok": true,
+    "bytes": 143522,
+    "result": "OK",
+    "secs": 28.0,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 19,
+    "suspicious_room_names": [],
+    "doors": 4,
+    "windows": 19,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STOREY COUNT REQUIRED",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 6501589.72
+  },
+  {
+    "file": "REF_231_beam_reinforcement_details_1.pdf",
+    "manifest_sha256": "ac2a07271a8a8bd031be974c1f1cec11b36e6151e969c1ec157d152945710152",
+    "sha256": "ac2a07271a8a8bd031be974c1f1cec11b36e6151e969c1ec157d152945710152",
+    "hash_ok": true,
+    "bytes": 313930,
+    "result": "OK",
+    "secs": 0.7,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_232_beam_reinforcement_details_2.pdf",
+    "manifest_sha256": "95b3046dd15f7b58af573ec4ad7474e39b46effd5f03e63a2c7378895d14820f",
+    "sha256": "95b3046dd15f7b58af573ec4ad7474e39b46effd5f03e63a2c7378895d14820f",
+    "hash_ok": true,
+    "bytes": 220363,
+    "result": "OK",
+    "secs": 1.0,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_233_simply_supported_and_continuous_beam_details.pdf",
+    "manifest_sha256": "e848ad6b94c19f4cf5498dd7c147ddbad02f7787cff24c30f8f0c5d54d3724d1",
+    "sha256": "e848ad6b94c19f4cf5498dd7c147ddbad02f7787cff24c30f8f0c5d54d3724d1",
+    "hash_ok": true,
+    "bytes": 187597,
+    "result": "OK",
+    "secs": 1.0,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_234_slab_reinforcement_details_1.pdf",
+    "manifest_sha256": "4704b133f0388a8ef6146bf12de6e11ca4a336c04440df0cbbef030bc30067c7",
+    "sha256": "4704b133f0388a8ef6146bf12de6e11ca4a336c04440df0cbbef030bc30067c7",
+    "hash_ok": true,
+    "bytes": 171733,
+    "result": "OK",
+    "secs": 1.0,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_235_one_way_slab_reinforcement.pdf",
+    "manifest_sha256": "b35196c64ef6c1414e493a05a711e80998f36951ab97971eb177c7ba4943f7e1",
+    "sha256": "b35196c64ef6c1414e493a05a711e80998f36951ab97971eb177c7ba4943f7e1",
+    "hash_ok": true,
+    "bytes": 82587,
+    "result": "OK",
+    "secs": 1.1,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_236_two_way_slab_reinforcement.pdf",
+    "manifest_sha256": "523426ec4d7d68f3955f3160766e98b39d99b67b9666b3b61379ead70fdb172d",
+    "sha256": "523426ec4d7d68f3955f3160766e98b39d99b67b9666b3b61379ead70fdb172d",
+    "hash_ok": true,
+    "bytes": 168961,
+    "result": "OK",
+    "secs": 1.8,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_237_slab_reinforcement_details_2.pdf",
+    "manifest_sha256": "ddb7044730846477f7d8556e3a439f06eeece880c7b97e1b85be8309ffd94cb8",
+    "sha256": "ddb7044730846477f7d8556e3a439f06eeece880c7b97e1b85be8309ffd94cb8",
+    "hash_ok": true,
+    "bytes": 49705,
+    "result": "OK",
+    "secs": 1.4,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_238_staircase_reinforcement_details_1.pdf",
+    "manifest_sha256": "37d98ffdc57cb8b3cfaf94532adb3e97129d94b70ccfd990c33da9ed34fe85fe",
+    "sha256": "37d98ffdc57cb8b3cfaf94532adb3e97129d94b70ccfd990c33da9ed34fe85fe",
+    "hash_ok": true,
+    "bytes": 112744,
+    "result": "OK",
+    "secs": 1.2,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_239_staircase_reinforcement_details_2.pdf",
+    "manifest_sha256": "e9d2dc2d97d0eaed5276c25a4e24dd083fd427aa1c587541d4c418fa4901ef7f",
+    "sha256": "e9d2dc2d97d0eaed5276c25a4e24dd083fd427aa1c587541d4c418fa4901ef7f",
+    "hash_ok": true,
+    "bytes": 217113,
+    "result": "OK",
+    "secs": 1.0,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_313_elementary_middle_school_building.pdf",
+    "manifest_sha256": "a69c8da84df13ebc97bc69aee54fc89d43ccad054e69c3d5b8e320278caceed7",
+    "sha256": "a69c8da84df13ebc97bc69aee54fc89d43ccad054e69c3d5b8e320278caceed7",
+    "hash_ok": true,
+    "bytes": 210917,
+    "result": "OK",
+    "secs": 47.4,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 10,
+    "windows": 15,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 2985299.3
+  },
+  {
+    "file": "TNRD_314_public_distribution_shop_sloped_roof.pdf",
+    "manifest_sha256": "810d63a8fbac45ccbbb6d9f0ba8a99b4a158c2108269d43bb41a160978d4eb49",
+    "sha256": "810d63a8fbac45ccbbb6d9f0ba8a99b4a158c2108269d43bb41a160978d4eb49",
+    "hash_ok": true,
+    "bytes": 180186,
+    "result": "OK",
+    "secs": 25.7,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 5,
+    "suspicious_room_names": [],
+    "doors": 1,
+    "windows": 18,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: DOOR COUNT LOW",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 2399509.5
+  },
+  {
+    "file": "TNRD_315_noon_meal_centre_anganwadi.pdf",
+    "manifest_sha256": "fdea42f8f4efdd5b2de334e78af2d3c992a10f26d866a195f8c224eb805eb0b0",
+    "sha256": "fdea42f8f4efdd5b2de334e78af2d3c992a10f26d866a195f8c224eb805eb0b0",
+    "hash_ok": true,
+    "bytes": 197069,
+    "result": "OK",
+    "secs": 28.2,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 5,
+    "suspicious_room_names": [],
+    "doors": 5,
+    "windows": 10,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 105038920.27
+  },
+  {
+    "file": "TNRD_316_elementary_school_kitchen_shed.pdf",
+    "manifest_sha256": "8f4e0e0c1fecb69518f86d1cd2f3081094d4d900461de4b0d68c3fcd4f7b98c8",
+    "sha256": "8f4e0e0c1fecb69518f86d1cd2f3081094d4d900461de4b0d68c3fcd4f7b98c8",
+    "hash_ok": true,
+    "bytes": 171452,
+    "result": "OK",
+    "secs": 23.4,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 2,
+    "windows": 4,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 55483667.89
+  },
+  {
+    "file": "TNRD_317_school_toilet_girls.pdf",
+    "manifest_sha256": "ff06bd85ba010414cbdf9e6ceef3920849d7f1c92f6de456e0b33e73300e5e77",
+    "sha256": "ff06bd85ba010414cbdf9e6ceef3920849d7f1c92f6de456e0b33e73300e5e77",
+    "hash_ok": true,
+    "bytes": 182654,
+    "result": "OK",
+    "secs": 26.5,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 4,
+    "windows": 1,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1010627.08
+  },
+  {
+    "file": "TNRD_318_school_toilet_boys.pdf",
+    "manifest_sha256": "5d9459505328baf20a2e9508b0edb069085d4cc7f4a64adfdccc8ca8bb9b8cc2",
+    "sha256": "5d9459505328baf20a2e9508b0edb069085d4cc7f4a64adfdccc8ca8bb9b8cc2",
+    "hash_ok": true,
+    "bytes": 162104,
+    "result": "OK",
+    "secs": 26.5,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 3,
+    "suspicious_room_names": [],
+    "doors": 3,
+    "windows": 1,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 990004.59
+  },
+  {
+    "file": "TNRD_319_combined_shg_plf_building.pdf",
+    "manifest_sha256": "1bef9142d514cebf6de66e8963ac97864d0d5c39f572f742b5f55456e04ff087",
+    "sha256": "1bef9142d514cebf6de66e8963ac97864d0d5c39f572f742b5f55456e04ff087",
+    "hash_ok": true,
+    "bytes": 186191,
+    "result": "OK",
+    "secs": 51.4,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 4,
+    "suspicious_room_names": [],
+    "doors": 4,
+    "windows": 4,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1995850.06
+  },
+  {
+    "file": "TNRD_320_passenger_shelter.pdf",
+    "manifest_sha256": "49d6bd985061d5e87fef3f3245eeed12b3c6a03eabeaf36205c47eff644ea0cf",
+    "sha256": "49d6bd985061d5e87fef3f3245eeed12b3c6a03eabeaf36205c47eff644ea0cf",
+    "hash_ok": true,
+    "bytes": 137667,
+    "result": "OK",
+    "secs": 61.4,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_321_panchayat_office_building.pdf",
+    "manifest_sha256": "ee75268cd60244b6f3360051f0c0bcf809e736a2e353604fdce66c14ca75e9e4",
+    "sha256": "ee75268cd60244b6f3360051f0c0bcf809e736a2e353604fdce66c14ca75e9e4",
+    "hash_ok": true,
+    "bytes": 200811,
+    "result": "OK",
+    "secs": 85.3,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 9,
+    "suspicious_room_names": [],
+    "doors": 12,
+    "windows": 14,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 177389645.45
+  },
+  {
+    "file": "TNRD_322_rural_library_building.pdf",
+    "manifest_sha256": "f90b9f5cee2c728d7c041958690169428391682a46e7724e76144627588b9343",
+    "sha256": "f90b9f5cee2c728d7c041958690169428391682a46e7724e76144627588b9343",
+    "hash_ok": true,
+    "bytes": 163043,
+    "result": "OK",
+    "secs": 50.4,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 1,
+    "windows": 4,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1657943.15
+  },
+  {
+    "file": "TNRD_323_community_hall_type_1.pdf",
+    "manifest_sha256": "231c964fddacf5f06bb082106db3dd4ee91542687c6b7581369d844808759897",
+    "sha256": "231c964fddacf5f06bb082106db3dd4ee91542687c6b7581369d844808759897",
+    "hash_ok": true,
+    "bytes": 167256,
+    "result": "OK",
+    "secs": 32.8,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 14,
+    "suspicious_room_names": [],
+    "doors": 13,
+    "windows": 24,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "INFO: DIMENSION vs GEOMETRY",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 5069234.28
+  },
+  {
+    "file": "TNRD_324_community_hall_type_2.pdf",
+    "manifest_sha256": "265820cef5731d18679a241f964d65d4f5e44f7c6c956ddc70820dead053833d",
+    "sha256": "265820cef5731d18679a241f964d65d4f5e44f7c6c956ddc70820dead053833d",
+    "hash_ok": true,
+    "bytes": 183385,
+    "result": "OK",
+    "secs": 40.3,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 9,
+    "windows": 12,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 5005143.92
+  },
+  {
+    "file": "TNRD_325_community_hall_type_3_sheet_1.pdf",
+    "manifest_sha256": "7129691e330dd0af1f57c8103f1c09eb01ce1bf262219a3fdb30632fb876e3f0",
+    "sha256": "7129691e330dd0af1f57c8103f1c09eb01ce1bf262219a3fdb30632fb876e3f0",
+    "hash_ok": true,
+    "bytes": 154577,
+    "result": "OK",
+    "secs": 40.0,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "First floor"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 10,
+    "suspicious_room_names": [],
+    "doors": 20,
+    "windows": 23,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "INFO: DIMENSION vs GEOMETRY",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 4486437.65
+  },
+  {
+    "file": "TNRD_326_community_hall_type_3_sheet_2.pdf",
+    "manifest_sha256": "06081b5abc0fbe390bbb1faefbb2a24eecd5c0107147bfd3fef7d0d225a643be",
+    "sha256": "06081b5abc0fbe390bbb1faefbb2a24eecd5c0107147bfd3fef7d0d225a643be",
+    "hash_ok": true,
+    "bytes": 148012,
+    "result": "OK",
+    "secs": 22.6,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 3,
+    "suspicious_room_names": [],
+    "doors": 1,
+    "windows": 2,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1193185.83
+  },
+  {
+    "file": "TNRD_327_cement_godown.pdf",
+    "manifest_sha256": "09d633f51de470fde005945e61ebcff3fb9e86da9756d663fcf05c426f3e8f47",
+    "sha256": "09d633f51de470fde005945e61ebcff3fb9e86da9756d663fcf05c426f3e8f47",
+    "hash_ok": true,
+    "bytes": 170957,
+    "result": "OK",
+    "secs": 27.1,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 1,
+    "suspicious_room_names": [],
+    "doors": 4,
+    "windows": 8,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1722092.06
+  },
+  {
+    "file": "TNRD_328_village_administrative_office.pdf",
+    "manifest_sha256": "7dd805fbbcdf749613eae87dd6751eb05a198bdc6f613f1d9c03aff44f436458",
+    "sha256": "7dd805fbbcdf749613eae87dd6751eb05a198bdc6f613f1d9c03aff44f436458",
+    "hash_ok": true,
+    "bytes": 160898,
+    "result": "OK",
+    "secs": 23.9,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 6,
+    "suspicious_room_names": [],
+    "doors": 3,
+    "windows": 6,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "WARNING: FLOOR REPEAT NEEDS CONFIRMATION",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 88167156.93
+  },
+  {
+    "file": "TNRD_329_threshing_floor.pdf",
+    "manifest_sha256": "7e8f2e0a6430a34e14bbbc710afbcf3e3bca243ad508fd8a81af779dfb8bf160",
+    "sha256": "7e8f2e0a6430a34e14bbbc710afbcf3e3bca243ad508fd8a81af779dfb8bf160",
+    "hash_ok": true,
+    "bytes": 121431,
+    "result": "OK",
+    "secs": 17.0,
+    "sheets": 1,
+    "kinds": [
+      "other"
+    ],
+    "floors": [
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 1,
+    "windows": 0,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_330_cremation_shed.pdf",
+    "manifest_sha256": "af33794547a67dd1e83190fe7642c9e59f246ff0216cf1009b34cba54014d66f",
+    "sha256": "af33794547a67dd1e83190fe7642c9e59f246ff0216cf1009b34cba54014d66f",
+    "hash_ok": true,
+    "bytes": 133919,
+    "result": "OK",
+    "secs": 16.7,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_331_milk_producer_cooperative_building.pdf",
+    "manifest_sha256": "882de62ecbef9fcce93fe949216fa982dcff68a52e21b612e798b596f37273a5",
+    "sha256": "882de62ecbef9fcce93fe949216fa982dcff68a52e21b612e798b596f37273a5",
+    "hash_ok": true,
+    "bytes": 191550,
+    "result": "OK",
+    "secs": 26.3,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 5,
+    "suspicious_room_names": [],
+    "doors": 8,
+    "windows": 7,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1734112.94
+  },
+  {
+    "file": "TNRD_332_additional_type_design_pasuvin_valvu_title_uncertain.pdf",
+    "manifest_sha256": "d2fae4f149778b8608ad30879b024555fd71e9fb9240ef5cb6ab795a00e4dcb3",
+    "sha256": "d2fae4f149778b8608ad30879b024555fd71e9fb9240ef5cb6ab795a00e4dcb3",
+    "hash_ok": true,
+    "bytes": 46748,
+    "result": "OK",
+    "secs": 38.7,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 4,
+    "suspicious_room_names": [],
+    "doors": 2,
+    "windows": 6,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1353659.4
+  },
+  {
+    "file": "TNRD_333_septic_tank_plan_section.pdf",
+    "manifest_sha256": "4ee41af87396bc774b47d3a9374218a2de05b0bdb61c669bd7ec58e1b2f215b6",
+    "sha256": "4ee41af87396bc774b47d3a9374218a2de05b0bdb61c669bd7ec58e1b2f215b6",
+    "hash_ok": true,
+    "bytes": 87833,
+    "result": "OK",
+    "secs": 13.7,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "REF_227_isolated_footing_details.png",
+    "manifest_sha256": "a7ce274a89b44b21999ae3a6e6faab4529a8ad4d20010e948c17ff8b1305a2d7",
+    "sha256": "a7ce274a89b44b21999ae3a6e6faab4529a8ad4d20010e948c17ff8b1305a2d7",
+    "hash_ok": true,
+    "bytes": 479805,
+    "result": "OK",
+    "secs": 9.1,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [
+      "Floor \u2014 floors 1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_228_column_reinforcement_details.png",
+    "manifest_sha256": "f3bff772d5e11d75e33c7095b664e4b6388125e525afcb811827ee6004150141",
+    "sha256": "f3bff772d5e11d75e33c7095b664e4b6388125e525afcb811827ee6004150141",
+    "hash_ok": true,
+    "bytes": 558519,
+    "result": "OK",
+    "secs": 8.7,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_229_beam_column_joint_details_1.png",
+    "manifest_sha256": "bd62799261aeafc68b7ee4c0e42f02658c979aae3fe3067e782e2a4fa86e8daf",
+    "sha256": "bd62799261aeafc68b7ee4c0e42f02658c979aae3fe3067e782e2a4fa86e8daf",
+    "hash_ok": true,
+    "bytes": 332371,
+    "result": "OK",
+    "secs": 18.0,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 13,
+    "suspicious_room_names": [],
+    "doors": 4,
+    "windows": 8,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STRUCTURAL INPUT MISSING",
+      "WARNING: WALL VOLUME"
+    ],
+    "status": "PRELIMINARY",
+    "total": 14445692.69
+  },
+  {
+    "file": "REF_230_beam_column_joint_details_2.png",
+    "manifest_sha256": "f36f800bc29f42ddd94cc99ed7232d3c20c179a1480d49b6e969f13daad3a153",
+    "sha256": "f36f800bc29f42ddd94cc99ed7232d3c20c179a1480d49b6e969f13daad3a153",
+    "hash_ok": true,
+    "bytes": 353898,
+    "result": "OK",
+    "secs": 12.2,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 2,
+    "suspicious_room_names": [],
+    "doors": 3,
+    "windows": 4,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STOREY COUNT REQUIRED",
+      "WARNING: STRUCTURAL INPUT MISSING",
+      "WARNING: WALL VOLUME"
+    ],
+    "status": "PRELIMINARY",
+    "total": 1982189.39
+  },
+  {
+    "file": "REF_231_beam_reinforcement_details_1.png",
+    "manifest_sha256": "bcfd6ab9932c07d6f17bd3ce7f9dde53f5e1b31aa1401ee75af134d292018287",
+    "sha256": "bcfd6ab9932c07d6f17bd3ce7f9dde53f5e1b31aa1401ee75af134d292018287",
+    "hash_ok": true,
+    "bytes": 684224,
+    "result": "OK",
+    "secs": 8.3,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_232_beam_reinforcement_details_2.png",
+    "manifest_sha256": "1f829a152ffd5cd5f04181ab1e2b1dfc6083c12b40ec7c5fcb905e7a7bc429ef",
+    "sha256": "1f829a152ffd5cd5f04181ab1e2b1dfc6083c12b40ec7c5fcb905e7a7bc429ef",
+    "hash_ok": true,
+    "bytes": 527337,
+    "result": "OK",
+    "secs": 7.6,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_233_simply_supported_and_continuous_beam_details.png",
+    "manifest_sha256": "b843a2316f14de3e9385d3bb8479c3bc09fcf71b1e122ba71536979c0fbd7db4",
+    "sha256": "b843a2316f14de3e9385d3bb8479c3bc09fcf71b1e122ba71536979c0fbd7db4",
+    "hash_ok": true,
+    "bytes": 570842,
+    "result": "OK",
+    "secs": 7.6,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_234_slab_reinforcement_details_1.png",
+    "manifest_sha256": "642300762c89f14be91a0e6c58a7169e0e9f40e53e13d9a4e7893fa95f31c921",
+    "sha256": "642300762c89f14be91a0e6c58a7169e0e9f40e53e13d9a4e7893fa95f31c921",
+    "hash_ok": true,
+    "bytes": 605284,
+    "result": "OK",
+    "secs": 12.5,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_235_one_way_slab_reinforcement.png",
+    "manifest_sha256": "1ce5e3be5070377d6bcb8883419e54e24e3d7d99bc096156f14e28c3ac4dac85",
+    "sha256": "1ce5e3be5070377d6bcb8883419e54e24e3d7d99bc096156f14e28c3ac4dac85",
+    "hash_ok": true,
+    "bytes": 411281,
+    "result": "OK",
+    "secs": 7.7,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_236_two_way_slab_reinforcement.png",
+    "manifest_sha256": "c42252f562d5d4aeabd72da504341d4041f83997644be62f486efac88f9f8905",
+    "sha256": "c42252f562d5d4aeabd72da504341d4041f83997644be62f486efac88f9f8905",
+    "hash_ok": true,
+    "bytes": 362243,
+    "result": "OK",
+    "secs": 6.5,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_237_slab_reinforcement_details_2.png",
+    "manifest_sha256": "ee2b824e4ed353a75dddd5933049e98ed60818bdc73bf1109bc65bf14240eea0",
+    "sha256": "ee2b824e4ed353a75dddd5933049e98ed60818bdc73bf1109bc65bf14240eea0",
+    "hash_ok": true,
+    "bytes": 338800,
+    "result": "OK",
+    "secs": 6.0,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_238_staircase_reinforcement_details_1.png",
+    "manifest_sha256": "3fa6b963fbd3d71eddcabb6a2558f12775f2dd7a70b284e2bbe2cdf257661abd",
+    "sha256": "3fa6b963fbd3d71eddcabb6a2558f12775f2dd7a70b284e2bbe2cdf257661abd",
+    "hash_ok": true,
+    "bytes": 731849,
+    "result": "OK",
+    "secs": 7.7,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "REF_239_staircase_reinforcement_details_2.png",
+    "manifest_sha256": "d4d41c96c1990d24a10c9a5620695f4aee92d8222563ca6078e5dd9c2dfd3a7e",
+    "sha256": "d4d41c96c1990d24a10c9a5620695f4aee92d8222563ca6078e5dd9c2dfd3a7e",
+    "hash_ok": true,
+    "bytes": 491096,
+    "result": "OK",
+    "secs": 9.9,
+    "sheets": 1,
+    "kinds": [
+      "structural"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_313_elementary_middle_school_building.png",
+    "manifest_sha256": "bbbf8c9037590313b38f6d6e0e82df8f7a855d49cd6cd85609d83b85589003e2",
+    "sha256": "bbbf8c9037590313b38f6d6e0e82df8f7a855d49cd6cd85609d83b85589003e2",
+    "hash_ok": true,
+    "bytes": 1112424,
+    "result": "OK",
+    "secs": 11.8,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_314_public_distribution_shop_sloped_roof.png",
+    "manifest_sha256": "f1a25ad761eb2f24c5dff231470c24c86c285dde1cec4f4a50cc17613ca9e392",
+    "sha256": "f1a25ad761eb2f24c5dff231470c24c86c285dde1cec4f4a50cc17613ca9e392",
+    "hash_ok": true,
+    "bytes": 944264,
+    "result": "OK",
+    "secs": 10.6,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_315_noon_meal_centre_anganwadi.png",
+    "manifest_sha256": "bc2f77d7d54b844c9e90e52489bfc0ece5b7cb68d5871bf9de640d267d56ab6d",
+    "sha256": "bc2f77d7d54b844c9e90e52489bfc0ece5b7cb68d5871bf9de640d267d56ab6d",
+    "hash_ok": true,
+    "bytes": 994621,
+    "result": "OK",
+    "secs": 11.7,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_316_elementary_school_kitchen_shed.png",
+    "manifest_sha256": "7ef463f495ce696cc0a69e0d1eab4c9efeb2473c7b58815aeee91d8cb158fb3b",
+    "sha256": "7ef463f495ce696cc0a69e0d1eab4c9efeb2473c7b58815aeee91d8cb158fb3b",
+    "hash_ok": true,
+    "bytes": 901155,
+    "result": "OK",
+    "secs": 9.8,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_317_school_toilet_girls.png",
+    "manifest_sha256": "d7c058c1496d5a5f78d81281f625759626801971b45b3ea1e7af860a95922dab",
+    "sha256": "d7c058c1496d5a5f78d81281f625759626801971b45b3ea1e7af860a95922dab",
+    "hash_ok": true,
+    "bytes": 947438,
+    "result": "OK",
+    "secs": 8.0,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_318_school_toilet_boys.png",
+    "manifest_sha256": "f614f4fbea942af0ba1e822eed2055f9ba1d95c20205b33165d7bcb8725acc3c",
+    "sha256": "f614f4fbea942af0ba1e822eed2055f9ba1d95c20205b33165d7bcb8725acc3c",
+    "hash_ok": true,
+    "bytes": 814064,
+    "result": "OK",
+    "secs": 8.3,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_319_combined_shg_plf_building.png",
+    "manifest_sha256": "73fd07ba4ca910b90c10292c9a3a3e64b5f05c2b42fa6811f8994b4ee21d509e",
+    "sha256": "73fd07ba4ca910b90c10292c9a3a3e64b5f05c2b42fa6811f8994b4ee21d509e",
+    "hash_ok": true,
+    "bytes": 983101,
+    "result": "OK",
+    "secs": 10.6,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_320_passenger_shelter.png",
+    "manifest_sha256": "e732a2958651d9f87b18b94767dbb710c1ac740f766b80e660d24357c2c90367",
+    "sha256": "e732a2958651d9f87b18b94767dbb710c1ac740f766b80e660d24357c2c90367",
+    "hash_ok": true,
+    "bytes": 829898,
+    "result": "OK",
+    "secs": 7.7,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_321_panchayat_office_building.png",
+    "manifest_sha256": "f05ae224705dec7a243b5545705496487fb174c0de1322ff67001091ee1005ba",
+    "sha256": "f05ae224705dec7a243b5545705496487fb174c0de1322ff67001091ee1005ba",
+    "hash_ok": true,
+    "bytes": 1046451,
+    "result": "OK",
+    "secs": 10.9,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_322_rural_library_building.png",
+    "manifest_sha256": "4c64c190071ff339b52e1ea7cf2228758a94fc4b98ec6c1fda17dbacfc896cf8",
+    "sha256": "4c64c190071ff339b52e1ea7cf2228758a94fc4b98ec6c1fda17dbacfc896cf8",
+    "hash_ok": true,
+    "bytes": 1015785,
+    "result": "OK",
+    "secs": 9.4,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_323_community_hall_type_1.png",
+    "manifest_sha256": "31df796f02c9b4dca3c3c8d8c5bc804e306d398ae4ce3db31da92fa73f0c55e4",
+    "sha256": "31df796f02c9b4dca3c3c8d8c5bc804e306d398ae4ce3db31da92fa73f0c55e4",
+    "hash_ok": true,
+    "bytes": 877854,
+    "result": "OK",
+    "secs": 9.7,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_324_community_hall_type_2.png",
+    "manifest_sha256": "8e34bc9d7830d2b355671ae8ecac17eae5663bd6ef572ca50c9776db5f941c04",
+    "sha256": "8e34bc9d7830d2b355671ae8ecac17eae5663bd6ef572ca50c9776db5f941c04",
+    "hash_ok": true,
+    "bytes": 931766,
+    "result": "OK",
+    "secs": 10.2,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_325_community_hall_type_3_sheet_1.png",
+    "manifest_sha256": "13b7696465584fe31f26a049288e90ab7e5915cbb451106bd79dd8829bc4a5d0",
+    "sha256": "13b7696465584fe31f26a049288e90ab7e5915cbb451106bd79dd8829bc4a5d0",
+    "hash_ok": true,
+    "bytes": 806348,
+    "result": "OK",
+    "secs": 20.0,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [
+      "First floor"
+    ],
+    "scale": [
+      "MEASURED"
+    ],
+    "rooms": 8,
+    "suspicious_room_names": [],
+    "doors": 24,
+    "windows": 29,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "CONFLICT: OPENING COUNT CONFLICT",
+      "INFO: DIMENSION vs GEOMETRY",
+      "WARNING: STRUCTURAL INPUT MISSING",
+      "WARNING: WALL VOLUME"
+    ],
+    "status": "PRELIMINARY",
+    "total": 4570635.79
+  },
+  {
+    "file": "TNRD_326_community_hall_type_3_sheet_2.png",
+    "manifest_sha256": "4ce5e9ce46e029dfc06ed58ca640018b67b359e06287f85adccccca9f1d2ccb5",
+    "sha256": "4ce5e9ce46e029dfc06ed58ca640018b67b359e06287f85adccccca9f1d2ccb5",
+    "hash_ok": true,
+    "bytes": 822359,
+    "result": "OK",
+    "secs": 9.0,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_327_cement_godown.png",
+    "manifest_sha256": "be8d809cb747076a0e72871ae5ddf27e50710ee94259dafa4d27839eaba4a387",
+    "sha256": "be8d809cb747076a0e72871ae5ddf27e50710ee94259dafa4d27839eaba4a387",
+    "hash_ok": true,
+    "bytes": 847752,
+    "result": "OK",
+    "secs": 8.2,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_328_village_administrative_office.png",
+    "manifest_sha256": "6a658c63ecc9da66a5d05c647a9a9d6622691f387aca1fcc68ce6dc3a8f5a514",
+    "sha256": "6a658c63ecc9da66a5d05c647a9a9d6622691f387aca1fcc68ce6dc3a8f5a514",
+    "hash_ok": true,
+    "bytes": 843656,
+    "result": "OK",
+    "secs": 8.4,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_329_threshing_floor.png",
+    "manifest_sha256": "d6760295618a92a733d511a12569e2c02f6aa867b6912dc5ed8ec33369379d86",
+    "sha256": "d6760295618a92a733d511a12569e2c02f6aa867b6912dc5ed8ec33369379d86",
+    "hash_ok": true,
+    "bytes": 662047,
+    "result": "OK",
+    "secs": 9.4,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_330_cremation_shed.png",
+    "manifest_sha256": "bc16f72bf342c66aae0451aeaf6e30deb2ec07bb29e792fc4f2ec359f2d62255",
+    "sha256": "bc16f72bf342c66aae0451aeaf6e30deb2ec07bb29e792fc4f2ec359f2d62255",
+    "hash_ok": true,
+    "bytes": 638596,
+    "result": "OK",
+    "secs": 7.4,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_331_milk_producer_cooperative_building.png",
+    "manifest_sha256": "17c03b744026c54dc5de950c51ee3e31e9b4b31ab805b69ce5198efd716e5834",
+    "sha256": "17c03b744026c54dc5de950c51ee3e31e9b4b31ab805b69ce5198efd716e5834",
+    "hash_ok": true,
+    "bytes": 1005341,
+    "result": "OK",
+    "secs": 9.8,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Typical floor \u2014 floors 8 to 100"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_332_additional_type_design_pasuvin_valvu_title_uncertain.png",
+    "manifest_sha256": "49c15dbdb5aa1d9e20f11e1c2bd21a9f9b19b49615e27f4407d61a15372c369e",
+    "sha256": "49c15dbdb5aa1d9e20f11e1c2bd21a9f9b19b49615e27f4407d61a15372c369e",
+    "hash_ok": true,
+    "bytes": 342870,
+    "result": "OK",
+    "secs": 9.2,
+    "sheets": 1,
+    "kinds": [
+      "section"
+    ],
+    "floors": [
+      "Floor \u2014 floors -1"
+    ],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 0,
+    "suspicious_room_names": [],
+    "doors": 0,
+    "windows": 0,
+    "detector_models": [
+      "None"
+    ],
+    "warnings": [
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "COMPLETE",
+    "total": 0.0
+  },
+  {
+    "file": "TNRD_333_septic_tank_plan_section.png",
+    "manifest_sha256": "7614b00a6e2f0c8e7235f593b2a205b6bb1dfda33a681c5dd0dce74adc4dd1f4",
+    "sha256": "7614b00a6e2f0c8e7235f593b2a205b6bb1dfda33a681c5dd0dce74adc4dd1f4",
+    "hash_ok": true,
+    "bytes": 469674,
+    "result": "OK",
+    "secs": 7.0,
+    "sheets": 1,
+    "kinds": [
+      "floor_plan"
+    ],
+    "floors": [],
+    "scale": [
+      "NEEDS REVIEW"
+    ],
+    "rooms": 4,
+    "suspicious_room_names": [
+      "SECTIONA-A"
+    ],
+    "doors": 0,
+    "windows": 1,
+    "detector_models": [
+      "opening_det_v8m.onnx"
+    ],
+    "warnings": [
+      "WARNING: SCALE ASSUMED",
+      "WARNING: STRUCTURAL INPUT MISSING"
+    ],
+    "status": "PRELIMINARY",
+    "total": 937889.54
+  }
+]

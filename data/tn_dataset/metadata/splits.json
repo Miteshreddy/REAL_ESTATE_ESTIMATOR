@@ -1,0 +1,18 @@
+{
+ "seed": "tn-v2",
+ "ratios": [
+  0.7,
+  0.15,
+  0.15
+ ],
+ "created": "2026-10-09T16:00:37",
+ "counts": {
+  "tn_train": 0,
+  "tn_validation": 0,
+  "final_holdout": 0,
+  "development_benchmark": 41,
+  "smoke_test": 4,
+  "reference": 1,
+  "excluded": 0
+ }
+}

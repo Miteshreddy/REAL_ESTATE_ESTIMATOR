@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-8195b3f20b",
+ "project_name": "portico-elevation",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "ELEVATION"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Portico-Elevation.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "cfaf8dfb2cb89fa8-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:35",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

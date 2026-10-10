@@ -1,0 +1,14 @@
+{'file': 'ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 28, 'median_abs_err_pct': 5.5, 'within_5pct': 42.9, 'within_10pct': 67.9, 'seconds': 1.4}
+{'file': 'ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf', 'plans': 6, 'labelled_rooms': 50, 'median_abs_err_pct': 3.3, 'within_5pct': 54.0, 'within_10pct': 70.0, 'seconds': 1.2}
+{'file': 'ARCH_BBC_AR_TY_1_Plans_ALL.dxf', 'plans': 3, 'labelled_rooms': 48, 'median_abs_err_pct': 1.4, 'within_5pct': 100.0, 'within_10pct': 100.0, 'seconds': 0.9}
+{'file': 'ARCH_BBC_AR_TY_2_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 24, 'median_abs_err_pct': 5.0, 'within_5pct': 50.0, 'within_10pct': 70.8, 'seconds': 1.1}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 40, 'median_abs_err_pct': 2.5, 'within_5pct': 55.0, 'within_10pct': 85.0, 'seconds': 2.0}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALLdwg.dxf', 'plans': 4, 'labelled_rooms': 52, 'median_abs_err_pct': 2.3, 'within_5pct': 59.6, 'within_10pct': 71.2, 'seconds': 2.0}
+{
+ "files": 6,
+ "labelled_rooms": 242,
+ "median_abs_err_pct": 2.02,
+ "mean_abs_err_pct": 7.73,
+ "within_5pct": 62.8,
+ "within_10pct": 78.5
+}

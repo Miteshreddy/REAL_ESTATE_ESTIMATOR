@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-030a8a22c3",
+ "project_name": "shgb",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "7.SHGB-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "56a8ed7de7e1f3a3-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

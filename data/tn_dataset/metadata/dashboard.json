@@ -1,0 +1,69 @@
+{
+ "total_projects": 46,
+ "total_sheets": 114,
+ "discovered_candidates": 129,
+ "discovered_disallowed": 65,
+ "downloaded_documents": 55,
+ "training_eligible_projects": 0,
+ "evaluation_eligible_projects": 41,
+ "permission_pending_projects": 0,
+ "rejected_or_corrupt": [
+  {
+   "file": "case02.png",
+   "sha256": "5a5c939fdb21c6ad7f1411244ee5d310b7cba2984e0a36b2c808c2c314111ced",
+   "reason": "image too small to be a drawing 14x16"
+  }
+ ],
+ "annotation_states": {
+  "PSEUDO-LABEL": 110,
+  "UNANNOTATED": 4
+ },
+ "splits": {
+  "development_benchmark": 41,
+  "reference": 1,
+  "smoke_test": 4
+ },
+ "verified_pages": 0,
+ "verified_objects": {},
+ "pseudo_pages": 110,
+ "pseudo_objects": {
+  "door": 491,
+  "window": 844,
+  "room": 476
+ },
+ "structural_sheets": 19,
+ "commercial_sheets": 37,
+ "scans": 61,
+ "vector_files": 53,
+ "cad_files": 0,
+ "district_distribution": {
+  "not stated": 45,
+  "Kancheepuram": 1
+ },
+ "building_type_distribution": {
+  "unknown": 36,
+  "industrial": 2,
+  "office": 5,
+  "commercial": 1,
+  "institutional": 1,
+  "basic_residential": 1
+ },
+ "drawing_type_distribution": {
+  "OTHER": 65,
+  "BEAM PLAN": 5,
+  "ARCHITECTURAL PLAN": 4,
+  "SECTION": 9,
+  "DETAIL": 9,
+  "FOUNDATION PLAN": 13,
+  "SERVICES": 5,
+  "ELEVATION": 2,
+  "REBAR / BBS": 1,
+  "STAIRCASE": 1
+ },
+ "license_status": {
+  "government_publication_review": 109,
+  "restricted": 5
+ },
+ "duplicates": 0,
+ "annotation_queue": 0
+}

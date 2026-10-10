@@ -1,0 +1,323 @@
+{
+ "note": "SYNTHETIC demo images; reference = generator's red (door) / blue (window) markers inside the plan",
+ "images": {
+  "demo_01_additional_hospital_building.png": {
+   "opening_det.onnx": {
+    "model_used": "opening_det.onnx",
+    "seconds": 4.26,
+    "rooms": 10,
+    "door": {
+     "reference": 10,
+     "detector": 0,
+     "detector_tp": 0,
+     "detector_fp": 0,
+     "detector_fn": 10,
+     "geometry": 4,
+     "combined_in_app": 4,
+     "app_detector_count": 0
+    },
+    "window": {
+     "reference": 8,
+     "detector": 5,
+     "detector_tp": 0,
+     "detector_fp": 5,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 8,
+     "app_detector_count": 5
+    }
+   },
+   "opening_det_v8m.onnx": {
+    "model_used": "opening_det_v8m.onnx",
+    "seconds": 3.35,
+    "rooms": 10,
+    "door": {
+     "reference": 10,
+     "detector": 10,
+     "detector_tp": 10,
+     "detector_fp": 0,
+     "detector_fn": 0,
+     "geometry": 4,
+     "combined_in_app": 10,
+     "app_detector_count": 10
+    },
+    "window": {
+     "reference": 8,
+     "detector": 0,
+     "detector_tp": 0,
+     "detector_fp": 0,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 4,
+     "app_detector_count": 0
+    }
+   }
+  },
+  "demo_02_mba_hostel.png": {
+   "opening_det.onnx": {
+    "model_used": "opening_det.onnx",
+    "seconds": 3.58,
+    "rooms": 15,
+    "door": {
+     "reference": 16,
+     "detector": 2,
+     "detector_tp": 2,
+     "detector_fp": 0,
+     "detector_fn": 14,
+     "geometry": 16,
+     "combined_in_app": 16,
+     "app_detector_count": 2
+    },
+    "window": {
+     "reference": 10,
+     "detector": 7,
+     "detector_tp": 0,
+     "detector_fp": 7,
+     "detector_fn": 10,
+     "geometry": 5,
+     "combined_in_app": 5,
+     "app_detector_count": 7
+    }
+   },
+   "opening_det_v8m.onnx": {
+    "model_used": "opening_det_v8m.onnx",
+    "seconds": 4.34,
+    "rooms": 15,
+    "door": {
+     "reference": 16,
+     "detector": 13,
+     "detector_tp": 13,
+     "detector_fp": 0,
+     "detector_fn": 3,
+     "geometry": 16,
+     "combined_in_app": 16,
+     "app_detector_count": 13
+    },
+    "window": {
+     "reference": 10,
+     "detector": 0,
+     "detector_tp": 0,
+     "detector_fp": 0,
+     "detector_fn": 10,
+     "geometry": 5,
+     "combined_in_app": 5,
+     "app_detector_count": 0
+    }
+   }
+  },
+  "demo_03_school_of_nursing.png": {
+   "opening_det.onnx": {
+    "model_used": "opening_det.onnx",
+    "seconds": 2.98,
+    "rooms": 14,
+    "door": {
+     "reference": 17,
+     "detector": 8,
+     "detector_tp": 8,
+     "detector_fp": 0,
+     "detector_fn": 9,
+     "geometry": 10,
+     "combined_in_app": 14,
+     "app_detector_count": 8
+    },
+    "window": {
+     "reference": 8,
+     "detector": 6,
+     "detector_tp": 0,
+     "detector_fp": 6,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 4,
+     "app_detector_count": 6
+    }
+   },
+   "opening_det_v8m.onnx": {
+    "model_used": "opening_det_v8m.onnx",
+    "seconds": 3.18,
+    "rooms": 14,
+    "door": {
+     "reference": 17,
+     "detector": 9,
+     "detector_tp": 9,
+     "detector_fp": 0,
+     "detector_fn": 8,
+     "geometry": 10,
+     "combined_in_app": 15,
+     "app_detector_count": 9
+    },
+    "window": {
+     "reference": 8,
+     "detector": 8,
+     "detector_tp": 0,
+     "detector_fp": 8,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 6,
+     "app_detector_count": 8
+    }
+   }
+  },
+  "demo_04_50-bedded_critical_care_block.png": {
+   "opening_det.onnx": {
+    "model_used": "opening_det.onnx",
+    "seconds": 3.24,
+    "rooms": 14,
+    "door": {
+     "reference": 17,
+     "detector": 8,
+     "detector_tp": 8,
+     "detector_fp": 0,
+     "detector_fn": 9,
+     "geometry": 10,
+     "combined_in_app": 14,
+     "app_detector_count": 8
+    },
+    "window": {
+     "reference": 8,
+     "detector": 5,
+     "detector_tp": 0,
+     "detector_fp": 5,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 4,
+     "app_detector_count": 5
+    }
+   },
+   "opening_det_v8m.onnx": {
+    "model_used": "opening_det_v8m.onnx",
+    "seconds": 3.28,
+    "rooms": 14,
+    "door": {
+     "reference": 17,
+     "detector": 9,
+     "detector_tp": 9,
+     "detector_fp": 0,
+     "detector_fn": 8,
+     "geometry": 10,
+     "combined_in_app": 15,
+     "app_detector_count": 9
+    },
+    "window": {
+     "reference": 8,
+     "detector": 7,
+     "detector_tp": 0,
+     "detector_fp": 7,
+     "detector_fn": 8,
+     "geometry": 4,
+     "combined_in_app": 6,
+     "app_detector_count": 7
+    }
+   }
+  },
+  "demo_05_additional_4th,_5th_&_6th_floors.png": {
+   "opening_det.onnx": {
+    "model_used": "opening_det.onnx",
+    "seconds": 2.97,
+    "rooms": 20,
+    "door": {
+     "reference": 27,
+     "detector": 12,
+     "detector_tp": 12,
+     "detector_fp": 0,
+     "detector_fn": 15,
+     "geometry": 18,
+     "combined_in_app": 23,
+     "app_detector_count": 12
+    },
+    "window": {
+     "reference": 12,
+     "detector": 6,
+     "detector_tp": 2,
+     "detector_fp": 4,
+     "detector_fn": 10,
+     "geometry": 12,
+     "combined_in_app": 14,
+     "app_detector_count": 6
+    }
+   },
+   "opening_det_v8m.onnx": {
+    "model_used": "opening_det_v8m.onnx",
+    "seconds": 3.39,
+    "rooms": 20,
+    "door": {
+     "reference": 27,
+     "detector": 26,
+     "detector_tp": 26,
+     "detector_fp": 0,
+     "detector_fn": 1,
+     "geometry": 18,
+     "combined_in_app": 26,
+     "app_detector_count": 26
+    },
+    "window": {
+     "reference": 12,
+     "detector": 0,
+     "detector_tp": 0,
+     "detector_fp": 0,
+     "detector_fn": 12,
+     "geometry": 12,
+     "combined_in_app": 12,
+     "app_detector_count": 0
+    }
+   }
+  }
+ },
+ "models": {
+  "opening_det.onnx": {
+   "totals": {
+    "door": {
+     "tp": 30,
+     "fp": 0,
+     "fn": 57,
+     "ref": 87,
+     "geometry": 58,
+     "combined": 71,
+     "precision": 1.0,
+     "recall": 0.345,
+     "f1": 0.513
+    },
+    "window": {
+     "tp": 2,
+     "fp": 27,
+     "fn": 44,
+     "ref": 46,
+     "geometry": 29,
+     "combined": 35,
+     "precision": 0.069,
+     "recall": 0.043,
+     "f1": 0.053
+    }
+   },
+   "mean_seconds_per_image": 3.41,
+   "file_mb": 45.0
+  },
+  "opening_det_v8m.onnx": {
+   "totals": {
+    "door": {
+     "tp": 67,
+     "fp": 0,
+     "fn": 20,
+     "ref": 87,
+     "geometry": 58,
+     "combined": 82,
+     "precision": 1.0,
+     "recall": 0.77,
+     "f1": 0.87
+    },
+    "window": {
+     "tp": 0,
+     "fp": 15,
+     "fn": 46,
+     "ref": 46,
+     "geometry": 29,
+     "combined": 33,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "mean_seconds_per_image": 3.51,
+   "file_mb": 103.9
+  }
+ }
+}

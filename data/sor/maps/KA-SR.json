@@ -1,0 +1,135 @@
+{
+ "_about": "Hand-checked map: take-off item -> Karnataka PWD SR 2023-24 item (Vol 1 codes prefixed V1-). factor converts the SOR unit to the take-off unit. Items not listed fall back to text matching with a rate-plausibility check and are always marked for review.",
+ "excavation": {
+  "code": "V1-1.4.1",
+  "note": "manual, all kinds of soil, depth up to 1.5 m"
+ },
+ "backfill": {
+  "code": "V1-1.9"
+ },
+ "anti_termite": {
+  "code": "4.1"
+ },
+ "pcc_found": {
+  "code": "V1-2.1.2",
+  "note": "levelling course 1:4:8, 40 mm aggregate"
+ },
+ "pcc_floor": {
+  "code": "9.4",
+  "note": "cement concrete 1:2:4 for building floors"
+ },
+ "rcc_footing": {
+  "code": "V1-2.2.1",
+  "note": "M20 design mix, foundations"
+ },
+ "rcc_column": {
+  "code": "V1-2.5.1",
+  "note": "M20 design mix, superstructure"
+ },
+ "rcc_beam": {
+  "code": "V1-2.5.1",
+  "note": "M20 design mix, superstructure"
+ },
+ "rcc_slab": {
+  "code": "V1-2.5.1",
+  "note": "M20 design mix, superstructure"
+ },
+ "rcc_lintel": {
+  "code": "V1-2.5.1",
+  "note": "M20 design mix, superstructure"
+ },
+ "steel_footing": {
+  "code": "V1-2.11.a",
+  "factor": 0.001,
+  "note": "TMT Fe550 for buildings, per tonne -> per kg"
+ },
+ "steel_column": {
+  "code": "V1-2.11.a",
+  "factor": 0.001
+ },
+ "steel_beam": {
+  "code": "V1-2.11.a",
+  "factor": 0.001
+ },
+ "steel_slab": {
+  "code": "V1-2.11.a",
+  "factor": 0.001
+ },
+ "mas_plinth": {
+  "code": "6.2",
+  "note": "burnt clay bricks, CM 1:6, foundation & plinth"
+ },
+ "mas_230": {
+  "code": "6.8",
+  "note": "burnt clay bricks, superstructure"
+ },
+ "mas_115": {
+  "code": "6.14",
+  "note": "half brick, superstructure"
+ },
+ "plaster_int": {
+  "code": "8.1.2",
+  "note": "12 mm, CM 1:6"
+ },
+ "plaster_ext": {
+  "code": "8.2.1",
+  "note": "15 mm, CM 1:4"
+ },
+ "floor_vit": {
+  "code": "9.12.1"
+ },
+ "floor_antiskid": {
+  "code": "9.11"
+ },
+ "dado": {
+  "code": "10.14"
+ },
+ "skirting": {
+  "code": "9.38"
+ },
+ "paint_int": {
+  "code": "8.39"
+ },
+ "paint_enamel": {
+  "code": "8.40"
+ },
+ "door_shutter": {
+  "code": "12.57.1"
+ },
+ "door_frame": {
+  "code": "11.14.1.1"
+ },
+ "wp_roof": {
+  "code": "15.11"
+ },
+ "wp_wet": {
+  "code": "15.10"
+ },
+ "wc": {
+  "code": "14.15"
+ },
+ "basin": {
+  "code": "14.25.1"
+ },
+ "sink": {
+  "code": "14.10.1.1"
+ },
+ "cpvc": {
+  "code": "13.31.2"
+ },
+ "swr": {
+  "code": "13.64.2"
+ },
+ "fw_found": {
+  "unpriced": "Karnataka SR prices formwork as a percentage of the concrete item (Vol 1, Addendum-I), not as a rate per m² — enter the rate after applying the addendum %"
+ },
+ "fw_col": {
+  "unpriced": "Karnataka SR prices formwork as a percentage of the concrete item (Vol 1, Addendum-I), not as a rate per m² — enter the rate after applying the addendum %"
+ },
+ "fw_beam": {
+  "unpriced": "Karnataka SR prices formwork as a percentage of the concrete item (Vol 1, Addendum-I), not as a rate per m² — enter the rate after applying the addendum %"
+ },
+ "fw_slab": {
+  "unpriced": "Karnataka SR prices formwork as a percentage of the concrete item (Vol 1, Addendum-I), not as a rate per m² — enter the rate after applying the addendum %"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-950a6a5529",
+ "project_name": "4.pdf",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "4.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "affba99a8354a8c1-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

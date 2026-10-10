@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-21f26413e0",
+ "project_name": "anganwadi",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "institutional",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "3.Anganwadi-Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "dcaa8a3ce6c66bec-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

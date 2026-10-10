@@ -1,0 +1,18 @@
+{
+ "case01": {
+  "sheet_class": "floor_plan",
+  "note": "Apollo Hospital Chennai \u2014 dense hospital floor plan"
+ },
+ "case03": {
+  "sheet_class": "floor_plan",
+  "note": "Tiruppur GH oncology \u2014 site plan + ground floor plan on one sheet"
+ },
+ "case04": {
+  "sheet_class": "site_plan",
+  "note": "AIIMS Madurai \u2014 campus site layout 1:2000: must NOT be costed as a floor plan"
+ },
+ "case05": {
+  "sheet_class": "floor_plan",
+  "note": "Vishwaksena Global School \u2014 rendered presentation board with a floor plan"
+ }
+}

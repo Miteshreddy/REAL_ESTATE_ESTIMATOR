@@ -1,0 +1,24 @@
+{
+ "_about": "Tamil Nadu gold-standard projects. Kept separate from model training (check_leakage.py). A project counts for COST accuracy only with an approved / sanctioned BOQ (boq_file) and verified_by set. Upload a BOQ through POST /api/projects/{id}/reference-boq to score it.",
+ "projects": [
+  {
+   "project_id": "tn-govt-type-designs",
+   "project_name": "TN Rural Development type-design sheets (27 sheets)",
+   "district": null, "city": null, "building_type": "small institutional / office / residential",
+   "drawing_files": "ml/test_drawings/tamilnadu/*.pdf",
+   "structural_files": "ml/test_drawings/tamilnadu (footing / beam sheets within the set)",
+   "boq_file": null, "specification_files": null, "reference_rates": null,
+   "ground_truth": "tn_ground_truth.json — plan boxes and written plinth areas (hand-labelled)",
+   "verification_status": "hand-labelled from printed values", "verified_by": "project team (earlier session)", "verification_date": "2026-10-08"
+  },
+  {
+   "project_id": "aparna-block-a-refuge",
+   "project_name": "Block A refuge floor (18th / 28th / 38th) — multi-unit tower",
+   "district": null, "city": null, "building_type": "large residential",
+   "drawing_files": "data/uploads/cb7ba5a5cf/*.jpg", "structural_files": null, "boq_file": null,
+   "ground_truth": "values printed on the sheet: floor list, 5 × 3BHK, carpet area per flat",
+   "verification_status": "printed values", "verified_by": "printed on drawing (not engineer-verified)", "verification_date": "2026-10-09"
+  }
+ ],
+ "approved_boq_projects": 0
+}

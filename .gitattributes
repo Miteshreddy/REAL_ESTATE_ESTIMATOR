@@ -1,0 +1,2 @@
+*.gguf filter=lfs diff=lfs merge=lfs -text
+data/models/opening_det_v8m.onnx filter=lfs diff=lfs merge=lfs -text

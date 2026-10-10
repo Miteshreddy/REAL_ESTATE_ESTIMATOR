@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-5410ca020e",
+ "project_name": "cement-godown",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "industrial",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "14.cement_godown.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "4f29016b7e15e41c-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

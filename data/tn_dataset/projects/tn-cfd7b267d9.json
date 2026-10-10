@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-cfd7b267d9",
+ "project_name": "aee-office",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "office",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "AEE office Model.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "b1c3d6466e54aef3-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

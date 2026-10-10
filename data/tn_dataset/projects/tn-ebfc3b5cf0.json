@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-ebfc3b5cf0",
+ "project_name": "cross-section",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "SECTION"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Cross Section.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "25fc89ae68b6b83f-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:32",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

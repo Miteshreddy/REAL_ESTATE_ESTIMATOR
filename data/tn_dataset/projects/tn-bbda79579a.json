@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-bbda79579a",
+ "project_name": "kitchen-shed",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "industrial",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "4.kitchen_shed.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "15e6dd2d2a947d1a-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

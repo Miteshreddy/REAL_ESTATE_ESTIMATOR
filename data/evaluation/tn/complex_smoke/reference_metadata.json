@@ -1,0 +1,69 @@
+[
+ {
+  "case": "case01",
+  "image": "data/evaluation/tn/complex_smoke/case01.png",
+  "width": 768,
+  "height": 1024,
+  "sha256": "2b454e6e00283128774bc56b7a0dbb40aed80371fb8bbdec36513e5c5be4a27e",
+  "reference_header": [
+   "Tamil Nadu Complex Architecture \u2014 High-Quality",
+   "Test Set",
+   "01 \u2014 Apollo Hospital, Chennai",
+   "Multispecialty hospital \u00b7 Chennai, Tamil Nadu \u00b7 Very hard",
+   "Test: dense rooms, corridors, doors/windows, lifts, stairs, dimensions and schedules.",
+   "Source: https://www.scribd.com/document/916959629/Apollo-Hospital-Chennai"
+  ]
+ },
+ {
+  "case": "case02",
+  "image": "data/evaluation/tn/complex_smoke/case02.png",
+  "width": 14,
+  "height": 16,
+  "sha256": "5a5c939fdb21c6ad7f1411244ee5d310b7cba2984e0a36b2c808c2c314111ced",
+  "reference_header": [
+   "02 \u2014 Maharishi Vidya Mandir, Periamet",
+   "School / educational campus \u00b7 Chennai, Tamil Nadu \u00b7 Hard",
+   "Test: repeated classrooms, central courtyard, corridors, stairs, lift, toilets, doors/windows and institutional geometry.",
+   "Source: https://architizer.com/idea/3814764/"
+  ]
+ },
+ {
+  "case": "case03",
+  "image": "data/evaluation/tn/complex_smoke/case03.png",
+  "width": 768,
+  "height": 1024,
+  "sha256": "87dfcb667587fb17af2d368eab470907657798d8c69ac5fa2def8966418b42dc",
+  "reference_header": [
+   "03 \u2014 Tiruppur Government Hospital Oncology Expansion",
+   "Hospital expansion \u00b7 Tiruppur, Tamil Nadu \u00b7 Very hard",
+   "Test: site-vs-floor classification, hospital room modules, circulation, stairs, services and large geometry.",
+   "Source: https://www.scribd.com/document/542078115/Oncology-Hospital-02-11-2021-2"
+  ]
+ },
+ {
+  "case": "case04",
+  "image": "data/evaluation/tn/complex_smoke/case04.png",
+  "width": 1080,
+  "height": 960,
+  "sha256": "6f2067a255eb2abc82bf03793aa5da9931a3ae64479750b50cf87fe0ae5a6692",
+  "reference_header": [
+   "04 \u2014 AIIMS Madurai Campus",
+   "Medical / institutional campus \u00b7 Madurai, Tamil Nadu \u00b7 Extreme \u00b7 Scale shown: 1:2000",
+   "Test: very large site geometry, multiple buildings, roads, parking, hostels, open-space zoning and scale.",
+   "Source: public project-layout reference"
+  ]
+ },
+ {
+  "case": "case05",
+  "image": "data/evaluation/tn/complex_smoke/case05.png",
+  "width": 2048,
+  "height": 1536,
+  "sha256": "28a56bba4860650e232f1d6e474d346bd3da3724294f04334795cdae2e748219",
+  "reference_header": [
+   "05 \u2014 Vishwaksena Global School",
+   "School / educational campus \u00b7 Sriperumbudur district, Tamil Nadu \u00b7 Very hard",
+   "Test: multiple blocks, courtyards, circulation, landscape/open areas, curved geometry and campus-scale recognition.",
+   "Source: https://www.slideshare.net/slideshow/vishwaksena-global-school-murali-architects/73011073"
+  ]
+ }
+]

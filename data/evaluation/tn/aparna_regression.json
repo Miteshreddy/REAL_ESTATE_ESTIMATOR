@@ -1,0 +1,269 @@
+{
+ "printed_reference": {
+  "floor_text": "18TH, 28TH & 38TH FLOOR",
+  "floors": [
+   18,
+   28,
+   38
+  ],
+  "flats_3bhk": 5,
+  "carpet_sft": {
+   "2": 1341,
+   "3": 1123,
+   "4": 1115,
+   "5": 1242,
+   "6": 1222
+  },
+  "saleable_sft": {
+   "2": 2001,
+   "3": 1723,
+   "4": 1711,
+   "5": 1882,
+   "6": 1858
+  }
+ },
+ "before": {
+  "label": "BEFORE (stored project, previous pipeline)",
+  "floors_param": 1,
+  "floor_info": null,
+  "floor": null,
+  "scale": {
+   "method": "layout",
+   "px_per_m": 128.52,
+   "confidence": 0.95
+  },
+  "rooms": 63,
+  "rooms_named": 48,
+  "room_types": {},
+  "rejected_regions": 0,
+  "units": null,
+  "doors": 4,
+  "windows": 5,
+  "plinth_area_m2": 683.74,
+  "carpet_area_m2": 520.02,
+  "wall_length_m": 618.2
+ },
+ "after": {
+  "label": "AFTER (current pipeline)",
+  "floors_param": 3,
+  "floor_info": {
+   "floor_occurrences": [
+    18,
+    28,
+    38
+   ],
+   "floor_start": 18,
+   "floor_end": 38,
+   "floor_step": 10,
+   "repeated_count": 3,
+   "typical_floor": true,
+   "refuge_floor": true,
+   "source_text": "18TH,28TH&38THFLOOR",
+   "confidence": 0.98,
+   "sources": 9,
+   "label": "Refuge floor \u2014 floors 18, 28, 38",
+   "level": 18,
+   "repeat": 3,
+   "note": "this plan occurs on the listed floors; the total number of storeys of the building is NOT stated by this sheet"
+  },
+  "floor": {
+   "label": "Refuge floor \u2014 floors 18, 28, 38",
+   "level": 18,
+   "repeat": 3,
+   "occurrences": [
+    18,
+    28,
+    38
+   ]
+  },
+  "scale": {
+   "method": "calibrated from 18 room dimension labels read by OCR",
+   "px_per_m": 133.55,
+   "analysis_downscale": 0.92,
+   "confidence": 0.85
+  },
+  "rooms": 79,
+  "rooms_named": 68,
+  "room_types": {
+   "balcony": 1,
+   "bedroom": 15,
+   "corridor": 2,
+   "dining": 5,
+   "drawing": 5,
+   "dress": 2,
+   "electrical": 1,
+   "kitchen": 5,
+   "living": 2,
+   "lobby": 4,
+   "pooja": 3,
+   "refuge": 1,
+   "shaft": 3,
+   "staircase": 1,
+   "toilet": 10,
+   "unknown": 17,
+   "utility": 2
+  },
+  "rejected_regions": 0,
+  "units": [
+   {
+    "id": "U1",
+    "label": "2001 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 2001.0,
+    "rooms": [
+     "R3",
+     "R4",
+     "R16",
+     "R17",
+     "R19",
+     "R35",
+     "R36",
+     "R43",
+     "R44",
+     "R55",
+     "R58",
+     "R59",
+     "R60",
+     "R68"
+    ],
+    "measured_area_m2": 88.01,
+    "bedrooms": 3,
+    "toilets": 3,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U2",
+    "label": "1711 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1711.0,
+    "rooms": [
+     "R2",
+     "R5",
+     "R22",
+     "R24",
+     "R31",
+     "R38",
+     "R45",
+     "R47",
+     "R49",
+     "R62",
+     "R66",
+     "R70",
+     "R77",
+     "R79"
+    ],
+    "measured_area_m2": 100.32,
+    "bedrooms": 3,
+    "toilets": 1,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U3",
+    "label": "1723 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1723.0,
+    "rooms": [
+     "R6",
+     "R15",
+     "R20",
+     "R21",
+     "R23",
+     "R33",
+     "R37",
+     "R46",
+     "R48",
+     "R56",
+     "R57",
+     "R61",
+     "R78"
+    ],
+    "measured_area_m2": 75.77,
+    "bedrooms": 3,
+    "toilets": 1,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U4",
+    "label": "1882 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1882.0,
+    "rooms": [
+     "R9",
+     "R12",
+     "R25",
+     "R26",
+     "R30",
+     "R32",
+     "R39",
+     "R50",
+     "R52",
+     "R53",
+     "R63",
+     "R65",
+     "R74"
+    ],
+    "measured_area_m2": 80.99,
+    "bedrooms": 3,
+    "toilets": 2,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U5",
+    "label": "1858 Sft 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1858.0,
+    "rooms": [
+     "R7",
+     "R10",
+     "R11",
+     "R14",
+     "R27",
+     "R28",
+     "R29",
+     "R40",
+     "R42",
+     "R51",
+     "R54",
+     "R64",
+     "R73"
+    ],
+    "measured_area_m2": 100.92,
+    "bedrooms": 3,
+    "toilets": 3,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   }
+  ],
+  "doors": 83,
+  "windows": 53,
+  "plinth_area_m2": 740.22,
+  "carpet_area_m2": 582.25,
+  "wall_length_m": 677.7,
+  "floors_source": " \u00b7 Image: '18TH,28TH&38THFLOOR' \u2014 plan occurs on floor(s) 18, 28, 38 (confidence 0.98)",
+  "seconds": 46.1,
+  "items": 52,
+  "priced_items": 31,
+  "excluded_items": 21,
+  "assumed_items": 24,
+  "total_priced_inr": 37279326.76
+ },
+ "agreement": {
+  "floor_occurrences_match": true,
+  "units_found": 5,
+  "units_printed": 5,
+  "unit_bhk_found": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "unit_area_tags": [
+   2001.0,
+   1711.0,
+   1723.0,
+   1882.0,
+   1858.0
+  ]
+ },
+ "note": "Door / window ground truth is not printed on this drawing (no schedule); counts are reported, not scored."
+}

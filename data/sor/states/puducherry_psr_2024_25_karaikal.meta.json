@@ -1,0 +1,1147 @@
+{
+ "name": "Puducherry Schedule of Rates (PSR) 2024-25 — Karaikal region",
+ "authority": "Puducherry PWD",
+ "department": "Public Works Department, Government of Puducherry",
+ "country": "India",
+ "region": "Puducherry",
+ "district": "Karaikal",
+ "authority_level": "state",
+ "schedule_type": "PSR",
+ "code_system": "PY-PSR",
+ "year": "2024",
+ "financial_year": "2024-25",
+ "effective_from": "2024-08-14",
+ "currency": "INR",
+ "source": "Official government document",
+ "source_ref": "PWD Puducherry, PSR 2024-25 (Karaikal region), w.e.f. 14 August 2024 — https://pwd.py.gov.in/sites/default/files/psr-2024-25-karaikal-region.pdf",
+ "notes": "Rates as printed in the regional PSR. Correction slips 1-3 published on pwd.py.gov.in are NOT yet applied.",
+ "source_file": "psr-2024-25-karaikal-region.pdf",
+ "source_sha256": "f260c4ac357a0d05c61d109e0c8e9900f6a250bfc2167b003259cc3257c30543",
+ "items": 3428,
+ "skipped": 223,
+ "skipped_rows": [
+  {
+   "code": "8012",
+   "page": 57,
+   "unit": "",
+   "rate": "176.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1926",
+   "page": 91,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2914A",
+   "page": 94,
+   "why": "duplicate code"
+  },
+  {
+   "code": "8037",
+   "page": 100,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1556A",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1556B",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1556C",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1556D",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0552",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0553",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0554",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1242",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1243",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1244",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1245",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2415",
+   "page": 110,
+   "why": "duplicate code"
+  },
+  {
+   "code": "7804",
+   "page": 124,
+   "why": "duplicate code"
+  },
+  {
+   "code": "8757",
+   "page": 128,
+   "why": "duplicate code"
+  },
+  {
+   "code": "8760",
+   "page": 128,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0304",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0305",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0309",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0316",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0317",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0322",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0323",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0357",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0362",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0608",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0002",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0003",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0004",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0005",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0006",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0009",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0010",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0011",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0012",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0013",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0015",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0017",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0018",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0019",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0020",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0024",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0025",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0026",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0027",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0028",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0029",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0030",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0032",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0034",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0038",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0100",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0101",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0102",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0103",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0111",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0112",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0113",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0114",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0114A",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0115",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0117",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0119",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0123",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0124",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0125",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0126",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0127",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0128",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0129",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0130",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0131",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0132",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0133",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0135",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0139",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0141",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0155",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0156",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0157",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0158",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0159",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0160",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0161",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0162",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0163",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0166",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0167",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0168",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0382",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0383",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0384",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0387",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0400",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0401",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0402",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0403",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0404",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0408",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0409",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0410",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0411",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0412",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0413",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0416",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0417",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0418",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0419",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0420",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0421",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0700",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0701",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0702",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0703",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0704",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0705",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0706",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0713",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0714",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0715",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0851",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0855",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0856",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0857",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0979",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0979A",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0979B",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1002",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1006",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1009",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1013",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "9999",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0001",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0002",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0003",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0004",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0005",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0006",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0007",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0008",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0009",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0010",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0011",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0012",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0013",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0014",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0015",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0016",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0017",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0023",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0028",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0037",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0040",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0044",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0100",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0100A",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0101",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0101B",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0101C",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0102",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0103",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0103A",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0106",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0107",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0109",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0110",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0124",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0125",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0133",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0137",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0139",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0144",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0150",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0151",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0156",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0167",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0171",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0174",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0175",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0191",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0192",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0193",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0194",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0200",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0210A",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0211A",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0219",
+   "page": 143,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0222",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0223",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0224",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0225",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0304",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0306",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0309",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0322",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0332",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0335",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0337",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0341",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0352",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0355",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0356",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0357",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0362",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0363",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0366",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0377",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0378",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0379",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0380",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0381",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0401",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0407",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0502",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0607",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0609",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0610",
+   "page": 144,
+   "why": "duplicate code"
+  },
+  {
+   "code": "0612",
+   "page": 145,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1013",
+   "page": 145,
+   "why": "duplicate code"
+  },
+  {
+   "code": "9999A",
+   "page": 145,
+   "why": "duplicate code"
+  }
+ ],
+ "verification": {
+  "checked": 3428,
+  "code_and_rate_found_in_pdf": 3428,
+  "pct": 100.0,
+  "not_found": []
+ }
+}

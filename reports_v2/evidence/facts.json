@@ -1,0 +1,675 @@
+{
+ "generated": "2026-10-09T14:42:49+00:00",
+ "git": {
+  "branch": "tn-completion",
+  "commit": "0c5964da465e1a3a22271e69a3cdde1d3c932ac2",
+  "uncommitted": [
+   "M \"Desktop/assignment/real estate/.gitignore\"",
+   " M \"Desktop/assignment/real estate/backend/tests/test_tn_corpus.py\"",
+   " M \"Desktop/assignment/real estate/data/evaluation/tn/scorecard.json\"",
+   " M \"Desktop/assignment/real estate/data/real_eval_results.json\"",
+   " D \"Desktop/assignment/real estate/data/tn_dataset/train/manifest.json\"",
+   " D \"Desktop/assignment/real estate/data/tn_dataset/unseen_test/manifest.json\"",
+   " D \"Desktop/assignment/real estate/data/tn_dataset/validation/manifest.json\"",
+   " M \"Desktop/assignment/real estate/data/tn_eval_results.json\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/DATASET_BUILD_REPORT.md\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/logs/fetch_decisions.jsonl\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/annotation_queue.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/dataset_build_summary.json\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/design_reuse.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/duplicates.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/file_inventory.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/license_review_queue.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/page_inventory.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/project_manifest.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/source_registry.csv\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/registry/split_audit.json\"",
+   " M \"Desktop/assignment/real estate/tn_corpus/scripts/build_corpus.py\"",
+   "?? \"Desktop/assignment/real estate/.claude/\"",
+   "?? \"Desktop/assignment/real estate/.venv/\"",
+   "?? \"Desktop/assignment/real estate/PROJECT_OVERVIEW.md\"",
+   "?? \"Desktop/assignment/real estate/data/accuracy_eval.log\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_ang.png\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_lab.png\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_real.png\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_t3.png\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_t4.png\"",
+   "?? \"Desktop/assignment/real estate/data/dbg_toilet.png\"",
+   "?? \"Desktop/assignment/real estate/data/dl_ang_1024.png\"",
+   "?? \"Desktop/assignment/real estate/data/dl_ang_1600.png\"",
+   "?? \"Desktop/assignment/real estate/data/dl_ang_2200.png\"",
+   "?? \"Desktop/assignment/real estate/data/estimate.db\"",
+   "?? \"Desktop/assignment/real estate/data/models/floorplan_unet.json\"",
+   "?? \"Desktop/assignment/real estate/data/models/floorplan_unet.onnx\"",
+   "?? \"Desktop/assignment/real estate/data/models/models_v3.joblib\"",
+   "?? \"Desktop/assignment/real estate/data/models/models_v4.joblib\"",
+   "?? \"Desktop/assignment/real estate/data/models/models_v5.joblib\"",
+   "?? \"Desktop/assignment/real estate/data/models/opening_det.onnx\"",
+   "?? \"Desktop/assignment/real estate/data/models/opening_det.pt\"",
+   "?? \"Desktop/assignment/real estate/data/planbox.png\"",
+   "?? \"Desktop/assignment/real estate/data/previews/\"",
+   "?? \"Desktop/assignment/real estate/data/real_3.Anganwadi-Model.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/real_9.PO-Model.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/real_GF-ARC.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/samples/\"",
+   "?? \"Desktop/assignment/real estate/data/t.png\"",
+   "?? \"Desktop/assignment/real estate/data/t3_layers.png\"",
+   "?? \"Desktop/assignment/real estate/data/t_env.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_10.LB-Model.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_15.vao_office.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_3.Anganwadi-Model.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_9.PO-Model.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_GF-ARC.pdf.png\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/development_benchmark/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/excluded/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/final_holdout/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/pseudo_labels/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/reference/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/smoke_test/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/tn_train/\"",
+   "?? \"Desktop/assignment/real estate/data/tn_dataset/tn_validation/\"",
+   "?? \"Desktop/assignment/real estate/data/uploads/\"",
+   "?? \"Desktop/assignment/real estate/data/views.png\"",
+   "?? \"Desktop/assignment/real estate/ml/evaluation/build_reports_v2.py\"",
+   "?? \"Desktop/assignment/real estate/reports_v2/\"",
+   "?? \"Desktop/assignment/real estate/requirements.txt\"",
+   "?? \"Desktop/assignment/real estate/start.bat\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/logs/build_run_v2.txt\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_AIIMS_MADURAI_JICA_REPORT.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_CHENNAI_APARTMENT_PLAN_CMDA.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_CUTN_BUILDING_COMMITTEE_HOSTELS.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_CUTN_PMC_EOI_ACADEMIC_HOSTELS.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_GHTC_CHENNAI_COMPENDIUM.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_GHTC_CHENNAI_PROJECT_BRIEF.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_IITM_2000_BED_HOSTEL_TENDER_DOC.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_JICA_CHILDRENS_HOSPITAL_CHENNAI.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_JICA_KILPAUK_MEDICAL_COLLEGE_HOSPITAL.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_JICA_MAHARAJ_HOSPITAL_SITEPLAN.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_JICA_TN_URBAN_HEALTH_CH1.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_KAUVERY_HOSPITAL_WATER_SUPPLY_LAYOUT.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_MOHUA_TN_HOUSING_PRESENTATION_2.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_MOHUA_TN_HOUSING_TYPE_DESIGNS.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_NAGALAND_MEDICAL_COLLEGE_JICA.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_SIP_COT_HOSTELS_QUERY.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_SIP_COT_HOSTELS_RFP.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_TNCDBR_2019_ALT.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_TN_BUILDING_RULES.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/raw_candidates/v2_TN_PWD_APPROVED_HIGHRISE_PLAN.json\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/registry/_export/\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/registry/catalog_v2_acquisition.csv\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/registry/zip_v2_derivatives.csv\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/rejected/\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/scripts/fetch_catalog_v2.py\"",
+   "?? \"Desktop/assignment/real estate/tn_corpus/sources/\"",
+   "?? \"Desktop/assignment/real estate/tools/\"",
+   "?? \"Desktop/assignment/real estate/weights/\"",
+   "?? \"Desktop/assignment/real estate/yolov8s.pt\""
+  ]
+ },
+ "python": "3.12.10",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "corpus": {
+  "sources_in_registry": 31,
+  "tnrd_catalogue_links": 54,
+  "tnrd_catalogue_unique_urls": 54,
+  "documents_downloaded_this_build": 68,
+  "unique_downloaded_files": 67,
+  "bytes_downloaded": 169249511,
+  "supplied_files": 3,
+  "local_seed_files": 50,
+  "unique_files_total": 69,
+  "bytes_unique_total": 164948520,
+  "identical_file_duplicates": 52,
+  "pages_extracted": 2404,
+  "drawing_pages": 745,
+  "near_duplicate_page_pairs": 72,
+  "cross_project_design_reuse_pairs": 2,
+  "projects": 50,
+  "projects_with_drawings": 47,
+  "corrupted_files": 1,
+  "blocked_or_failed": 8,
+  "pii_suspected_pages": 2,
+  "pseudo_labelled_pages": 560,
+  "pseudo_labels": 3647,
+  "annotation_queue_pages": 724,
+  "verified_annotations": 0,
+  "approved_for_training": 0,
+  "approved_for_evaluation": 0,
+  "review_required": 47,
+  "rejected": 2,
+  "approved_boq_projects": 0
+ },
+ "drawing_types": {
+  "unrelated_text": 1208,
+  "architectural_floor_plan": 465,
+  "boq_specification": 237,
+  "blank_unknown": 214,
+  "section": 33,
+  "foundation": 80,
+  "slab_plan": 37,
+  "elevation": 25,
+  "services_mep": 77,
+  "reinforcement_bbs": 11,
+  "beam_schedule": 3,
+  "site_plan": 14
+ },
+ "usage_states": {
+  "REVIEW_REQUIRED": 47,
+  "RESTRICTED_PERSONAL_DATA": 1,
+  "REJECTED": 2
+ },
+ "project_nature": {
+  "survey report with campus master plans": 1,
+  "report containing plans of a real project": 1,
+  "survey report (few drawings)": 1,
+  "independent_real_project": 6,
+  "programme report": 1,
+  "context document (no working drawings)": 2,
+  "compliance report - personal data, not extracted": 1,
+  "tender/RFP text (drawings split into 5 projects)": 1,
+  "building rules (illustrative diagrams only)": 1,
+  "corrupt download (721 bytes)": 1,
+  "registry listing (no drawings)": 1,
+  "pre-bid clarifications (no drawings)": 1,
+  "standard type design (generic, no site)": 30,
+  "handbook (reference document)": 1,
+  "out-of-scope handbook (roads & bridges)": 1
+ },
+ "v2_catalogue": {
+  "entries": 110,
+  "auto_download_rows": 74,
+  "attempted": 20,
+  "outcomes": {
+   "RAW_CANDIDATE": 12,
+   "BLOCKED_BY_SOURCE_RULES": 5,
+   "DUPLICATE_URL": 1,
+   "REJECTED_NON_TN": 2
+  }
+ },
+ "zip_derivatives": {
+  "assets": 68,
+  "checks": {
+   "printed page number found in asset text": 34,
+   "not checkable (raster)": 34
+  }
+ },
+ "corpus_storage_bytes": 1126492467,
+ "repo_files": 671,
+ "repo_categories": {
+  "other": 50,
+  "report": 28,
+  "source": 89,
+  "test": 10,
+  "config": 3,
+  "evaluation": 115,
+  "scratch": 21,
+  "runtime": 3,
+  "model": 13,
+  "bulk": 10,
+  "dataset": 276,
+  "tool": 63
+ },
+ "scratch_items": 172,
+ "scratch_copied": [
+  {
+   "original": "ACCURACY_REPORT.md",
+   "copy": "reports_v2/scratch_archive/ACCURACY_REPORT.md",
+   "bytes": 8482,
+   "sha256": "f62313c555a86be180d465e6fded889383f2ca48d88642e8a49db1b033e30531"
+  },
+  {
+   "original": "TN_ESTIMATOR_FINAL_REPORT.md",
+   "copy": "reports_v2/scratch_archive/TN_ESTIMATOR_FINAL_REPORT.md",
+   "bytes": 11963,
+   "sha256": "5f00ada39cb35f32403ed840f578969e4bc54a925cfe009043d5effb610e0d90"
+  },
+  {
+   "original": "data/accuracy_eval.log",
+   "copy": "reports_v2/scratch_archive/data__accuracy_eval.log",
+   "bytes": 4505,
+   "sha256": "8ff95e09aaf7824121225eb3e0ffebed970a36529324e949238afa7f0d642c4b"
+  },
+  {
+   "original": "ml/metrics/train.log",
+   "copy": "reports_v2/scratch_archive/ml__metrics__train.log",
+   "bytes": 6933,
+   "sha256": "f31a2c1163b41a4ed34c4e737e7918c21e1e88c4892dd0299eb194e9ebe58036"
+  },
+  {
+   "original": "ml/metrics/history.json",
+   "copy": "reports_v2/scratch_archive/ml__metrics__history.json",
+   "bytes": 3549,
+   "sha256": "84cc82f246cc469d18e09ff2dd6f74f8acacdefc7e91f6daf651d7f01a8e5fb2"
+  },
+  {
+   "original": "reports/tn_completion/FINAL_COMPLETION_REPORT.md",
+   "copy": "reports_v2/scratch_archive/reports__tn_completion__FINAL_COMPLETION_REPORT.md",
+   "bytes": 6178,
+   "sha256": "d6ed945486d06013af0ca0b76b497074e0c65817b2a5e3ab8b52ab205a715407"
+  },
+  {
+   "original": "reports/tn_completion/task_ledger.json",
+   "copy": "reports_v2/scratch_archive/reports__tn_completion__task_ledger.json",
+   "bytes": 8590,
+   "sha256": "a7465908910306240807fc4b9297d06395eba31167b145793011bd9b676067db"
+  },
+  {
+   "original": "reports/tn_completion/final_eval_run.log",
+   "copy": "reports_v2/scratch_archive/reports__tn_completion__final_eval_run.log",
+   "bytes": 17781,
+   "sha256": "a5548452ba465c433219950482edceb20aa9653febd950ec91403c66708d9c65"
+  },
+  {
+   "original": "data/models/opening_det.metrics.json",
+   "copy": "reports_v2/scratch_archive/data__models__opening_det.metrics.json",
+   "bytes": 934,
+   "sha256": "6276cf8dcb8828bbe978277549526632bc70bbb92ea9b75475efa208557073af"
+  },
+  {
+   "original": "data/models/opening_det.resolution_eval.json",
+   "copy": "reports_v2/scratch_archive/data__models__opening_det.resolution_eval.json",
+   "bytes": 652,
+   "sha256": "e50e6f921ee91fc7ccc1f04c377ba448ded8ee6f49c1ef600652130e55e2a94d"
+  },
+  {
+   "original": "tn_corpus/DATASET_BUILD_REPORT.md",
+   "copy": "reports_v2/scratch_archive/tn_corpus__DATASET_BUILD_REPORT.md",
+   "bytes": 10268,
+   "sha256": "6d67c600427a9cb9ce7b3ef3ecf06b1a310ec45e839d2682ff0066c6fd1ed1d7"
+  }
+ ],
+ "possible_secrets": [],
+ "tests": {
+  "tests": 95,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "time_s": 26.079,
+  "timestamp": "2026-10-09T20:11:45.386626+05:30",
+  "by_file": {
+   "backend.tests.test_audit": 8,
+   "backend.tests.test_boq": 5,
+   "backend.tests.test_dataset_annotation": 7,
+   "backend.tests.test_learning": 2,
+   "backend.tests.test_legacy_migration": 1,
+   "backend.tests.test_pipeline_quality": 18,
+   "backend.tests.test_quantities_structural": 16,
+   "backend.tests.test_tn": 29,
+   "backend.tests.test_tn_corpus": 9
+  }
+ },
+ "tn_dataset_splits": {
+  "seed": "tn-v2",
+  "ratios": [
+   0.7,
+   0.15,
+   0.15
+  ],
+  "created": "2026-10-09T16:00:37",
+  "counts": {
+   "tn_train": 0,
+   "tn_validation": 0,
+   "final_holdout": 0,
+   "development_benchmark": 41,
+   "smoke_test": 4,
+   "reference": 1,
+   "excluded": 0
+  }
+ },
+ "scorecard_final": "FAIL",
+ "scorecard_gates": {
+  "G01": {
+   "name": "Room & area extraction",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G02": {
+   "name": "Door detection",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G03": {
+   "name": "Window detection",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G04": {
+   "name": "Wall quantities",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G05": {
+   "name": "Structural quantities",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G06": {
+   "name": "Other construction quantities",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G07": {
+   "name": "Drawing classification",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G08": {
+   "name": "Floor & unit identification",
+   "status": "NOT MEASURED",
+   "value": null
+  },
+  "G09": {
+   "name": "PWD item mapping",
+   "status": "NOT VALIDATED",
+   "value": null
+  },
+  "G10": {
+   "name": "Rate coverage",
+   "status": "FAIL",
+   "value": 58.8
+  },
+  "G11": {
+   "name": "Quantity agreement vs approved BOQs",
+   "status": "NOT VALIDATED",
+   "value": null
+  },
+  "G12": {
+   "name": "Item-cost accuracy",
+   "status": "NOT VALIDATED",
+   "value": null
+  },
+  "G13": {
+   "name": "Total project-cost accuracy",
+   "status": "NOT VALIDATED",
+   "value": null
+  },
+  "G14": {
+   "name": "Estimate completeness",
+   "status": "NOT VALIDATED",
+   "value": null
+  },
+  "G15": {
+   "name": "Confidence calibration",
+   "status": "NOT MEASURED",
+   "value": null
+  }
+ },
+ "coverage": [
+  {
+   "category": "Multi-storey apartments",
+   "source_leads": 18,
+   "direct_documents_listed": 7,
+   "downloaded_unique_files": 0,
+   "projects_or_documents": 0,
+   "independent_real_projects": 0,
+   "drawing_sheets": 0,
+   "architectural_plan_pages": 0,
+   "structural_pages": 0,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": []
+  },
+  {
+   "category": "Hospitals",
+   "source_leads": 15,
+   "direct_documents_listed": 7,
+   "downloaded_unique_files": 6,
+   "projects_or_documents": 5,
+   "independent_real_projects": 0,
+   "drawing_sheets": 417,
+   "architectural_plan_pages": 337,
+   "structural_pages": 10,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "file:1000045200_01.pdf",
+    "file:12144929.pdf",
+    "file:12248522.pdf",
+    "file:Completion-Report.pdf",
+    "file:KRR_final_draft_CCR_2024_final_11zon__2___2_.pdf"
+   ]
+  },
+  {
+   "category": "Medical colleges",
+   "source_leads": 8,
+   "direct_documents_listed": 5,
+   "downloaded_unique_files": 3,
+   "projects_or_documents": 2,
+   "independent_real_projects": 0,
+   "drawing_sheets": 315,
+   "architectural_plan_pages": 273,
+   "structural_pages": 5,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "file:1000045200_01.pdf",
+    "file:12248522.pdf"
+   ]
+  },
+  {
+   "category": "Universities",
+   "source_leads": 12,
+   "direct_documents_listed": 3,
+   "downloaded_unique_files": 2,
+   "projects_or_documents": 2,
+   "independent_real_projects": 0,
+   "drawing_sheets": 45,
+   "architectural_plan_pages": 36,
+   "structural_pages": 2,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "file:EOI_for-appointment-of-a-public-sector-undertaking-Government-organization-as-Project-Management-Consultant_13112025.pdf",
+    "file:Minutes-22nd-Building-Committee-of-CUTN_10052024.pdf"
+   ]
+  },
+  {
+   "category": "Colleges",
+   "source_leads": 3,
+   "direct_documents_listed": 0,
+   "downloaded_unique_files": 0,
+   "projects_or_documents": 0,
+   "independent_real_projects": 0,
+   "drawing_sheets": 0,
+   "architectural_plan_pages": 0,
+   "structural_pages": 0,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": []
+  },
+  {
+   "category": "Commercial buildings",
+   "source_leads": 8,
+   "direct_documents_listed": 2,
+   "downloaded_unique_files": 3,
+   "projects_or_documents": 3,
+   "independent_real_projects": 1,
+   "drawing_sheets": 4,
+   "architectural_plan_pages": 0,
+   "structural_pages": 4,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "file:ApprovedPlan.pdf",
+    "tnrd:cement_godown",
+    "tnrd:public_distribution_shop_sloped_roof"
+   ]
+  },
+  {
+   "category": "Hostels",
+   "source_leads": 19,
+   "direct_documents_listed": 6,
+   "downloaded_unique_files": 5,
+   "projects_or_documents": 10,
+   "independent_real_projects": 5,
+   "drawing_sheets": 72,
+   "architectural_plan_pages": 51,
+   "structural_pages": 2,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "file:EOI_for-appointment-of-a-public-sector-undertaking-Government-organization-as-Project-Management-Consultant_13112025.pdf",
+    "file:Minutes-22nd-Building-Committee-of-CUTN_10052024.pdf",
+    "file:SIPCOT-RFP-for-hostels-operation-and-maintanence.pdf",
+    "file:Tendeedoc.pdf",
+    "file:hostels-pre-bid-queries.pdf",
+    "sipcot:men_hostel_sriperumbudur",
+    "sipcot:men_hostel_tiruppur",
+    "sipcot:women_hostel_irungattukottai",
+    "sipcot:women_hostel_sriperumbudur",
+    "sipcot:women_hostel_tiruppur"
+   ]
+  },
+  {
+   "category": "Schools",
+   "source_leads": 25,
+   "direct_documents_listed": 10,
+   "downloaded_unique_files": 9,
+   "projects_or_documents": 9,
+   "independent_real_projects": 0,
+   "drawing_sheets": 9,
+   "architectural_plan_pages": 4,
+   "structural_pages": 5,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "tnrd:anganwadi_building",
+    "tnrd:elementary_and_middle_school_building",
+    "tnrd:kitchen_shed_elementary_school",
+    "tnrd:newly_approved_type_design_for_school_building_i",
+    "tnrd:newly_approved_type_design_for_school_building_ii",
+    "tnrd:newly_approved_type_design_for_school_building_iii",
+    "tnrd:newly_approved_type_design_for_school_building_iv",
+    "tnrd:school_toilet_boys",
+    "tnrd:school_toilet_girls"
+   ]
+  },
+  {
+   "category": "Government offices",
+   "source_leads": 11,
+   "direct_documents_listed": 6,
+   "downloaded_unique_files": 25,
+   "projects_or_documents": 4,
+   "independent_real_projects": 0,
+   "drawing_sheets": 25,
+   "architectural_plan_pages": 10,
+   "structural_pages": 9,
+   "schedule_pages": 1,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "tnrd:assistant_executive_engineer_rd_office",
+    "tnrd:multisheet_office_package",
+    "tnrd:panchayat_office_building",
+    "tnrd:village_administrative_office"
+   ]
+  },
+  {
+   "category": "Residential houses",
+   "source_leads": 11,
+   "direct_documents_listed": 3,
+   "downloaded_unique_files": 2,
+   "projects_or_documents": 2,
+   "independent_real_projects": 0,
+   "drawing_sheets": 2,
+   "architectural_plan_pages": 0,
+   "structural_pages": 2,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "tnrd:green_house",
+    "tnrd:iay_housing"
+   ]
+  },
+  {
+   "category": "Public/institutional buildings",
+   "source_leads": 36,
+   "direct_documents_listed": 16,
+   "downloaded_unique_files": 36,
+   "projects_or_documents": 14,
+   "independent_real_projects": 0,
+   "drawing_sheets": 36,
+   "architectural_plan_pages": 9,
+   "structural_pages": 20,
+   "schedule_pages": 1,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": [
+    "tnrd:community_hall_type_i",
+    "tnrd:community_hall_type_ii",
+    "tnrd:community_hall_type_iii_1",
+    "tnrd:community_hall_type_iii_2",
+    "tnrd:cremation_shed",
+    "tnrd:ihhl_septic_tank_with_soak_pit",
+    "tnrd:integrated_men_sanitary_complex",
+    "tnrd:milk_producer_s_co_operative_building",
+    "tnrd:multisheet_office_package",
+    "tnrd:passenger_shelter",
+    "tnrd:rural_library_building",
+    "tnrd:self_help_group_building",
+    "tnrd:septic_tank",
+    "tnrd:thrashing_floor"
+   ]
+  },
+  {
+   "category": "Structural drawing packages",
+   "source_leads": 2,
+   "direct_documents_listed": 0,
+   "downloaded_unique_files": 0,
+   "projects_or_documents": 0,
+   "independent_real_projects": 0,
+   "drawing_sheets": 0,
+   "architectural_plan_pages": 0,
+   "structural_pages": 0,
+   "schedule_pages": 0,
+   "projects_with_boq": 0,
+   "permission_confirmed": 0,
+   "training_eligible": 0,
+   "final_evaluation_eligible": 0,
+   "verified_annotations": 0,
+   "project_keys": []
+  }
+ ]
+}

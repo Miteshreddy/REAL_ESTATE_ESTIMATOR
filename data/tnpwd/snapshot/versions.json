@@ -1,0 +1,14 @@
+[
+ {
+  "schedule_id": "tn-pwd-sor-2025-26-amd-2025-08-08",
+  "base_sha256": "0cee169bde79524e6cc34a76266dc5b5a408691c62c4fd69d7a8857eefb49e90",
+  "amendment_sha256": "a8f61cb39f738ca73968938b05a303b7f892a0aecf2fc1bb90a9530f9a16c17f",
+  "standard_data_sha256": "77e44e1c473c517394cfb34fb80d89546d4c00cff2155f852162aee59fa5dca7",
+  "edition": "2025-26",
+  "effective_from": "2025-08-08",
+  "effective_to": null,
+  "status": "active",
+  "activated_at": "2026-10-09T00:08:37",
+  "diff_summary": "{\"active\": \"tn-pwd-sor-2025-26-amd-2025-08-08\", \"added\": 0, \"removed\": 0, \"rate_changed\": 0, \"renamed\": 28}"
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "project_id": "tn-4ebb4595ea",
+ "project_name": "gf",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "GF Roof.pdf",
+  "GF-ARC.pdf"
+ ],
+ "page_count": 2,
+ "pages": [
+  "53874ca418cabe97-p1",
+  "72859f4d74f2397a-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:34",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

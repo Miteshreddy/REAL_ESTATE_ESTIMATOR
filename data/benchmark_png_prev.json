@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "png": {
+   "sets": 10,
+   "failed": 0,
+   "mean_cost_err_pct": 0.72,
+   "p90_cost_err_pct": 1.1,
+   "sets_within_5pct": 100.0,
+   "sets_within_3pct": 100.0,
+   "items_within_5pct": 95.5,
+   "items_within_10pct": 98.8,
+   "room_detection_rate": 100.0
+  }
+ },
+ "runs": [
+  {
+   "seed": 70000,
+   "fmt": "png",
+   "total": 3105348.12,
+   "total_gt": 3112170.88,
+   "cost_err": 0.002192283220643648,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.0034921939194741515,
+   "rooms_found": 7,
+   "rooms_true": 7,
+   "worst": [
+    [
+     "mas_115",
+     0.024831500532103683
+    ],
+    [
+     "door_shutter",
+     0.020089285714285816
+    ],
+    [
+     "paint_enamel",
+     0.015258215962441406
+    ]
+   ],
+   "sec": 1.3
+  },
+  {
+   "seed": 70007,
+   "fmt": "png",
+   "total": 4329593.88,
+   "total_gt": 4348863.29,
+   "cost_err": 0.004430907277381936,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.005474452554744571,
+   "rooms_found": 10,
+   "rooms_true": 10,
+   "worst": [
+    [
+     "mas_115",
+     0.028835725677831006
+    ],
+    [
+     "floor_antiskid",
+     0.01899196493791087
+    ],
+    [
+     "wp_wet",
+     0.01852779168753117
+    ]
+   ],
+   "sec": 0.8
+  },
+  {
+   "seed": 70014,
+   "fmt": "png",
+   "total": 3317956.68,
+   "total_gt": 3350926.96,
+   "cost_err": 0.009839152089426562,
+   "items_within_5": 0.9019607843137255,
+   "items_within_10": 0.9411764705882353,
+   "median_item_err": 0.007158251231526928,
+   "rooms_found": 5,
+   "rooms_true": 5,
+   "worst": [
+    [
+     "door_shutter",
+     0.20393374741200826
+    ],
+    [
+     "door_frame",
+     0.20078125000000002
+    ],
+    [
+     "paint_enamel",
+     0.12591776798825258
+    ]
+   ],
+   "sec": 0.8
+  },
+  {
+   "seed": 70021,
+   "fmt": "png",
+   "total": 3026528.03,
+   "total_gt": 3039304.97,
+   "cost_err": 0.00420390192037899,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.005357957136342896,
+   "rooms_found": 8,
+   "rooms_true": 8,
+   "worst": [
+    [
+     "mas_115",
+     0.029783473265576708
+    ],
+    [
+     "mas_plinth",
+     0.016317016317016247
+    ],
+    [
+     "steel_beam",
+     0.016217162339045955
+    ]
+   ],
+   "sec": 0.6
+  },
+  {
+   "seed": 70028,
+   "fmt": "png",
+   "total": 3545402.24,
+   "total_gt": 3575478.98,
+   "cost_err": 0.008411947089673496,
+   "items_within_5": 0.9019607843137255,
+   "items_within_10": 0.9411764705882353,
+   "median_item_err": 0.0027844073190135357,
+   "rooms_found": 6,
+   "rooms_true": 6,
+   "worst": [
+    [
+     "door_shutter",
+     0.17835497835497838
+    ],
+    [
+     "door_frame",
+     0.16872964169381108
+    ],
+    [
+     "paint_enamel",
+     0.11504142766093052
+    ]
+   ],
+   "sec": 0.7
+  },
+  {
+   "seed": 70035,
+   "fmt": "png",
+   "total": 2998442.84,
+   "total_gt": 3065644.85,
+   "cost_err": 0.021921003015075356,
+   "items_within_5": 0.8627450980392157,
+   "items_within_10": 1.0,
+   "median_item_err": 0.012640449438202228,
+   "rooms_found": 5,
+   "rooms_true": 5,
+   "worst": [
+    [
+     "rcc_footing",
+     0.09156193895870748
+    ],
+    [
+     "rcc_column",
+     0.09129511677282372
+    ],
+    [
+     "fw_col",
+     0.09092319627618307
+    ]
+   ],
+   "sec": 0.6
+  },
+  {
+   "seed": 70042,
+   "fmt": "png",
+   "total": 3541899.63,
+   "total_gt": 3572487.58,
+   "cost_err": 0.008562087149369511,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.0022790797677918776,
+   "rooms_found": 8,
+   "rooms_true": 8,
+   "worst": [
+    [
+     "mas_115",
+     0.031140521603736756
+    ],
+    [
+     "floor_antiskid",
+     0.020901068276823167
+    ],
+    [
+     "wp_wet",
+     0.01998644986449864
+    ]
+   ],
+   "sec": 0.9
+  },
+  {
+   "seed": 70049,
+   "fmt": "png",
+   "total": 4610410.4,
+   "total_gt": 4591741.04,
+   "cost_err": 0.004065856466504987,
+   "items_within_5": 0.8823529411764706,
+   "items_within_10": 1.0,
+   "median_item_err": 0.010675566426898351,
+   "rooms_found": 8,
+   "rooms_true": 8,
+   "worst": [
+    [
+     "rcc_column",
+     0.06286549707602335
+    ],
+    [
+     "fw_col",
+     0.06251333475570728
+    ],
+    [
+     "steel_column",
+     0.06250739652927952
+    ]
+   ],
+   "sec": 0.8
+  },
+  {
+   "seed": 70056,
+   "fmt": "png",
+   "total": 2877360.56,
+   "total_gt": 2882097.56,
+   "cost_err": 0.001643594604757238,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.003137747097583905,
+   "rooms_found": 5,
+   "rooms_true": 5,
+   "worst": [
+    [
+     "mas_115",
+     0.02070417592700896
+    ],
+    [
+     "wp_wet",
+     0.01575456053068004
+    ],
+    [
+     "floor_antiskid",
+     0.015222482435597075
+    ]
+   ],
+   "sec": 0.8
+  },
+  {
+   "seed": 70063,
+   "fmt": "png",
+   "total": 3323168.33,
+   "total_gt": 3345334.68,
+   "cost_err": 0.006626048548302525,
+   "items_within_5": 1.0,
+   "items_within_10": 1.0,
+   "median_item_err": 0.0038300835654595904,
+   "rooms_found": 8,
+   "rooms_true": 8,
+   "worst": [
+    [
+     "mas_115",
+     0.030883311603650522
+    ],
+    [
+     "mas_plinth",
+     0.017844396859386154
+    ],
+    [
+     "steel_beam",
+     0.017737537579528694
+    ]
+   ],
+   "sec": 0.7
+  }
+ ]
+}

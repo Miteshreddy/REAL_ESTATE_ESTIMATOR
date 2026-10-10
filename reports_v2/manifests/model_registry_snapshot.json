@@ -1,0 +1,163 @@
+{
+ "snapshot_at": "2026-10-09T14:42:49+00:00",
+ "registry": {
+  "_about": "Production model registry. ml/training/register_model.py refuses to replace a model whose test score is higher than the candidate's.",
+  "models": [
+   {
+    "model_name": "floorplan_unet",
+    "file": "floorplan_unet.onnx",
+    "version": "1.0",
+    "training_dataset_version": "CubiCasa5K (4,199 plans) + sheet-clutter augmentation",
+    "training_date": "2026-10 (earlier session)",
+    "validation_score": {
+     "miou_fg": 0.741
+    },
+    "test_score": {
+     "miou_fg": 0.74,
+     "door_f1": 0.867,
+     "window_f1": 0.822,
+     "room_f1": 0.772
+    },
+    "supported_document_types": [
+     "raster plan",
+     "rasterised vector PDF"
+    ],
+    "supported_TN_domain": "NOT TN fine-tuned. Trained on Finnish CubiCasa5K plans; on rendered TN marketing plans (Aparna) it detects no openings.",
+    "notes": "TN fine-tuning blocked: no annotated Tamil Nadu drawings (walls / doors / windows masks) are available."
+   },
+   {
+    "model_name": "room_label / room_geom classifiers",
+    "file": "models_v5.joblib",
+    "version": "5",
+    "training_dataset_version": "synthetic generator + label vocabulary",
+    "test_score": null,
+    "supported_TN_domain": "room names in English as used on TN drawings; OCR-typo normalisation in backend/rooms.py",
+    "notes": "no TN-specific retraining"
+   },
+   {
+    "model_name": "opening_det",
+    "file": "opening_det.onnx",
+    "version": "1.0",
+    "training_dataset_version": "CubiCasa5K official split \u2192 YOLO boxes (4,200 / 400 / 400 plans) \u2014 generic pretraining, NOT Tamil Nadu",
+    "training_date": "2026-10-09",
+    "training_commit": "89222ca",
+    "classes": [
+     "door",
+     "window"
+    ],
+    "train_metrics": {
+     "map50": 0.925697971389416,
+     "map50_95": 0.5906418514260616,
+     "door": {
+      "precision": 0.8812,
+      "recall": 0.8843,
+      "f1": 0.8828,
+      "ap50": 0.9088
+     },
+     "window": {
+      "precision": 0.9204,
+      "recall": 0.9158,
+      "f1": 0.9181,
+      "ap50": 0.9426
+     }
+    },
+    "validation_metrics": {
+     "map50": 0.9016501814536669,
+     "map50_95": 0.5613663635479466,
+     "door": {
+      "precision": 0.8692,
+      "recall": 0.8611,
+      "f1": 0.8652,
+      "ap50": 0.8827
+     },
+     "window": {
+      "precision": 0.9021,
+      "recall": 0.8946,
+      "f1": 0.8984,
+      "ap50": 0.9206
+     }
+    },
+    "test_score": {
+     "door_f1": 0.8688,
+     "window_f1": 0.8807,
+     "map50": 0.8976
+    },
+    "unseen_tn_metrics": "NOT MEASURED \u2014 no TN door/window annotations exist",
+    "checkpoint": "data/models/opening_det.pt",
+    "supported_document_types": [
+     "raster plan",
+     "rendered brochure plan",
+     "rasterised PDF"
+    ],
+    "notes": "YOLOv8s 1024px, 40 epochs, seed 0. Fused in the app as the third opening source. Synthetic PNG A/B: no change (U-Net already complete). Aparna spot check: 16 \u2192 136 openings, visually mostly correct with casement-window/door type confusion; not a scored metric."
+   }
+  ]
+ },
+ "artifacts": [
+  {
+   "path": "data/models/floorplan_unet.json",
+   "bytes": 4560,
+   "sha256": "c1ee8c3edfbf3063449e6de47775292a6a7edb3d7ae8cb22d6c7a0e151a73c42"
+  },
+  {
+   "path": "data/models/floorplan_unet.onnx",
+   "bytes": 97721549,
+   "sha256": "8e2ab36269469fa8f40302a6546e463515731ea8f85601c05f4ded0d539fdb9d"
+  },
+  {
+   "path": "data/models/models_v3.joblib",
+   "bytes": 5069796,
+   "sha256": "01df24c29b70cd64462cf5e9714d4aa8103a48964f73f66dbf07c08e50986493"
+  },
+  {
+   "path": "data/models/models_v4.joblib",
+   "bytes": 2733156,
+   "sha256": "cebb9dd202b272f30edd8a3e498c121da4120c69866e27fd6b83a95ac1d4eeb2"
+  },
+  {
+   "path": "data/models/models_v5.joblib",
+   "bytes": 1983707,
+   "sha256": "56d4ec224d32de18bfe9402cca4d7d7cdface6fcdf754ed12ab47cdd3e2cfc9f"
+  },
+  {
+   "path": "data/models/opening_det.metrics.json",
+   "bytes": 934,
+   "sha256": "6276cf8dcb8828bbe978277549526632bc70bbb92ea9b75475efa208557073af"
+  },
+  {
+   "path": "data/models/opening_det.onnx",
+   "bytes": 44983027,
+   "sha256": "93dfbcd9f5d271def1f6a21c25d1d7af90aaf6808f7f8e80f0885253d9716fed"
+  },
+  {
+   "path": "data/models/opening_det.pt",
+   "bytes": 22532707,
+   "sha256": "fe851540a705934259504f58da87672fae7fce5e61e823d8282a0400ae36e7d8"
+  },
+  {
+   "path": "data/models/opening_det.resolution_eval.json",
+   "bytes": 652,
+   "sha256": "e50e6f921ee91fc7ccc1f04c377ba448ded8ee6f49c1ef600652130e55e2a94d"
+  },
+  {
+   "path": "data/models/registry.json",
+   "bytes": 2981,
+   "sha256": "a96b6c0bee5a91d7b5260eb1c3c88cf28814622eede3c734e7959b40db9e10f3"
+  },
+  {
+   "path": "ml/weights/floorplan_unet_r34.pt",
+   "bytes": 97880632,
+   "sha256": "65eb89bdb127de3e9a491a9f8d9ec1bd7244ca71fa92c803d50e4d83fd2bab0e"
+  },
+  {
+   "path": "yolov8s.pt",
+   "bytes": 22588772,
+   "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a"
+  },
+  {
+   "path": "weights/yolo26n.pt",
+   "bytes": 5544453,
+   "sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef"
+  }
+ ]
+}

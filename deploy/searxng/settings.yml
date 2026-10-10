@@ -1,0 +1,16 @@
+# SearXNG inside the PWD Estimator container: listens on 127.0.0.1 only (not exposed), JSON output for the app.
+# secret_key is replaced at start-up from SEARXNG_SECRET (deploy/start.sh).
+use_default_settings: true
+general:
+  instance_name: "PWD Estimator search"
+server:
+  bind_address: "127.0.0.1"
+  port: 8888
+  secret_key: "__SEARXNG_SECRET__"
+  limiter: false
+  image_proxy: false
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json

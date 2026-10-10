@@ -1,0 +1,33 @@
+{
+ "project_id": "tn-22d4880e00",
+ "project_name": "portico-roof-beam",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Portico-Roof Beam 1.pdf",
+  "Portico-Roof beam 2.pdf"
+ ],
+ "page_count": 2,
+ "pages": [
+  "a7e156db998e8dae-p1",
+  "b7866fc8591a1c58-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:35",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

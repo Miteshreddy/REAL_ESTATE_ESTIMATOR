@@ -1,1 +1,45 @@
-# REAL_ESTATE_ESTIMATOR
+# PWD Estimator
+
+Drawing-based construction cost estimator for Tamil Nadu public works. Upload floor plans (PDF, DWG/DXF, scans or
+images): the app reads the drawings, measures rooms, walls, doors and windows, takes off quantities, prices them with
+the Tamil Nadu PWD Schedule of Rates 2025-26, and produces an itemised estimate with PDF and Excel reports.
+
+## What runs where
+
+| Part | Technology |
+|---|---|
+| App | FastAPI (Python 3.12), SQLite, vanilla JavaScript UI |
+| Drawing reading | PyMuPDF, ezdxf, OpenCV, RapidOCR |
+| Vision models (ONNX Runtime) | U-Net (ResNet-34) segmentation; YOLOv8m / YOLOv8s door-window detector |
+| Classical ML / NLP | scikit-learn: room geometry, room labels, PWD item matching |
+| Rates | TN PWD SOR 2025-26 + Standard Data (bundled snapshot); editable estimated rates where PWD has none |
+| Assistant (optional) | Meta Llama 3.2 3B via llama.cpp, in-process: plain-language estimate summaries (numbers checked) |
+| Market check | curated public price pages + self-hosted SearXNG search; indicative ranges only, never PWD rates |
+
+The estimate itself is always computed by the deterministic engine; the language model only explains it.
+
+## Run locally (Windows)
+
+```
+start.bat
+```
+or `python -m pip install -r requirements.txt` then `python -m uvicorn app:app --app-dir backend --port 8000`.
+
+Optional, in a git-ignored `.env`: `SEARXNG_URL`, `LLM_BACKEND` (`llamacpp` / `ollama` / `none`), `LLM_MODEL_PATH`,
+`OLLAMA_URL`, `OLLAMA_MODEL`.
+
+Tests: `python -m pip install -r requirements-dev.txt` then `python -m pytest backend/tests -q`.
+
+## Deploy on Render
+
+The repository contains `render.yaml` (Blueprint) and a `Dockerfile` that runs the app, the Llama model and SearXNG in
+one service. In Render: **New → Blueprint → this repository**. A 4 GB plan is needed with the language model on; set
+`LLM_BACKEND=none` for smaller plans. Project data lives on the attached disk (`/var/data`).
+
+Large files are stored with **Git LFS** (`*.gguf`, the YOLOv8m model). If a host clones LFS pointers only, the app falls
+back to YOLOv8s and downloads the Llama file once with checksum verification (`deploy/ensure_model.py`).
+
+## Licences
+
+Built with Llama — Llama 3.2 is licensed under the Llama 3.2 Community License (`data/models/llm/LICENSE`).
+LibreDWG converter (`tools/libredwg`, Windows only) is GPL-3. SearXNG is AGPL-3.0 (installed at build time, unmodified).

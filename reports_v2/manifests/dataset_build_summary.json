@@ -1,0 +1,1057 @@
+{
+ "created": "2026-10-09T14:41:33+00:00",
+ "headline": {
+  "sources_in_registry": 31,
+  "tnrd_catalogue_links": 54,
+  "tnrd_catalogue_unique_urls": 54,
+  "documents_downloaded_this_build": 68,
+  "unique_downloaded_files": 67,
+  "bytes_downloaded": 169249511,
+  "supplied_files": 3,
+  "local_seed_files": 50,
+  "unique_files_total": 69,
+  "bytes_unique_total": 164948520,
+  "identical_file_duplicates": 52,
+  "pages_extracted": 2404,
+  "drawing_pages": 745,
+  "near_duplicate_page_pairs": 72,
+  "cross_project_design_reuse_pairs": 2,
+  "projects": 50,
+  "projects_with_drawings": 47,
+  "corrupted_files": 1,
+  "blocked_or_failed": 8,
+  "pii_suspected_pages": 2,
+  "pseudo_labelled_pages": 560,
+  "pseudo_labels": 3647,
+  "annotation_queue_pages": 724,
+  "verified_annotations": 0,
+  "approved_for_training": 0,
+  "approved_for_evaluation": 0,
+  "review_required": 47,
+  "rejected": 2,
+  "approved_boq_projects": 0
+ },
+ "drawing_types": {
+  "unrelated_text": 1208,
+  "architectural_floor_plan": 465,
+  "boq_specification": 237,
+  "blank_unknown": 214,
+  "section": 33,
+  "foundation": 80,
+  "slab_plan": 37,
+  "elevation": 25,
+  "services_mep": 77,
+  "reinforcement_bbs": 11,
+  "beam_schedule": 3,
+  "site_plan": 14
+ },
+ "drawing_types_by_role": {
+  "external_lead": {
+   "architectural_floor_plan": 402,
+   "blank_unknown": 122,
+   "unrelated_text": 709,
+   "site_plan": 14,
+   "boq_specification": 113,
+   "section": 16,
+   "foundation": 15,
+   "services_mep": 61,
+   "elevation": 10,
+   "slab_plan": 1
+  },
+  "tnrd_catalogue_candidate": {
+   "foundation": 34,
+   "architectural_floor_plan": 56,
+   "slab_plan": 26,
+   "section": 12,
+   "services_mep": 11,
+   "beam_schedule": 1,
+   "elevation": 10,
+   "blank_unknown": 48,
+   "unrelated_text": 292,
+   "boq_specification": 82
+  },
+  "original_handbook": {
+   "unrelated_text": 194,
+   "architectural_floor_plan": 7,
+   "boq_specification": 42,
+   "blank_unknown": 43,
+   "section": 5,
+   "foundation": 13,
+   "slab_plan": 9,
+   "elevation": 5,
+   "services_mep": 3,
+   "reinforcement_bbs": 11,
+   "beam_schedule": 2
+  },
+  "registry_listing": {
+   "unrelated_text": 13,
+   "blank_unknown": 1
+  },
+  "derived_extract": {
+   "foundation": 18,
+   "slab_plan": 1,
+   "services_mep": 2
+  }
+ },
+ "content": {
+  "text": 1820,
+  "raster": 192,
+  "vector": 378,
+  "empty": 14
+ },
+ "building_categories": {
+  "hospital": 5,
+  "medical_college": 2,
+  "commercial": 1,
+  "university": 2,
+  "hostel": 10,
+  "reference_only": 1,
+  "registry_listing": 1,
+  "anganwadi": 1,
+  "office": 2,
+  "handbook": 1,
+  "warehouse": 1,
+  "community_hall": 4,
+  "shed": 1,
+  "school": 8,
+  "house": 2,
+  "sanitation": 4,
+  "cooperative": 1,
+  "panchayat_office": 2,
+  "shelter": 1,
+  "shop": 1,
+  "roads_bridges_handbook_out_of_scope": 1,
+  "library": 1,
+  "community": 1,
+  "open_structure": 1
+ },
+ "usage_states": {
+  "REVIEW_REQUIRED": 47,
+  "RESTRICTED_PERSONAL_DATA": 1,
+  "REJECTED": 2
+ },
+ "annotation_states": {
+  "NOT_STARTED": 724,
+  "PSEUDO_LABEL_pages": 560,
+  "VERIFIED": 0,
+  "IN_REVIEW": 0
+ },
+ "split_audit": {
+  "created": "2026-10-09T14:41:33+00:00",
+  "policy": "Splits are assigned only to human-approved projects; related sheets/variants share a project id; near-duplicate pages across different splits fail the audit; existing development projects stay in development_benchmark (see data/tn_dataset).",
+  "approved_projects": 0,
+  "split_counts": {
+   "UNASSIGNED": 50
+  },
+  "cross_split_duplicate_pairs": 0,
+  "leaks": [],
+  "ok": true,
+  "final_holdout_sealed": true,
+  "note": "0 projects approved \u2192 no train/validation/holdout split created (correct by policy)."
+ },
+ "corrupt": [
+  {
+   "file": "Tendeedoc.pdf",
+   "error": "Failed to open file 'C:\\\\Users\\\\Mitesh Reddy\\\\Desktop\\\\assignment\\\\real estate\\\\tn_corpus\\\\raw_candidates\\\\f4e301a60e8d885351b8df5614c54f3acc90435022b37fb6803b9a9bf0b0e09a.pdf' as type pdf."
+  }
+ ],
+ "blocked": [
+  {
+   "file": null,
+   "url": "https://www.cmdachennai.gov.in/pdfs/OnlinePPAApprovalDetails/PP-NHRB-S-0167-2025/ApprovedPlan.pdf",
+   "reason": null
+  },
+  {
+   "file": null,
+   "url": "https://ghtc-india.gov.in/Content/pdf/Chennai_Compendium.pdf",
+   "reason": "robots.txt disallows"
+  },
+  {
+   "file": null,
+   "url": "https://ghtc-india.gov.in/Content/pdf/Webinar-Series/14_webinar.pdf",
+   "reason": "robots.txt disallows"
+  },
+  {
+   "file": null,
+   "url": "https://openjicareport.jica.go.jp/pdf/10421923_02.pdf",
+   "reason": "state = Other region (TN-only scope)"
+  },
+  {
+   "file": null,
+   "url": "https://mohua.gov.in/upload/uploadfiles/files/Tamilnadu%281%29.pdf",
+   "reason": "HTTP 403"
+  },
+  {
+   "file": null,
+   "url": "https://www.mohua.gov.in/upload/uploadfiles/files/22_13th_csmc_tamilnadu.pdf",
+   "reason": "HTTP 403"
+  },
+  {
+   "file": null,
+   "url": "https://openjicareport.jica.go.jp/pdf/12389417.pdf",
+   "reason": "state = Other Indian state (TN-only scope)"
+  },
+  {
+   "file": null,
+   "url": "https://ghtc-india.gov.in/Content/TN/TNCDBR-2019.pdf",
+   "reason": "robots.txt disallows"
+  }
+ ],
+ "projects": [
+  {
+   "project_id": "tnc-c573f15a7a",
+   "key": "file:1000045200_01.pdf",
+   "category": "hospital;medical_college",
+   "files": 1,
+   "pages": 288,
+   "drawing_pages": 32,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-326532bd3b",
+   "key": "file:12144929.pdf",
+   "category": "hospital",
+   "files": 1,
+   "pages": 191,
+   "drawing_pages": 88,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-3bf06e9b20",
+   "key": "file:12248522.pdf",
+   "category": "hospital;medical_college",
+   "files": 2,
+   "pages": 592,
+   "drawing_pages": 283,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-f4ffe1c5cf",
+   "key": "file:ApprovedPlan.pdf",
+   "category": "commercial",
+   "files": 1,
+   "pages": 2,
+   "drawing_pages": 2,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-0fbe25b472",
+   "key": "file:Completion-Report.pdf",
+   "category": "hospital",
+   "files": 1,
+   "pages": 51,
+   "drawing_pages": 14,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-d4f24d067a",
+   "key": "file:EOI_for-appointment-of-a-public-sector-undertaking-Government-organization-as-Project-Management-Consultant_13112025.pdf",
+   "category": "university;hostel",
+   "files": 1,
+   "pages": 49,
+   "drawing_pages": 43,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-0fef547b6a",
+   "key": "file:KRR_final_draft_CCR_2024_final_11zon__2___2_.pdf",
+   "category": "hospital",
+   "files": 1,
+   "pages": 0,
+   "drawing_pages": 0,
+   "state": "RESTRICTED_PERSONAL_DATA"
+  },
+  {
+   "project_id": "tnc-4c416f2d33",
+   "key": "file:Minutes-22nd-Building-Committee-of-CUTN_10052024.pdf",
+   "category": "university;hostel",
+   "files": 1,
+   "pages": 20,
+   "drawing_pages": 2,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-e649b3d330",
+   "key": "file:SIPCOT-RFP-for-hostels-operation-and-maintanence.pdf",
+   "category": "hostel",
+   "files": 1,
+   "pages": 31,
+   "drawing_pages": 6,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-55db53d0c8",
+   "key": "file:Tamil-Nadu-Combined-Development-and-Building-Rules-2019_Gazette_43_Ex_III_1a_04.02.2019.pdf",
+   "category": "reference_only",
+   "files": 1,
+   "pages": 216,
+   "drawing_pages": 28,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-7d680cb990",
+   "key": "file:Tendeedoc.pdf",
+   "category": "hostel",
+   "files": 1,
+   "pages": 0,
+   "drawing_pages": 0,
+   "state": "REJECTED"
+  },
+  {
+   "project_id": "tnc-667b160dcf",
+   "key": "file:_TNRERA.pdf",
+   "category": "registry_listing",
+   "files": 1,
+   "pages": 14,
+   "drawing_pages": 0,
+   "state": "REJECTED"
+  },
+  {
+   "project_id": "tnc-87ed118b60",
+   "key": "file:hostels-pre-bid-queries.pdf",
+   "category": "hostel",
+   "files": 1,
+   "pages": 5,
+   "drawing_pages": 3,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-acce708b5c",
+   "key": "sipcot:men_hostel_sriperumbudur",
+   "category": "hostel",
+   "files": 1,
+   "pages": 5,
+   "drawing_pages": 5,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-4084eee2cb",
+   "key": "sipcot:men_hostel_tiruppur",
+   "category": "hostel",
+   "files": 1,
+   "pages": 3,
+   "drawing_pages": 3,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-c81b3311dc",
+   "key": "sipcot:women_hostel_irungattukottai",
+   "category": "hostel",
+   "files": 1,
+   "pages": 2,
+   "drawing_pages": 2,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-c6d28ccc44",
+   "key": "sipcot:women_hostel_sriperumbudur",
+   "category": "hostel",
+   "files": 1,
+   "pages": 5,
+   "drawing_pages": 5,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-9e9f97753f",
+   "key": "sipcot:women_hostel_tiruppur",
+   "category": "hostel",
+   "files": 1,
+   "pages": 3,
+   "drawing_pages": 3,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-3463cddad2",
+   "key": "tnrd:anganwadi_building",
+   "category": "anganwadi",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-6bae3c0379",
+   "key": "tnrd:assistant_executive_engineer_rd_office",
+   "category": "office",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-570c0e9b61",
+   "key": "tnrd:buildings_handbook",
+   "category": "handbook",
+   "files": 2,
+   "pages": 355,
+   "drawing_pages": 76,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-d3eb1220aa",
+   "key": "tnrd:cement_godown",
+   "category": "warehouse",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-a7f1f590db",
+   "key": "tnrd:community_hall_type_i",
+   "category": "community_hall",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-90a6160aa0",
+   "key": "tnrd:community_hall_type_ii",
+   "category": "community_hall",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-6999476b2b",
+   "key": "tnrd:community_hall_type_iii_1",
+   "category": "community_hall",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-3a95dfe5f7",
+   "key": "tnrd:community_hall_type_iii_2",
+   "category": "community_hall",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-57a89391f4",
+   "key": "tnrd:cremation_shed",
+   "category": "shed",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-0f5e64c76f",
+   "key": "tnrd:elementary_and_middle_school_building",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-9e6924b5eb",
+   "key": "tnrd:green_house",
+   "category": "house",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-e87bf63e11",
+   "key": "tnrd:iay_housing",
+   "category": "house",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-0361099036",
+   "key": "tnrd:ihhl_septic_tank_with_soak_pit",
+   "category": "sanitation",
+   "files": 2,
+   "pages": 2,
+   "drawing_pages": 2,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-2e708ea93f",
+   "key": "tnrd:integrated_men_sanitary_complex",
+   "category": "sanitation",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-97a9f85aca",
+   "key": "tnrd:kitchen_shed_elementary_school",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-8e570ff00b",
+   "key": "tnrd:milk_producer_s_co_operative_building",
+   "category": "cooperative",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-600d64a939",
+   "key": "tnrd:multisheet_office_package",
+   "category": "panchayat_office;sanitation",
+   "files": 22,
+   "pages": 22,
+   "drawing_pages": 22,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-80d4531ed3",
+   "key": "tnrd:newly_approved_type_design_for_school_building_i",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-50d0e3248a",
+   "key": "tnrd:newly_approved_type_design_for_school_building_ii",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-8dfb441775",
+   "key": "tnrd:newly_approved_type_design_for_school_building_iii",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-08996bcc14",
+   "key": "tnrd:newly_approved_type_design_for_school_building_iv",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-f074179a30",
+   "key": "tnrd:panchayat_office_building",
+   "category": "panchayat_office",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-e83ce3a76e",
+   "key": "tnrd:passenger_shelter",
+   "category": "shelter",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-6d2c2a91ef",
+   "key": "tnrd:public_distribution_shop_sloped_roof",
+   "category": "shop",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-85d4e501ca",
+   "key": "tnrd:roads_and_bridges",
+   "category": "roads_bridges_handbook_out_of_scope",
+   "files": 1,
+   "pages": 520,
+   "drawing_pages": 98,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-0686e9b9c4",
+   "key": "tnrd:rural_library_building",
+   "category": "library",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-d325d1d2a5",
+   "key": "tnrd:school_toilet_boys",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-9db3506adf",
+   "key": "tnrd:school_toilet_girls",
+   "category": "school",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-c3fea775e4",
+   "key": "tnrd:self_help_group_building",
+   "category": "community",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-028a6464d6",
+   "key": "tnrd:septic_tank",
+   "category": "sanitation",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-d85208513c",
+   "key": "tnrd:thrashing_floor",
+   "category": "open_structure",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  },
+  {
+   "project_id": "tnc-68da311326",
+   "key": "tnrd:village_administrative_office",
+   "category": "office",
+   "files": 1,
+   "pages": 1,
+   "drawing_pages": 1,
+   "state": "REVIEW_REQUIRED"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "tnrd_catalogue",
+   "name": "TNRD Type Design Drawings for Buildings",
+   "url": "https://tnrd.tn.gov.in/buildings_design.html",
+   "source_class": "official_portal",
+   "robots": "allowed (only /rdweb_newsite/ disallowed)",
+   "access": "public, no login",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "TNRD website policy (summary supplied by user; page itself is under robots-disallowed /rdweb_newsite/ so it was not fetched)",
+   "items_discovered": 54,
+   "items_acquired": 54,
+   "status": "CRAWLED"
+  },
+  {
+   "source_id": "tnrd_policy",
+   "name": "TNRD website policies",
+   "url": "https://tnrd.tn.gov.in/rdweb_newsite/project/reports/Public/WebsitePolicies.php",
+   "source_class": "official_portal",
+   "robots": "DISALLOWED (/rdweb_newsite/)",
+   "access": "not fetched",
+   "licence_state": "n/a",
+   "licence_evidence": "",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 read manually by a person"
+  },
+  {
+   "source_id": "tntenders",
+   "name": "Tamil Nadu eProcurement",
+   "url": "https://tntenders.gov.in/",
+   "source_class": "official_portal",
+   "robots": "robots.txt 404",
+   "access": "tender documents behind per-download CAPTCHA",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 CAPTCHA not bypassed; manual acquisition queue (tender id, BOQ stage) required"
+  },
+  {
+   "source_id": "tntenders_example",
+   "name": "Example tender with arch/structural/MEP drawings + BOQ",
+   "url": "https://tntenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SJLXy4LUHUWwElXBIxZzbHw%3D%3D",
+   "source_class": "official_portal",
+   "robots": "n/a",
+   "access": "session-bound link + CAPTCHA",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "MANUAL_ACQUISITION \u2014 BOQ would be TENDERED stage, not final"
+  },
+  {
+   "source_id": "tnhsp",
+   "name": "Tamil Nadu Health System Project",
+   "url": "https://tnhsp.org/pages/view/Projects_TNUHP",
+   "source_class": "official_portal",
+   "robots": "no robots.txt (error page)",
+   "access": "public",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "no terms found",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "LEAD \u2014 only a completion report is linked; no drawing packages found"
+  },
+  {
+   "source_id": "jica_ich",
+   "name": "JICA report \u2014 ICH & Hospital for Children, Chennai",
+   "url": "https://openjicareport.jica.go.jp/pdf/12144929.pdf",
+   "source_class": "third_party_public_report",
+   "robots": "allowed",
+   "access": "public",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "JICA terms not reviewed",
+   "items_discovered": 1,
+   "items_acquired": 7,
+   "status": "QUARANTINED"
+  },
+  {
+   "source_id": "tnpwdea",
+   "name": "TN PWD Engineers Association downloads",
+   "url": "https://tnpwdea.org/downloads.php?category_id=4",
+   "source_class": "secondary_host",
+   "robots": "robots.txt 404",
+   "access": "public",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "secondary host \u2014 verify official origin",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "LEAD ONLY \u2014 rate documents (handled by backend/tnpwd_ingestion), not drawings"
+  },
+  {
+   "source_id": "tnrera",
+   "name": "TN RERA",
+   "url": "https://rera.tn.gov.in/",
+   "source_class": "official_portal",
+   "robots": "DISALLOWS /uploads/ and *.pdf",
+   "access": "not crawled",
+   "licence_state": "BLOCKED_BY_SOURCE_RULES",
+   "licence_evidence": "builder drawings are third-party copyright",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 only the user-supplied listing printout is inventoried"
+  },
+  {
+   "source_id": "tn_pwd_policy_notes",
+   "name": "TN PWD Buildings policy notes / citizen charters (cms.tn.gov.in)",
+   "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/pwd_buildings_e_1.pdf",
+   "source_class": "official_portal",
+   "robots": "not checked (host not on allowlist)",
+   "access": "public",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "",
+   "items_discovered": 6,
+   "items_acquired": 0,
+   "status": "LEAD \u2014 text reports (confirm PWD type designs exist for PHC/HSC/schools/hostels; drawings via Chief Architect, PWD Chepauk \u2014 permission request needed)"
+  },
+  {
+   "source_id": "tn_gazette_mspb",
+   "name": "TN Gazette \u2014 Multistoried & Public Building Rules notices",
+   "url": "https://stationeryprinting.tn.gov.in/",
+   "source_class": "official_portal",
+   "robots": "not checked",
+   "access": "public",
+   "licence_state": "n/a",
+   "licence_evidence": "",
+   "items_discovered": 7,
+   "items_acquired": 0,
+   "status": "LEAD \u2014 rules text, no drawings"
+  },
+  {
+   "source_id": "permissioned_partners",
+   "name": "Architects / builders / structural consultants / QS / contractors in TN",
+   "url": "",
+   "source_class": "permissioned_private",
+   "robots": "n/a",
+   "access": "requires written permission",
+   "licence_state": "NOT_REQUESTED",
+   "licence_evidence": "",
+   "items_discovered": 0,
+   "items_acquired": 0,
+   "status": "EXTERNAL \u2014 outreach + data-sharing agreement required"
+  },
+  {
+   "source_id": "v2:SIP_COT_HOSTELS_RFP",
+   "name": "SIPCOT hostel building plans - Annexure X",
+   "url": "https://sipcot.tn.gov.in/webroot/img/SIPCOT-RFP-for-hostels-operation-and-maintanence.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:SIP_COT_HOSTELS_QUERY",
+   "name": "SIPCOT hostel pre-bid queries with CAD drawings reference",
+   "url": "https://sipcot.tn.gov.in/webroot/img/hostels-pre-bid-queries.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:JICA_CHILDRENS_HOSPITAL_CHENNAI",
+   "name": "Improvement of OPD & diagnosis service - Institute of Child Health, Chennai",
+   "url": "https://openjicareport.jica.go.jp/pdf/12144929.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:JICA_TN_URBAN_HEALTH_CH1",
+   "name": "Data collection survey on urban health care in Tamil Nadu - Chapter I",
+   "url": "https://openjicareport.jica.go.jp/pdf/12248522.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:AIIMS_MADURAI_JICA_REPORT",
+   "name": "AIIMS Madurai development and health infrastructure report",
+   "url": "https://openjicareport.jica.go.jp/pdf/1000045200_01.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:GHTC_CHENNAI_COMPENDIUM",
+   "name": "GHTC-India Chennai Light House Project Compendium",
+   "url": "https://ghtc-india.gov.in/Content/pdf/Chennai_Compendium.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 robots.txt disallows"
+  },
+  {
+   "source_id": "v2:GHTC_CHENNAI_PROJECT_BRIEF",
+   "name": "GHTC Chennai project brief webinar PDF",
+   "url": "https://ghtc-india.gov.in/Content/pdf/Webinar-Series/14_webinar.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 robots.txt disallows"
+  },
+  {
+   "source_id": "v2:IITM_2000_BED_HOSTEL_TENDER_DOC",
+   "name": "IIT Madras hostel project - 2,000 bed G+11 concept/tender document",
+   "url": "https://tenders.iitm.ac.in/sites/default/files/Tendeedoc.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:TN_PWD_APPROVED_HIGHRISE_PLAN",
+   "name": "CMDA online PPA approved plan - high-rise/non-high-rise building",
+   "url": "https://www.cmdachennai.gov.in/pdfs/OnlinePPAApprovalDetails/PP-NHRB-S-0167-2025/ApprovedPlan.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:KAUVERY_HOSPITAL_WATER_SUPPLY_LAYOUT",
+   "name": "Kauvery hospital first-floor water supply layout (KMC Chennai)",
+   "url": "https://www.kauveryhospital.com/wp-content/uploads/2025/02/KRR_final_draft_CCR_2024_final_11zon__2___2_.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:MOHUA_TN_HOUSING_TYPE_DESIGNS",
+   "name": "MoHUA Tamil Nadu CSMC project type-design presentation",
+   "url": "https://www.mohua.gov.in/upload/uploadfiles/files/22_13th_csmc_tamilnadu.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 HTTP 403"
+  },
+  {
+   "source_id": "v2:MOHUA_TN_HOUSING_PRESENTATION_2",
+   "name": "MoHUA Tamil Nadu housing project presentation",
+   "url": "https://mohua.gov.in/upload/uploadfiles/files/Tamilnadu%281%29.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 HTTP 403"
+  },
+  {
+   "source_id": "v2:TN_BUILDING_RULES",
+   "name": "Tamil Nadu Combined Development and Building Rules 2019 - Gazette PDF",
+   "url": "https://www.tnurbantree.tn.gov.in/wp-content/uploads/sites/54/2019/08/Tamil-Nadu-Combined-Development-and-Building-Rules-2019_Gazette_43_Ex_III_1a_04.02.2019.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:CHENNAI_APARTMENT_PLAN_CMDA",
+   "name": "CMDA approved-plan PDF for high-rise/non-high-rise Chennai building",
+   "url": "https://www.cmdachennai.gov.in/pdfs/OnlinePPAApprovalDetails/PP-NHRB-S-0167-2025/ApprovedPlan.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "DUPLICATE_URL"
+  },
+  {
+   "source_id": "v2:NAGALAND_MEDICAL_COLLEGE_JICA",
+   "name": "Medical college/hospital design report - non-TN reference",
+   "url": "https://openjicareport.jica.go.jp/pdf/12389417.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "REJECTED_NON_TN \u2014 state = Other Indian state (TN-only scope)"
+  },
+  {
+   "source_id": "v2:TNCDBR_2019_ALT",
+   "name": "Tamil Nadu Combined Development and Building Rules - government gazette copy",
+   "url": "https://ghtc-india.gov.in/Content/TN/TNCDBR-2019.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "BLOCKED_BY_SOURCE_RULES \u2014 robots.txt disallows"
+  },
+  {
+   "source_id": "v2:JICA_MAHARAJ_HOSPITAL_SITEPLAN",
+   "name": "Maharaj Hospital site plan - non-TN reference",
+   "url": "https://openjicareport.jica.go.jp/pdf/10421923_02.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 0,
+   "status": "REJECTED_NON_TN \u2014 state = Other region (TN-only scope)"
+  },
+  {
+   "source_id": "v2:JICA_KILPAUK_MEDICAL_COLLEGE_HOSPITAL",
+   "name": "Kilpauk Medical College Hospital campus, Chennai - JICA urban health report",
+   "url": "https://openjicareport.jica.go.jp/pdf/12248530.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:CUTN_PMC_EOI_ACADEMIC_HOSTELS",
+   "name": "CUTN academic building and hostel construction package - PMC EOI",
+   "url": "https://cutn.ac.in/wp-content/uploads/2025/11/EOI_for-appointment-of-a-public-sector-undertaking-Government-organization-as-Project-Management-Consultant_13112025.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  },
+  {
+   "source_id": "v2:CUTN_BUILDING_COMMITTEE_HOSTELS",
+   "name": "CUTN Building Committee minutes - hostel project status",
+   "url": "https://cutn.ac.in/wp-content/uploads/2024/05/Minutes-22nd-Building-Committee-of-CUTN_10052024.pdf",
+   "source_class": "v2_catalogue_lead",
+   "robots": "checked at fetch",
+   "access": "public direct PDF claim",
+   "licence_state": "REVIEW_REQUIRED",
+   "licence_evidence": "none \u2014 public URL only",
+   "items_discovered": 1,
+   "items_acquired": 1,
+   "status": "RAW_CANDIDATE"
+  }
+ ]
+}

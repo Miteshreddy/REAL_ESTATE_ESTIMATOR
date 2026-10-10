@@ -1,0 +1,37 @@
+{
+ "project_id": "tn-96a99f205e",
+ "project_name": "beam-l-s",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "BEAM PLAN"
+ ],
+ "disciplines": [
+  "structural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Beam L.S-1.pdf",
+  "Beam L.S-2.pdf",
+  "Beam L.S-3.pdf",
+  "Beam L.S-4.pdf"
+ ],
+ "page_count": 4,
+ "pages": [
+  "159258cd7b7bcfb5-p1",
+  "21b5e1f63c42c05e-p1",
+  "d580faf3b2c4ffd6-p1",
+  "f12ee1fd22173133-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:30",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

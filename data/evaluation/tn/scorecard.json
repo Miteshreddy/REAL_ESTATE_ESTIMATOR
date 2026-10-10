@@ -1,0 +1,407 @@
+{
+ "generated": "2026-10-09",
+ "target_pct": 90.0,
+ "final": "FAIL",
+ "provenance": {
+  "code_commit": "a3b72ce",
+  "uncommitted_changes": true,
+  "dataset_manifest_sha256": "43d1c1ae4a545be47747808567922ac488351c0d1202aca35c29c56b31f05e74",
+  "split_seed": "tn-v2",
+  "models": {
+   "floorplan_unet": "1.0",
+   "room_label / room_geom classifiers": "5",
+   "opening_det": "1.0"
+  },
+  "evaluated_at": "2026-10-09T16:43:31"
+ },
+ "counts": {
+  "final_holdout_projects": 0,
+  "approved_boq_projects": 0,
+  "engineer_reviews": 0
+ },
+ "gates": [
+  {
+   "id": "G01",
+   "name": "Room & area extraction",
+   "critical": true,
+   "metric": "% rooms / plans with area within ±10 % of verified reference",
+   "denominator": "verified rooms or plans",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 100,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G02",
+   "name": "Door detection",
+   "critical": true,
+   "metric": "door F1 @ IoU 0.5 vs verified TN annotations",
+   "denominator": "verified door instances",
+   "tolerance": "IoU ≥ 0.5",
+   "threshold": 90.0,
+   "min_samples": 300,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G03",
+   "name": "Window detection",
+   "critical": true,
+   "metric": "window F1 @ IoU 0.5 vs verified TN annotations",
+   "denominator": "verified window instances",
+   "tolerance": "IoU ≥ 0.5",
+   "threshold": 90.0,
+   "min_samples": 300,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G04",
+   "name": "Wall quantities",
+   "critical": true,
+   "metric": "% walls with length within ±10 %",
+   "denominator": "verified walls",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 100,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G05",
+   "name": "Structural quantities",
+   "critical": true,
+   "metric": "% concrete / steel lines within ±10 % of verified quantities",
+   "denominator": "verified structural lines",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 50,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G06",
+   "name": "Other construction quantities",
+   "critical": true,
+   "metric": "% BOQ quantity lines within ±10 %",
+   "denominator": "matched approved-BOQ lines",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 100,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G07",
+   "name": "Drawing classification",
+   "critical": false,
+   "metric": "% sheets classified correctly",
+   "denominator": "verified sheets",
+   "tolerance": "exact",
+   "threshold": 90.0,
+   "min_samples": 50,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G08",
+   "name": "Floor & unit identification",
+   "critical": false,
+   "metric": "% sheets with correct floor occurrences and unit count",
+   "denominator": "verified sheets",
+   "tolerance": "exact",
+   "threshold": 90.0,
+   "min_samples": 30,
+   "min_projects": 10,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchmark / reference results are shown as evidence only."
+  },
+  {
+   "id": "G09",
+   "name": "PWD item mapping",
+   "critical": true,
+   "metric": "top-1 agreement with engineer-approved mappings",
+   "denominator": "engineer-reviewed lines",
+   "tolerance": "exact code",
+   "threshold": 90.0,
+   "min_samples": 30,
+   "min_projects": 3,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT VALIDATED",
+   "reason": "0 engineer-approved mapping(s); 30 required"
+  },
+  {
+   "id": "G10",
+   "name": "Rate coverage",
+   "critical": true,
+   "metric": "% applicable take-off lines priced from validated TN data",
+   "denominator": "applicable lines",
+   "tolerance": "—",
+   "threshold": 90.0,
+   "min_samples": 1,
+   "min_projects": 1,
+   "value": 58.8,
+   "evidence_projects": 0,
+   "status": "FAIL",
+   "reason": "coverage of applicable take-off lines on the sample drawings (needs no ground truth)"
+  },
+  {
+   "id": "G11",
+   "name": "Quantity agreement vs approved BOQs",
+   "critical": true,
+   "metric": "% matched quantity lines within ±10 %",
+   "denominator": "matched lines of APPROVED BOQs",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 100,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT VALIDATED",
+   "reason": "0 approved Tamil Nadu BOQ project(s); 5 required"
+  },
+  {
+   "id": "G12",
+   "name": "Item-cost accuracy",
+   "critical": true,
+   "metric": "100 − WAPE % over matched priced lines",
+   "denominator": "matched priced lines of APPROVED BOQs",
+   "tolerance": "WAPE",
+   "threshold": 90.0,
+   "min_samples": 100,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT VALIDATED",
+   "reason": "0 approved Tamil Nadu BOQ project(s); 5 required"
+  },
+  {
+   "id": "G13",
+   "name": "Total project-cost accuracy",
+   "critical": true,
+   "metric": "% projects with total within ±10 % of approved BOQ total",
+   "denominator": "approved-BOQ projects",
+   "tolerance": "±10 %",
+   "threshold": 90.0,
+   "min_samples": 5,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT VALIDATED",
+   "reason": "0 approved Tamil Nadu BOQ project(s); 5 required"
+  },
+  {
+   "id": "G14",
+   "name": "Estimate completeness",
+   "critical": true,
+   "metric": "% approved-BOQ amount matched AND priced",
+   "denominator": "approved-BOQ amount",
+   "tolerance": "—",
+   "threshold": 90.0,
+   "min_samples": 5,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT VALIDATED",
+   "reason": "0 approved Tamil Nadu BOQ project(s); 5 required"
+  },
+  {
+   "id": "G15",
+   "name": "Confidence calibration",
+   "critical": false,
+   "metric": "ECE ≤ 0.05 on validation",
+   "denominator": "validation predictions",
+   "tolerance": "ECE",
+   "threshold": null,
+   "min_samples": 200,
+   "min_projects": 5,
+   "value": null,
+   "evidence_projects": 0,
+   "status": "NOT MEASURED",
+   "reason": "NOT CALIBRATED — no labelled TN validation predictions"
+  }
+ ],
+ "evidence": [
+  {
+   "name": "Plinth area within ±10 %",
+   "value": 68.8,
+   "n": 16,
+   "label": "DEVELOPMENT (exposed)",
+   "dataset": "TN Rural Development type-design sheets",
+   "gt": "written plinth-area notes",
+   "note": "median APE 2.54 %"
+  },
+  {
+   "name": "Sheet view classification",
+   "value": 88.9,
+   "n": 27,
+   "label": "DEVELOPMENT (exposed)",
+   "dataset": "TN Rural Development type-design sheets",
+   "gt": "hand-labelled plan boxes"
+  },
+  {
+   "name": "Floor occurrences (refuge floor)",
+   "value": 100.0,
+   "n": 1,
+   "label": "REFERENCE (non-TN: Hyderabad)",
+   "dataset": "Aparna Block-A refuge floor",
+   "gt": "floor list printed on the sheet"
+  },
+  {
+   "name": "Apartments found",
+   "value": 100,
+   "n": 1,
+   "label": "REFERENCE (non-TN: Hyderabad)",
+   "dataset": "Aparna Block-A refuge floor",
+   "gt": "area statement table"
+  },
+  {
+   "name": "Openings detected (no reference)",
+   "value": null,
+   "n": 1,
+   "label": "REFERENCE (non-TN: Hyderabad)",
+   "dataset": "Aparna",
+   "gt": "none",
+   "note": "83 doors / 53 windows — not scored"
+  },
+  {
+   "name": "Site-plan vs floor-plan classification",
+   "value": 75.0,
+   "n": 4,
+   "label": "SMOKE (third-party images, exposed after one fix)",
+   "dataset": "TN complex-architecture set (4 usable images)",
+   "gt": "expected class recorded from headers before the run"
+  },
+  {
+   "name": "Door count within ±10 % of tags",
+   "value": 20.8,
+   "n": 24,
+   "label": "REFERENCE (non-TN: Bihar)",
+   "dataset": "Nalanda commercial",
+   "gt": "opening tags"
+  },
+  {
+   "name": "Window count within ±10 % of tags",
+   "value": 0.0,
+   "n": 24,
+   "label": "REFERENCE (non-TN: Bihar)",
+   "dataset": "Nalanda commercial",
+   "gt": "opening tags"
+  },
+  {
+   "name": "Room area within ±10 %",
+   "value": 78.5,
+   "n": 242,
+   "label": "REFERENCE (non-TN: Uttarakhand)",
+   "dataset": "Uttarakhand Govt CAD",
+   "gt": "room dimension labels",
+   "note": "median 2.02 %"
+  },
+  {
+   "name": "Detector door F1 (train)",
+   "value": 88.3,
+   "n": 4200,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Detector window F1 (train)",
+   "value": 91.8,
+   "n": 4200,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Detector door F1 (val)",
+   "value": 86.5,
+   "n": 400,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Detector window F1 (val)",
+   "value": 89.8,
+   "n": 400,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Detector door F1 (test)",
+   "value": 86.9,
+   "n": 400,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Detector window F1 (test)",
+   "value": 88.1,
+   "n": 400,
+   "label": "GENERIC (CubiCasa5K — not TN)",
+   "dataset": "CubiCasa5K",
+   "gt": "CubiCasa SVG annotations"
+  },
+  {
+   "name": "Total vs exact geometry (dxf)",
+   "value": 100.0,
+   "n": 12,
+   "label": "SYNTHETIC",
+   "dataset": "generator",
+   "gt": "generated geometry"
+  },
+  {
+   "name": "Total vs exact geometry (pdf)",
+   "value": 100.0,
+   "n": 12,
+   "label": "SYNTHETIC",
+   "dataset": "generator",
+   "gt": "generated geometry"
+  },
+  {
+   "name": "Total vs exact geometry (png)",
+   "value": 100.0,
+   "n": 12,
+   "label": "SYNTHETIC",
+   "dataset": "generator",
+   "gt": "generated geometry"
+  },
+  {
+   "name": "Take-off lines priced from TN data",
+   "value": 58.8,
+   "n": 153,
+   "label": "COVERAGE (sample drawings)",
+   "dataset": "villa_g1.dxf, compact_home.dxf, bungalow.dxf",
+   "gt": "n/a (coverage, not accuracy)"
+  }
+ ],
+ "rule": "A system cannot PASS while any critical gate is not PASS. Evidence rows never satisfy a gate."
+}

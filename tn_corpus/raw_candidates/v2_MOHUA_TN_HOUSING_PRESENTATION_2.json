@@ -1,0 +1,12 @@
+{
+ "source_id": "MOHUA_TN_HOUSING_PRESENTATION_2",
+ "title": "MoHUA Tamil Nadu housing project presentation",
+ "category": "multi_storey_apartment;public_housing",
+ "state": "Tamil Nadu",
+ "url": "https://mohua.gov.in/upload/uploadfiles/files/Tamilnadu%281%29.pdf",
+ "catalogue_training_status": "REVIEW_REQUIRED",
+ "catalogue_evaluation_status": "REFERENCE_ONLY",
+ "acquisition_state": "BLOCKED_BY_SOURCE_RULES",
+ "reason": "HTTP 403",
+ "at": "2026-10-09T12:47:31+00:00"
+}

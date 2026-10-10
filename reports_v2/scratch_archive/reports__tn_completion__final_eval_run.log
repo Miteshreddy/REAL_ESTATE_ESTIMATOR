@@ -1,0 +1,154 @@
+[seg] model loaded: floorplan_unet.onnx
+{'file': '1.ESB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 37, 'view_iou': 0.58, 'view_ok': True, 'plinth': 97.24, 'plinth_gt': 97.06, 'plinth_err': 0.0019, 'scale': 'from the plinth area note (97.06 m²); overall dimensions did', 'rooms': 13}
+{'file': '10.LB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.32, 'view_ok': True, 'plinth': 38.87, 'plinth_gt': 49.8, 'plinth_err': -0.2195, 'scale': 'from the plinth area note (49.80 m²)', 'rooms': 2}
+{'file': '11.CH-1-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.76, 'view_ok': True, 'plinth': 166.39, 'scale': 'from the plinth area note (162.96 m²)', 'rooms': 16}
+{'file': '12.CH-2-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.48, 'view_ok': True, 'plinth': 222.58, 'plinth_gt': 288.35, 'plinth_err': -0.2281, 'scale': 'from the plinth area note (222.35 m²); overall dimensions di', 'rooms': 16}
+{'file': '13.CH-3(1)-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.76, 'view_ok': True, 'plinth': 235.11, 'scale': 'from the plinth area note (233.83 m²)', 'rooms': 13}
+{'file': '13.CH-3(2)-Model.pdf', 'kind': 'none', 'found_plans': 0, 'sec': 20, 'view_ok': True}
+{'file': '14.cement_godown.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 33, 'view_iou': 0.6, 'view_ok': True, 'plinth': 607.5, 'plinth_gt': 80.49, 'plinth_err': 6.5475, 'scale': 'from the plinth area note (80.49 m²)', 'rooms': 5}
+{'file': '15.vao_office.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 22, 'view_ok': False}
+{'file': '17.CS-Model.pdf', 'kind': 'shed', 'found_plans': 0, 'sec': 22, 'view_ok': False}
+{'file': '18.MC-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 28, 'view_iou': 0.7, 'view_ok': True, 'plinth': 50.26, 'plinth_gt': 49.33, 'plinth_err': 0.0189, 'scale': 'from the plinth area note (49.33 m²); overall dimensions did', 'rooms': 9}
+{'file': '2.PDS-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 34, 'view_iou': 0.6, 'view_ok': True, 'plinth': 75.72, 'plinth_gt': 70.38, 'plinth_err': 0.0759, 'scale': 'from the plinth area note (70.38 m²)', 'rooms': 14}
+{'file': '3.Anganwadi-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 32, 'view_iou': 0.38, 'view_ok': True, 'plinth': 46.75, 'plinth_gt': 46.59, 'plinth_err': 0.0034, 'scale': 'from the plinth area note (46.59 m²)', 'rooms': 6}
+{'file': '4.kitchen_shed.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 25, 'view_ok': False}
+{'file': '5.STG-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 28, 'view_iou': 0.6, 'view_ok': True, 'plinth': 39.39, 'plinth_gt': 17.66, 'plinth_err': 1.2305, 'scale': 'from the plinth area note (17.56 m²)', 'rooms': 10}
+{'file': '6.STB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.62, 'view_ok': True, 'plinth': 16.99, 'plinth_gt': 17.63, 'plinth_err': -0.0363, 'scale': 'from the plinth area note (17.03 m²); overall dimensions did', 'rooms': 4}
+{'file': '7.SHGB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.64, 'view_ok': True, 'plinth': 56.61, 'plinth_gt': 56.67, 'plinth_err': -0.0011, 'scale': 'from the plinth area note (56.67 m²); overall dimensions did', 'rooms': 8}
+{'file': '8.PSTR-Model.pdf', 'kind': 'shed', 'found_plans': 1, 'sec': 24, 'view_iou': 0.61, 'view_ok': True, 'plinth': 14.25, 'scale': 'from the plinth area note (14.19 m²)', 'rooms': 3}
+{'file': '9.PO-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.9, 'view_ok': True, 'plinth': 87.89, 'plinth_gt': 87.81, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (87.81 m²)', 'rooms': 12}
+{'file': 'AEE office Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 19, 'view_iou': 0.65, 'view_ok': True, 'plinth': 123.67, 'plinth_gt': 123.56, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (123.56 m²)', 'rooms': 16}
+{'file': 'pvt-Model 29.09.11.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 22, 'view_iou': 0.47, 'view_ok': True, 'plinth': 27.11, 'plinth_gt': 28.0, 'plinth_err': -0.0318, 'scale': 'from the plinth area note (28.00 m²)', 'rooms': 5}
+{'file': 'IMSC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 21, 'view_iou': 0.7, 'view_ok': True, 'plinth': 74.38, 'plinth_gt': 52.83, 'plinth_err': 0.4079, 'scale': 'from the plinth area note (52.85 m²)', 'rooms': 7}
+{'file': '1.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 15, 'view_iou': 0.84, 'view_ok': True, 'plinth': 242.75, 'scale': 'auto (low confidence): 9 door openings, median 24px = 0.85 m', 'rooms': 10}
+{'file': '2.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 17, 'view_iou': 0.64, 'view_ok': True, 'plinth': 187.84, 'scale': 'from written overall dimensions 7790 × 24446 mm', 'rooms': 20}
+{'file': 'GF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 18, 'view_iou': 0.18, 'view_ok': True, 'plinth': 327.32, 'plinth_gt': 328.46, 'plinth_err': -0.0035, 'scale': 'from the plinth area note (328.46 m²)', 'rooms': 12}
+{'file': 'FF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 23, 'view_iou': 0.6, 'view_ok': True, 'plinth': 291.4, 'plinth_gt': 292.45, 'plinth_err': -0.0036, 'scale': 'from written overall dimensions 24340 × 12019 mm; plinth are', 'rooms': 15}
+{'file': 'GF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 29, 'view_iou': 0.77, 'view_ok': True, 'plinth': 763.77, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 32}
+{'file': 'FF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.9, 'view_ok': True, 'plinth': 763.48, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 35}
+{
+ "sheets": 27,
+ "errors": 0,
+ "view_correct_pct": 88.9,
+ "plinth_checked": 16,
+ "plinth_median_err_pct": 2.54,
+ "plinth_within_5pct": 62.5,
+ "plinth_within_10pct": 68.8
+}
+Traceback (most recent call last):
+  File "C:\Users\Mitesh Reddy\Desktop\assignment\real estate\backend\aparna_regression.py", line 89, in <module>
+    main()
+  File "C:\Users\Mitesh Reddy\Desktop\assignment\real estate\backend\aparna_regression.py", line 51, in main
+    sheets = parsers.parse_any(IMG, Models(os.path.join(ROOT, "data", "models")))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mitesh Reddy\Desktop\assignment\real estate\backend\parsers.py", line 1159, in parse_any
+    return parse_image(path, models, opts.get("px_per_m"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mitesh Reddy\Desktop\assignment\real estate\backend\parsers.py", line 1123, in parse_image
+    img = cv2.imdecode(np.fromfile(path, np.uint8), cv2.IMREAD_COLOR)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Mitesh Reddy\\Desktop\\assignment\\real estate\\data\\uploads\\cb7ba5a5cf\\3 - Block-A-Refuge-Floor-Plan-1780466106344-46de52dc.jpg'
+nalanda_a.1.3-masterplan-first-floor-plan.pdf not read: {'unit': 0.01, 'unit_source': 'stated on the drawing', 'dim_matches': 0, 'reason': 'sheet too large'}
+nalanda_a.2.1-ground-first-floor-plan.pdf rooms 43 206 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.1-type-1b-ground-floor-plan.pdf rooms 50 223 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.13-type-3-ground-floor-plan.pdf rooms 35 143 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.14-type-3-first-floor-plan.pdf rooms 33 143 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.2-type-1b-first-floor-plan.pdf rooms 51 223 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.3-ground-floor-plan.pdf rooms 73 149 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.3-type-1b-second-floor-plan.pdf rooms 50 221 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.4-first-floor-plan.pdf rooms 69 136 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.7-type-2-ground-floor-plan.pdf rooms 44 191 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.8-type-2-first-floor-plan.pdf rooms 44 191 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t1.2.1-ground-first-floor-plan.pdf rooms 40 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t1.2.2-second-third-floor-plan.pdf rooms 41 310 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t10.2.1-ground-first-floor-plan.pdf rooms 30 340 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t11.2.1-ground-first-floor-plan.pdf rooms 30 317 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t12.2.1-ground-first-floor-plan.pdf rooms 30 315 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t13.2.1-ground-first-floor-plan.pdf rooms 31 314 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t2.2.1-ground-first-floor-plan.pdf rooms 39 318 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t3.2.1-ground-first-floor-plan.pdf rooms 39 314 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t4.2.1-ground-first-floor-plan.pdf rooms 39 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t5.2.1-ground-first-floor-plan.pdf rooms 40 312 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t6.2.1-ground-first-floor-plan.pdf rooms 38 311 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t7.2.1-ground-first-floor-plan.pdf rooms 30 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t8.2.1-ground-first-floor-plan.pdf rooms 35 351 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t9.2.1-ground-first-floor-plan.pdf rooms 38 312 dimension strings matched to their dimension lines (1:100, unit cm)
+{
+ "enclosed_rooms": {
+  "n": 491,
+  "median_pct": 8.28,
+  "within5": 37.9,
+  "within10": 53.6
+ },
+ "open_plan": {
+  "n": 174,
+  "median_pct": 33.42,
+  "within5": 16.1,
+  "within10": 27.6
+ },
+ "building_extent": {
+  "n": 48,
+  "median_pct": 2.41,
+  "within5": 70.8,
+  "within10": 95.8
+ }
+}
+[server] ready -> http://127.0.0.1:8000
+[seg] model loaded: floorplan_unet.onnx
+{'case': 'case01', 'expected': 'floor_plan', 'observed': 'floor_plan', 'correct': True, 'sheet_kinds': ['floor_plan'], 'site_plan_reason': [], 'rooms': 16, 'openings': 130, 'scale': ['auto (low confidence): 21 door openings, median 12px = 0.85 m (wall-thickness estimate disagreed) - please calibrate'], 'floors': [None], 'checks': ['SCALE ASSUMED', 'OPENING COUNT CONFLICT', 'OPENING COUNT CONFLICT', 'WALL VOLUME', 'STRUCTURAL INPUT MISSING'], 'completeness': '30 / 48 items priced', 'total_inr': 15900410.65, 'note': 'Apollo Hospital Chennai — dense hospital floor plan'}
+{'case': 'case03', 'expected': 'floor_plan', 'observed': 'floor_plan', 'correct': True, 'sheet_kinds': ['floor_plan'], 'site_plan_reason': [], 'rooms': 21, 'openings': 147, 'scale': ['auto (low confidence): 12 door openings, median 8px = 0.85 m (wall-thickness estimate disagreed) - please calibrate'], 'floors': [None], 'checks': ['SCALE ASSUMED', 'OPENING COUNT CONFLICT', 'OPENING COUNT CONFLICT', 'WALL VOLUME', 'STRUCTURAL INPUT MISSING'], 'completeness': '30 / 48 items priced', 'total_inr': 24076010.24, 'note': 'Tiruppur GH oncology — site plan + ground floor plan on one sheet'}
+{'case': 'case04', 'expected': 'site_plan', 'observed': 'site_plan', 'correct': True, 'sheet_kinds': ['site_plan'], 'site_plan_reason': ['printed scale 1:2006 — site / layout scale, not a building floor plan'], 'rooms': 0, 'openings': 0, 'scale': [], 'floors': [], 'checks': ['STRUCTURAL INPUT MISSING'], 'completeness': '0 / 0 items priced', 'total_inr': 0.0, 'note': 'AIIMS Madurai — campus site layout 1:2000: must NOT be costed as a floor plan'}
+{'case': 'case05', 'expected': 'floor_plan', 'observed': 'other', 'correct': False, 'sheet_kinds': ['other'], 'site_plan_reason': [], 'rooms': 0, 'openings': 0, 'scale': [], 'floors': [], 'checks': ['STRUCTURAL INPUT MISSING'], 'completeness': '0 / 0 items priced', 'total_inr': 0.0, 'note': 'Vishwaksena Global School — rendered presentation board with a floor plan'}
+sheet class correct: 3 / 4
+{'file': 'ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 28, 'median_abs_err_pct': 5.5, 'within_5pct': 42.9, 'within_10pct': 67.9, 'seconds': 1.2}
+{'file': 'ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf', 'plans': 6, 'labelled_rooms': 50, 'median_abs_err_pct': 3.3, 'within_5pct': 54.0, 'within_10pct': 70.0, 'seconds': 1.2}
+{'file': 'ARCH_BBC_AR_TY_1_Plans_ALL.dxf', 'plans': 3, 'labelled_rooms': 48, 'median_abs_err_pct': 1.4, 'within_5pct': 100.0, 'within_10pct': 100.0, 'seconds': 0.9}
+{'file': 'ARCH_BBC_AR_TY_2_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 24, 'median_abs_err_pct': 5.0, 'within_5pct': 50.0, 'within_10pct': 70.8, 'seconds': 1.1}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 40, 'median_abs_err_pct': 2.5, 'within_5pct': 55.0, 'within_10pct': 85.0, 'seconds': 2.0}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALLdwg.dxf', 'plans': 4, 'labelled_rooms': 52, 'median_abs_err_pct': 2.3, 'within_5pct': 59.6, 'within_10pct': 71.2, 'seconds': 2.0}
+{
+ "files": 6,
+ "labelled_rooms": 242,
+ "median_abs_err_pct": 2.02,
+ "mean_abs_err_pct": 7.73,
+ "within_5pct": 62.8,
+ "within_10pct": 78.5
+}
+GATES
+  G01 Room & area extraction                          NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G02 Door detection                                  NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G03 Window detection                                NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G04 Wall quantities                                 NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G05 Structural quantities                           NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmar
+  G06 Other construction quantities                   NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 5 required. Development-benchmar
+  G07 Drawing classification                          NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G08 Floor & unit identification                     NOT MEASURED       0 final-holdout TN project(s) with verified ground truth; 10 required. Development-benchma
+  G09 PWD item mapping                                NOT VALIDATED      0 engineer-approved mapping(s); 30 required
+  G10 Rate coverage                            58.8%  FAIL               coverage of applicable take-off lines on the sample drawings (needs no ground truth)
+  G11 Quantity agreement vs approved BOQs             NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G12 Item-cost accuracy                              NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G13 Total project-cost accuracy                     NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G14 Estimate completeness                           NOT VALIDATED      0 approved Tamil Nadu BOQ project(s); 5 required
+  G15 Confidence calibration                          NOT MEASURED       NOT CALIBRATED — no labelled TN validation predictions
+EVIDENCE (cannot satisfy a gate)
+  Plinth area within ±10 %                       68.8%  n=16    DEVELOPMENT (exposed)
+  Sheet view classification                      88.9%  n=27    DEVELOPMENT (exposed)
+  Floor occurrences (refuge floor)              100.0%  n=1     REFERENCE (non-TN: Hyderabad)
+  Apartments found                                100%  n=1     REFERENCE (non-TN: Hyderabad)
+  Openings detected (no reference)                      n=1     REFERENCE (non-TN: Hyderabad)
+  Site-plan vs floor-plan classification         75.0%  n=4     SMOKE (third-party images, exposed after one fix)
+  Door count within ±10 % of tags                20.8%  n=24    REFERENCE (non-TN: Bihar)
+  Window count within ±10 % of tags               0.0%  n=24    REFERENCE (non-TN: Bihar)
+  Room area within ±10 %                         78.5%  n=242   REFERENCE (non-TN: Uttarakhand)
+  Detector door F1 (train)                       88.3%  n=4200  GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (train)                     91.8%  n=4200  GENERIC (CubiCasa5K — not TN)
+  Detector door F1 (val)                         86.5%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (val)                       89.8%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector door F1 (test)                        86.9%  n=400   GENERIC (CubiCasa5K — not TN)
+  Detector window F1 (test)                      88.1%  n=400   GENERIC (CubiCasa5K — not TN)
+  Total vs exact geometry (dxf)                 100.0%  n=12    SYNTHETIC
+  Total vs exact geometry (pdf)                 100.0%  n=12    SYNTHETIC
+  Total vs exact geometry (png)                 100.0%  n=12    SYNTHETIC
+  Take-off lines priced from TN data             58.8%  n=153   COVERAGE (sample drawings)
+FINAL: FAIL
+exit=0

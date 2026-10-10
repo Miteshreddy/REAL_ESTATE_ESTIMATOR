@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-6da3fb1231",
+ "project_name": "block-a-refuge-floor-plan-de-dc",
+ "source": [
+  "non_tn_reference"
+ ],
+ "source_url": null,
+ "building_type": "office",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "ARCHITECTURAL PLAN"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "jpg"
+ ],
+ "files": [
+  "3 - Block-A-Refuge-Floor-Plan-1780466106344-46de52dc.jpg"
+ ],
+ "page_count": 1,
+ "pages": [
+  "64adc15660a9ce25-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:36",
+ "source_status": "restricted",
+ "license_status": "restricted"
+}

@@ -1,0 +1,74 @@
+{
+ "git_branch": "tn-completion",
+ "base_commit": "5deae95",
+ "pytest": "57 passed",
+ "active_schedules": [
+  [
+   "tn-pwd-sor-2025-26-amd-2025-08-08",
+   "Tamil Nadu"
+  ]
+ ],
+ "tn_rate_items": 3502,
+ "sd_items": 514,
+ "reference_boqs": 0,
+ "learned": 0,
+ "dataset": {
+  "total_projects": 42,
+  "total_sheets": 110,
+  "splits": {
+   "unseen_test": 42
+  },
+  "verified_pages": 0,
+  "verified_objects": {},
+  "pseudo_pages": 110,
+  "pseudo_objects": {
+   "door": 491,
+   "window": 844,
+   "room": 476
+  },
+  "structural_sheets": 19,
+  "commercial_sheets": 37,
+  "scans": 57,
+  "vector_files": 53,
+  "cad_files": 0,
+  "district_distribution": {
+   "not stated": 41,
+   "Kancheepuram": 1
+  },
+  "building_type_distribution": {
+   "unknown": 32,
+   "industrial": 2,
+   "office": 5,
+   "commercial": 1,
+   "institutional": 1,
+   "basic_residential": 1
+  },
+  "drawing_type_distribution": {
+   "OTHER": 61,
+   "BEAM PLAN": 5,
+   "ARCHITECTURAL PLAN": 4,
+   "SECTION": 9,
+   "DETAIL": 9,
+   "FOUNDATION PLAN": 13,
+   "SERVICES": 5,
+   "ELEVATION": 2,
+   "REBAR / BBS": 1,
+   "STAIRCASE": 1
+  },
+  "license_status": {
+   "government_publication_review": 109,
+   "client_permission": 1
+  },
+  "duplicates": 0,
+  "annotation_queue": 0
+ },
+ "models": [
+  "floorplan_unet",
+  "room_label / room_geom classifiers",
+  "opening_det"
+ ],
+ "new_inputs": [
+  "Downloads/createpdf_683689c2-\u2026.pdf: 5 TN complex drawings (case02 image is a 14x16 placeholder)",
+  "Downloads/Residential_building_estimate.pdf: this app's own old Telangana estimate \u2014 NOT ground truth"
+ ]
+}

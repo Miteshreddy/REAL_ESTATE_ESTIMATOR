@@ -1,0 +1,14 @@
+{
+ "images": 20,
+ "problems": [],
+ "ok": true,
+ "class_map_pack": {
+  "0": "door",
+  "1": "window"
+ },
+ "class_map_production": {
+  "0": "door",
+  "1": "window"
+ },
+ "class_map_compatible": true
+}

@@ -1,0 +1,12 @@
+{
+ "source_id": "JICA_MAHARAJ_HOSPITAL_SITEPLAN",
+ "title": "Maharaj Hospital site plan - non-TN reference",
+ "category": "hospital;campus;generic_reference",
+ "state": "Other region",
+ "url": "https://openjicareport.jica.go.jp/pdf/10421923_02.pdf",
+ "catalogue_training_status": "REVIEW_REQUIRED",
+ "catalogue_evaluation_status": "REFERENCE_ONLY",
+ "acquisition_state": "REJECTED_NON_TN",
+ "reason": "state = Other region (TN-only scope)",
+ "at": "2026-10-09T13:30:26+00:00"
+}

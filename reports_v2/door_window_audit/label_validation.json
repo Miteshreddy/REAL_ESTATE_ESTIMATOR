@@ -1,0 +1,39 @@
+{
+ "original": {
+  "boxes": 415,
+  "doors": 237,
+  "windows": 178,
+  "problems": [],
+  "ok": true
+ },
+ "corrected": {
+  "boxes": 397,
+  "doors": 219,
+  "windows": 178,
+  "problems": [],
+  "ok": true
+ },
+ "corrected_ignore_regions": {
+  "boxes": 18,
+  "doors": 18,
+  "windows": 0,
+  "problems": [],
+  "ok": true
+ },
+ "class_map": {
+  "pack": {
+   "0": "door",
+   "1": "window"
+  },
+  "production_detector": {
+   "0": "door",
+   "1": "window"
+  },
+  "compatible": true
+ },
+ "convention": {
+  "production": "opening strip: span along wall x wall thickness (measured on CubiCasa training labels: short/long side median 0.198 door, 0.209 window)",
+  "original_pack_doors": "swing square (leaf + arc), ~74-150 px square",
+  "original_pack_windows": "frame symbol: wall thickness + ~9.5 px each side (34 px vs 15 px wall)"
+ }
+}

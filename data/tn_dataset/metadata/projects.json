@@ -1,0 +1,1606 @@
+{
+ "tn-24af7304b4": {
+  "project_id": "tn-24af7304b4",
+  "project_name": "esb",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "1.ESB-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "333237c2c532555f-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-8f144bc6d7": {
+  "project_id": "tn-8f144bc6d7",
+  "project_name": "1.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "1.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "5a94fd59e88d7b21-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-cba4181417": {
+  "project_id": "tn-cba4181417",
+  "project_name": "lb",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "10.LB-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "6132edd96c564277-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-482bd64c6c": {
+  "project_id": "tn-482bd64c6c",
+  "project_name": "ch",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "11.CH-1-Model.pdf",
+   "12.CH-2-Model.pdf",
+   "13.CH-3(1)-Model.pdf",
+   "13.CH-3(2)-Model.pdf"
+  ],
+  "page_count": 4,
+  "pages": [
+   "20a32b79300df7a7-p1",
+   "624e166e3381c7af-p1",
+   "9a74c3ada1449c6d-p1",
+   "ad97e36a1dc03876-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-5410ca020e": {
+  "project_id": "tn-5410ca020e",
+  "project_name": "cement-godown",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "industrial",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "14.cement_godown.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "4f29016b7e15e41c-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-bcd3ed8415": {
+  "project_id": "tn-bcd3ed8415",
+  "project_name": "vao-office",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "office",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "15.vao_office.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "5fdae33c2e9794fe-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-e6c9da68be": {
+  "project_id": "tn-e6c9da68be",
+  "project_name": "tf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "16.TF-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "68f662f7a021481b-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-67f994533a": {
+  "project_id": "tn-67f994533a",
+  "project_name": "cs",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "17.CS-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "c597968939d70d34-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-dcab2065d5": {
+  "project_id": "tn-dcab2065d5",
+  "project_name": "mc",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "18.MC-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "26017b688edaeed7-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-e133b8885f": {
+  "project_id": "tn-e133b8885f",
+  "project_name": "pds",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "commercial",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "2.PDS-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "bace83eeb89c2bdb-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-e9d638cba2": {
+  "project_id": "tn-e9d638cba2",
+  "project_name": "2.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "2.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "961b4340e3eb3959-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-21f26413e0": {
+  "project_id": "tn-21f26413e0",
+  "project_name": "anganwadi",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "institutional",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "3.Anganwadi-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "dcaa8a3ce6c66bec-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-7e5c6977f7": {
+  "project_id": "tn-7e5c6977f7",
+  "project_name": "3.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "3.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "bbe5d2e6781d6e15-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:29",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-bbda79579a": {
+  "project_id": "tn-bbda79579a",
+  "project_name": "kitchen-shed",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "industrial",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "4.kitchen_shed.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "15e6dd2d2a947d1a-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-950a6a5529": {
+  "project_id": "tn-950a6a5529",
+  "project_name": "4.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "4.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "affba99a8354a8c1-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-7a9a623862": {
+  "project_id": "tn-7a9a623862",
+  "project_name": "stg",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "5.STG-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "4700c685825bb340-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-9f0d632ac1": {
+  "project_id": "tn-9f0d632ac1",
+  "project_name": "stb",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "6.STB-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "0115bb94df1be1cf-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-030a8a22c3": {
+  "project_id": "tn-030a8a22c3",
+  "project_name": "shgb",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "7.SHGB-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "56a8ed7de7e1f3a3-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-e9dbe363b1": {
+  "project_id": "tn-e9dbe363b1",
+  "project_name": "pstr",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "8.PSTR-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "97cf36084ff9929f-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-13a5d51391": {
+  "project_id": "tn-13a5d51391",
+  "project_name": "po",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "9.PO-Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "e660368975494987-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-cfd7b267d9": {
+  "project_id": "tn-cfd7b267d9",
+  "project_name": "aee-office",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "office",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "AEE office Model.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "b1c3d6466e54aef3-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-96a99f205e": {
+  "project_id": "tn-96a99f205e",
+  "project_name": "beam-l-s",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "BEAM PLAN"
+  ],
+  "disciplines": [
+   "structural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Beam L.S-1.pdf",
+   "Beam L.S-2.pdf",
+   "Beam L.S-3.pdf",
+   "Beam L.S-4.pdf"
+  ],
+  "page_count": 4,
+  "pages": [
+   "159258cd7b7bcfb5-p1",
+   "21b5e1f63c42c05e-p1",
+   "d580faf3b2c4ffd6-p1",
+   "f12ee1fd22173133-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:30",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-27ee5e4db1": {
+  "project_id": "tn-27ee5e4db1",
+  "project_name": "buildings",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "office",
+  "district": "Kancheepuram",
+  "city": null,
+  "drawing_types": [
+   "ARCHITECTURAL PLAN",
+   "DETAIL",
+   "ELEVATION",
+   "FOUNDATION PLAN",
+   "OTHER",
+   "REBAR / BBS",
+   "SECTION",
+   "SERVICES"
+  ],
+  "disciplines": [
+   "architectural",
+   "services",
+   "structural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Buildings.pdf"
+  ],
+  "page_count": 60,
+  "pages": [
+   "ebd2edc143e894d4-p1",
+   "ebd2edc143e894d4-p10",
+   "ebd2edc143e894d4-p11",
+   "ebd2edc143e894d4-p12",
+   "ebd2edc143e894d4-p13",
+   "ebd2edc143e894d4-p14",
+   "ebd2edc143e894d4-p15",
+   "ebd2edc143e894d4-p16",
+   "ebd2edc143e894d4-p17",
+   "ebd2edc143e894d4-p18",
+   "ebd2edc143e894d4-p19",
+   "ebd2edc143e894d4-p2",
+   "ebd2edc143e894d4-p20",
+   "ebd2edc143e894d4-p21",
+   "ebd2edc143e894d4-p22",
+   "ebd2edc143e894d4-p23",
+   "ebd2edc143e894d4-p24",
+   "ebd2edc143e894d4-p25",
+   "ebd2edc143e894d4-p26",
+   "ebd2edc143e894d4-p27",
+   "ebd2edc143e894d4-p28",
+   "ebd2edc143e894d4-p29",
+   "ebd2edc143e894d4-p3",
+   "ebd2edc143e894d4-p30",
+   "ebd2edc143e894d4-p31",
+   "ebd2edc143e894d4-p32",
+   "ebd2edc143e894d4-p33",
+   "ebd2edc143e894d4-p34",
+   "ebd2edc143e894d4-p35",
+   "ebd2edc143e894d4-p36",
+   "ebd2edc143e894d4-p37",
+   "ebd2edc143e894d4-p38",
+   "ebd2edc143e894d4-p39",
+   "ebd2edc143e894d4-p4",
+   "ebd2edc143e894d4-p40",
+   "ebd2edc143e894d4-p41",
+   "ebd2edc143e894d4-p42",
+   "ebd2edc143e894d4-p43",
+   "ebd2edc143e894d4-p44",
+   "ebd2edc143e894d4-p45",
+   "ebd2edc143e894d4-p46",
+   "ebd2edc143e894d4-p47",
+   "ebd2edc143e894d4-p48",
+   "ebd2edc143e894d4-p49",
+   "ebd2edc143e894d4-p5",
+   "ebd2edc143e894d4-p50",
+   "ebd2edc143e894d4-p51",
+   "ebd2edc143e894d4-p52",
+   "ebd2edc143e894d4-p53",
+   "ebd2edc143e894d4-p54",
+   "ebd2edc143e894d4-p55",
+   "ebd2edc143e894d4-p56",
+   "ebd2edc143e894d4-p57",
+   "ebd2edc143e894d4-p58",
+   "ebd2edc143e894d4-p59",
+   "ebd2edc143e894d4-p6",
+   "ebd2edc143e894d4-p60",
+   "ebd2edc143e894d4-p7",
+   "ebd2edc143e894d4-p8",
+   "ebd2edc143e894d4-p9"
+  ],
+  "scale": "1:500",
+  "collection_date": "2026-10-09T16:00:31",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-ebfc3b5cf0": {
+  "project_id": "tn-ebfc3b5cf0",
+  "project_name": "cross-section",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "SECTION"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Cross Section.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "25fc89ae68b6b83f-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:32",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-2780acf0b9": {
+  "project_id": "tn-2780acf0b9",
+  "project_name": "drain",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "SERVICES"
+  ],
+  "disciplines": [
+   "services"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Drain.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "21dad7f6c16cecfd-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:32",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-ed70c57d75": {
+  "project_id": "tn-ed70c57d75",
+  "project_name": "ff",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "FF-ARC.pdf",
+   "FF-Roof.pdf"
+  ],
+  "page_count": 2,
+  "pages": [
+   "27edfce28b4c62d0-p1",
+   "43806f56ea3e3096-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:32",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-1e5afda011": {
+  "project_id": "tn-1e5afda011",
+  "project_name": "FF.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "ARCHITECTURAL PLAN"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "FF.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "cdef991557e9bfe0-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:33",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-4ebb4595ea": {
+  "project_id": "tn-4ebb4595ea",
+  "project_name": "gf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "GF Roof.pdf",
+   "GF-ARC.pdf"
+  ],
+  "page_count": 2,
+  "pages": [
+   "53874ca418cabe97-p1",
+   "72859f4d74f2397a-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:34",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-ed442a2871": {
+  "project_id": "tn-ed442a2871",
+  "project_name": "GF.pdf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "office",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "GF.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "507b9d04077cd7c8-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:34",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-06204f5f05": {
+  "project_id": "tn-06204f5f05",
+  "project_name": "iay-drawing",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "basic_residential",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "IAY drawing0001.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "e7cc63e3823c911e-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:34",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-23192f68bf": {
+  "project_id": "tn-23192f68bf",
+  "project_name": "imsc",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "IMSC.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "49ae1c2ac87c4e0f-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:34",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-2edd876b57": {
+  "project_id": "tn-2edd876b57",
+  "project_name": "plinth-beam",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "BEAM PLAN"
+  ],
+  "disciplines": [
+   "structural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Plinth beam.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "f1b82b269ba6ee89-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:35",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-402caa2ef5": {
+  "project_id": "tn-402caa2ef5",
+  "project_name": "portico-grade-beam",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Portico -Grade Beam.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "0092f849c9d9452d-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:35",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-8195b3f20b": {
+  "project_id": "tn-8195b3f20b",
+  "project_name": "portico-elevation",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "ELEVATION"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Portico-Elevation.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "cfaf8dfb2cb89fa8-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:35",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-22d4880e00": {
+  "project_id": "tn-22d4880e00",
+  "project_name": "portico-roof-beam",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Portico-Roof Beam 1.pdf",
+   "Portico-Roof beam 2.pdf"
+  ],
+  "page_count": 2,
+  "pages": [
+   "a7e156db998e8dae-p1",
+   "b7866fc8591a1c58-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:35",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-8eff122bd4": {
+  "project_id": "tn-8eff122bd4",
+  "project_name": "sf",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "SF-ARC.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "0fe185afe7c8effc-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:35",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-4f6ebb34f5": {
+  "project_id": "tn-4f6ebb34f5",
+  "project_name": "sanitary",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "SERVICES"
+  ],
+  "disciplines": [
+   "services"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Sanitary.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "b5be7f3ef33f408b-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-fdb5cb005c": {
+  "project_id": "tn-fdb5cb005c",
+  "project_name": "stair-case",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "STAIRCASE"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Stair case.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "efde01c9317f44ee-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-2819b57e43": {
+  "project_id": "tn-2819b57e43",
+  "project_name": "tranining-hall",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Tranining Hall-Roof.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "780178f63c125e23-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-b5bc7d68a0": {
+  "project_id": "tn-b5bc7d68a0",
+  "project_name": "water-supply",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "Water Supply.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "00fc041982d1453f-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-5cde8d1f5f": {
+  "project_id": "tn-5cde8d1f5f",
+  "project_name": "pvt-model",
+  "source": [
+   "tnrd"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "pdf"
+  ],
+  "files": [
+   "pvt-Model 29.09.11.pdf"
+  ],
+  "page_count": 1,
+  "pages": [
+   "59b850d6325af1d0-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "government_publication_review",
+  "license_status": "government_publication_review",
+  "split": "development_benchmark",
+  "split_reason": "used by evaluation scripts during development (exposed)"
+ },
+ "tn-6da3fb1231": {
+  "project_id": "tn-6da3fb1231",
+  "project_name": "block-a-refuge-floor-plan-de-dc",
+  "source": [
+   "non_tn_reference"
+  ],
+  "source_url": null,
+  "building_type": "office",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "ARCHITECTURAL PLAN"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "jpg"
+  ],
+  "files": [
+   "3 - Block-A-Refuge-Floor-Plan-1780466106344-46de52dc.jpg"
+  ],
+  "page_count": 1,
+  "pages": [
+   "64adc15660a9ce25-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:36",
+  "source_status": "restricted",
+  "license_status": "restricted",
+  "split": "reference",
+  "split_reason": "not a Tamil Nadu project"
+ },
+ "tn-4fbadf942b": {
+  "project_id": "tn-4fbadf942b",
+  "project_name": "complex-case01",
+  "source": [
+   "scribd_arch"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "png"
+  ],
+  "files": [
+   "case01.png"
+  ],
+  "page_count": 1,
+  "pages": [
+   "2b454e6e00283128-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:37",
+  "source_status": "restricted",
+  "license_status": "restricted",
+  "split": "smoke_test",
+  "split_reason": "third-party copyrighted drawing — smoke test only"
+ },
+ "tn-4c0dd613ab": {
+  "project_id": "tn-4c0dd613ab",
+  "project_name": "complex-case03",
+  "source": [
+   "scribd_arch"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "png"
+  ],
+  "files": [
+   "case03.png"
+  ],
+  "page_count": 1,
+  "pages": [
+   "87dfcb667587fb17-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:37",
+  "source_status": "restricted",
+  "license_status": "restricted",
+  "split": "smoke_test",
+  "split_reason": "third-party copyrighted drawing — smoke test only"
+ },
+ "tn-6cf145d292": {
+  "project_id": "tn-6cf145d292",
+  "project_name": "complex-case04",
+  "source": [
+   "scribd_arch"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "png"
+  ],
+  "files": [
+   "case04.png"
+  ],
+  "page_count": 1,
+  "pages": [
+   "6f2067a255eb2abc-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:37",
+  "source_status": "restricted",
+  "license_status": "restricted",
+  "split": "smoke_test",
+  "split_reason": "third-party copyrighted drawing — smoke test only"
+ },
+ "tn-88795f014d": {
+  "project_id": "tn-88795f014d",
+  "project_name": "complex-case05",
+  "source": [
+   "scribd_arch"
+  ],
+  "source_url": null,
+  "building_type": "unknown",
+  "district": null,
+  "city": null,
+  "drawing_types": [
+   "OTHER"
+  ],
+  "disciplines": [
+   "architectural"
+  ],
+  "file_types": [
+   "png"
+  ],
+  "files": [
+   "case05.png"
+  ],
+  "page_count": 1,
+  "pages": [
+   "28a56bba4860650e-p1"
+  ],
+  "scale": null,
+  "collection_date": "2026-10-09T16:00:37",
+  "source_status": "restricted",
+  "license_status": "restricted",
+  "split": "smoke_test",
+  "split_reason": "third-party copyrighted drawing — smoke test only"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-2780acf0b9",
+ "project_name": "drain",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "SERVICES"
+ ],
+ "disciplines": [
+  "services"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Drain.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "21dad7f6c16cecfd-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:32",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

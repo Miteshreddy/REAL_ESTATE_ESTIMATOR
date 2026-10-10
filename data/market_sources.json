@@ -1,0 +1,33 @@
+{
+ "note": "Public pages that publish Tamil Nadu construction cost per sq ft. Fetched directly (robots.txt honoured), weekly. Edit freely. {city} = lower-case city slug.",
+ "sources": [
+  {
+   "name": "InfraLens city prices",
+   "url": "https://infralens.in/prices/{city}",
+   "kind": "residential"
+  },
+  {
+   "name": "InfraLens Chennai 2026 guide",
+   "url": "https://infralens.in/knowledge/construction-cost-chennai-2026",
+   "kind": "residential",
+   "city": "chennai"
+  },
+  {
+   "name": "Bricknbolt Chennai calculator",
+   "url": "https://www.bricknbolt.com/home-construction-cost-calculator-in-chennai",
+   "kind": "residential",
+   "city": "chennai"
+  },
+  {
+   "name": "IndiaLandConverter Tamil Nadu",
+   "url": "https://www.indialandconverter.in/construction-cost/tamil-nadu/{city}",
+   "kind": "residential"
+  },
+  {
+   "name": "Hoog Chennai 2026",
+   "url": "https://www.hoog.design/en/house-construction-cost-chennai-2026",
+   "kind": "residential",
+   "city": "chennai"
+  }
+ ]
+}

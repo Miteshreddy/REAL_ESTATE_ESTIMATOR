@@ -1,0 +1,37 @@
+{
+ "project_id": "tn-482bd64c6c",
+ "project_name": "ch",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "11.CH-1-Model.pdf",
+  "12.CH-2-Model.pdf",
+  "13.CH-3(1)-Model.pdf",
+  "13.CH-3(2)-Model.pdf"
+ ],
+ "page_count": 4,
+ "pages": [
+  "20a32b79300df7a7-p1",
+  "624e166e3381c7af-p1",
+  "9a74c3ada1449c6d-p1",
+  "ad97e36a1dc03876-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

@@ -1,0 +1,10 @@
+flowchart LR
+  IMG["raster page"] --> PRE["grayscale · deskew-free tiling · long side 1024"]
+  PRE --> UNET["floorplan_unet.onnx (U-Net ResNet34, CubiCasa5K)"] --> MASK["wall / room / door / window masks"]
+  PRE --> YOLO["opening_det.onnx (YOLOv8s 1024, CubiCasa5K)"] --> BOX["door/window boxes → wall-gate filter"]
+  IMG --> OCR["RapidOCR (ONNX, pretrained)"] --> TXT["labels, dims, titles"]
+  TXT --> RL["RoomLabelModel TF-IDF + LR (models_v5.joblib)"]
+  MASK --> RG["RoomGeomClassifier GBM (models_v5)"]
+  PDF["vector PDF"] --> PRIM["PrimitiveClassifier RandomForest (models_v5)"]
+  MASK & BOX & PRIM --> REC["openings.reconcile: geometry vs schedule vs detector → CONFLICT flags"]
+  TXT --> SORM["nlp.SORMatcher TF-IDF word+char → PWD item suggestions"]

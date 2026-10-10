@@ -1,0 +1,473 @@
+{
+ "_about": "Reviewed map: take-off item -> Tamil Nadu PWD rate. 'sor' = a finished-work rate printed in the TN SOR; 'sd' = TN Standard Data Book item analysed with TN SOR basic rates (variant index, optional 'bind' wiring of components the book names generically or defines in a sub-data block, 'ignore' for printed extras that do not apply, 'factor' converting the analysed unit to the take-off unit); 'suggest' = a TN SOR line that is shown to the engineer but NOT priced until confirmed; 'needs' = NEEDS RATE / NEEDS RATE ANALYSIS. 'band' = plausibility range (Rs per take-off unit) — outside it the rate is rejected, not used.",
+ "site_clearance": {
+  "sor": "W-0003",
+  "note": "TN SOR W-0003 Clearing scrub jungle (per sqm)",
+  "band": [
+   1,
+   50
+  ]
+ },
+ "excavation": {
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN Standard Data 120 (manual foundation excavation) references an average excavation rate that is not printed as a basic rate; the SOR earthwork items W-0054.. are Water Resources canal items. Engineer to enter the applicable rate."
+ },
+ "backfill": {
+  "sd": "127",
+  "variant": 0,
+  "note": "TN SD 127 refilling with excavated earth (incl. earth-rammer charges)",
+  "band": [
+   30,
+   600
+  ]
+ },
+ "sand_fill": {
+  "sd": "129",
+  "variant": 0,
+  "note": "TN SD 129 filling basement with sand-gravel mix 1:3 (TN specification for basement filling; take-off said sand / murrum); mixing charges 'equivalent to mortar' = TN SOR W-0164 manual mortar mixing",
+  "band": [
+   200,
+   3000
+  ],
+  "bind": {
+   "Mixing charges": "SOR:W-0164"
+  }
+ },
+ "anti_termite": {
+  "needs": "NEEDS RATE",
+  "note": "No anti-termite treatment item in TN SOR 2025-26 Vol I / Standard Data Vol I"
+ },
+ "pcc_found": {
+  "sd": "141",
+  "variant": 1,
+  "bind": {
+   "Mixing charges by Mechanical": "SD:141:0"
+  },
+  "note": "TN SD 141 CC 1:5:10 (40mm HBG jelly) for foundation — TN specification for lean concrete (take-off said 1:4:8); mixing charges from the item's own sub-data (mixer + driver per 27 cum)",
+  "band": [
+   3000,
+   15000
+  ]
+ },
+ "pcc_floor": {
+  "sd": "156",
+  "variant": 1,
+  "bind": {
+   "Charges for mixing by mechanical": "SD:156:0"
+  },
+  "note": "TN SD 156 CC 1:2:4 (20mm HBG jelly), machine mixed; mixing charges from the item's own sub-data",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_footing": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 standardised concrete M20 by in-situ batching plant / RMC (excl. steel & formwork) — TN specification replaces nominal mix 1:1.5:3",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_column": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 M20 (excl. steel & formwork)",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_beam": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 M20 (excl. steel & formwork)",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_slab": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 M20 (excl. steel & formwork)",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_lintel": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 M20 (excl. steel & formwork)",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "rcc_stair": {
+  "sd": "163",
+  "variant": 0,
+  "note": "TN SD 163 M20 (excl. steel & formwork)",
+  "band": [
+   4000,
+   16000
+  ]
+ },
+ "fw_found": {
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SD 144-151 centering data use multi-use sub-data (MS sheets, props, spans) that the parser cannot yet price reliably — engineer to enter or confirm"
+ },
+ "fw_col": {
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "as fw_found"
+ },
+ "fw_beam": {
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "as fw_found"
+ },
+ "fw_slab": {
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "as fw_found"
+ },
+ "steel_footing": {
+  "sd": "168",
+  "variant": 0,
+  "factor": 0.01,
+  "bind": {
+   "Cost of steel reinforcement": "SOR:M-0002",
+   "Binding wire": "SOR:M-0188"
+  },
+  "ignore": [
+   "in every upper floor",
+   "additional labour for works above plinth"
+  ],
+  "note": "TN SD 168 reinforcement per quintal (÷100 → per kg); base rate up to plinth — the extra labour for each upper floor is NOT added (review for multi-storey work)",
+  "band": [
+   40,
+   200
+  ]
+ },
+ "steel_column": {
+  "sd": "168",
+  "variant": 0,
+  "factor": 0.01,
+  "bind": {
+   "Cost of steel reinforcement": "SOR:M-0002",
+   "Binding wire": "SOR:M-0188"
+  },
+  "ignore": [
+   "in every upper floor",
+   "additional labour for works above plinth"
+  ],
+  "note": "as steel_footing",
+  "band": [
+   40,
+   200
+  ]
+ },
+ "steel_beam": {
+  "sd": "168",
+  "variant": 0,
+  "factor": 0.01,
+  "bind": {
+   "Cost of steel reinforcement": "SOR:M-0002",
+   "Binding wire": "SOR:M-0188"
+  },
+  "ignore": [
+   "in every upper floor",
+   "additional labour for works above plinth"
+  ],
+  "note": "as steel_footing",
+  "band": [
+   40,
+   200
+  ]
+ },
+ "steel_slab": {
+  "sd": "168",
+  "variant": 0,
+  "factor": 0.01,
+  "bind": {
+   "Cost of steel reinforcement": "SOR:M-0002",
+   "Binding wire": "SOR:M-0188"
+  },
+  "ignore": [
+   "in every upper floor",
+   "additional labour for works above plinth"
+  ],
+  "note": "as steel_footing",
+  "band": [
+   40,
+   200
+  ]
+ },
+ "mas_plinth": {
+  "sd": "194",
+  "variant": 0,
+  "factor": 35.3147,
+  "note": "TN SD 194 burnt clay brick 9x4.5x3 in CM 1:6, per 100 cft (= 2.83168 cum) → per cum",
+  "band": [
+   3000,
+   15000
+  ]
+ },
+ "mas_230": {
+  "sd": "194",
+  "variant": 0,
+  "factor": 35.3147,
+  "note": "TN SD 194 burnt clay brick 9x4.5x3 in CM 1:6 → per cum",
+  "band": [
+   3000,
+   15000
+  ]
+ },
+ "mas_115": {
+  "sd": "194",
+  "variant": 0,
+  "factor": 4.0612,
+  "note": "TN SD 194 per cum × 0.115 m wall thickness → per sqm of half-brick wall (TN data is for brickwork by volume; CM 1:6 used, take-off said 1:4)",
+  "band": [
+   300,
+   2500
+  ]
+ },
+ "plaster_int": {
+  "sd": "298",
+  "variant": 0,
+  "note": "TN SD 298 plaster CM 1:6, 12mm",
+  "band": [
+   80,
+   1200
+  ]
+ },
+ "plaster_ext": {
+  "sd": "300",
+  "variant": 0,
+  "note": "TN SD 300 plaster CM 1:5, 15mm (TN mix; take-off said 1:4)",
+  "band": [
+   80,
+   1500
+  ]
+ },
+ "plaster_ceil": {
+  "sd": "302",
+  "variant": 0,
+  "note": "TN SD 302 special ceiling plastering CM 1:3",
+  "band": [
+   80,
+   1200
+  ]
+ },
+ "floor_vit": {
+  "sd": "256",
+  "variant": 0,
+  "bind": {
+   "Cement Mortar 1:3": "SD:4:0",
+   "Cement slurry": "SOR:M-0001",
+   "Variety": "SOR:M-0219"
+  },
+  "note": "TN SD 256 vitrified tile paving in CM 1:3 with epoxy grout; tile = TN SOR M-0219 double-charged vitrified 600x600x8 (amended 08.08.2025)",
+  "band": [
+   400,
+   4000
+  ]
+ },
+ "floor_antiskid": {
+  "sd": "257",
+  "variant": 0,
+  "bind": {
+   "Cement Mortar 1:3": "SD:4:0",
+   "Cement slurry": "SOR:M-0001",
+   "Cost of Tiles": "SOR:M-0203"
+  },
+  "note": "TN SD 257 ceramic tile flooring (108 tiles / 10 sqm) with TN SOR M-0203 plain ceramic 305x305x6 (amended); take-off: anti-skid 300x300",
+  "band": [
+   300,
+   4000
+  ]
+ },
+ "dado": {
+  "sd": "260",
+  "variant": 4,
+  "bind": {
+   "Cost of Tiles": "SOR:M-0217",
+   "Cement mortar 1:2": "SD:3:0"
+  },
+  "note": "TN SD 260(e) dadooing with glazed tiles 300x200x6 in CM 1:2 — tile TN SOR M-0217 (amended)",
+  "band": [
+   300,
+   4000
+  ]
+ },
+ "skirting": {
+  "sd": "256",
+  "variant": 0,
+  "bind": {
+   "Cement Mortar 1:3": "SD:4:0",
+   "Cement slurry": "SOR:M-0001",
+   "Variety": "SOR:M-0219"
+  },
+  "note": "TN SD 256 vitrified tile paving in CM 1:3 with epoxy grout; tile = TN SOR M-0219 double-charged vitrified 600x600x8 (amended 08.08.2025) — used for skirting per sqm",
+  "band": [
+   400,
+   4000
+  ]
+ },
+ "granite": {
+  "suggest": [
+   "M-0237"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0237 granite slab (material, per sqm) — counter fixing data not in TN SD Vol I"
+ },
+ "putty": {
+  "suggest": [
+   "M-0428"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0428 white wall putty powder (material, per kg) — no putty application data in TN SD Vol I"
+ },
+ "paint_int": {
+  "sd": "373",
+  "variant": 0,
+  "bind": {
+   "Ready mixed primer": "SOR:M-0419",
+   "Ready mixed paint": "SOR:M-0420"
+  },
+  "note": "TN SD 373 primer + two coats emulsion on new plaster — primer M-0419, plastic emulsion M-0420",
+  "band": [
+   30,
+   600
+  ]
+ },
+ "paint_ext": {
+  "sd": "373",
+  "variant": 0,
+  "bind": {
+   "Ready mixed primer": "SOR:M-0262",
+   "Ready mixed paint": "SOR:M-0426"
+  },
+  "note": "TN SD 373 consumption with exterior materials — exterior primer M-0262, exterior emulsion M-0426 (TN data has no separate exterior item; review)",
+  "band": [
+   30,
+   600
+  ]
+ },
+ "paint_enamel": {
+  "sd": "363",
+  "variant": 0,
+  "bind": {
+   "Ready mixed primer": "SOR:M-0421",
+   "Ready mixed paint": "SOR:M-0422"
+  },
+  "note": "TN SD 363 two coats synthetic enamel on new wood work (doors) — primer M-0421 wood primer, paint M-0422 synthetic enamel for wood work; grills painted at the same rate",
+  "band": [
+   30,
+   600
+  ]
+ },
+ "door_shutter": {
+  "suggest": [
+   "M-0387"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0387 solid core flush shutter 35mm teak ply (supply only, Rs/sqm) — fixing labour and fittings come from TN SD 435 which is not yet parsed reliably. Confirm a rate to include."
+ },
+ "door_frame": {
+  "suggest": [
+   "M-0398"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0398 RCC door frame 100x65 (Rs/m) — differs from the timber 100x60 frame of the take-off; confirm to include"
+ },
+ "window_alu": {
+  "suggest": [
+   "M-0666",
+   "W-0376"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SD 505 aluminium window has component-level wastage needing review; TN SOR M-0666 pre-painted GI two-track sliding window (providing and fixing, Rs/sqm) is the nearest finished TN item — confirm to include"
+ },
+ "window_upvc": {
+  "suggest": [
+   "M-0674"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0674 UPVC casement window (Rs/sqm) — take-off is sliding; confirm"
+ },
+ "grills": {
+  "suggest": [
+   "W-0168"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR W-0168 is FIXING of MS grills only (labour); supply of the grill is not printed"
+ },
+ "wp_roof": {
+  "sor": "W-0302",
+  "note": "TN SOR W-0302 newly constructed roof cementitious waterproof coating (<500 sqm) — TN item replaces brick-bat coba",
+  "band": [
+   100,
+   2500
+  ]
+ },
+ "wp_wet": {
+  "sor": "W-0301",
+  "note": "TN SOR W-0301 newly constructed bathroom / toilet / balcony cementitious waterproof coating (<300 sqm)",
+  "band": [
+   100,
+   2500
+  ]
+ },
+ "elec_light": {
+  "needs": "NEEDS RATE",
+  "note": "TN PWD Electrical schedule not ingested (SOR Vol I is civil)"
+ },
+ "elec_power": {
+  "needs": "NEEDS RATE",
+  "note": "TN PWD Electrical schedule not ingested"
+ },
+ "elec_db": {
+  "needs": "NEEDS RATE",
+  "note": "TN PWD Electrical schedule not ingested"
+ },
+ "wc": {
+  "sor": "M-0647",
+  "note": "TN SOR M-0647 supplying and fixing floor-mounted European water closet (each)",
+  "band": [
+   1000,
+   30000
+  ]
+ },
+ "basin": {
+  "needs": "NEEDS RATE",
+  "note": "as wc"
+ },
+ "sink": {
+  "suggest": [
+   "M-0548"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0548 white porcelain sink set (take-off: stainless steel sink) — confirm to include"
+ },
+ "cpvc": {
+  "needs": "NEEDS RATE",
+  "note": "as wc"
+ },
+ "swr": {
+  "needs": "NEEDS RATE",
+  "note": "as wc"
+ },
+ "tank": {
+  "suggest": [
+   "M-0540"
+  ],
+  "needs": "NEEDS RATE ANALYSIS",
+  "note": "TN SOR M-0540 PVC water tank per litre is a SUPPLY rate; erection / platform not included — confirm to include"
+ },
+ "modular_kitchen": {
+  "needs": "NEEDS RATE",
+  "note": "not a TN PWD item"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-8eff122bd4",
+ "project_name": "sf",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "SF-ARC.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "0fe185afe7c8effc-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:35",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

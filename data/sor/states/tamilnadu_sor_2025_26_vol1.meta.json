@@ -1,0 +1,818 @@
+{
+ "name": "Tamil Nadu Schedule of Rates 2025-26 — Volume I (PWD, Highways, Water Resources)",
+ "authority": "Tamil Nadu PWD",
+ "department": "Public Works Department / Highways / Water Resources Department, Government of Tamil Nadu",
+ "country": "India",
+ "region": "Tamil Nadu",
+ "authority_level": "state",
+ "schedule_type": "SOR",
+ "code_system": "TN-SOR",
+ "year": "2025",
+ "financial_year": "2025-26",
+ "effective_from": "2025-07-22",
+ "currency": "INR",
+ "source": "Official government document",
+ "source_ref": "Government of Tamil Nadu, Schedule of Rates 2025-2026 Vol I, w.e.f. 22.07.2025 — copy hosted at http://tnebes.org/archive/2025/Jul/SCHEDULE%20OF%20RATES%202025-2026%20-%20VOL%20I.pdf (verify against the department copy).",
+ "notes": "Basic rates of labour, materials and work items as printed (Unique Codes). Rates are exclusive of GST as stated. Area-specific extras (e.g. night work in Corporations +25% on labour) are listed in the notes of the SOR and are not applied automatically.",
+ "source_file": "tn_sor_2025_26_vol1.pdf",
+ "source_sha256": "0cee169bde79524e6cc34a76266dc5b5a408691c62c4fd69d7a8857eefb49e90",
+ "items": 3502,
+ "skipped": 115,
+ "skipped_rows": [
+  {
+   "code": "M-0127",
+   "page": 26,
+   "unit": "cum.",
+   "rate": "As per G.O. Ms.No.4, Public Wo",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "M-0128",
+   "page": 26,
+   "unit": "cum.",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "W-0336",
+   "page": 58,
+   "unit": "",
+   "rate": "1262.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "W-0337",
+   "page": 59,
+   "unit": "",
+   "rate": "1514.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "W-0338",
+   "page": 59,
+   "unit": "",
+   "rate": "1674.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0001",
+   "page": 69,
+   "unit": "Lead: Above 10m and upto 100m",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0002",
+   "page": 69,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0003",
+   "page": 69,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0004",
+   "page": 69,
+   "unit": "Lead: Above 10m and upto 100m",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0005",
+   "page": 69,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0006",
+   "page": 69,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "cum.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0008",
+   "page": 69,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "1000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0009",
+   "page": 69,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "1000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0011",
+   "page": 69,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "2000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0012",
+   "page": 69,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "2000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0014",
+   "page": 69,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "1500 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0015",
+   "page": 69,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "1500 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0017",
+   "page": 70,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "2500 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0018",
+   "page": 70,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "2500 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0020",
+   "page": 70,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "1000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0021",
+   "page": 70,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "1000 Nos.",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0022",
+   "page": 70,
+   "unit": "Lead: Above 10m and upto 100m",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0023",
+   "page": 70,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0024",
+   "page": 70,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0025",
+   "page": 70,
+   "unit": "Lead: Above 10m and upto 100m",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0026",
+   "page": 70,
+   "unit": "Lead: Add extra for every additional 100m or part thereof",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0027",
+   "page": 70,
+   "unit": "Lift: Add extra for every 1m height or part thereof for more than 2m lift",
+   "rate": "MT",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0029",
+   "page": 71,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "7.36",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0030",
+   "page": 71,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "6.30",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0031",
+   "page": 71,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "5.42",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0032",
+   "page": 71,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "4.66",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0033",
+   "page": 71,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "4.26",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0034",
+   "page": 71,
+   "unit": "Loading Charges",
+   "rate": "135.50",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0035",
+   "page": 71,
+   "unit": "Unloading Charges",
+   "rate": "135.50",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0036",
+   "page": 71,
+   "unit": "Add above extra for inter state works",
+   "rate": "27.25",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0038",
+   "page": 71,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.08",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0039",
+   "page": 71,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "6.92",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0040",
+   "page": 71,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "5.97",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0041",
+   "page": 71,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "5.15",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0042",
+   "page": 71,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "4.69",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0043",
+   "page": 71,
+   "unit": "Loading Charges",
+   "rate": "64.65",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0044",
+   "page": 71,
+   "unit": "Unloading Charges",
+   "rate": "64.65",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0045",
+   "page": 71,
+   "unit": "Add above extra for inter state works",
+   "rate": "29.90",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0047",
+   "page": 72,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "11.79",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0048",
+   "page": 72,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "10.08",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0049",
+   "page": 72,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.67",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0050",
+   "page": 72,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.13",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0051",
+   "page": 72,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "6.82",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0052",
+   "page": 72,
+   "unit": "Loading Charges",
+   "rate": "44.25",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0053",
+   "page": 72,
+   "unit": "Unloading Charges",
+   "rate": "44.25",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0054",
+   "page": 72,
+   "unit": "Add above extra for inter state works",
+   "rate": "43.75",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0056",
+   "page": 72,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "9.94",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0057",
+   "page": 72,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.51",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0058",
+   "page": 72,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "7.30",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0059",
+   "page": 72,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "6.30",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0060",
+   "page": 72,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "5.76",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0061",
+   "page": 72,
+   "unit": "Loading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0062",
+   "page": 72,
+   "unit": "Unloading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0063",
+   "page": 72,
+   "unit": "Add above extra for inter state works",
+   "rate": "36.75",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0065",
+   "page": 72,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "13.26",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0066",
+   "page": 72,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "11.35",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0067",
+   "page": 72,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "9.76",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0068",
+   "page": 72,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.41",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0069",
+   "page": 72,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "7.68",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0070",
+   "page": 72,
+   "unit": "Loading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0071",
+   "page": 72,
+   "unit": "Unloading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0072",
+   "page": 72,
+   "unit": "Add above extra for inter state works",
+   "rate": "49.15",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0074",
+   "page": 73,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "16.57",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0075",
+   "page": 73,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "14.19",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0076",
+   "page": 73,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "12.19",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0077",
+   "page": 73,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "10.52",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0078",
+   "page": 73,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "9.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0079",
+   "page": 73,
+   "unit": "Loading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0080",
+   "page": 73,
+   "unit": "Unloading Charges",
+   "rate": "63.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0081",
+   "page": 73,
+   "unit": "Add above extra for inter state works",
+   "rate": "61.70",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0083",
+   "page": 74,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "14.72",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0084",
+   "page": 74,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "12.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0085",
+   "page": 74,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "10.84",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0086",
+   "page": 74,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "9.32",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0087",
+   "page": 74,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "8.52",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0089",
+   "page": 74,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "16.16",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0090",
+   "page": 74,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "13.84",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0091",
+   "page": 74,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "11.94",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0092",
+   "page": 74,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "10.30",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0093",
+   "page": 74,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "9.38",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0095",
+   "page": 74,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "23.58",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0096",
+   "page": 74,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "20.16",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0097",
+   "page": 74,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "17.34",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0098",
+   "page": 74,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "16.26",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0099",
+   "page": 74,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "13.64",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0101",
+   "page": 75,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "19.88",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0102",
+   "page": 75,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "17.02",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0103",
+   "page": 75,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "14.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0104",
+   "page": 75,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "12.60",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0105",
+   "page": 75,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "11.52",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0107",
+   "page": 75,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "26.52",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0108",
+   "page": 75,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "22.70",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0109",
+   "page": 75,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "19.52",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0110",
+   "page": 75,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "16.82",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0111",
+   "page": 75,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "15.36",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0113",
+   "page": 75,
+   "unit": "0 - 10 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "33.14",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0114",
+   "page": 75,
+   "unit": "10 - 20 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "28.38",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0115",
+   "page": 75,
+   "unit": "20 - 40 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "24.38",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0116",
+   "page": 75,
+   "unit": "40 - 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "21.04",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "C-0117",
+   "page": 75,
+   "unit": "Above 80 km. (Add for every extra 1 km. and part thereof)",
+   "rate": "19.20",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "M-2853",
+   "page": 184,
+   "unit": "Cum",
+   "rate": "GO will be issued by the NLC",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "M-1308",
+   "page": 220,
+   "unit": "",
+   "rate": "5060.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "H-0082",
+   "page": 273,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0077",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0078",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0079",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0080",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0081",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0082",
+   "page": 354,
+   "why": "duplicate code"
+  },
+  {
+   "code": "H-0083",
+   "page": 354,
+   "why": "duplicate code"
+  }
+ ],
+ "verification": {
+  "checked": 3502,
+  "code_and_rate_found_in_pdf": 3502,
+  "pct": 100.0,
+  "not_found": []
+ }
+}

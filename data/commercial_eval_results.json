@@ -1,0 +1,4677 @@
+{
+ "enclosed_rooms": {
+  "n": 491,
+  "median_pct": 8.28,
+  "within5": 37.9,
+  "within10": 53.6
+ },
+ "open_plan": {
+  "n": 174,
+  "median_pct": 33.42,
+  "within5": 16.1,
+  "within10": 27.6
+ },
+ "building_extent": {
+  "n": 48,
+  "median_pct": 2.41,
+  "within5": 70.8,
+  "within10": 95.8
+ },
+ "rooms": [
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 14.42,
+   "label": 14.05,
+   "err": 0.0262
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.1,
+   "label": 14.05,
+   "err": 0.0745
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.31,
+   "label": 3.86,
+   "err": -0.1424
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.35,
+   "label": 3.86,
+   "err": -0.132
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.44,
+   "label": 3.51,
+   "err": -0.0188
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 3.98,
+   "err": -0.1235
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.41,
+   "label": 4.52,
+   "err": -0.2462
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.15,
+   "label": 3.98,
+   "err": -0.2089
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 9.84,
+   "label": 7.09,
+   "err": 0.3884
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 9.1,
+   "label": 7.09,
+   "err": 0.284
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 10.76,
+   "label": 17.81,
+   "err": -0.3958
+  },
+  {
+   "file": "nalanda_a.2.1-ground-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 11.63,
+   "label": 17.81,
+   "err": -0.3469
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.49,
+   "label": 5.33,
+   "err": 0.0301
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.5,
+   "label": 5.33,
+   "err": 0.032
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "STUDY",
+   "area": 10.57,
+   "label": 12.25,
+   "err": -0.1371
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.27,
+   "label": 2.48,
+   "err": -0.0851
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.27,
+   "label": 2.48,
+   "err": -0.0851
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 4.73,
+   "label": 4.84,
+   "err": -0.0237
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 3.83,
+   "err": -0.0936
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "ELV ROOM",
+   "area": 9.41,
+   "label": 4.31,
+   "err": 1.1838
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 15.33,
+   "label": 15.75,
+   "err": -0.0267
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 17.5,
+   "label": 13.65,
+   "err": 0.2821
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 19.51,
+   "label": 15.75,
+   "err": 0.2387
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 11.38,
+   "label": 7.67,
+   "err": 0.4847
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "DINING",
+   "area": 13.58,
+   "label": 13.16,
+   "err": 0.0319
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.71,
+   "label": 32.44,
+   "err": -0.454
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.72,
+   "label": 7.88,
+   "err": 0.4883
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.02,
+   "label": 14.55,
+   "err": 0.0325
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.45,
+   "label": 2.06,
+   "err": 4.5649
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 19.8,
+   "label": 7.67,
+   "err": 1.5832
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 5.9,
+   "label": 0.83,
+   "err": 6.1256
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 13.99,
+   "label": 6.39,
+   "err": 1.1909
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "STORE",
+   "area": 11.28,
+   "label": 2.88,
+   "err": 2.9167
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 17.43,
+   "label": 13.65,
+   "err": 0.2769
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 19.36,
+   "label": 15.75,
+   "err": 0.2292
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "DINING",
+   "area": 14.35,
+   "label": 13.16,
+   "err": 0.0904
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.7,
+   "label": 32.44,
+   "err": -0.4543
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.8,
+   "label": 7.88,
+   "err": 0.4984
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.05,
+   "label": 14.55,
+   "err": 0.0346
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.5,
+   "label": 2.06,
+   "err": 4.5892
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 14.08,
+   "label": 6.39,
+   "err": 1.205
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "STORE",
+   "area": 7.57,
+   "label": 2.88,
+   "err": 1.6285
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.82,
+   "label": 9.47,
+   "err": 0.0372
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 22.73,
+   "label": 15.33,
+   "err": 0.4829
+  },
+  {
+   "file": "nalanda_a.2.1-type-1b-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 25.97,
+   "label": 15.33,
+   "err": 0.6943
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.68,
+   "label": 3.83,
+   "err": -0.0388
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 11.73,
+   "label": 12.6,
+   "err": -0.069
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 11.73,
+   "label": 12.6,
+   "err": -0.069
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.69,
+   "label": 3.83,
+   "err": -0.0362
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 3.0,
+   "label": 3.13,
+   "err": -0.0405
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 3.04,
+   "label": 3.13,
+   "err": -0.0277
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "SPACE 10",
+   "area": 2.31,
+   "label": 2.33,
+   "err": -0.0065
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "SPACE 11",
+   "area": 2.27,
+   "label": 2.33,
+   "err": -0.0237
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 4.68,
+   "label": 4.84,
+   "err": -0.0341
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.66,
+   "label": 3.83,
+   "err": -0.044
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.66,
+   "label": 3.83,
+   "err": -0.044
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "ELV ROOM",
+   "area": 4.39,
+   "label": 4.11,
+   "err": 0.067
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.34,
+   "label": 5.41,
+   "err": 1.282
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 11.01,
+   "label": 5.41,
+   "err": 1.0361
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.75,
+   "label": 15.75,
+   "err": -0.1905
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 5.4,
+   "label": 0.83,
+   "err": 5.5217
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.29,
+   "label": 8.13,
+   "err": 0.1422
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 13.38,
+   "label": 12.6,
+   "err": 0.0619
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 21.02,
+   "label": 23.14,
+   "err": -0.0914
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.56,
+   "label": 8.13,
+   "err": 0.1753
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 13.13,
+   "label": 12.6,
+   "err": 0.0421
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 21.11,
+   "label": 23.14,
+   "err": -0.0875
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 8.65,
+   "label": 4.52,
+   "err": 0.9158
+  },
+  {
+   "file": "nalanda_a.2.13-type-3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 9.65,
+   "label": 4.52,
+   "err": 1.1373
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 7.11,
+   "label": 4.84,
+   "err": 0.4675
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.68,
+   "label": 3.83,
+   "err": -0.0388
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 11.73,
+   "label": 12.6,
+   "err": -0.069
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 11.73,
+   "label": 12.6,
+   "err": -0.069
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.69,
+   "label": 3.83,
+   "err": -0.0362
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 2.86,
+   "label": 4.2,
+   "err": -0.319
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 2.86,
+   "label": 4.2,
+   "err": -0.319
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 3.0,
+   "label": 3.13,
+   "err": -0.0405
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 3.04,
+   "label": 3.13,
+   "err": -0.0277
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.66,
+   "label": 3.83,
+   "err": -0.044
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.66,
+   "label": 3.83,
+   "err": -0.044
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.1,
+   "label": 4.52,
+   "err": -0.3134
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.11,
+   "label": 4.52,
+   "err": -0.3112
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 11.13,
+   "label": 15.75,
+   "err": -0.2933
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.14,
+   "label": 8.13,
+   "err": 0.1237
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 13.24,
+   "label": 12.6,
+   "err": 0.0508
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 1.93,
+   "label": 2.33,
+   "err": -0.1699
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 21.01,
+   "label": 23.14,
+   "err": -0.0919
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.42,
+   "label": 8.13,
+   "err": 0.1581
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 13.05,
+   "label": 12.6,
+   "err": 0.0357
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 1.92,
+   "label": 2.33,
+   "err": -0.1742
+  },
+  {
+   "file": "nalanda_a.2.14-type-3-first-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 21.12,
+   "label": 23.14,
+   "err": -0.0871
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 7.36,
+   "label": 4.84,
+   "err": 0.5191
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "STUDY",
+   "area": 11.16,
+   "label": 12.25,
+   "err": -0.089
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "STUDY",
+   "area": 10.43,
+   "label": 12.25,
+   "err": -0.1486
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.53,
+   "label": 5.33,
+   "err": 0.0376
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.51,
+   "label": 5.33,
+   "err": 0.0339
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.48,
+   "err": -0.0086
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 3.83,
+   "err": -0.0936
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.39,
+   "label": 15.33,
+   "err": -0.1917
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.36,
+   "label": 15.33,
+   "err": -0.1936
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 13.8,
+   "label": 15.75,
+   "err": -0.1238
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.03,
+   "label": 7.67,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.83,
+   "label": 13.65,
+   "err": 0.1597
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 17.79,
+   "label": 15.75,
+   "err": 0.1295
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.7,
+   "label": 32.44,
+   "err": -0.4543
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "STORE",
+   "area": 7.74,
+   "label": 2.88,
+   "err": 1.6875
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.8,
+   "label": 7.88,
+   "err": 0.4984
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.05,
+   "label": 14.55,
+   "err": 0.0346
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.6,
+   "label": 2.06,
+   "err": 4.6378
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "DINING",
+   "area": 13.87,
+   "label": 13.16,
+   "err": 0.054
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.14,
+   "label": 3.0,
+   "err": 0.3814
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 14.08,
+   "label": 6.39,
+   "err": 1.205
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 8.95,
+   "label": 9.47,
+   "err": -0.0547
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.04,
+   "label": 7.67,
+   "err": -0.0815
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.92,
+   "label": 13.65,
+   "err": 0.1663
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 17.72,
+   "label": 15.75,
+   "err": 0.1251
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.71,
+   "label": 32.44,
+   "err": -0.454
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "STORE",
+   "area": 11.48,
+   "label": 2.88,
+   "err": 2.9861
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.77,
+   "label": 7.88,
+   "err": 0.4946
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.06,
+   "label": 14.55,
+   "err": 0.0353
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.58,
+   "label": 2.06,
+   "err": 4.6281
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "DINING",
+   "area": 13.58,
+   "label": 13.16,
+   "err": 0.0319
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.13,
+   "label": 3.0,
+   "err": 0.378
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.15,
+   "label": 2.48,
+   "err": 0.2695
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 13.01,
+   "label": 6.39,
+   "err": 1.0374
+  },
+  {
+   "file": "nalanda_a.2.2-type-1b-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.46,
+   "label": 9.47,
+   "err": -0.0008
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.5,
+   "label": 14.05,
+   "err": 0.103
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.5,
+   "label": 14.05,
+   "err": 0.103
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.5,
+   "label": 14.05,
+   "err": 0.103
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "HVAC INDOOR UNIT",
+   "area": 12.54,
+   "label": 12.78,
+   "err": -0.0184
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "HVAC INDOOR UNIT",
+   "area": 12.54,
+   "label": 12.78,
+   "err": -0.0184
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "HVAC INDOOR UNIT",
+   "area": 12.54,
+   "label": 12.78,
+   "err": -0.0184
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 2.32,
+   "label": 2.28,
+   "err": 0.0175
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 2.88,
+   "label": 3.26,
+   "err": -0.1166
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "COURT",
+   "area": 8.16,
+   "label": 8.45,
+   "err": -0.0337
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "STUDY ROOM",
+   "area": 12.7,
+   "label": 12.78,
+   "err": -0.0059
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 2.3,
+   "label": 2.28,
+   "err": 0.0088
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "UTILITY",
+   "area": 2.71,
+   "label": 2.76,
+   "err": -0.0165
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 2.8,
+   "label": 3.26,
+   "err": -0.1411
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "COURT",
+   "area": 8.16,
+   "label": 8.45,
+   "err": -0.0337
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "STUDY ROOM",
+   "area": 12.53,
+   "label": 12.78,
+   "err": -0.0192
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 2.3,
+   "label": 2.28,
+   "err": 0.0088
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.53,
+   "label": 4.01,
+   "err": -0.1197
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "UTILITY",
+   "area": 2.71,
+   "label": 2.76,
+   "err": -0.0165
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "COURT",
+   "area": 8.16,
+   "label": 8.45,
+   "err": -0.0337
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "STUDY ROOM",
+   "area": 12.7,
+   "label": 12.78,
+   "err": -0.0059
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "METER VERANDAH",
+   "area": 2.54,
+   "label": 3.26,
+   "err": -0.2209
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "UTILITY",
+   "area": 3.54,
+   "label": 3.52,
+   "err": 0.0046
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 8.11,
+   "label": 6.98,
+   "err": 0.1615
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 1.74,
+   "label": 2.46,
+   "err": -0.2915
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 8.1,
+   "label": 6.98,
+   "err": 0.16
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "METER VERANDAH",
+   "area": 3.29,
+   "label": 4.01,
+   "err": -0.1795
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 1.74,
+   "label": 2.46,
+   "err": -0.2915
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 9.52,
+   "label": 7.9,
+   "err": 0.205
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 1.74,
+   "label": 2.46,
+   "err": -0.2915
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 11.28,
+   "label": 8.96,
+   "err": 0.2589
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "LIVING DINING",
+   "area": 27.7,
+   "label": 42.34,
+   "err": -0.3458
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 14.47,
+   "label": 13.79,
+   "err": 0.0496
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 14.15,
+   "label": 13.79,
+   "err": 0.0264
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "LIVING DINING",
+   "area": 27.66,
+   "label": 42.34,
+   "err": -0.3468
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 11.28,
+   "label": 8.96,
+   "err": 0.2589
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 12.36,
+   "label": 10.14,
+   "err": 0.2192
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "LIVING DINING",
+   "area": 30.4,
+   "label": 46.2,
+   "err": -0.342
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.51,
+   "label": 15.04,
+   "err": -0.1683
+  },
+  {
+   "file": "nalanda_a.2.3-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 1.31,
+   "label": 3.26,
+   "err": -0.5982
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "STUDY",
+   "area": 11.16,
+   "label": 12.25,
+   "err": -0.089
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "STUDY",
+   "area": 10.43,
+   "label": 12.25,
+   "err": -0.1486
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.53,
+   "label": 5.33,
+   "err": 0.0376
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 5.51,
+   "label": 5.33,
+   "err": 0.0339
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 7.36,
+   "label": 4.84,
+   "err": 0.5191
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.48,
+   "err": -0.0086
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 3.83,
+   "err": -0.0936
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.65,
+   "label": 3.83,
+   "err": -0.0466
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.39,
+   "label": 15.33,
+   "err": -0.1917
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.36,
+   "label": 15.33,
+   "err": -0.1936
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.03,
+   "label": 7.67,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.83,
+   "label": 13.65,
+   "err": 0.1597
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 17.79,
+   "label": 15.75,
+   "err": 0.1295
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.7,
+   "label": 32.44,
+   "err": -0.4543
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "STORE",
+   "area": 7.74,
+   "label": 2.88,
+   "err": 1.6875
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.8,
+   "label": 7.88,
+   "err": 0.4984
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.05,
+   "label": 14.55,
+   "err": 0.0346
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.6,
+   "label": 2.06,
+   "err": 4.6378
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "DINING",
+   "area": 13.87,
+   "label": 13.16,
+   "err": 0.054
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.14,
+   "label": 3.0,
+   "err": 0.3814
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 14.08,
+   "label": 6.39,
+   "err": 1.205
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 8.95,
+   "label": 9.47,
+   "err": -0.0547
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.04,
+   "label": 7.67,
+   "err": -0.0815
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.92,
+   "label": 13.65,
+   "err": 0.1663
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 17.72,
+   "label": 15.75,
+   "err": 0.1251
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 17.71,
+   "label": 32.44,
+   "err": -0.454
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "STORE",
+   "area": 11.48,
+   "label": 2.88,
+   "err": 2.9861
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 11.77,
+   "label": 7.88,
+   "err": 0.4946
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "GUEST BEDROOM",
+   "area": 15.06,
+   "label": 14.55,
+   "err": 0.0353
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "POWDER ROOM",
+   "area": 11.58,
+   "label": 2.06,
+   "err": 4.6281
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "DINING",
+   "area": 13.58,
+   "label": 13.16,
+   "err": 0.0319
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.13,
+   "label": 3.0,
+   "err": 0.378
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.15,
+   "label": 2.48,
+   "err": 0.2695
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "SERVANTS ROOM",
+   "area": 13.01,
+   "label": 6.39,
+   "err": 1.0374
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.46,
+   "label": 9.47,
+   "err": -0.0008
+  },
+  {
+   "file": "nalanda_a.2.3-type-1b-second-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 13.31,
+   "label": 15.75,
+   "err": -0.1549
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.54,
+   "label": 3.86,
+   "err": -0.0828
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.44,
+   "label": 3.51,
+   "err": -0.0188
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.5,
+   "label": 3.98,
+   "err": -0.121
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.44,
+   "label": 3.51,
+   "err": -0.0188
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.53,
+   "label": 3.98,
+   "err": -0.1134
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.43,
+   "label": 4.52,
+   "err": -0.0207
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.5,
+   "label": 3.98,
+   "err": -0.121
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.83,
+   "label": 7.09,
+   "err": 0.1048
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 10.15,
+   "label": 14.05,
+   "err": -0.2777
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 9.44,
+   "label": 7.09,
+   "err": 0.3319
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 10.15,
+   "label": 14.05,
+   "err": -0.2777
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 8.29,
+   "label": 7.09,
+   "err": 0.1697
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 10.02,
+   "label": 14.05,
+   "err": -0.287
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 10.46,
+   "label": 17.81,
+   "err": -0.4126
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 10.56,
+   "label": 17.81,
+   "err": -0.407
+  },
+  {
+   "file": "nalanda_a.2.4-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 11.47,
+   "label": 17.81,
+   "err": -0.3559
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 17.01,
+   "label": 6.05,
+   "err": 1.8092
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 4.11,
+   "label": 4.2,
+   "err": -0.0215
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 4.11,
+   "label": 4.2,
+   "err": -0.0215
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.69,
+   "label": 3.83,
+   "err": -0.0362
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 13.99,
+   "label": 13.65,
+   "err": 0.0249
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 14.09,
+   "label": 13.65,
+   "err": 0.0322
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.7,
+   "label": 3.83,
+   "err": -0.0336
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "STORE",
+   "area": 2.15,
+   "label": 2.38,
+   "err": -0.0964
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "STORE",
+   "area": 2.21,
+   "label": 2.38,
+   "err": -0.0711
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 2.71,
+   "label": 3.32,
+   "err": -0.184
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 2.71,
+   "label": 3.32,
+   "err": -0.184
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 4.73,
+   "label": 4.84,
+   "err": -0.0237
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 3.83,
+   "err": -0.1015
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 3.83,
+   "err": -0.0884
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 3.83,
+   "err": -0.091
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.42,
+   "label": 3.83,
+   "err": -0.1067
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.6,
+   "label": 6.61,
+   "err": 0.1489
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "ELV ROOM",
+   "area": 9.31,
+   "label": 4.31,
+   "err": 1.1606
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.59,
+   "label": 6.05,
+   "err": 1.0793
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 15.93,
+   "label": 15.75,
+   "err": 0.0114
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 6.7,
+   "label": 0.83,
+   "err": 7.0918
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 16.12,
+   "label": 13.65,
+   "err": 0.181
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 16.26,
+   "label": 15.75,
+   "err": 0.0324
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 8.96,
+   "label": 8.4,
+   "err": 0.0667
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 8.57,
+   "label": 6.3,
+   "err": 0.3603
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 29.92,
+   "label": 25.76,
+   "err": 0.1615
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.17,
+   "label": 2.79,
+   "err": 0.1362
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 15.95,
+   "label": 13.65,
+   "err": 0.1685
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 16.15,
+   "label": 15.75,
+   "err": 0.0254
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.01,
+   "label": 8.4,
+   "err": 0.0726
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 8.42,
+   "label": 6.3,
+   "err": 0.3365
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 30.28,
+   "label": 25.76,
+   "err": 0.1755
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.27,
+   "label": 2.79,
+   "err": 0.172
+  },
+  {
+   "file": "nalanda_a.2.7-type-2-ground-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.59,
+   "label": 6.61,
+   "err": 0.1474
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "LIFT",
+   "area": 7.22,
+   "label": 4.84,
+   "err": 0.4902
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 4.09,
+   "label": 4.2,
+   "err": -0.0263
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "UTILITY VERANDAH",
+   "area": 4.1,
+   "label": 4.2,
+   "err": -0.0239
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 4.54,
+   "label": 6.05,
+   "err": -0.2502
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 4.54,
+   "label": 6.05,
+   "err": -0.2502
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.69,
+   "label": 3.83,
+   "err": -0.0362
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 4.69,
+   "label": 3.32,
+   "err": 0.4122
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 14.09,
+   "label": 13.65,
+   "err": 0.0322
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.69,
+   "label": 3.83,
+   "err": -0.0362
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "STORE",
+   "area": 2.46,
+   "label": 2.38,
+   "err": 0.0339
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "STORE",
+   "area": 2.59,
+   "label": 2.38,
+   "err": 0.0886
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 2.8,
+   "label": 3.32,
+   "err": -0.1569
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.45,
+   "label": 3.83,
+   "err": -0.0989
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.41,
+   "label": 3.83,
+   "err": -0.1093
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 5.08,
+   "label": 6.61,
+   "err": -0.232
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 5.08,
+   "label": 6.61,
+   "err": -0.232
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 12.23,
+   "label": 15.75,
+   "err": -0.2235
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 17.42,
+   "label": 13.65,
+   "err": 0.2762
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 16.86,
+   "label": 13.65,
+   "err": 0.2352
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 12.78,
+   "label": 15.75,
+   "err": -0.1886
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 10.0,
+   "label": 8.4,
+   "err": 0.1905
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 9.15,
+   "label": 6.3,
+   "err": 0.4524
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 22.54,
+   "label": 25.76,
+   "err": -0.125
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 5.15,
+   "label": 2.79,
+   "err": 0.8459
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 5.2,
+   "label": 3.83,
+   "err": 0.3582
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "BEDROOM",
+   "area": 16.11,
+   "label": 13.65,
+   "err": 0.1802
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "MASTER BEDROOM",
+   "area": 16.58,
+   "label": 15.75,
+   "err": 0.0527
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "KITCHEN",
+   "area": 9.19,
+   "label": 8.4,
+   "err": 0.094
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "FOYER",
+   "area": 8.46,
+   "label": 6.3,
+   "err": 0.3429
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "LIVING-DINING",
+   "area": 30.01,
+   "label": 25.76,
+   "err": 0.165
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "DRESSING",
+   "area": 3.37,
+   "label": 2.79,
+   "err": 0.2079
+  },
+  {
+   "file": "nalanda_a.2.8-type-2-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.74,
+   "label": 3.83,
+   "err": -0.0231
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.17,
+   "label": 2.49,
+   "err": -0.1296
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.19,
+   "label": 2.49,
+   "err": -0.1215
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.22,
+   "label": 9.0,
+   "err": 0.0244
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.27,
+   "label": 9.0,
+   "err": 0.03
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.22,
+   "label": 9.0,
+   "err": 0.0244
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.16,
+   "label": 2.49,
+   "err": -0.1336
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.13,
+   "label": 2.49,
+   "err": -0.1456
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.26,
+   "label": 1.08,
+   "err": 0.1667
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.49,
+   "err": -0.0132
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.73,
+   "label": 0.78,
+   "err": 3.7839
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.56,
+   "label": 35.05,
+   "err": -0.4705
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.49,
+   "err": -0.0132
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.23,
+   "label": 1.08,
+   "err": 0.1389
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.13,
+   "label": 35.05,
+   "err": -0.4828
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.92,
+   "label": 0.78,
+   "err": 4.0276
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.23,
+   "label": 1.08,
+   "err": 0.1389
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.44,
+   "label": 2.49,
+   "err": -0.0213
+  },
+  {
+   "file": "nalanda_a.t1.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.32,
+   "label": 1.08,
+   "err": 0.2222
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.22,
+   "label": 2.49,
+   "err": -0.1095
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.24,
+   "label": 2.49,
+   "err": -0.1015
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.57,
+   "label": 9.0,
+   "err": 0.0633
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.11,
+   "label": 9.0,
+   "err": 0.0122
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.05,
+   "label": 1.08,
+   "err": -0.0278
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.23,
+   "label": 2.49,
+   "err": -0.1055
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.43,
+   "label": 2.49,
+   "err": -0.0253
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.77,
+   "label": 0.78,
+   "err": 3.8352
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.38,
+   "label": 35.05,
+   "err": -0.4757
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.41,
+   "label": 2.49,
+   "err": -0.0333
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.19,
+   "label": 35.05,
+   "err": -0.5382
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.78,
+   "label": 0.78,
+   "err": 3.848
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 12.18,
+   "label": 9.0,
+   "err": 0.3533
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.43,
+   "label": 2.49,
+   "err": -0.0253
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.22,
+   "label": 1.08,
+   "err": 0.1296
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.41,
+   "label": 2.49,
+   "err": -0.0333
+  },
+  {
+   "file": "nalanda_a.t1.2.2-second-third-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.75,
+   "label": 3.95,
+   "err": -0.0501
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.35,
+   "label": 3.44,
+   "err": -0.0269
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 3",
+   "area": 9.03,
+   "label": 9.0,
+   "err": 0.0033
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 7.78,
+   "label": 5.64,
+   "err": 0.3794
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 11.2,
+   "label": 0.78,
+   "err": 13.3645
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 6",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 6.68,
+   "label": 5.64,
+   "err": 0.1844
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.34,
+   "label": 3.44,
+   "err": -0.0298
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.71,
+   "label": 3.95,
+   "err": -0.0602
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.64,
+   "label": 3.95,
+   "err": -0.0779
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 6.88,
+   "label": 5.64,
+   "err": 0.2199
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.36,
+   "label": 3.44,
+   "err": -0.024
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 11.57,
+   "label": 0.78,
+   "err": 13.839
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 17",
+   "area": 9.04,
+   "label": 9.0,
+   "err": 0.0044
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 7.49,
+   "label": 5.64,
+   "err": 0.328
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 19",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.36,
+   "label": 3.44,
+   "err": -0.024
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.73,
+   "label": 3.95,
+   "err": -0.0551
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 16.72,
+   "label": 16.98,
+   "err": -0.0155
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 5.63,
+   "label": 0.44,
+   "err": 11.8495
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 7.29,
+   "label": 14.69,
+   "err": -0.5036
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 14.39,
+   "label": 16.09,
+   "err": -0.1056
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 15.26,
+   "label": 16.98,
+   "err": -0.1015
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 5.73,
+   "label": 0.44,
+   "err": 12.0777
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 6.9,
+   "label": 14.69,
+   "err": -0.5302
+  },
+  {
+   "file": "nalanda_a.t10.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 13.62,
+   "label": 16.09,
+   "err": -0.1534
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "EXPOSED MASONRY WALL",
+   "area": 41.81,
+   "label": 9.0,
+   "err": 3.6456
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 2.49,
+   "err": 0.3799
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 5",
+   "area": 9.14,
+   "label": 9.0,
+   "err": 0.0156
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 6",
+   "area": 9.18,
+   "label": 9.0,
+   "err": 0.02
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 8",
+   "area": 9.22,
+   "label": 9.0,
+   "err": 0.0244
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 1.08,
+   "err": 2.2222
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 2.49,
+   "err": 0.3759
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 13",
+   "area": 9.13,
+   "label": 9.0,
+   "err": 0.0144
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 1.08,
+   "err": 2.2315
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 15",
+   "area": 9.51,
+   "label": 9.0,
+   "err": 0.0567
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 18",
+   "area": 9.6,
+   "label": 9.0,
+   "err": 0.0667
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 19",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 2.49,
+   "err": 0.3959
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.24,
+   "label": 0.45,
+   "err": 6.2801
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.32,
+   "label": 35.05,
+   "err": -0.5344
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.11,
+   "label": 0.78,
+   "err": 8.1189
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.95,
+   "label": 0.45,
+   "err": 5.6285
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.54,
+   "label": 35.05,
+   "err": -0.4426
+  },
+  {
+   "file": "nalanda_a.t11.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.36,
+   "label": 0.78,
+   "err": 3.3093
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "EXPOSED MASONRY WALL",
+   "area": 41.86,
+   "label": 9.0,
+   "err": 3.6511
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 1.08,
+   "err": 2.213
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.45,
+   "label": 2.49,
+   "err": 0.3839
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 5",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 6",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 8",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 1.08,
+   "err": 2.2222
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 1.08,
+   "err": 2.1852
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 2.49,
+   "err": 0.3799
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 13",
+   "area": 9.12,
+   "label": 9.0,
+   "err": 0.0133
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 1.08,
+   "err": 2.2315
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 15",
+   "area": 9.52,
+   "label": 9.0,
+   "err": 0.0578
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 18",
+   "area": 9.47,
+   "label": 9.0,
+   "err": 0.0522
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 19",
+   "area": 9.19,
+   "label": 9.0,
+   "err": 0.0211
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.5,
+   "label": 2.49,
+   "err": 0.4039
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.29,
+   "label": 0.45,
+   "err": 6.3924
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.35,
+   "label": 35.05,
+   "err": -0.5336
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.09,
+   "label": 0.78,
+   "err": 8.0932
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.95,
+   "label": 0.45,
+   "err": 5.6285
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.51,
+   "label": 35.05,
+   "err": -0.4434
+  },
+  {
+   "file": "nalanda_a.t12.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.36,
+   "label": 0.78,
+   "err": 3.3093
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 2",
+   "area": 9.48,
+   "label": 9.0,
+   "err": 0.0533
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 1.08,
+   "err": 2.213
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 2.49,
+   "err": 0.3799
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 6",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 7",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 9",
+   "area": 9.2,
+   "label": 9.0,
+   "err": 0.0222
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 1.08,
+   "err": 2.2315
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.44,
+   "label": 2.49,
+   "err": 0.3799
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 14",
+   "area": 9.12,
+   "label": 9.0,
+   "err": 0.0133
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.49,
+   "label": 1.08,
+   "err": 2.2315
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 16",
+   "area": 9.49,
+   "label": 9.0,
+   "err": 0.0544
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 19",
+   "area": 9.59,
+   "label": 9.0,
+   "err": 0.0656
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 20",
+   "area": 9.18,
+   "label": 9.0,
+   "err": 0.02
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 2.49,
+   "err": 0.3919
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.41,
+   "label": 1.08,
+   "err": 2.1574
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.31,
+   "label": 0.45,
+   "err": 6.4374
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.4,
+   "label": 35.05,
+   "err": -0.5322
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.19,
+   "label": 0.78,
+   "err": 8.2215
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.97,
+   "label": 0.45,
+   "err": 5.6734
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.37,
+   "label": 35.05,
+   "err": -0.4474
+  },
+  {
+   "file": "nalanda_a.t13.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.37,
+   "label": 0.78,
+   "err": 3.3222
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.28,
+   "label": 1.08,
+   "err": 0.1852
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.16,
+   "label": 2.49,
+   "err": -0.1336
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.91,
+   "label": 9.0,
+   "err": -0.01
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.91,
+   "label": 9.0,
+   "err": -0.01
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.96,
+   "label": 9.0,
+   "err": -0.0044
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.13,
+   "label": 1.08,
+   "err": 0.0463
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.2,
+   "label": 1.08,
+   "err": 0.1111
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.27,
+   "label": 2.49,
+   "err": -0.0895
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.89,
+   "label": 9.0,
+   "err": -0.0122
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.12,
+   "label": 1.08,
+   "err": 0.037
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.37,
+   "label": 9.0,
+   "err": 0.0411
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.9,
+   "label": 9.0,
+   "err": -0.0111
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.28,
+   "label": 1.08,
+   "err": 0.1852
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.19,
+   "label": 2.49,
+   "err": -0.1215
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.16,
+   "label": 2.49,
+   "err": -0.1336
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.37,
+   "label": 0.45,
+   "err": 6.5722
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.39,
+   "label": 35.05,
+   "err": -0.5324
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.35,
+   "label": 0.78,
+   "err": 8.4267
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.98,
+   "label": 0.45,
+   "err": 5.6959
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.64,
+   "label": 35.05,
+   "err": -0.4397
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.38,
+   "label": 0.78,
+   "err": 3.335
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.35,
+   "label": 2.49,
+   "err": -0.0574
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.2,
+   "label": 2.49,
+   "err": -0.1175
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.13,
+   "label": 1.08,
+   "err": 0.0463
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.35,
+   "label": 2.49,
+   "err": -0.0574
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 8.99,
+   "label": 9.0,
+   "err": -0.0011
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.13,
+   "label": 2.49,
+   "err": -0.1456
+  },
+  {
+   "file": "nalanda_a.t2.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.22,
+   "label": 1.08,
+   "err": 0.1296
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.03,
+   "label": 1.08,
+   "err": -0.0463
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 11.49,
+   "label": 0.45,
+   "err": 24.8173
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.15,
+   "label": 2.49,
+   "err": -0.1376
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.5,
+   "label": 9.0,
+   "err": 0.0556
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.17,
+   "label": 2.49,
+   "err": -0.1296
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.25,
+   "label": 1.08,
+   "err": 0.1574
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.42,
+   "label": 2.49,
+   "err": -0.0293
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.77,
+   "label": 0.78,
+   "err": 3.8352
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 13.18,
+   "label": 9.0,
+   "err": 0.4644
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.42,
+   "label": 35.05,
+   "err": -0.4745
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.29,
+   "label": 1.08,
+   "err": 0.1944
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.16,
+   "label": 35.05,
+   "err": -0.482
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.84,
+   "label": 0.78,
+   "err": 3.925
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.41,
+   "label": 2.49,
+   "err": -0.0333
+  },
+  {
+   "file": "nalanda_a.t3.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.29,
+   "label": 1.08,
+   "err": 0.1944
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.2,
+   "label": 2.49,
+   "err": -0.1175
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.0,
+   "label": 1.08,
+   "err": -0.0741
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.2,
+   "label": 1.08,
+   "err": 0.1111
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.31,
+   "label": 2.49,
+   "err": -0.0734
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.13,
+   "label": 9.0,
+   "err": 0.0144
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.62,
+   "label": 9.0,
+   "err": 0.0689
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.19,
+   "label": 9.0,
+   "err": 0.0211
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.25,
+   "label": 2.49,
+   "err": -0.0975
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.03,
+   "label": 1.08,
+   "err": -0.0463
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.42,
+   "label": 2.49,
+   "err": -0.0293
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.25,
+   "label": 1.08,
+   "err": 0.1574
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.24,
+   "label": 0.45,
+   "err": 6.2801
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.34,
+   "label": 35.05,
+   "err": -0.5339
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.1,
+   "label": 0.78,
+   "err": 8.1061
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.97,
+   "label": 0.45,
+   "err": 5.6734
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.32,
+   "label": 35.05,
+   "err": -0.4489
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.37,
+   "label": 0.78,
+   "err": 3.3222
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.49,
+   "err": -0.0132
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.23,
+   "label": 2.49,
+   "err": -0.1055
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.13,
+   "label": 1.08,
+   "err": 0.0463
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.48,
+   "label": 2.49,
+   "err": -0.0052
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.25,
+   "label": 9.0,
+   "err": 0.0278
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t4.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.4,
+   "label": 2.49,
+   "err": -0.0373
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.2,
+   "label": 2.49,
+   "err": -0.1175
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.16,
+   "label": 9.0,
+   "err": 0.0178
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.22,
+   "label": 2.49,
+   "err": -0.1095
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.25,
+   "label": 9.0,
+   "err": 0.0278
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.49,
+   "label": 9.0,
+   "err": 0.0544
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.16,
+   "label": 2.49,
+   "err": -0.1336
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.18,
+   "label": 9.0,
+   "err": 0.02
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.15,
+   "label": 2.49,
+   "err": -0.1376
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.23,
+   "label": 1.08,
+   "err": 0.1389
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.4,
+   "label": 2.49,
+   "err": -0.0373
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.77,
+   "label": 0.78,
+   "err": 3.8352
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.49,
+   "label": 35.05,
+   "err": -0.4725
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.42,
+   "label": 2.49,
+   "err": -0.0293
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.19,
+   "label": 35.05,
+   "err": -0.5382
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.8,
+   "label": 0.78,
+   "err": 3.8737
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 12.22,
+   "label": 9.0,
+   "err": 0.3578
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.23,
+   "label": 1.08,
+   "err": 0.1389
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.44,
+   "label": 2.49,
+   "err": -0.0213
+  },
+  {
+   "file": "nalanda_a.t5.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.32,
+   "label": 1.08,
+   "err": 0.2222
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.23,
+   "label": 2.49,
+   "err": -0.1055
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.25,
+   "label": 9.0,
+   "err": 0.0278
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.14,
+   "label": 9.0,
+   "err": 0.0156
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.21,
+   "label": 2.49,
+   "err": -0.1135
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.22,
+   "label": 9.0,
+   "err": 0.0244
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.26,
+   "label": 9.0,
+   "err": 0.0289
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.22,
+   "label": 9.0,
+   "err": 0.0244
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.22,
+   "label": 2.49,
+   "err": -0.1095
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.14,
+   "label": 9.0,
+   "err": 0.0156
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.02,
+   "label": 1.08,
+   "err": -0.0556
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.25,
+   "label": 1.08,
+   "err": 0.1574
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.41,
+   "label": 2.49,
+   "err": -0.0333
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.75,
+   "label": 0.78,
+   "err": 3.8095
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.44,
+   "label": 35.05,
+   "err": -0.474
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.22,
+   "label": 1.08,
+   "err": 0.1296
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.1,
+   "label": 35.05,
+   "err": -0.4837
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.84,
+   "label": 0.78,
+   "err": 3.925
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.41,
+   "label": 2.49,
+   "err": -0.0333
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.25,
+   "label": 1.08,
+   "err": 0.1574
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.43,
+   "label": 2.49,
+   "err": -0.0253
+  },
+  {
+   "file": "nalanda_a.t6.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.23,
+   "label": 1.08,
+   "err": 0.1389
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "EXPOSED MASONRY WALL",
+   "area": 41.81,
+   "label": 9.0,
+   "err": 3.6456
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.47,
+   "label": 1.08,
+   "err": 2.213
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 2.49,
+   "err": 0.3759
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 5",
+   "area": 9.13,
+   "label": 9.0,
+   "err": 0.0144
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 6",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 8",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 1.08,
+   "err": 2.2222
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 2.49,
+   "err": 0.3759
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 13",
+   "area": 9.12,
+   "label": 9.0,
+   "err": 0.0133
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.5,
+   "label": 1.08,
+   "err": 2.2407
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 15",
+   "area": 9.51,
+   "label": 9.0,
+   "err": 0.0567
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 18",
+   "area": 9.47,
+   "label": 9.0,
+   "err": 0.0522
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 19",
+   "area": 9.18,
+   "label": 9.0,
+   "err": 0.02
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.48,
+   "label": 2.49,
+   "err": 0.3959
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.43,
+   "label": 1.08,
+   "err": 2.1759
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 3.28,
+   "label": 0.45,
+   "err": 6.37
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.36,
+   "label": 35.05,
+   "err": -0.5333
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 7.09,
+   "label": 0.78,
+   "err": 8.0932
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 2.96,
+   "label": 0.45,
+   "err": 5.6509
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 19.61,
+   "label": 35.05,
+   "err": -0.4406
+  },
+  {
+   "file": "nalanda_a.t7.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.37,
+   "label": 0.78,
+   "err": 3.3222
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.73,
+   "label": 3.95,
+   "err": -0.0551
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.36,
+   "label": 3.44,
+   "err": -0.024
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 3",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 13.48,
+   "label": 16.09,
+   "err": -0.1621
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 6.86,
+   "label": 14.69,
+   "err": -0.5329
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 8",
+   "area": 9.04,
+   "label": 9.0,
+   "err": 0.0044
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 6.88,
+   "label": 5.64,
+   "err": 0.2199
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.35,
+   "label": 3.44,
+   "err": -0.0269
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.66,
+   "label": 3.95,
+   "err": -0.0729
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.64,
+   "label": 3.95,
+   "err": -0.0779
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 6.88,
+   "label": 5.64,
+   "err": 0.2199
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.36,
+   "label": 3.44,
+   "err": -0.024
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 11.57,
+   "label": 0.78,
+   "err": 13.839
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 21",
+   "area": 9.04,
+   "label": 9.0,
+   "err": 0.0044
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 7.49,
+   "label": 5.64,
+   "err": 0.328
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "SPACE 24",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 3.36,
+   "label": 3.44,
+   "err": -0.024
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 3.73,
+   "label": 3.95,
+   "err": -0.0551
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "PANTRY",
+   "area": 7.59,
+   "label": 5.64,
+   "err": 0.3457
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 11.49,
+   "label": 0.78,
+   "err": 13.7364
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 5.84,
+   "label": 0.44,
+   "err": 12.3288
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 15.34,
+   "label": 16.98,
+   "err": -0.0967
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 15.26,
+   "label": 16.98,
+   "err": -0.1015
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "ELEC DUCT",
+   "area": 5.73,
+   "label": 0.44,
+   "err": 12.0777
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "VERANDAH",
+   "area": 6.89,
+   "label": 14.69,
+   "err": -0.5309
+  },
+  {
+   "file": "nalanda_a.t8.2.1-ground-first-floor-plan.pdf",
+   "room": "LIVING",
+   "area": 13.62,
+   "label": 16.09,
+   "err": -0.1534
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.21,
+   "label": 9.0,
+   "err": 0.0233
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.15,
+   "label": 9.0,
+   "err": 0.0167
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.16,
+   "label": 2.49,
+   "err": -0.1336
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.23,
+   "label": 9.0,
+   "err": 0.0256
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.48,
+   "label": 9.0,
+   "err": 0.0533
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.17,
+   "label": 9.0,
+   "err": 0.0189
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.2,
+   "label": 2.49,
+   "err": -0.1175
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 9.14,
+   "label": 9.0,
+   "err": 0.0156
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.01,
+   "label": 1.08,
+   "err": -0.0648
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.18,
+   "label": 2.49,
+   "err": -0.1256
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.46,
+   "label": 2.49,
+   "err": -0.0132
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.8,
+   "label": 0.78,
+   "err": 3.8737
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 18.52,
+   "label": 35.05,
+   "err": -0.4717
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.45,
+   "label": 2.49,
+   "err": -0.0172
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.29,
+   "label": 1.08,
+   "err": 0.1944
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "LOUNGE",
+   "area": 16.3,
+   "label": 35.05,
+   "err": -0.535
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "FIRE SHAFT",
+   "area": 3.87,
+   "label": 0.78,
+   "err": 3.9634
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "ROOM",
+   "area": 12.23,
+   "label": 9.0,
+   "err": 0.3589
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.43,
+   "label": 2.49,
+   "err": -0.0253
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.25,
+   "label": 1.08,
+   "err": 0.1574
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "TOILET",
+   "area": 2.39,
+   "label": 2.49,
+   "err": -0.0413
+  },
+  {
+   "file": "nalanda_a.t9.2.1-ground-first-floor-plan.pdf",
+   "room": "SHOWER",
+   "area": 1.24,
+   "label": 1.08,
+   "err": 0.1481
+  }
+ ]
+}

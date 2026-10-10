@@ -1,0 +1,307 @@
+{
+ "generated": "2026-10-09T16:43:31",
+ "tasks": [
+  {
+   "task_id": 1,
+   "task_name": "Lawful TN drawing dataset",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/tn_data_ingestion/*"
+   ],
+   "tests_added": "test_dataset_annotation.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "authorised / licensed new TN drawing sets; licence confirmation for TNRD",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 2,
+   "task_name": "Verified ground-truth annotations",
+   "status": "BLOCKED_EXTERNAL_INPUT",
+   "implementation_files": [
+    "backend/annotations.py",
+    "frontend #/annotate"
+   ],
+   "tests_added": "test_dataset_annotation.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "qualified annotators + two reviewers",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 3,
+   "task_name": "Leakage-safe splits",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/tn_data_ingestion/dataset_builder.py",
+    "ml/dataset/check_leakage.py"
+   ],
+   "tests_added": "test_dataset_annotation.py, test_pipeline_quality.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "new projects to populate train / validation / holdout",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 4,
+   "task_name": "Train & validate models",
+   "status": "BLOCKED_EXTERNAL_INPUT",
+   "implementation_files": [
+    "ml/training/*",
+    "data/models/registry.json"
+   ],
+   "tests_added": "test_detector_model_is_working",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "verified TN annotations",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 5,
+   "task_name": "Room / unit / area extraction",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/areas.py",
+    "backend/floors.py",
+    "backend/rooms.py"
+   ],
+   "tests_added": "test_quantities_structural.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "verified TN area ground truth for accuracy",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 6,
+   "task_name": "Door / window extraction",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/parsers.py",
+    "backend/openings.py",
+    "backend/detector.py"
+   ],
+   "tests_added": "test_pipeline_quality.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "verified TN opening annotations for accuracy",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 7,
+   "task_name": "Wall quantities",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/walls.py"
+   ],
+   "tests_added": "test_quantities_structural.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "verified wall quantities for accuracy",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 8,
+   "task_name": "Structural quantities",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/structural.py",
+    "app.rebuild_items"
+   ],
+   "tests_added": "test_quantities_structural.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "TN structural sets with BBS + engineer-verified quantities",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 9,
+   "task_name": "Complex-building suite",
+   "status": "TESTED",
+   "implementation_files": [
+    "ml/evaluation/complex_smoke.py",
+    "app.site_plan_reason"
+   ],
+   "tests_added": "test_site_plan_never_costed",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "licensed complex TN drawing sets with ground truth",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 10,
+   "task_name": "TN PWD rate coverage",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/tnpwd_ingestion/*",
+    "data/tnpwd/maps/takeoff_tn.json"
+   ],
+   "tests_added": "test_tn.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "TN Standard Data for formwork / doors / windows / electrical; official copies",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 11,
+   "task_name": "Mapping validation with engineers",
+   "status": "BLOCKED_EXTERNAL_INPUT",
+   "implementation_files": [
+    "backend/mapping_review.py"
+   ],
+   "tests_added": "test_mapping_review_unit_guard_and_priority",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "TN PWD engineer reviews (\u226530)",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 12,
+   "task_name": "Approved BOQ workflow",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/boq.py",
+    "data/templates/*"
+   ],
+   "tests_added": "test_boq.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "approved TN BOQs",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 13,
+   "task_name": "Quantity vs BOQ comparison",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/boq.py::compare"
+   ],
+   "tests_added": "test_boq.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "approved TN BOQs",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 14,
+   "task_name": "Item / total cost accuracy",
+   "status": "BLOCKED_EXTERNAL_INPUT",
+   "implementation_files": [
+    "backend/boq.py::metrics"
+   ],
+   "tests_added": "test_boq.py",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "\u22655 approved TN BOQ projects",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 15,
+   "task_name": "Confidence & uncertainty",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/confidence.py"
+   ],
+   "tests_added": "test_confidence_labels_and_estimate_never_high_when_incomplete",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "labelled validation outcomes for calibration",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 16,
+   "task_name": "Unseen TN evaluation",
+   "status": "BLOCKED_EXTERNAL_INPUT",
+   "implementation_files": [
+    "ml/evaluation/run_tn_eval.py",
+    "ml/evaluation/scorecard.py"
+   ],
+   "tests_added": "manual run",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "final-holdout TN projects with verified ground truth",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 17,
+   "task_name": "90 % target & scorecard",
+   "status": "TESTED",
+   "implementation_files": [
+    "ml/evaluation/gates.py",
+    "ml/evaluation/scorecard.py"
+   ],
+   "tests_added": "scorecard run",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "the evidence above",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  },
+  {
+   "task_id": 18,
+   "task_name": "Testing & release audit",
+   "status": "TESTED",
+   "implementation_files": [
+    "backend/tests/*"
+   ],
+   "tests_added": "pytest",
+   "tests_passed": true,
+   "evidence_files": [
+    "reports/tn_completion/"
+   ],
+   "external_dependencies": "\u2014",
+   "verified_completion": false,
+   "timestamp": "2026-10-09T16:43:31"
+  }
+ ],
+ "scorecard_final": "FAIL"
+}

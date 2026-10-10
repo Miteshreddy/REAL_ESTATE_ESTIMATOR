@@ -1,0 +1,519 @@
+{
+ "generated": "2026-10-09",
+ "target_pct": 90.0,
+ "final": "FAIL",
+ "rows": [
+  {
+   "name": "AREA (basic, plinth)",
+   "value": 68.8,
+   "status": "FAIL",
+   "dataset": "TN Govt type-design sheets",
+   "projects": 16,
+   "metric": "% of plans with plinth area within ±10%",
+   "ground_truth": "written plinth-area notes (hand-labelled)",
+   "split": "unseen_test",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "median APE 2.54%"
+  },
+  {
+   "name": "SHEET VIEW (basic)",
+   "value": 88.9,
+   "status": "FAIL",
+   "dataset": "TN Govt type-design sheets",
+   "projects": 27,
+   "metric": "% sheets with correct plan view",
+   "ground_truth": "hand-labelled plan boxes",
+   "split": "unseen_test",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "FLOOR (large)",
+   "value": 100.0,
+   "status": "PASS",
+   "dataset": "Aparna refuge floor",
+   "projects": 1,
+   "metric": "floor occurrences exactly correct",
+   "ground_truth": "floor list printed on the sheet",
+   "split": "unseen_test",
+   "class_": "LARGE",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "n = 1 drawing"
+  },
+  {
+   "name": "UNIT (large)",
+   "value": 100.0,
+   "status": "PASS",
+   "dataset": "Aparna refuge floor",
+   "projects": 1,
+   "metric": "apartments found / printed",
+   "ground_truth": "area statement table",
+   "split": "unseen_test",
+   "class_": "LARGE",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "n = 1 drawing"
+  },
+  {
+   "name": "ROOM / UNIT AREA (large)",
+   "value": 20.0,
+   "status": "FAIL",
+   "dataset": "Aparna refuge floor",
+   "projects": 1,
+   "metric": "% units with carpet area within ±10%",
+   "ground_truth": "printed carpet area per flat",
+   "split": "unseen_test",
+   "class_": "LARGE",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "median APE 27.4% over 5 units"
+  },
+  {
+   "name": "DOOR (large)",
+   "value": null,
+   "status": "NOT MEASURED",
+   "dataset": "Aparna refuge floor",
+   "projects": 1,
+   "metric": "door F1",
+   "ground_truth": "no door ground truth printed",
+   "split": "unseen_test",
+   "class_": "LARGE",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "system count 83 (no reference) — needs annotation"
+  },
+  {
+   "name": "WINDOW (large)",
+   "value": null,
+   "status": "NOT MEASURED",
+   "dataset": "Aparna refuge floor",
+   "projects": 1,
+   "metric": "window F1",
+   "ground_truth": "no window ground truth printed",
+   "split": "unseen_test",
+   "class_": "LARGE",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "system count 53 (no reference) — needs annotation"
+  },
+  {
+   "name": "COMMERCIAL / INSTITUTIONAL (TN)",
+   "value": null,
+   "status": "NOT MEASURED",
+   "dataset": "none",
+   "projects": 0,
+   "metric": "any",
+   "ground_truth": "no TN commercial drawing set with ground truth",
+   "split": "unseen_test",
+   "class_": "COMMERCIAL",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DOOR count (non-TN reference)",
+   "value": 20.8,
+   "status": "REFERENCE ONLY",
+   "dataset": "Nalanda (Bihar) — NOT TN",
+   "projects": 24,
+   "metric": "% sheets door count within ±10% of tags",
+   "ground_truth": "opening tags printed on the plan",
+   "split": "reference",
+   "class_": "COMMERCIAL",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "non-TN; shown so the commercial weakness is not hidden"
+  },
+  {
+   "name": "WINDOW count (non-TN reference)",
+   "value": 0.0,
+   "status": "REFERENCE ONLY",
+   "dataset": "Nalanda (Bihar) — NOT TN",
+   "projects": 24,
+   "metric": "% sheets window count within ±10% of tags",
+   "ground_truth": "opening tags",
+   "split": "reference",
+   "class_": "COMMERCIAL",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "ROOM AREA (non-TN reference)",
+   "value": 78.5,
+   "status": "REFERENCE ONLY",
+   "dataset": "Uttarakhand Govt CAD — NOT TN",
+   "projects": 6,
+   "metric": "% rooms within ±10% of written dimensions",
+   "ground_truth": "room dimension labels",
+   "split": "reference",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": "242 rooms, median APE 2.02%"
+  },
+  {
+   "name": "DETECTOR DOOR F1 (TRAIN)",
+   "value": 88.3,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 4200,
+   "metric": "door F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "train",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DETECTOR WINDOW F1 (TRAIN)",
+   "value": 91.8,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 4200,
+   "metric": "window F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "train",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DETECTOR DOOR F1 (VALIDATION)",
+   "value": 86.5,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 400,
+   "metric": "door F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "val",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DETECTOR WINDOW F1 (VALIDATION)",
+   "value": 89.8,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 400,
+   "metric": "window F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "val",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DETECTOR DOOR F1 (TEST)",
+   "value": 86.9,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 400,
+   "metric": "door F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "test",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "DETECTOR WINDOW F1 (TEST)",
+   "value": 88.1,
+   "status": "REFERENCE ONLY",
+   "dataset": "CubiCasa5K — NOT TN (generic pretraining)",
+   "projects": 400,
+   "metric": "window F1 @0.5 IoU",
+   "ground_truth": "CubiCasa SVG annotations",
+   "split": "test",
+   "class_": "PRETRAINING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "SYNTHETIC total vs exact geometry (dxf)",
+   "value": 100.0,
+   "status": "SYNTHETIC — NOT REAL",
+   "dataset": "generator (SYNTHETIC)",
+   "projects": 12,
+   "metric": "% within ±5%",
+   "ground_truth": "exact generated geometry",
+   "split": "synthetic",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "SYNTHETIC total vs exact geometry (pdf)",
+   "value": 100.0,
+   "status": "SYNTHETIC — NOT REAL",
+   "dataset": "generator (SYNTHETIC)",
+   "projects": 12,
+   "metric": "% within ±5%",
+   "ground_truth": "exact generated geometry",
+   "split": "synthetic",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "SYNTHETIC total vs exact geometry (png)",
+   "value": 100.0,
+   "status": "SYNTHETIC — NOT REAL",
+   "dataset": "generator (SYNTHETIC)",
+   "projects": 12,
+   "metric": "% within ±5%",
+   "ground_truth": "exact generated geometry",
+   "split": "synthetic",
+   "class_": "BASIC",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "TOTAL COST vs approved BOQ",
+   "value": null,
+   "status": "NOT VALIDATED",
+   "dataset": "approved TN BOQs",
+   "projects": 0,
+   "metric": "total cost within ±10%",
+   "ground_truth": "approved BOQ",
+   "split": "unseen_test",
+   "class_": "COST",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  },
+  {
+   "name": "PWD RATE COMPLETENESS",
+   "value": 58.8,
+   "status": "COVERAGE (not accuracy)",
+   "dataset": "villa_g1 sample take-off",
+   "projects": 1,
+   "metric": "% take-off lines priced from TN data",
+   "ground_truth": "TN SOR / Standard Data",
+   "split": "n/a",
+   "class_": "PRICING",
+   "model_version": {
+    "unet": "floorplan_unet 1.0",
+    "detector": "opening_det v1",
+    "rules": "hybrid geometry/OCR rules (backend @ HEAD)",
+    "registry": [
+     "floorplan_unet",
+     "room_label / room_geom classifiers",
+     "opening_det"
+    ]
+   },
+   "evaluation_date": "2026-10-09",
+   "note": null
+  }
+ ],
+ "summary": {
+  "measured": 5,
+  "passed": 2,
+  "not_measured": 3,
+  "not_validated": 1
+ }
+}

@@ -1,0 +1,3452 @@
+{
+ "name": "Karnataka PWD Schedule of Rates 2023-24 — Vol 1 (Common) + Vol 2 (Buildings)",
+ "authority": "Karnataka PWD",
+ "department": "Public Works, Ports & Inland Water Transport Department, Government of Karnataka",
+ "country": "India",
+ "region": "Karnataka",
+ "authority_level": "state",
+ "schedule_type": "SR",
+ "code_system": "KA-SR",
+ "year": "2023",
+ "financial_year": "2023-24",
+ "currency": "INR",
+ "source": "Official government document",
+ "source_ref": "KPWD Common Schedule of Rates 2023-24, Volume 2 Buildings (Grand Finale, 15-11-2023) — https://kpwd.karnataka.gov.in/storage/pdf-files/PWDSR-Vol-IIBuildings-GrandFinale-15-11-2023.pdf ; Vol 1 Common SR: https://kpwd.karnataka.gov.in/storage/pdf-files/Vol-1CommonSR-2023-24(GrandFinale)-15-11-2023.pdf",
+ "notes": "Latest full Buildings volume published by KPWD. KPWD revises material prices through quarterly Issue Rates (2026-27 Q1 w.e.f. 04.04.2026 and Q2 w.e.f. 04.07.2026 are published on kpwd.karnataka.gov.in); those files are scanned images and are NOT applied here, so item rates are as printed in the 2023-24 volume. Vol 1 item codes are prefixed 'V1-'.",
+ "source_file": "ka_vol2_buildings_2023_24.pdf",
+ "source_sha256": "d2187911bba202d6132356ae9e17b59a4380c04e42f73b238a9fd59951c3440d",
+ "items": 1469,
+ "skipped": 445,
+ "skipped_rows": [
+  {
+   "code": "4.2",
+   "page": 78,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "5.1",
+   "page": 82,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "6.37",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "6.39",
+   "page": 91,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.1",
+   "page": 94,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.2",
+   "page": 94,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.3",
+   "page": 94,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.4",
+   "page": 94,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.5",
+   "page": 94,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.11",
+   "page": 95,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.12",
+   "page": 95,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.14",
+   "page": 95,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.23",
+   "page": 96,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.23.1",
+   "page": 96,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.23.2",
+   "page": 96,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.23.3",
+   "page": 96,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.25",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.26",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.26.2",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.26.3",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.26.4",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.26.5",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.28",
+   "page": 97,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.32",
+   "page": 98,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.37",
+   "page": 99,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.39",
+   "page": 99,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.40",
+   "page": 100,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.42",
+   "page": 101,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.45",
+   "page": 102,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.47",
+   "page": 103,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.48",
+   "page": 103,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.49",
+   "page": 104,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.63",
+   "page": 109,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.63.1",
+   "page": 109,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.64",
+   "page": 110,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.64.1",
+   "page": 110,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.65",
+   "page": 110,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.65.1",
+   "page": 110,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.67",
+   "page": 111,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "7.69",
+   "page": 111,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "8.16",
+   "page": 116,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.3",
+   "page": 132,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.6",
+   "page": 132,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.7",
+   "page": 132,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.12",
+   "page": 133,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.17",
+   "page": 134,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.20",
+   "page": 135,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.21",
+   "page": 135,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "9.22",
+   "page": 135,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.1",
+   "page": 142,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.5",
+   "page": 142,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.6",
+   "page": 142,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.6.1",
+   "page": 142,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.9",
+   "page": 143,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.10",
+   "page": 143,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.13",
+   "page": 143,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.15",
+   "page": 144,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "10.25",
+   "page": 145,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "11.57",
+   "page": 168,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.15",
+   "page": 173,
+   "why": "duplicate code"
+  },
+  {
+   "code": "12.55",
+   "page": 177,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.57",
+   "page": 178,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.66",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.67",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.68",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.69",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.70",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.71",
+   "page": 179,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.73",
+   "page": 180,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.74",
+   "page": 180,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.75",
+   "page": 180,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.76",
+   "page": 180,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.77",
+   "page": 180,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.79",
+   "page": 181,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.80",
+   "page": 181,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.83",
+   "page": 181,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.93",
+   "page": 184,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.94",
+   "page": 184,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.97",
+   "page": 185,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "12.98",
+   "page": 186,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.1",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.2",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.3",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.4",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.5",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.1",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.2",
+   "page": 190,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.3",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.4",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.5",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.6.6",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.7",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.8",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.8.1",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.8.2",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.9",
+   "page": 191,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.10",
+   "page": 192,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.11",
+   "page": 192,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.17",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.18",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.20",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.21",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.22",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.22.1",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.23",
+   "page": 193,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.27",
+   "page": 194,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.28",
+   "page": 194,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.29",
+   "page": 194,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.31",
+   "page": 195,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.32",
+   "page": 195,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.33",
+   "page": 195,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.50",
+   "page": 198,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.64",
+   "page": 201,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "13.64.2",
+   "page": 201,
+   "why": "duplicate code"
+  },
+  {
+   "code": "13.65",
+   "page": 201,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.1",
+   "page": 204,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.2",
+   "page": 204,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.3",
+   "page": 204,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.4",
+   "page": 204,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.5",
+   "page": 205,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.6",
+   "page": 205,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.7",
+   "page": 205,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.9",
+   "page": 206,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.10",
+   "page": 206,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.10.1",
+   "page": 206,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.10.2",
+   "page": 207,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.11",
+   "page": 207,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.13",
+   "page": 207,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.17",
+   "page": 207,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.18",
+   "page": 207,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.19",
+   "page": 208,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.20",
+   "page": 208,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.25",
+   "page": 208,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.27",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.28",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.28.1",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.28.2",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.32",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.34",
+   "page": 209,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.35",
+   "page": 210,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.36",
+   "page": 210,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.37",
+   "page": 210,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.40",
+   "page": 210,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.48",
+   "page": 211,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.49",
+   "page": 211,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.50",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.51",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.52",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.53",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.54",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.55",
+   "page": 212,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.56",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.57",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.58",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.59",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.60",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.61",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.62",
+   "page": 213,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.63",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.64",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.65",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.66",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.67",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.68",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.68.1",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.68.2",
+   "page": 214,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.69",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.70",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.71",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.72",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.73",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.74",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.75",
+   "page": 215,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.76",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.77",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.78",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.79",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.80",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.81",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.82",
+   "page": 216,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.83",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.84",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.85",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.86",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.87",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.88",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.89",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.90",
+   "page": 217,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.91",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.92",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.93",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.94",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.95",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.96",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "14.97",
+   "page": 218,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "15.17",
+   "page": 226,
+   "unit": "m2",
+   "rate": "1.736.00",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "17.6",
+   "page": 248,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "17.7",
+   "page": 248,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "17.9",
+   "page": 249,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "17.10",
+   "page": 249,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "17.11",
+   "page": 249,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.8",
+   "page": 260,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.9",
+   "page": 260,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.11",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.12",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.13",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.14",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.15",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.16",
+   "page": 261,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.17",
+   "page": 262,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.22",
+   "page": 262,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.27",
+   "page": 262,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.33",
+   "page": 263,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.38",
+   "page": 263,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.39",
+   "page": 264,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.41",
+   "page": 264,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.42",
+   "page": 264,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.43",
+   "page": 264,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.44",
+   "page": 264,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.45",
+   "page": 265,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.46",
+   "page": 265,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.52",
+   "page": 265,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "19.54",
+   "page": 266,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.2",
+   "page": 270,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.3",
+   "page": 270,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.4",
+   "page": 270,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.5",
+   "page": 270,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.11",
+   "page": 271,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.11.1",
+   "page": 271,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.11.2",
+   "page": 271,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.13",
+   "page": 271,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.17",
+   "page": 271,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.20",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.20.1",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.20.2",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.22",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.24",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.25",
+   "page": 272,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.26",
+   "page": 273,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.27",
+   "page": 273,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.29",
+   "page": 273,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.34",
+   "page": 273,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.44",
+   "page": 275,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.111",
+   "page": 280,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "20.112",
+   "page": 281,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "21.9",
+   "page": 287,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "22.9",
+   "page": 291,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "22.15",
+   "page": 291,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.4",
+   "page": 78,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.5",
+   "page": 79,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.6",
+   "page": 79,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.6.2",
+   "page": 80,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.6.3",
+   "page": 80,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.14",
+   "page": 81,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.16",
+   "page": 82,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.17",
+   "page": 83,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.19",
+   "page": 83,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.21",
+   "page": 83,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.1",
+   "page": 88,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.2",
+   "page": 88,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.3",
+   "page": 88,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.4",
+   "page": 89,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.5",
+   "page": 89,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6",
+   "page": 89,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.1",
+   "page": 89,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.2",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.3",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.4",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.5",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.6",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.8",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.8.2",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.8.3",
+   "page": 90,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10",
+   "page": 91,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11",
+   "page": 91,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.1",
+   "page": 100,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.2",
+   "page": 100,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.3",
+   "page": 101,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.4.1",
+   "page": 102,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.4.2",
+   "page": 102,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.5",
+   "page": 103,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.5.1",
+   "page": 103,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.5.3",
+   "page": 104,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.6",
+   "page": 104,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.6.1",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.6.2",
+   "page": 105,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.6.3",
+   "page": 105,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.7",
+   "page": 105,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.8",
+   "page": 106,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.9",
+   "page": 107,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.11",
+   "page": 108,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.12",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.13",
+   "page": 109,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.14",
+   "page": 110,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.14.1",
+   "page": 110,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.14.2",
+   "page": 111,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.14.3",
+   "page": 111,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.15.1",
+   "page": 112,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.15.2",
+   "page": 113,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.15.3",
+   "page": 113,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.16.2",
+   "page": 115,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.16.3",
+   "page": 116,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.17",
+   "page": 117,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.17.1",
+   "page": 117,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.17.2",
+   "page": 118,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.17.3",
+   "page": 118,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.19",
+   "page": 119,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.19.1",
+   "page": 119,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.19.2",
+   "page": 120,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.19.3",
+   "page": 120,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.20",
+   "page": 121,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.2",
+   "page": 122,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.3",
+   "page": 123,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.4",
+   "page": 124,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.5",
+   "page": 124,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.6",
+   "page": 125,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.21.7",
+   "page": 125,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.22",
+   "page": 126,
+   "why": "duplicate code"
+  },
+  {
+   "code": "1.23",
+   "page": 127,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.23.c",
+   "page": 127,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.23.d",
+   "page": 127,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.23.e",
+   "page": 127,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "1.23.f",
+   "page": 127,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.1",
+   "page": 130,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.1.1",
+   "page": 130,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.1.3",
+   "page": 131,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.1.4",
+   "page": 132,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.1.5",
+   "page": 133,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.1.6",
+   "page": 133,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2",
+   "page": 134,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.2.1",
+   "page": 134,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.2",
+   "page": 135,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.3",
+   "page": 136,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.4",
+   "page": 137,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.5",
+   "page": 138,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.6",
+   "page": 139,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.2.7",
+   "page": 140,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.3",
+   "page": 141,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.3.1",
+   "page": 141,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.3.2",
+   "page": 142,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.4.1",
+   "page": 146,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.4.3",
+   "page": 147,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.4.4",
+   "page": 148,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.4.5",
+   "page": 149,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.4.6",
+   "page": 150,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.5",
+   "page": 151,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.5.1",
+   "page": 151,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.5.2",
+   "page": 152,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.5.3",
+   "page": 153,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.5.4",
+   "page": 154,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.5.5",
+   "page": 155,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.6",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.1",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.2",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.3",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.4",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.5",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.6.6",
+   "page": 156,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.7",
+   "page": 156,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.8.i",
+   "page": 158,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.8.ii",
+   "page": 158,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.9",
+   "page": 158,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.9.c",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.9.d",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.9.e",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.9.f",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 159,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 159,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.b",
+   "page": 159,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.c",
+   "page": 159,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.e",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.b",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 160,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.b",
+   "page": 160,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.c",
+   "page": 160,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.d",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.c",
+   "page": 160,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 160,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.c",
+   "page": 161,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.d",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.d",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 161,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.b",
+   "page": 161,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.c",
+   "page": 161,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.d",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 161,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 162,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.b",
+   "page": 162,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.c",
+   "page": 162,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.d",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 162,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.a",
+   "page": 162,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.b",
+   "page": 162,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.10.d",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.e",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.f",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.10.g",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.a",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.a",
+   "page": 163,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.b",
+   "page": 163,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.c",
+   "page": 163,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.f",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.g",
+   "page": 163,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.a",
+   "page": 164,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.b",
+   "page": 164,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.c",
+   "page": 164,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.f",
+   "page": 164,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.g",
+   "page": 164,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.c",
+   "page": 164,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.a",
+   "page": 164,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.b",
+   "page": 164,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.f",
+   "page": 165,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.g",
+   "page": 165,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.d",
+   "page": 165,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.a",
+   "page": 165,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.b",
+   "page": 165,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.c",
+   "page": 165,
+   "why": "duplicate code"
+  },
+  {
+   "code": "2.11.f",
+   "page": 165,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.g",
+   "page": 165,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.11.d",
+   "page": 166,
+   "unit": "1.00",
+   "rate": "t",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.12",
+   "page": 170,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "2.12.f",
+   "page": 170,
+   "unit": "",
+   "rate": "",
+   "why": "no unit / numeric rate (heading, note or rate on request)"
+  },
+  {
+   "code": "3.2",
+   "page": 174,
+   "why": "duplicate code"
+  },
+  {
+   "code": "3.4",
+   "page": 175,
+   "why": "duplicate code"
+  },
+  {
+   "code": "3.6",
+   "page": 176,
+   "why": "duplicate code"
+  },
+  {
+   "code": "3.8",
+   "page": 177,
+   "why": "duplicate code"
+  },
+  {
+   "code": "3.10",
+   "page": 178,
+   "why": "duplicate code"
+  },
+  {
+   "code": "3.12",
+   "page": 179,
+   "why": "duplicate code"
+  }
+ ],
+ "verification": {
+  "checked": 1469,
+  "code_and_rate_found_in_pdf": 1354,
+  "pct": 92.17,
+  "not_found": [
+   [
+    "V1-i",
+    "647.15",
+    []
+   ],
+   [
+    "V1-1.1",
+    "91.0",
+    []
+   ],
+   [
+    "V1-1.2",
+    "575.0",
+    []
+   ],
+   [
+    "V1-1.3",
+    "177.0",
+    []
+   ],
+   [
+    "V1-1.4.1",
+    "242.0",
+    []
+   ],
+   [
+    "V1-1.4.2",
+    "259.0",
+    []
+   ],
+   [
+    "V1-1.4.3",
+    "376.0",
+    []
+   ],
+   [
+    "V1-1.5.1",
+    "299.0",
+    []
+   ],
+   [
+    "V1-1.5.2",
+    "445.0",
+    []
+   ],
+   [
+    "V1-1.5.3",
+    "590.0",
+    []
+   ],
+   [
+    "V1-1.6.1",
+    "484.0",
+    []
+   ],
+   [
+    "V1-1.7",
+    "119.0",
+    []
+   ],
+   [
+    "V1-1.8",
+    "474.0",
+    []
+   ],
+   [
+    "V1-1.9",
+    "266.0",
+    []
+   ],
+   [
+    "V1-1.10",
+    "160.0",
+    []
+   ],
+   [
+    "V1-1.11",
+    "433.0",
+    []
+   ],
+   [
+    "V1-1.12",
+    "95.0",
+    []
+   ],
+   [
+    "V1-1.13",
+    "362.0",
+    []
+   ],
+   [
+    "V1-1.14.1",
+    "102.0",
+    []
+   ],
+   [
+    "V1-1.14.2",
+    "117.0",
+    []
+   ],
+   [
+    "V1-1.14.3",
+    "144.0",
+    []
+   ],
+   [
+    "V1-1.15.1",
+    "363.0",
+    []
+   ],
+   [
+    "V1-1.15.2",
+    "425.0",
+    []
+   ],
+   [
+    "V1-1.15.3",
+    "463.0",
+    []
+   ],
+   [
+    "V1-1.16.1",
+    "554.0",
+    []
+   ],
+   [
+    "V1-1.16.2",
+    "623.0",
+    []
+   ],
+   [
+    "V1-1.16.3",
+    "711.0",
+    []
+   ],
+   [
+    "V1-1.17.1",
+    "262.0",
+    []
+   ],
+   [
+    "V1-1.17.2",
+    "331.0",
+    []
+   ],
+   [
+    "V1-1.17.3",
+    "480.0",
+    []
+   ],
+   [
+    "V1-1.18",
+    "87.0",
+    []
+   ],
+   [
+    "V1-1.19.1",
+    "454.0",
+    []
+   ],
+   [
+    "V1-1.19.2",
+    "557.0",
+    []
+   ],
+   [
+    "V1-1.19.3",
+    "633.0",
+    []
+   ],
+   [
+    "V1-1.20",
+    "156.0",
+    []
+   ],
+   [
+    "V1-1.21.1",
+    "669.0",
+    []
+   ],
+   [
+    "V1-1.21.2",
+    "752.0",
+    []
+   ],
+   [
+    "V1-1.21.3",
+    "830.0",
+    []
+   ],
+   [
+    "V1-1.21.4",
+    "156.0",
+    []
+   ],
+   [
+    "V1-1.21.5",
+    "1014.0",
+    []
+   ],
+   [
+    "V1-1.21.6",
+    "1120.0",
+    []
+   ],
+   [
+    "V1-1.21.7",
+    "1196.0",
+    []
+   ],
+   [
+    "V1-1.22",
+    "156.0",
+    []
+   ],
+   [
+    "V1-1.23",
+    "2682.0",
+    []
+   ],
+   [
+    "V1-2.1.1",
+    "5338.0",
+    []
+   ],
+   [
+    "V1-2.1.2",
+    "5664.0",
+    []
+   ],
+   [
+    "V1-2.1.3",
+    "5989.0",
+    []
+   ],
+   [
+    "V1-2.1.4",
+    "6217.0",
+    []
+   ],
+   [
+    "V1-2.1.5",
+    "6156.0",
+    []
+   ],
+   [
+    "V1-2.1.6",
+    "6243.0",
+    []
+   ],
+   [
+    "V1-2.2.1",
+    "6287.0",
+    []
+   ],
+   [
+    "V1-2.2.2",
+    "6248.0",
+    []
+   ],
+   [
+    "V1-2.2.3",
+    "6336.0",
+    []
+   ],
+   [
+    "V1-2.2.4",
+    "6295.0",
+    []
+   ],
+   [
+    "V1-2.2.5",
+    "6499.0",
+    []
+   ],
+   [
+    "V1-2.2.6",
+    "6744.0",
+    []
+   ],
+   [
+    "V1-2.2.7",
+    "6990.0",
+    []
+   ],
+   [
+    "V1-2.3.1",
+    "6323.0",
+    []
+   ],
+   [
+    "V1-2.3.2",
+    "6480.0",
+    []
+   ],
+   [
+    "V1-2.3.3",
+    "6605.0",
+    []
+   ],
+   [
+    "V1-2.3.4",
+    "7006.0",
+    []
+   ],
+   [
+    "V1-2.3.5",
+    "7261.0",
+    []
+   ],
+   [
+    "V1-2.4.1",
+    "6404.0",
+    []
+   ],
+   [
+    "V1-2.4.2",
+    "6323.0",
+    []
+   ],
+   [
+    "V1-2.4.3",
+    "6336.0",
+    []
+   ],
+   [
+    "V1-2.4.4",
+    "6742.0",
+    []
+   ],
+   [
+    "V1-2.4.5",
+    "7084.0",
+    []
+   ],
+   [
+    "V1-2.4.6",
+    "7281.0",
+    []
+   ],
+   [
+    "V1-2.5.1",
+    "6630.0",
+    []
+   ],
+   [
+    "V1-2.5.2",
+    "6843.0",
+    []
+   ],
+   [
+    "V1-2.5.3",
+    "7007.0",
+    []
+   ],
+   [
+    "V1-2.5.4",
+    "7252.0",
+    []
+   ],
+   [
+    "V1-2.5.5",
+    "7522.0",
+    []
+   ],
+   [
+    "V1-2.7",
+    "292.0",
+    []
+   ],
+   [
+    "V1-2.8.1",
+    "8200.0",
+    []
+   ],
+   [
+    "V1-2.9",
+    "440.0",
+    []
+   ],
+   [
+    "V1-2.10.a",
+    "5866.0",
+    []
+   ],
+   [
+    "V1-2.10.b",
+    "6102.0",
+    []
+   ],
+   [
+    "V1-2.10.c",
+    "6219.0",
+    []
+   ],
+   [
+    "V1-2.10.d",
+    "6632.0",
+    []
+   ],
+   [
+    "V1-2.10.e",
+    "6750.0",
+    []
+   ],
+   [
+    "V1-2.10.f",
+    "6985.0",
+    []
+   ],
+   [
+    "V1-2.11.a",
+    "89457.0",
+    []
+   ],
+   [
+    "V1-2.11.b",
+    "86206.0",
+    []
+   ],
+   [
+    "V1-2.11.c",
+    "86433.0",
+    []
+   ],
+   [
+    "V1-2.11.d",
+    "86658.0",
+    []
+   ],
+   [
+    "V1-2.11.e",
+    "88842.0",
+    []
+   ],
+   [
+    "V1-2.11.f",
+    "90010.0",
+    []
+   ],
+   [
+    "V1-2.11.g",
+    "91573.0",
+    []
+   ],
+   [
+    "V1-2.11.h",
+    "79011.0",
+    []
+   ],
+   [
+    "V1-2.12",
+    "73713.0",
+    []
+   ],
+   [
+    "V1-3.1",
+    "7881.0",
+    []
+   ],
+   [
+    "V1-3.2",
+    "6239.0",
+    []
+   ],
+   [
+    "V1-3.3",
+    "5420.0",
+    []
+   ],
+   [
+    "V1-3.4",
+    "4658.0",
+    []
+   ],
+   [
+    "V1-3.5",
+    "4248.0",
+    []
+   ],
+   [
+    "V1-3.6",
+    "3896.0",
+    []
+   ],
+   [
+    "V1-3.7",
+    "6239.0",
+    []
+   ],
+   [
+    "V1-3.8",
+    "5420.0",
+    []
+   ],
+   [
+    "V1-3.9",
+    "4658.0",
+    []
+   ]
+  ]
+ }
+}

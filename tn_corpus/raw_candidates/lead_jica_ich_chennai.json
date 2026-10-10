@@ -1,0 +1,23 @@
+{
+ "lead_id": "jica_ich_chennai",
+ "url": "https://openjicareport.jica.go.jp/pdf/12144929.pdf",
+ "title": "JICA report \u2014 Institute of Child Health and Hospital for Children, Chennai (as named in the request)",
+ "source_organisation": "JICA Open Report library",
+ "source_class": "third_party_public_report",
+ "building_type": "hospital",
+ "licence_policy_url": "https://openjicareport.jica.go.jp/",
+ "permission_evidence": "none recorded \u2014 JICA report terms not reviewed",
+ "file_name": "12144929.pdf",
+ "final_url": "https://openjicareport.jica.go.jp/pdf/12144929.pdf",
+ "http_status": 200,
+ "content_type": "application/pdf",
+ "bytes": 8520534,
+ "sha256": "ff4061ff7ea047d24f6be78f2031665b6fc42f720476f12315c221a6148c7d36",
+ "file_path": "raw_candidates\\ff4061ff7ea047d24f6be78f2031665b6fc42f720476f12315c221a6148c7d36.pdf",
+ "acquired_at": "2026-10-09T11:45:29+00:00",
+ "acquisition_state": "RAW_CANDIDATE",
+ "usage_state": "REVIEW_REQUIRED",
+ "training_eligible": false,
+ "evaluation_eligible": false,
+ "attribution": "Source: JICA Open Report library, https://openjicareport.jica.go.jp/pdf/12144929.pdf"
+}

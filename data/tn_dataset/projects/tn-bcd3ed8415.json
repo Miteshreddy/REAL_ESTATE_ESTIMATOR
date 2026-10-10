@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-bcd3ed8415",
+ "project_name": "vao-office",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "office",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "15.vao_office.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "5fdae33c2e9794fe-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:29",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

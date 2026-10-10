@@ -1,0 +1,56 @@
+catalogue: 54 PDF links on https://tnrd.tn.gov.in/buildings_design.html; policy page robots_allowed=False
+ok 1.ESB-Model.pdf 205108
+ok Beam L.S-1.pdf 734560
+ok IAY drawing0001.pdf 383274
+ok 2.PDS-Model.pdf 190138
+ok Beam L.S-2.pdf 698613
+ok pvt-Model 29.09.11.pdf 552868
+ok 3.Anganwadi-Model.pdf 173131
+ok Beam L.S-3.pdf 535909
+ok 4.kitchen_shed.pdf 157220
+ok Beam L.S-4.pdf 487609
+ok 5.STG-Model.pdf 140498
+ok Cross Section.pdf 145871
+ok Buildings.pdf 8440029
+ok 6.STB-Model.pdf 134867
+ok Drain.pdf 343093
+ok Roads_Bridges.pdf 52829831
+ok 7.SHGB-Model.pdf 168871
+ok FF-ARC.pdf 686482
+ok 8.PSTR-Model.pdf 71985
+ok FF-Roof.pdf 1230614
+ok 9.PO-Model.pdf 163173
+ok GF Roof.pdf 1387221
+ok IMSC.pdf 174533
+ok 10.LB-Model.pdf 396762
+ok GF-ARC.pdf 675764
+ok IHHL-12000-15-16-Leach pit.pdf 36216
+ok 11.CH-1-Model.pdf 179607
+ok Plinth beam.pdf 315136
+ok IHHL-12000-15-16-Septic tank.pdf 59339
+ok 12.CH-2-Model.pdf 185004
+ok Portico -Grade Beam.pdf 407515
+ok SEptic tank WITH Soak Pit.pdf 64542
+ok 13.CH-3(1)-Model.pdf 132161
+ok Portico-Elevation.pdf 337702
+ok 13.CH-3(2)-Model.pdf 191810
+ok Portico-Roof Beam 1.pdf 445718
+ok 14.cement_godown.pdf 153373
+ok Portico-Roof beam 2.pdf 525292
+ok 15.vao_office.pdf 131997
+ok Sanitary.pdf 276178
+ok 16.TF-Model.pdf 129172
+ok SF-ARC.pdf 265574
+ok 17.CS-Model.pdf 80080
+ok Stair case.pdf 227521
+ok 18.MC-Model.pdf 221329
+ok Tranining Hall-Roof.pdf 351690
+ok 1.pdf 44562
+ok Water Supply.pdf 267758
+ok 2.pdf 55122
+ok 3.pdf 80392
+ok 4.pdf 73581
+ok AEE office Model.pdf 142769
+ok GF.pdf 43538
+ok FF.pdf 39123
+downloaded 54, already present 0, blocked/failed 0

@@ -1,0 +1,389 @@
+[seg] model loaded: floorplan_unet.onnx
+{'file': '1.ESB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 37, 'view_iou': 0.58, 'view_ok': True, 'plinth': 97.24, 'plinth_gt': 97.06, 'plinth_err': 0.0019, 'scale': 'from the plinth area note (97.06 m²); overall dimensions did', 'rooms': 13}
+{'file': '10.LB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.32, 'view_ok': True, 'plinth': 38.87, 'plinth_gt': 49.8, 'plinth_err': -0.2195, 'scale': 'from the plinth area note (49.80 m²)', 'rooms': 2}
+{'file': '11.CH-1-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 29, 'view_iou': 0.76, 'view_ok': True, 'plinth': 166.39, 'scale': 'from the plinth area note (162.96 m²)', 'rooms': 16}
+{'file': '12.CH-2-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 28, 'view_iou': 0.48, 'view_ok': True, 'plinth': 222.58, 'plinth_gt': 288.35, 'plinth_err': -0.2281, 'scale': 'from the plinth area note (222.35 m²); overall dimensions di', 'rooms': 16}
+{'file': '13.CH-3(1)-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.76, 'view_ok': True, 'plinth': 235.11, 'scale': 'from the plinth area note (233.83 m²)', 'rooms': 13}
+{'file': '13.CH-3(2)-Model.pdf', 'kind': 'none', 'found_plans': 0, 'sec': 22, 'view_ok': True}
+{'file': '14.cement_godown.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 32, 'view_iou': 0.6, 'view_ok': True, 'plinth': 607.5, 'plinth_gt': 80.49, 'plinth_err': 6.5475, 'scale': 'from the plinth area note (80.49 m²)', 'rooms': 5}
+{'file': '15.vao_office.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 21, 'view_ok': False}
+{'file': '17.CS-Model.pdf', 'kind': 'shed', 'found_plans': 0, 'sec': 20, 'view_ok': False}
+{'file': '18.MC-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.7, 'view_ok': True, 'plinth': 50.26, 'plinth_gt': 49.33, 'plinth_err': 0.0189, 'scale': 'from the plinth area note (49.33 m²); overall dimensions did', 'rooms': 9}
+{'file': '2.PDS-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 33, 'view_iou': 0.6, 'view_ok': True, 'plinth': 75.72, 'plinth_gt': 70.38, 'plinth_err': 0.0759, 'scale': 'from the plinth area note (70.38 m²)', 'rooms': 14}
+{'file': '3.Anganwadi-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 31, 'view_iou': 0.38, 'view_ok': True, 'plinth': 46.75, 'plinth_gt': 46.59, 'plinth_err': 0.0034, 'scale': 'from the plinth area note (46.59 m²)', 'rooms': 6}
+{'file': '4.kitchen_shed.pdf', 'kind': 'building', 'found_plans': 0, 'sec': 25, 'view_ok': False}
+{'file': '5.STG-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.6, 'view_ok': True, 'plinth': 39.39, 'plinth_gt': 17.66, 'plinth_err': 1.2305, 'scale': 'from the plinth area note (17.56 m²)', 'rooms': 10}
+{'file': '6.STB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.62, 'view_ok': True, 'plinth': 16.99, 'plinth_gt': 17.63, 'plinth_err': -0.0363, 'scale': 'from the plinth area note (17.03 m²); overall dimensions did', 'rooms': 4}
+{'file': '7.SHGB-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 25, 'view_iou': 0.64, 'view_ok': True, 'plinth': 56.61, 'plinth_gt': 56.67, 'plinth_err': -0.0011, 'scale': 'from the plinth area note (56.67 m²); overall dimensions did', 'rooms': 8}
+{'file': '8.PSTR-Model.pdf', 'kind': 'shed', 'found_plans': 1, 'sec': 23, 'view_iou': 0.61, 'view_ok': True, 'plinth': 14.25, 'scale': 'from the plinth area note (14.19 m²)', 'rooms': 3}
+{'file': '9.PO-Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 24, 'view_iou': 0.9, 'view_ok': True, 'plinth': 87.89, 'plinth_gt': 87.81, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (87.81 m²)', 'rooms': 12}
+{'file': 'AEE office Model.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 19, 'view_iou': 0.65, 'view_ok': True, 'plinth': 123.67, 'plinth_gt': 123.56, 'plinth_err': 0.0009, 'scale': 'from the plinth area note (123.56 m²)', 'rooms': 16}
+{'file': 'pvt-Model 29.09.11.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 22, 'view_iou': 0.47, 'view_ok': True, 'plinth': 27.11, 'plinth_gt': 28.0, 'plinth_err': -0.0318, 'scale': 'from the plinth area note (28.00 m²)', 'rooms': 5}
+{'file': 'IMSC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 21, 'view_iou': 0.7, 'view_ok': True, 'plinth': 74.38, 'plinth_gt': 52.83, 'plinth_err': 0.4079, 'scale': 'from the plinth area note (52.85 m²)', 'rooms': 7}
+{'file': '1.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 16, 'view_iou': 0.84, 'view_ok': True, 'plinth': 242.75, 'scale': 'auto (low confidence): 9 door openings, median 24px = 0.85 m', 'rooms': 10}
+{'file': '2.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 18, 'view_iou': 0.64, 'view_ok': True, 'plinth': 187.84, 'scale': 'from written overall dimensions 7790 × 24446 mm', 'rooms': 20}
+{'file': 'GF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 18, 'view_iou': 0.18, 'view_ok': True, 'plinth': 327.32, 'plinth_gt': 328.46, 'plinth_err': -0.0035, 'scale': 'from the plinth area note (328.46 m²)', 'rooms': 12}
+{'file': 'FF.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 23, 'view_iou': 0.6, 'view_ok': True, 'plinth': 291.4, 'plinth_gt': 292.45, 'plinth_err': -0.0036, 'scale': 'from written overall dimensions 24340 × 12019 mm; plinth are', 'rooms': 15}
+{'file': 'GF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 30, 'view_iou': 0.77, 'view_ok': True, 'plinth': 763.77, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 32}
+{'file': 'FF-ARC.pdf', 'kind': 'building', 'found_plans': 1, 'sec': 27, 'view_iou': 0.9, 'view_ok': True, 'plinth': 763.48, 'scale': 'from the plinth area note (763.60 m²); overall dimensions di', 'rooms': 35}
+{
+ "sheets": 27,
+ "errors": 0,
+ "view_correct_pct": 88.9,
+ "plinth_checked": 16,
+ "plinth_median_err_pct": 2.54,
+ "plinth_within_5pct": 62.5,
+ "plinth_within_10pct": 68.8
+}
+[seg] model loaded: floorplan_unet.onnx
+{
+ "printed_reference": {
+  "floor_text": "18TH, 28TH & 38TH FLOOR",
+  "floors": [
+   18,
+   28,
+   38
+  ],
+  "flats_3bhk": 5,
+  "carpet_sft": {
+   "2": 1341,
+   "3": 1123,
+   "4": 1115,
+   "5": 1242,
+   "6": 1222
+  },
+  "saleable_sft": {
+   "2": 2001,
+   "3": 1723,
+   "4": 1711,
+   "5": 1882,
+   "6": 1858
+  }
+ },
+ "before": {
+  "label": "BEFORE (stored project, previous pipeline)",
+  "floors_param": 1,
+  "floor_info": null,
+  "floor": null,
+  "scale": {
+   "method": "layout",
+   "px_per_m": 128.52,
+   "confidence": 0.95
+  },
+  "rooms": 63,
+  "rooms_named": 48,
+  "room_types": {},
+  "rejected_regions": 0,
+  "units": null,
+  "doors": 4,
+  "windows": 5,
+  "plinth_area_m2": 683.74,
+  "carpet_area_m2": 520.02,
+  "wall_length_m": 618.2
+ },
+ "after": {
+  "label": "AFTER (current pipeline)",
+  "floors_param": 3,
+  "floor_info": {
+   "floor_occurrences": [
+    18,
+    28,
+    38
+   ],
+   "floor_start": 18,
+   "floor_end": 38,
+   "floor_step": 10,
+   "repeated_count": 3,
+   "typical_floor": true,
+   "refuge_floor": true,
+   "source_text": "18TH,28TH&38THFLOOR",
+   "confidence": 0.98,
+   "sources": 9,
+   "label": "Refuge floor \u2014 floors 18, 28, 38",
+   "level": 18,
+   "repeat": 3,
+   "note": "this plan occurs on the listed floors; the total number of storeys of the building is NOT stated by this sheet"
+  },
+  "floor": {
+   "label": "Refuge floor \u2014 floors 18, 28, 38",
+   "level": 18,
+   "repeat": 3,
+   "occurrences": [
+    18,
+    28,
+    38
+   ]
+  },
+  "scale": {
+   "method": "calibrated from 18 room dimension labels read by OCR",
+   "px_per_m": 133.55,
+   "analysis_downscale": 0.92,
+   "confidence": 0.85
+  },
+  "rooms": 79,
+  "rooms_named": 68,
+  "room_types": {
+   "balcony": 1,
+   "bedroom": 15,
+   "corridor": 2,
+   "dining": 5,
+   "drawing": 5,
+   "dress": 2,
+   "electrical": 1,
+   "kitchen": 5,
+   "living": 2,
+   "lobby": 4,
+   "pooja": 3,
+   "refuge": 1,
+   "shaft": 3,
+   "staircase": 1,
+   "toilet": 10,
+   "unknown": 17,
+   "utility": 2
+  },
+  "rejected_regions": 0,
+  "units": [
+   {
+    "id": "U1",
+    "label": "2001 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 2001.0,
+    "rooms": [
+     "R3",
+     "R4",
+     "R16",
+     "R17",
+     "R19",
+     "R35",
+     "R36",
+     "R43",
+     "R44",
+     "R55",
+     "R58",
+     "R59",
+     "R60",
+     "R68"
+    ],
+    "measured_area_m2": 88.01,
+    "bedrooms": 3,
+    "toilets": 3,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U2",
+    "label": "1711 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1711.0,
+    "rooms": [
+     "R2",
+     "R5",
+     "R22",
+     "R24",
+     "R31",
+     "R38",
+     "R45",
+     "R47",
+     "R49",
+     "R62",
+     "R66",
+     "R70",
+     "R77",
+     "R79"
+    ],
+    "measured_area_m2": 100.32,
+    "bedrooms": 3,
+    "toilets": 1,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U3",
+    "label": "1723 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1723.0,
+    "rooms": [
+     "R6",
+     "R15",
+     "R20",
+     "R21",
+     "R23",
+     "R33",
+     "R37",
+     "R46",
+     "R48",
+     "R56",
+     "R57",
+     "R61",
+     "R78"
+    ],
+    "measured_area_m2": 75.77,
+    "bedrooms": 3,
+    "toilets": 1,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U4",
+    "label": "1882 Sft. 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1882.0,
+    "rooms": [
+     "R9",
+     "R12",
+     "R25",
+     "R26",
+     "R30",
+     "R32",
+     "R39",
+     "R50",
+     "R52",
+     "R53",
+     "R63",
+     "R65",
+     "R74"
+    ],
+    "measured_area_m2": 80.99,
+    "bedrooms": 3,
+    "toilets": 2,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   },
+   {
+    "id": "U5",
+    "label": "1858 Sft 3BHK",
+    "bhk": 3,
+    "stated_area_sft": 1858.0,
+    "rooms": [
+     "R7",
+     "R10",
+     "R11",
+     "R14",
+     "R27",
+     "R28",
+     "R29",
+     "R40",
+     "R42",
+     "R51",
+     "R54",
+     "R64",
+     "R73"
+    ],
+    "measured_area_m2": 100.92,
+    "bedrooms": 3,
+    "toilets": 3,
+    "basis": "rooms assigned to the nearest unit tag (k-means seeded at the BHK / area labels); review"
+   }
+  ],
+  "doors": 83,
+  "windows": 53,
+  "plinth_area_m2": 740.22,
+  "carpet_area_m2": 582.25,
+  "wall_length_m": 677.7,
+  "floors_source": " \u00b7 Image: '18TH,28TH&38THFLOOR' \u2014 plan occurs on floor(s) 18, 28, 38 (confidence 0.98)",
+  "seconds": 46.1,
+  "items": 52,
+  "priced_items": 31,
+  "excluded_items": 21,
+  "assumed_items": 24,
+  "total_priced_inr": 37279326.76
+ },
+ "agreement": {
+  "floor_occurrences_match": true,
+  "units_found": 5,
+  "units_printed": 5,
+  "unit_bhk_found": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "unit_area_tags": [
+   2001.0,
+   1711.0,
+   1723.0,
+   1882.0,
+   1858.0
+  ]
+ },
+ "note": "Door / window ground truth is not printed on this drawing (no schedule); counts are reported, not scored."
+}
+nalanda_a.1.3-masterplan-first-floor-plan.pdf not read: {'unit': 0.01, 'unit_source': 'stated on the drawing', 'dim_matches': 0, 'reason': 'sheet too large'}
+nalanda_a.2.1-ground-first-floor-plan.pdf rooms 43 206 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.1-type-1b-ground-floor-plan.pdf rooms 50 223 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.13-type-3-ground-floor-plan.pdf rooms 35 143 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.14-type-3-first-floor-plan.pdf rooms 33 143 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.2-type-1b-first-floor-plan.pdf rooms 51 223 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.3-ground-floor-plan.pdf rooms 73 149 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.3-type-1b-second-floor-plan.pdf rooms 50 221 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.4-first-floor-plan.pdf rooms 69 136 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.7-type-2-ground-floor-plan.pdf rooms 44 191 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.2.8-type-2-first-floor-plan.pdf rooms 44 191 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t1.2.1-ground-first-floor-plan.pdf rooms 40 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t1.2.2-second-third-floor-plan.pdf rooms 41 310 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t10.2.1-ground-first-floor-plan.pdf rooms 30 340 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t11.2.1-ground-first-floor-plan.pdf rooms 30 317 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t12.2.1-ground-first-floor-plan.pdf rooms 30 315 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t13.2.1-ground-first-floor-plan.pdf rooms 31 314 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t2.2.1-ground-first-floor-plan.pdf rooms 39 318 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t3.2.1-ground-first-floor-plan.pdf rooms 39 314 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t4.2.1-ground-first-floor-plan.pdf rooms 39 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t5.2.1-ground-first-floor-plan.pdf rooms 40 312 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t6.2.1-ground-first-floor-plan.pdf rooms 38 311 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t7.2.1-ground-first-floor-plan.pdf rooms 30 313 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t8.2.1-ground-first-floor-plan.pdf rooms 35 351 dimension strings matched to their dimension lines (1:100, unit cm)
+nalanda_a.t9.2.1-ground-first-floor-plan.pdf rooms 38 312 dimension strings matched to their dimension lines (1:100, unit cm)
+{
+ "enclosed_rooms": {
+  "n": 491,
+  "median_pct": 8.28,
+  "within5": 37.9,
+  "within10": 53.6
+ },
+ "open_plan": {
+  "n": 174,
+  "median_pct": 33.42,
+  "within5": 16.1,
+  "within10": 27.6
+ },
+ "building_extent": {
+  "n": 48,
+  "median_pct": 2.41,
+  "within5": 70.8,
+  "within10": 95.8
+ }
+}
+{'file': 'ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 28, 'median_abs_err_pct': 5.5, 'within_5pct': 42.9, 'within_10pct': 67.9, 'seconds': 1.3}
+{'file': 'ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf', 'plans': 6, 'labelled_rooms': 50, 'median_abs_err_pct': 3.3, 'within_5pct': 54.0, 'within_10pct': 70.0, 'seconds': 1.2}
+{'file': 'ARCH_BBC_AR_TY_1_Plans_ALL.dxf', 'plans': 3, 'labelled_rooms': 48, 'median_abs_err_pct': 1.4, 'within_5pct': 100.0, 'within_10pct': 100.0, 'seconds': 0.9}
+{'file': 'ARCH_BBC_AR_TY_2_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 24, 'median_abs_err_pct': 5.0, 'within_5pct': 50.0, 'within_10pct': 70.8, 'seconds': 1.1}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALL.dxf', 'plans': 2, 'labelled_rooms': 40, 'median_abs_err_pct': 2.5, 'within_5pct': 55.0, 'within_10pct': 85.0, 'seconds': 2.0}
+{'file': 'ARCH_BBC_AR_TY_4_P_ALLdwg.dxf', 'plans': 4, 'labelled_rooms': 52, 'median_abs_err_pct': 2.3, 'within_5pct': 59.6, 'within_10pct': 71.2, 'seconds': 2.0}
+{
+ "files": 6,
+ "labelled_rooms": 242,
+ "median_abs_err_pct": 2.02,
+ "mean_abs_err_pct": 7.73,
+ "within_5pct": 62.8,
+ "within_10pct": 78.5
+}
+AREA (basic, plinth)                              68.8%  FAIL                   TN Govt type-design sheets
+SHEET VIEW (basic)                                88.9%  FAIL                   TN Govt type-design sheets
+FLOOR (large)                                    100.0%  PASS                   Aparna refuge floor
+UNIT (large)                                     100.0%  PASS                   Aparna refuge floor
+ROOM / UNIT AREA (large)                          20.0%  FAIL                   Aparna refuge floor
+DOOR (large)                                             NOT MEASURED           Aparna refuge floor
+WINDOW (large)                                           NOT MEASURED           Aparna refuge floor
+COMMERCIAL / INSTITUTIONAL (TN)                          NOT MEASURED           none
+DOOR count (non-TN reference)                     20.8%  REFERENCE ONLY         Nalanda (Bihar) — NOT TN
+WINDOW count (non-TN reference)                    0.0%  REFERENCE ONLY         Nalanda (Bihar) — NOT TN
+ROOM AREA (non-TN reference)                      78.5%  REFERENCE ONLY         Uttarakhand Govt CAD — NOT TN
+DETECTOR DOOR F1 (TRAIN)                          88.3%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (TRAIN)                        91.8%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR DOOR F1 (VALIDATION)                     86.5%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (VALIDATION)                   89.8%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR DOOR F1 (TEST)                           86.9%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (TEST)                         88.1%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+SYNTHETIC total vs exact geometry (dxf)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+SYNTHETIC total vs exact geometry (pdf)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+SYNTHETIC total vs exact geometry (png)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+TOTAL COST vs approved BOQ                               NOT VALIDATED          approved TN BOQs
+PWD RATE COMPLETENESS                             58.8%  COVERAGE (not accuracy) villa_g1 sample take-off
+FINAL: FAIL

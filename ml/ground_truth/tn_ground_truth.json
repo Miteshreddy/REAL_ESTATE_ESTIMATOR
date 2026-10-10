@@ -1,0 +1,32 @@
+{
+ "note": "Hand-labelled ground truth for Tamil Nadu RD type-design sheets. plans = list of [x0,y0,x1,y1] in % of the page (as rendered, unrotated). plinth_m2 = written plinth area of that plan where legible. kind 'building' = walled building with rooms; 'shed' = open structure (excluded from room metrics); 'none' = sheet without a floor plan.",
+ "sheets": {
+  "1.ESB-Model.pdf":      {"kind": "building", "plans": [[22, 5, 62, 48]], "plinth_m2": [97.06]},
+  "10.LB-Model.pdf":      {"kind": "building", "plans": [[20, 3, 58, 50]], "plinth_m2": [49.80]},
+  "11.CH-1-Model.pdf":    {"kind": "building", "plans": [[18, 7, 72, 46]], "plinth_m2": [null]},
+  "12.CH-2-Model.pdf":    {"kind": "building", "plans": [[17, 3, 63, 51]], "plinth_m2": [288.35]},
+  "13.CH-3(1)-Model.pdf": {"kind": "building", "plans": [[25, 6, 95, 42], [25, 56, 95, 92]], "plinth_m2": [null, null]},
+  "13.CH-3(2)-Model.pdf": {"kind": "none", "plans": []},
+  "14.cement_godown.pdf": {"kind": "building", "plans": [[22, 6, 62, 47]], "plinth_m2": [80.49]},
+  "15.vao_office.pdf":    {"kind": "building", "plans": [[22, 7, 55, 38]], "plinth_m2": [25.06]},
+  "17.CS-Model.pdf":      {"kind": "shed", "plans": [[28, 10, 70, 40]], "plinth_m2": [60.0]},
+  "18.MC-Model.pdf":      {"kind": "building", "plans": [[30, 14, 68, 44]], "plinth_m2": [49.33]},
+  "2.PDS-Model.pdf":      {"kind": "building", "plans": [[25, 10, 68, 44]], "plinth_m2": [70.38]},
+  "3.Anganwadi-Model.pdf":{"kind": "building", "plans": [[38, 2, 72, 45]], "plinth_m2": [46.59]},
+  "4.kitchen_shed.pdf":   {"kind": "building", "plans": [[23, 8, 63, 40]], "plinth_m2": [20.62]},
+  "5.STG-Model.pdf":      {"kind": "building", "plans": [[25, 3, 55, 50]], "plinth_m2": [17.66]},
+  "6.STB-Model.pdf":      {"kind": "building", "plans": [[25, 3, 55, 50]], "plinth_m2": [17.63]},
+  "7.SHGB-Model.pdf":     {"kind": "building", "plans": [[30, 5, 68, 42]], "plinth_m2": [56.67]},
+  "8.PSTR-Model.pdf":     {"kind": "shed", "plans": [[18, 6, 55, 42]], "plinth_m2": [14.19]},
+  "9.PO-Model.pdf":       {"kind": "building", "plans": [[33, 4, 70, 48]], "plinth_m2": [87.81]},
+  "AEE office Model.pdf": {"kind": "building", "plans": [[30, 10, 90, 84]], "plinth_m2": [123.56]},
+  "pvt-Model 29.09.11.pdf":{"kind": "building", "plans": [[20, 9, 62, 40]], "plinth_m2": [28.00]},
+  "IMSC.pdf":             {"kind": "building", "plans": [[8, 18, 55, 52]], "plinth_m2": [52.83]},
+  "1.pdf":                {"kind": "building", "plans": [[20, 27, 48, 72], [58, 27, 84, 72]], "plinth_m2": [null, null]},
+  "2.pdf":                {"kind": "building", "plans": [[20, 25, 48, 76], [58, 25, 88, 76]], "plinth_m2": [null, null]},
+  "GF.pdf":               {"kind": "building", "plans": [[15, 5, 80, 60]], "plinth_m2": [328.46]},
+  "FF.pdf":               {"kind": "building", "plans": [[15, 5, 88, 62]], "plinth_m2": [292.45]},
+  "GF-ARC.pdf":           {"kind": "building", "plans": [[5, 13, 52, 72]], "plinth_m2": [null]},
+  "FF-ARC.pdf":           {"kind": "building", "plans": [[5, 13, 52, 82]], "plinth_m2": [null]}
+ }
+}

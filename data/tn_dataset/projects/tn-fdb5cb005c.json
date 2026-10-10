@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-fdb5cb005c",
+ "project_name": "stair-case",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "unknown",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "STAIRCASE"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "Stair case.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "efde01c9317f44ee-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:36",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

@@ -1,0 +1,2004 @@
+{
+ "summary": {
+  "files": 6,
+  "labelled_rooms": 242,
+  "median_abs_err_pct": 2.02,
+  "mean_abs_err_pct": 7.73,
+  "within_5pct": 62.8,
+  "within_10pct": 78.5
+ },
+ "files": [
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "plans": 2,
+   "labelled_rooms": 28,
+   "median_abs_err_pct": 5.5,
+   "within_5pct": 42.9,
+   "within_10pct": 67.9,
+   "seconds": 1.2
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "plans": 6,
+   "labelled_rooms": 50,
+   "median_abs_err_pct": 3.3,
+   "within_5pct": 54.0,
+   "within_10pct": 70.0,
+   "seconds": 1.4
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "plans": 3,
+   "labelled_rooms": 48,
+   "median_abs_err_pct": 1.4,
+   "within_5pct": 100.0,
+   "within_10pct": 100.0,
+   "seconds": 1.0
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "plans": 2,
+   "labelled_rooms": 24,
+   "median_abs_err_pct": 5.0,
+   "within_5pct": 50.0,
+   "within_10pct": 70.8,
+   "seconds": 1.1
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "plans": 2,
+   "labelled_rooms": 40,
+   "median_abs_err_pct": 2.5,
+   "within_5pct": 55.0,
+   "within_10pct": 85.0,
+   "seconds": 2.2
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "plans": 4,
+   "labelled_rooms": 52,
+   "median_abs_err_pct": 2.3,
+   "within_5pct": 59.6,
+   "within_10pct": 71.2,
+   "seconds": 2.2
+  }
+ ],
+ "rooms": [
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.5,
+   "detected": 13.04,
+   "err": 0.1339
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.5,
+   "detected": 12.6,
+   "err": 0.0956
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.01,
+   "detected": 4.73,
+   "err": -0.0565
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.64,
+   "err": 0.0
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.84,
+   "detected": 12.91,
+   "err": 0.0904
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.53,
+   "err": -0.0167
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.78,
+   "err": 0.0015
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.78,
+   "err": 0.053
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.01,
+   "detected": 4.95,
+   "err": -0.0126
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.74,
+   "err": 0.0379
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.84,
+   "detected": 13.04,
+   "err": 0.1014
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "LOBBY",
+   "labelled": 12.18,
+   "detected": 16.77,
+   "err": 0.3768
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "LOBBY",
+   "labelled": 12.18,
+   "detected": 30.93,
+   "err": 1.5394
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.62,
+   "err": -0.0076
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.78,
+   "err": 0.053
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.62,
+   "err": -0.0076
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.01,
+   "detected": 4.73,
+   "err": -0.0565
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.64,
+   "err": 0.0
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.84,
+   "detected": 12.91,
+   "err": 0.0904
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.53,
+   "err": -0.0167
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.78,
+   "err": 0.0015
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.64,
+   "detected": 2.74,
+   "err": 0.0379
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.5,
+   "detected": 13.04,
+   "err": 0.1339
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.01,
+   "detected": 4.95,
+   "err": -0.0126
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.84,
+   "detected": 13.04,
+   "err": 0.1014
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "LOBBY",
+   "labelled": 12.18,
+   "detected": 16.77,
+   "err": 0.3768
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 11.5,
+   "detected": 12.77,
+   "err": 0.1104
+  },
+  {
+   "file": "ARCH_BBC_AR_GEN_TY_3_P_ALL.dxf",
+   "sheet": "Type-Iii Ground Floor Plan",
+   "room": "LOBBY",
+   "labelled": 12.18,
+   "detected": 29.82,
+   "err": 1.4483
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "SERV. ROOM",
+   "labelled": 8.1,
+   "detected": 8.05,
+   "err": -0.0062
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 6.59,
+   "detected": 5.71,
+   "err": -0.1332
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "MASTER BED ROOM",
+   "labelled": 17.09,
+   "detected": 17.09,
+   "err": -0.0002
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BOX ROOM",
+   "labelled": 4.46,
+   "detected": 4.51,
+   "err": 0.0123
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.21,
+   "detected": 15.65,
+   "err": 0.1847
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRESS",
+   "labelled": 3.8,
+   "detected": 3.82,
+   "err": 0.0053
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 21.0,
+   "detected": 21.35,
+   "err": 0.0167
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "STORE",
+   "labelled": 3.7,
+   "detected": 3.38,
+   "err": -0.0855
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.41,
+   "detected": 4.33,
+   "err": -0.0181
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 11.66,
+   "detected": 11.68,
+   "err": 0.0015
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.0,
+   "detected": 3.09,
+   "err": 0.03
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "VERANDAH",
+   "labelled": 3.0,
+   "detected": 2.71,
+   "err": -0.0967
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "GUEST ROOM",
+   "labelled": 11.0,
+   "detected": 11.38,
+   "err": 0.0346
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.33,
+   "detected": 4.07,
+   "err": 0.2206
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "OFFICE",
+   "labelled": 10.56,
+   "detected": 11.87,
+   "err": 0.1241
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 2.18,
+   "detected": 2.21,
+   "err": 0.0147
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "LOUNGE",
+   "labelled": 25.92,
+   "detected": 31.61,
+   "err": 0.2196
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "SERV. ROOM",
+   "labelled": 8.25,
+   "detected": 8.2,
+   "err": -0.0061
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "TOILET",
+   "labelled": 6.84,
+   "detected": 5.53,
+   "err": -0.1912
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "BED ROOM",
+   "labelled": 15.73,
+   "detected": 18.35,
+   "err": 0.1664
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "BED ROOM",
+   "labelled": 13.99,
+   "detected": 15.99,
+   "err": 0.1433
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "STORE",
+   "labelled": 5.11,
+   "detected": 5.13,
+   "err": 0.0033
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "DRESS",
+   "labelled": 5.0,
+   "detected": 3.82,
+   "err": -0.236
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "DRAWING ROOM",
+   "labelled": 21.0,
+   "detected": 21.37,
+   "err": 0.0176
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "BATH ROOM",
+   "labelled": 3.83,
+   "detected": 3.84,
+   "err": 0.0016
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "KITCHEN",
+   "labelled": 11.37,
+   "detected": 11.86,
+   "err": 0.0429
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "TOILET",
+   "labelled": 4.12,
+   "detected": 3.87,
+   "err": -0.0618
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "TOILET",
+   "labelled": 3.12,
+   "detected": 3.22,
+   "err": 0.0304
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "VERANDAH",
+   "labelled": 3.0,
+   "detected": 2.71,
+   "err": -0.0967
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "GUEST ROOM",
+   "labelled": 11.0,
+   "detected": 11.32,
+   "err": 0.0292
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "OFFICE",
+   "labelled": 10.56,
+   "detected": 11.9,
+   "err": 0.1269
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "TOILET",
+   "labelled": 2.18,
+   "detected": 2.21,
+   "err": 0.0147
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 1)",
+   "room": "LOUNGE",
+   "labelled": 21.36,
+   "detected": 36.82,
+   "err": 0.724
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "TOILET",
+   "labelled": 2.39,
+   "detected": 2.39,
+   "err": 0.0002
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "SERVANT QTR.",
+   "labelled": 8.57,
+   "detected": 8.59,
+   "err": 0.0028
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "GUEST ROOM",
+   "labelled": 12.51,
+   "detected": 12.68,
+   "err": 0.0133
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "KITCHEN",
+   "labelled": 12.42,
+   "detected": 12.12,
+   "err": -0.0241
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "TOILET",
+   "labelled": 4.46,
+   "detected": 2.38,
+   "err": -0.4658
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "DRAWING ROOM",
+   "labelled": 21.0,
+   "detected": 20.84,
+   "err": -0.0076
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "OFFICE",
+   "labelled": 10.56,
+   "detected": 11.46,
+   "err": 0.0852
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "TOILET",
+   "labelled": 2.47,
+   "detected": 2.24,
+   "err": -0.0916
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "LOUNGE",
+   "labelled": 27.79,
+   "detected": 38.94,
+   "err": 0.4014
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 4",
+   "room": "BATH",
+   "labelled": 4.5,
+   "detected": 4.53,
+   "err": 0.0067
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 4",
+   "room": "BED ROOM",
+   "labelled": 15.73,
+   "detected": 18.02,
+   "err": 0.1454
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 4",
+   "room": "DRESS",
+   "labelled": 4.21,
+   "detected": 4.1,
+   "err": -0.0267
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 5",
+   "room": "TOILET",
+   "labelled": 4.46,
+   "detected": 4.4,
+   "err": -0.0123
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 5",
+   "room": "OFFICE",
+   "labelled": 10.56,
+   "detected": 11.48,
+   "err": 0.0871
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "View 5",
+   "room": "TOILET",
+   "labelled": 2.47,
+   "detected": 2.16,
+   "err": -0.1241
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "TOILET",
+   "labelled": 4.46,
+   "detected": 4.4,
+   "err": -0.0123
+  },
+  {
+   "file": "ARCH_BBC_AR_P_TY_5_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan (Option 2)",
+   "room": "TOILET",
+   "labelled": 2.47,
+   "detected": 2.33,
+   "err": -0.0552
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.95,
+   "err": -0.0405
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.95,
+   "err": -0.0405
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.48,
+   "err": 0.0026
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.39,
+   "err": -0.0063
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.7,
+   "err": -0.0233
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.97,
+   "err": -0.0025
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.29,
+   "err": -0.0137
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 3.02,
+   "err": -0.0178
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.93,
+   "err": -0.047
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.74,
+   "err": -0.0202
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.99,
+   "err": -0.001
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.42,
+   "err": -0.0041
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.3,
+   "err": -0.013
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.46,
+   "err": -0.0011
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 3.01,
+   "err": -0.021
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.95,
+   "err": -0.0405
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.48,
+   "err": 0.0026
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.39,
+   "err": -0.0063
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.79,
+   "err": -0.0163
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.97,
+   "err": -0.0025
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.32,
+   "err": -0.0115
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 3.05,
+   "err": -0.008
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.93,
+   "err": -0.047
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.74,
+   "err": -0.0202
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.99,
+   "err": -0.001
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.42,
+   "err": -0.0041
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.32,
+   "err": -0.0115
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.52,
+   "err": 0.0099
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Typical First & Second  Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.98,
+   "err": -0.0308
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 3.0,
+   "err": -0.0243
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.48,
+   "err": 0.0026
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.39,
+   "err": -0.0063
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.78,
+   "err": -0.0171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 13.06,
+   "err": 0.0044
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.29,
+   "err": -0.0137
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 3.02,
+   "err": -0.0178
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.07,
+   "detected": 2.93,
+   "err": -0.047
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.75,
+   "err": -0.0194
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.0,
+   "detected": 12.99,
+   "err": -0.001
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.42,
+   "err": -0.0041
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.47,
+   "detected": 13.31,
+   "err": -0.0122
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.46,
+   "err": -0.0011
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_1_Plans_ALL.dxf",
+   "sheet": "Second Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 5.47,
+   "detected": 5.38,
+   "err": -0.0157
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "BATH",
+   "labelled": 2.45,
+   "detected": 3.01,
+   "err": 0.2284
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "LOBBY",
+   "labelled": 10.53,
+   "detected": 11.94,
+   "err": 0.1339
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "KITCHEN",
+   "labelled": 4.86,
+   "detected": 4.79,
+   "err": -0.0144
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "KITCHEN",
+   "labelled": 4.86,
+   "detected": 4.88,
+   "err": 0.0041
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "BATH",
+   "labelled": 2.45,
+   "detected": 2.45,
+   "err": -0.0001
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "BED ROOM",
+   "labelled": 13.81,
+   "detected": 12.93,
+   "err": -0.0636
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.49,
+   "err": -0.0196
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.69,
+   "err": -0.0051
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "BED ROOM",
+   "labelled": 13.81,
+   "detected": 12.96,
+   "err": -0.0614
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "LOBBY",
+   "labelled": 10.53,
+   "detected": 9.13,
+   "err": -0.133
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "WC",
+   "labelled": 1.5,
+   "detected": 4.09,
+   "err": 1.7267
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Typical First, Second  Floor Plans",
+   "room": "WC",
+   "labelled": 1.5,
+   "detected": 1.61,
+   "err": 0.0733
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "WC",
+   "labelled": 1.5,
+   "detected": 1.44,
+   "err": -0.04
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "LOBBY",
+   "labelled": 10.53,
+   "detected": 11.96,
+   "err": 0.1358
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 4.86,
+   "detected": 4.79,
+   "err": -0.0144
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 4.86,
+   "detected": 4.88,
+   "err": 0.0041
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.45,
+   "detected": 2.44,
+   "err": -0.0042
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 15.53,
+   "detected": 12.94,
+   "err": -0.167
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.52,
+   "err": -0.0174
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 13.76,
+   "detected": 13.69,
+   "err": -0.0051
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BED ROOM",
+   "labelled": 13.81,
+   "detected": 12.98,
+   "err": -0.06
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 2.45,
+   "detected": 2.49,
+   "err": 0.0162
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "LOBBY",
+   "labelled": 10.53,
+   "detected": 12.16,
+   "err": 0.1548
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_2_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "WC",
+   "labelled": 1.5,
+   "detected": 1.61,
+   "err": 0.0733
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.63,
+   "err": 0.0096
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.4,
+   "err": -0.0544
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.63,
+   "err": 0.0096
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.4,
+   "err": -0.0544
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 15.28,
+   "err": 0.0006
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 16.13,
+   "err": 0.0563
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "STORE",
+   "labelled": 3.53,
+   "detected": 3.79,
+   "err": 0.0737
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 15.48,
+   "err": 0.0137
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "STORE",
+   "labelled": 3.56,
+   "detected": 4.07,
+   "err": 0.1444
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.4,
+   "detected": 8.4,
+   "err": 0.0
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.63,
+   "err": 0.0074
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.4,
+   "detected": 8.39,
+   "err": -0.0012
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 17.68,
+   "err": 0.0113
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.78,
+   "err": 0.0214
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.49,
+   "err": -0.057
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "OFFICE/ GUEST ROOM",
+   "labelled": 10.44,
+   "detected": 12.47,
+   "err": 0.1944
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "OFFICE/ GUEST ROOM",
+   "labelled": 10.44,
+   "detected": 12.5,
+   "err": 0.1973
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 16.24,
+   "err": 0.0635
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 17.9,
+   "err": 0.0239
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.8,
+   "err": 0.0171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.63,
+   "err": 0.0096
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.4,
+   "err": -0.0544
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.63,
+   "err": 0.0096
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.6,
+   "detected": 3.4,
+   "err": -0.0544
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 15.29,
+   "err": 0.0013
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 16.14,
+   "err": 0.0569
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "STORE",
+   "labelled": 3.53,
+   "detected": 3.79,
+   "err": 0.0737
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 15.48,
+   "err": 0.0137
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "STORE",
+   "labelled": 3.56,
+   "detected": 4.07,
+   "err": 0.1444
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.4,
+   "detected": 8.4,
+   "err": 0.0
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.05,
+   "err": -0.0257
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.4,
+   "detected": 8.39,
+   "err": -0.0012
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 17.68,
+   "err": 0.0113
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.78,
+   "err": 0.0214
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.49,
+   "err": -0.057
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "OFFICE/ GUEST ROOM",
+   "labelled": 10.44,
+   "detected": 12.47,
+   "err": 0.1944
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "OFFICE/ GUEST ROOM",
+   "labelled": 10.44,
+   "detected": 12.5,
+   "err": 0.1973
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 15.27,
+   "detected": 16.24,
+   "err": 0.0635
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 18.11,
+   "err": 0.0359
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALL.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.8,
+   "err": 0.0171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.33,
+   "err": 0.0023
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.1,
+   "err": -0.0509
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.06,
+   "err": 0.002
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.35,
+   "err": 0.019
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "STORE",
+   "labelled": 4.4,
+   "detected": 5.06,
+   "err": 0.1497
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "SERVANT RM.",
+   "labelled": 7.82,
+   "detected": 8.74,
+   "err": 0.1171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "BATH",
+   "labelled": 3.27,
+   "detected": 3.24,
+   "err": -0.009
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.02,
+   "err": -0.0274
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.8,
+   "detected": 8.83,
+   "err": 0.0031
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "GARAGE 1",
+   "labelled": 14.55,
+   "detected": 14.72,
+   "err": 0.0117
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "GARAGE 2",
+   "labelled": 14.55,
+   "detected": 14.72,
+   "err": 0.0117
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.75,
+   "err": 0.0132
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "OFFICE/GUEST ROOM",
+   "labelled": 12.32,
+   "detected": 14.33,
+   "err": 0.1631
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "Ground Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 20.82,
+   "err": 0.1909
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.33,
+   "err": 0.0023
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.12,
+   "err": -0.0463
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.02,
+   "err": -0.0003
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.31,
+   "err": 0.0167
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "STORE",
+   "labelled": 4.81,
+   "detected": 5.04,
+   "err": 0.0487
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "SERVANT RM.",
+   "labelled": 7.82,
+   "detected": 8.8,
+   "err": 0.1247
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "BATH",
+   "labelled": 3.27,
+   "detected": 3.03,
+   "err": -0.0733
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "KITCHEN",
+   "labelled": 8.8,
+   "detected": 8.78,
+   "err": -0.0026
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.8,
+   "err": 0.0171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "GARAGE 2",
+   "labelled": 14.55,
+   "detected": 14.72,
+   "err": 0.0117
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "GARAGE 1",
+   "labelled": 14.55,
+   "detected": 14.72,
+   "err": 0.0117
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.48,
+   "err": -0.0597
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "OFFICE/GUEST ROOM",
+   "labelled": 12.32,
+   "detected": 14.48,
+   "err": 0.1753
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "View 2",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 20.32,
+   "err": 0.1623
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.33,
+   "err": 0.0023
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.06,
+   "err": -0.0602
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.06,
+   "err": 0.002
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.35,
+   "err": 0.019
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "STORE",
+   "labelled": 4.4,
+   "detected": 5.05,
+   "err": 0.1475
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "SERVANT RM.",
+   "labelled": 7.82,
+   "detected": 8.72,
+   "err": 0.1145
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 3.27,
+   "detected": 3.4,
+   "err": 0.0399
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 16.81,
+   "err": -0.0394
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.8,
+   "detected": 8.83,
+   "err": 0.0031
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.69,
+   "err": -0.003
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "OFFICE/GUEST ROOM",
+   "labelled": 12.32,
+   "detected": 14.32,
+   "err": 0.1623
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 21.14,
+   "err": 0.2092
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.33,
+   "err": 0.0023
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 4.32,
+   "detected": 4.04,
+   "err": -0.0648
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.02,
+   "err": -0.0003
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BEDROOM",
+   "labelled": 17.03,
+   "detected": 17.3,
+   "err": 0.0161
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "STORE",
+   "labelled": 4.4,
+   "detected": 5.15,
+   "err": 0.1702
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "SERVANT RM.",
+   "labelled": 7.82,
+   "detected": 8.8,
+   "err": 0.1247
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "BATH",
+   "labelled": 3.27,
+   "detected": 3.24,
+   "err": -0.009
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "KITCHEN",
+   "labelled": 8.8,
+   "detected": 8.78,
+   "err": -0.0026
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DRAWING ROOM",
+   "labelled": 17.5,
+   "detected": 17.8,
+   "err": 0.0171
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "TOILET",
+   "labelled": 3.7,
+   "detected": 3.44,
+   "err": -0.0705
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "OFFICE/GUEST ROOM",
+   "labelled": 12.32,
+   "detected": 14.49,
+   "err": 0.1761
+  },
+  {
+   "file": "ARCH_BBC_AR_TY_4_P_ALLdwg.dxf",
+   "sheet": "First Floor Plan",
+   "room": "DINING AREA",
+   "labelled": 17.48,
+   "detected": 20.32,
+   "err": 0.1623
+  }
+ ]
+}

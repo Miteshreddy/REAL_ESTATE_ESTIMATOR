@@ -1,0 +1,138 @@
+2026-10-09T20:11:44+05:30
+........................................................................ [ 75%]
+.......................                                                  [100%]
+============================== warnings summary ===============================
+backend/tests/test_audit.py::test_every_category_quantified_and_either_priced_or_listed
+backend/tests/test_audit.py::test_every_category_quantified_and_either_priced_or_listed
+backend/tests/test_legacy_migration.py::test_7_legacy_project_opens_with_unchanged_rates
+backend/tests/test_legacy_migration.py::test_7_legacy_project_opens_with_unchanged_rates
+  C:\Users\Mitesh Reddy\Desktop\assignment\real estate\backend\app.py:729: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("startup")
+
+backend/tests/test_audit.py::test_every_category_quantified_and_either_priced_or_listed
+backend/tests/test_audit.py::test_every_category_quantified_and_either_priced_or_listed
+backend/tests/test_legacy_migration.py::test_7_legacy_project_opens_with_unchanged_rates
+backend/tests/test_legacy_migration.py::test_7_legacy_project_opens_with_unchanged_rates
+  C:\Users\Mitesh Reddy\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\applications.py:4495: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    return self.router.on_event(event_type)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=================================== PASSES ====================================
+_________ test_every_category_quantified_and_either_priced_or_listed __________
+---------------------------- Captured stdout setup ----------------------------
+[server] ready -> http://127.0.0.1:8000
+______________ test_7_legacy_project_opens_with_unchanged_rates _______________
+---------------------------- Captured stdout call -----------------------------
+[server] ready -> http://127.0.0.1:8000
+[server] ready -> http://127.0.0.1:8000
+_________________ test_downscale_keeps_scale_in_caller_pixels _________________
+---------------------------- Captured stdout call -----------------------------
+[seg] model loaded: floorplan_unet.onnx
+=========================== short test summary info ===========================
+PASSED backend/tests/test_audit.py::test_every_category_quantified_and_either_priced_or_listed
+PASSED backend/tests/test_audit.py::test_doors_windows_counts_sizes_basis
+PASSED backend/tests/test_audit.py::test_quantity_formulas_and_amounts
+PASSED backend/tests/test_audit.py::test_no_silent_zero
+PASSED backend/tests/test_audit.py::test_report_traceability
+PASSED backend/tests/test_audit.py::test_other_elements_detected_not_ignored
+PASSED backend/tests/test_audit.py::test_land_separate_and_persisted
+PASSED backend/tests/test_audit.py::test_override_persists_and_locking
+PASSED backend/tests/test_boq.py::test_approved_requires_authority_date_reference
+PASSED backend/tests/test_boq.py::test_arithmetic_currency_and_status_validation
+PASSED backend/tests/test_boq.py::test_original_preserved_and_approved_grade
+PASSED backend/tests/test_boq.py::test_comparison_never_matches_incompatible_units_and_handles_zero
+PASSED backend/tests/test_boq.py::test_ambiguous_description_not_matched
+PASSED backend/tests/test_dataset_annotation.py::test_ingest_rejects_corrupt_and_tiny_and_is_idempotent
+PASSED backend/tests/test_dataset_annotation.py::test_restricted_sources_never_training_eligible
+PASSED backend/tests/test_dataset_annotation.py::test_split_routes_and_freezes_holdout
+PASSED backend/tests/test_dataset_annotation.py::test_annotation_validation
+PASSED backend/tests/test_dataset_annotation.py::test_annotation_double_review_and_export
+PASSED backend/tests/test_dataset_annotation.py::test_rejection_and_disagreement
+PASSED backend/tests/test_dataset_annotation.py::test_pseudo_labels_never_verified
+PASSED backend/tests/test_learning.py::test_confirmed_choice_is_reused_on_next_project
+PASSED backend/tests/test_learning.py::test_reference_boq_comparison_recorded
+PASSED backend/tests/test_legacy_migration.py::test_7_legacy_project_opens_with_unchanged_rates
+PASSED backend/tests/test_pipeline_quality.py::test_dedup_catches_resized_and_cropped_copies_not_other_drawings
+PASSED backend/tests/test_pipeline_quality.py::test_licence_rules
+PASSED backend/tests/test_pipeline_quality.py::test_leakage_checker_fails_on_planted_leak
+PASSED backend/tests/test_pipeline_quality.py::test_real_dataset_has_no_leakage
+PASSED backend/tests/test_pipeline_quality.py::test_opening_enrichment_and_conflict
+PASSED backend/tests/test_pipeline_quality.py::test_quality_checks_completeness_assumptions
+PASSED backend/tests/test_pipeline_quality.py::test_storey_count_required_and_room_area_error
+PASSED backend/tests/test_pipeline_quality.py::test_room_area_prefers_written_dimensions
+PASSED backend/tests/test_pipeline_quality.py::test_scale_parsing[SCALE 1:100-100-False]
+PASSED backend/tests/test_pipeline_quality.py::test_scale_parsing[SCALE = 1/50-50-False]
+PASSED backend/tests/test_pipeline_quality.py::test_scale_parsing[1:125-125-False]
+PASSED backend/tests/test_pipeline_quality.py::test_scale_parsing[NOT TO SCALE-None-True]
+PASSED backend/tests/test_pipeline_quality.py::test_scale_parsing[N.T.S-None-True]
+PASSED backend/tests/test_pipeline_quality.py::test_upload_validation_rejects_disguised_file
+PASSED backend/tests/test_pipeline_quality.py::test_registry_refuses_downgrade
+PASSED backend/tests/test_pipeline_quality.py::test_robots_wildcards_respected
+PASSED backend/tests/test_pipeline_quality.py::test_detector_model_is_working
+PASSED backend/tests/test_pipeline_quality.py::test_no_control_characters_in_source
+PASSED backend/tests/test_quantities_structural.py::test_area_definitions_are_distinct_and_traceable
+PASSED backend/tests/test_quantities_structural.py::test_assumed_scale_never_measured_and_missing_storeys_flagged
+PASSED backend/tests/test_quantities_structural.py::test_more_floor_labels[BASEMENT FLOOR PLAN-occ0]
+PASSED backend/tests/test_quantities_structural.py::test_more_floor_labels[LEVEL 5-occ1]
+PASSED backend/tests/test_quantities_structural.py::test_more_floor_labels[FLOORS 10-20-occ2]
+PASSED backend/tests/test_quantities_structural.py::test_terrace_is_not_a_storey
+PASSED backend/tests/test_quantities_structural.py::test_wall_quantities_formulas_and_status
+PASSED backend/tests/test_quantities_structural.py::test_steel_formula_and_no_invented_inputs
+PASSED backend/tests/test_quantities_structural.py::test_bbs_parsing_and_no_false_rows
+PASSED backend/tests/test_quantities_structural.py::test_structural_missing_and_schedule_members
+PASSED backend/tests/test_quantities_structural.py::test_site_plan_never_costed
+PASSED backend/tests/test_quantities_structural.py::test_mapping_review_unit_guard_and_priority
+PASSED backend/tests/test_quantities_structural.py::test_confidence_labels_and_estimate_never_high_when_incomplete
+PASSED backend/tests/test_quantities_structural.py::test_report_discloses_confidence_structure_areas
+PASSED backend/tests/test_quantities_structural.py::test_standard_data_approval_is_applied
+PASSED backend/tests/test_quantities_structural.py::test_review_fixes_regressions
+PASSED backend/tests/test_tn.py::test_only_tn_is_offered_and_resolved
+PASSED backend/tests/test_tn.py::test_other_states_rejected
+PASSED backend/tests/test_tn.py::test_non_tn_schedules_inactive
+PASSED backend/tests/test_tn.py::test_quantities_independent_of_location
+PASSED backend/tests/test_tn.py::test_rate_provenance_and_amendment
+PASSED backend/tests/test_tn.py::test_tnpwd_search
+PASSED backend/tests/test_tn.py::test_document_classifier
+PASSED backend/tests/test_tn.py::test_version_diff_and_amendment_apply
+PASSED backend/tests/test_tn.py::test_validator_rejects_bad_extraction
+PASSED backend/tests/test_tn.py::test_heading_strip
+PASSED backend/tests/test_tn.py::test_rate_analysis_units_and_additions
+PASSED backend/tests/test_tn.py::test_wastage_addition_not_applied_blindly
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts0-expect0]
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts1-expect1]
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts2-expect2]
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts3-expect3]
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts4-expect4]
+PASSED backend/tests/test_tn.py::test_floor_occurrences[texts5-expect5]
+PASSED backend/tests/test_tn.py::test_typical_without_numbers_and_no_false_floors
+PASSED backend/tests/test_tn.py::test_plan_multiplier_uses_occurrences
+PASSED backend/tests/test_tn.py::test_room_normalisation[TOIET-2-TOILET-2-toilet]
+PASSED backend/tests/test_tn.py::test_room_normalisation[TOLET-2-TOILET-2-toilet]
+PASSED backend/tests/test_tn.py::test_room_normalisation[BED ROOM-1 BEDRO-BED ROOM-1-bedroom]
+PASSED backend/tests/test_tn.py::test_room_normalisation[REFUGEAREA-REFUGE AREA-refuge]
+PASSED backend/tests/test_tn.py::test_room_normalisation[6'6\xb0WIDECORRIDOR-CORRIDOR-corridor]
+PASSED backend/tests/test_tn.py::test_room_normalisation[1711 Sft. 3BHK--unknown]
+PASSED backend/tests/test_tn.py::test_unit_grouping
+PASSED backend/tests/test_tn.py::test_feet_inch_dimensions
+PASSED backend/tests/test_tn.py::test_downscale_keeps_scale_in_caller_pixels
+PASSED backend/tests/test_tn_corpus.py::test_ssrf_and_allowlist_reject[file:///etc/passwd]
+PASSED backend/tests/test_tn_corpus.py::test_ssrf_and_allowlist_reject[ftp://tnrd.tn.gov.in/x.pdf]
+PASSED backend/tests/test_tn_corpus.py::test_ssrf_and_allowlist_reject[http://127.0.0.1/x]
+PASSED backend/tests/test_tn_corpus.py::test_ssrf_and_allowlist_reject[https://evil.example.com/a.pdf]
+PASSED backend/tests/test_tn_corpus.py::test_private_resolution_rejected
+PASSED backend/tests/test_tn_corpus.py::test_robots_wildcards_and_kill_switch
+PASSED backend/tests/test_tn_corpus.py::test_catalogue_parser_keeps_titles_and_dedupes
+PASSED backend/tests/test_tn_corpus.py::test_page_classifier_and_no_auto_approval
+PASSED backend/tests/test_tn_corpus.py::test_pii_screen_flags_patient_records_not_drawings
+95 passed, 8 warnings in 26.09s
+EXIT_CODE=0

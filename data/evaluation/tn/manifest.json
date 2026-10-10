@@ -1,0 +1,44 @@
+{
+ "_about": "Tamil Nadu gold-standard evaluation set. EVALUATION ONLY — these drawings must never be used to train, tune thresholds or write drawing-specific rules. Each case states what its ground truth is and who/what verified it. Classes with no case are listed as empty, not filled with synthetic data.",
+ "classes": {
+  "basic": ["tn-govt-small-buildings"],
+  "large_residential": ["aparna-block-a-refuge"],
+  "commercial": [],
+  "institutional": ["tn-govt-small-buildings"],
+  "structural": [],
+  "multisheet": ["tn-govt-small-buildings"],
+  "scans": [],
+  "cad": []
+ },
+ "cases": {
+  "aparna-block-a-refuge": {
+   "drawing": "data/uploads/cb7ba5a5cf/3 - Block-A-Refuge-Floor-Plan-1780466106344-46de52dc.jpg",
+   "project_id": "cb7ba5a5cf",
+   "building_type": "multi-unit residential tower (refuge floor), rendered marketing plan, raster 6000x6000",
+   "source": "drawing supplied by the user",
+   "verified_by": "values printed on the drawing itself (area-statement table); not verified by an engineer",
+   "expected_elements": {"floor_occurrences": [18, 28, 38], "apartments": 5, "apartment_type": "3BHK", "refuge_unit": 1},
+   "expected_quantities": {"carpet_area_sft_by_flat": {"2": 1341, "3": 1123, "4": 1115, "5": 1242, "6": 1222}},
+   "expected_boq": null,
+   "expected_rate_mapping": null,
+   "notes": "No door / window schedule and no BOQ on the sheet → door / window counts and cost cannot be scored against ground truth.",
+   "evaluate": "python backend/aparna_regression.py"
+  },
+  "tn-govt-small-buildings": {
+   "drawing": "ml/test_drawings/tamilnadu/*.pdf (27 sheets: anganwadi, VAO office, ration shop, PHC-type buildings, kitchen shed …)",
+   "building_type": "small Tamil Nadu Government buildings (single / two storey), vector & scanned PDF sheets",
+   "source": "public Tamil Nadu Government type-design drawings",
+   "verified_by": "plinth-area notes and view titles printed on the sheets",
+   "expected_elements": "sheet view (plan / elevation / section) per sheet",
+   "expected_quantities": "plinth area where a plinth-area note is printed (16 sheets)",
+   "expected_boq": null,
+   "evaluate": "python backend/tn_eval.py"
+  }
+ },
+ "missing_for_95pct_validation": [
+  "approved / sanctioned TN PWD BOQs (item quantities and amounts) with their drawings",
+  "door / window schedules or annotated opening counts for TN drawings",
+  "TN structural drawing sets with bar-bending schedules",
+  "TN commercial / institutional multi-wing drawing sets"
+ ]
+}

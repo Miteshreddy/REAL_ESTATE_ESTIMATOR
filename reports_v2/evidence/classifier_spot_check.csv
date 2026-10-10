@@ -1,0 +1,25 @@
+page_id,document,page,assistant_visual_judgement,is_floor_plan
+b1b65d0bb7d5df94-p163,12248522.pdf,163,table/text,no
+aa7c802ceada98e7-p173,12248530.pdf,173,text+table,no
+a760646f0097e6c6-p458,KRR (restricted),458,insurance text,no
+aa7c802ceada98e7-p305,12248530.pdf,305,table,no
+b1b65d0bb7d5df94-p249,12248522.pdf,249,table,no
+a760646f0097e6c6-p524,KRR (restricted),524,insurance text,no
+a760646f0097e6c6-p155,KRR (restricted),155,table,no
+b1b65d0bb7d5df94-p55,12248522.pdf,55,charts,no
+dc3649ec83c1ae20-p206,TNCDBR 2019,206,illustrative 3D diagram,no
+a760646f0097e6c6-p1,KRR (restricted),1,cover page,no
+a760646f0097e6c6-p582,KRR (restricted),582,patient report (personal data),no
+a760646f0097e6c6-p85,KRR (restricted),85,scanned certificate,no
+ff4061ff7ea047d2-p169,12144929.pdf,169,table,no
+4e0b49ba427feeca-p2,SIPCOT RFP,2,contents page,no
+b1b65d0bb7d5df94-p124,12248522.pdf,124,gantt chart,no
+ff4061ff7ea047d2-p150,12144929.pdf,150,FLOOR/SITE PLAN (real drawing),yes
+a760646f0097e6c6-p26,KRR (restricted),26,signature page,no
+cfe954155ef95a12-p19,CUTN EOI,19,text,no
+a760646f0097e6c6-p182,KRR (restricted),182,consent order scan,no
+a760646f0097e6c6-p325,KRR (restricted),325,FLOOR PLAN (real drawing),yes
+ff4061ff7ea047d2-p12,12144929.pdf,12,building photo/render,no
+a760646f0097e6c6-p560,KRR (restricted),560,patient report (personal data),no
+a760646f0097e6c6-p315,KRR (restricted),315,structural design calc,no
+b1b65d0bb7d5df94-p106,12248522.pdf,106,table,no

@@ -1,0 +1,31 @@
+{
+ "project_id": "tn-ed442a2871",
+ "project_name": "GF.pdf",
+ "source": [
+  "tnrd"
+ ],
+ "source_url": null,
+ "building_type": "office",
+ "district": null,
+ "city": null,
+ "drawing_types": [
+  "OTHER"
+ ],
+ "disciplines": [
+  "architectural"
+ ],
+ "file_types": [
+  "pdf"
+ ],
+ "files": [
+  "GF.pdf"
+ ],
+ "page_count": 1,
+ "pages": [
+  "507b9d04077cd7c8-p1"
+ ],
+ "scale": null,
+ "collection_date": "2026-10-09T16:00:34",
+ "source_status": "government_publication_review",
+ "license_status": "government_publication_review"
+}

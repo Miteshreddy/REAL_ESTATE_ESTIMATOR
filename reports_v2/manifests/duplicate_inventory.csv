@@ -1,0 +1,125 @@
+relationship,file_a,page_a,file_b,page_b,reason,recommended_action,reviewer_status
+rotated re-save,Buildings.pdf,ebd2edc143e894d4-p320,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p8,perceptual hash distance 1/256 (rotated),keep both; link (derived copy is not counted),NOT_REVIEWED
+rotated re-save,Buildings.pdf,ebd2edc143e894d4-p329,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p17,perceptual hash distance 0/256 (rotated),keep both; link (derived copy is not counted),NOT_REVIEWED
+rotated re-save,Buildings.pdf,ebd2edc143e894d4-p332,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p20,perceptual hash distance 0/256 (rotated),keep both; link (derived copy is not counted),NOT_REVIEWED
+rotated re-save,Buildings.pdf,ebd2edc143e894d4-p333,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p21,perceptual hash distance 0/256 (rotated),keep both; link (derived copy is not counted),NOT_REVIEWED
+related standard-design variant,IHHL-12000-15-16-Leach pit.pdf,a232d66ac271e5c4-p1,IHHL-12000-15-16-Septic tank.pdf,b30786835b0b2706-p1,text similarity 0.93,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p18,12248522.pdf,b1b65d0bb7d5df94-p16,text similarity 0.95,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p18,12248522.pdf,b1b65d0bb7d5df94-p120,text similarity 0.94,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p205,12248522.pdf,b1b65d0bb7d5df94-p16,text similarity 0.92,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p205,12248522.pdf,b1b65d0bb7d5df94-p120,text similarity 0.91,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p231,12248522.pdf,b1b65d0bb7d5df94-p140,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p241,12248522.pdf,b1b65d0bb7d5df94-p202,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p244,12248522.pdf,b1b65d0bb7d5df94-p205,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p245,12248522.pdf,b1b65d0bb7d5df94-p206,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p246,12248522.pdf,b1b65d0bb7d5df94-p207,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p247,12248522.pdf,b1b65d0bb7d5df94-p208,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p248,12248522.pdf,b1b65d0bb7d5df94-p209,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p249,12248522.pdf,b1b65d0bb7d5df94-p210,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p250,12248522.pdf,b1b65d0bb7d5df94-p211,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p251,12248522.pdf,b1b65d0bb7d5df94-p212,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p252,12248522.pdf,b1b65d0bb7d5df94-p213,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p253,12248522.pdf,b1b65d0bb7d5df94-p214,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p254,12248522.pdf,b1b65d0bb7d5df94-p215,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p255,12248522.pdf,b1b65d0bb7d5df94-p216,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p259,12248522.pdf,b1b65d0bb7d5df94-p220,text similarity 0.95,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p260,12248522.pdf,b1b65d0bb7d5df94-p221,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p261,12248522.pdf,b1b65d0bb7d5df94-p222,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p262,12248522.pdf,b1b65d0bb7d5df94-p223,perceptual hash distance 7/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p263,12248522.pdf,b1b65d0bb7d5df94-p224,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p264,12248522.pdf,b1b65d0bb7d5df94-p225,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p265,12248522.pdf,b1b65d0bb7d5df94-p226,text similarity 0.90,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p266,12248522.pdf,b1b65d0bb7d5df94-p227,text similarity 1.00,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p267,12248522.pdf,b1b65d0bb7d5df94-p228,perceptual hash distance 9/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p268,12248522.pdf,b1b65d0bb7d5df94-p229,perceptual hash distance 9/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p269,12248522.pdf,b1b65d0bb7d5df94-p230,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p270,12248522.pdf,b1b65d0bb7d5df94-p231,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p272,12248522.pdf,b1b65d0bb7d5df94-p233,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p273,12248522.pdf,b1b65d0bb7d5df94-p234,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p274,12248522.pdf,b1b65d0bb7d5df94-p235,perceptual hash distance 8/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+related standard-design variant,12248530.pdf,aa7c802ceada98e7-p277,12248522.pdf,b1b65d0bb7d5df94-p238,text similarity 0.97,keep both as separate designs; same project group for split purposes,NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p279,12248522.pdf,b1b65d0bb7d5df94-p240,perceptual hash distance 4/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p302,12248522.pdf,b1b65d0bb7d5df94-p246,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p304,12248522.pdf,b1b65d0bb7d5df94-p248,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p305,12248522.pdf,b1b65d0bb7d5df94-p249,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p306,12248522.pdf,b1b65d0bb7d5df94-p250,perceptual hash distance 6/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p307,12248522.pdf,b1b65d0bb7d5df94-p251,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p309,12248522.pdf,b1b65d0bb7d5df94-p253,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p311,12248522.pdf,b1b65d0bb7d5df94-p255,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p312,12248522.pdf,b1b65d0bb7d5df94-p256,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p313,12248522.pdf,b1b65d0bb7d5df94-p257,perceptual hash distance 4/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p314,12248522.pdf,b1b65d0bb7d5df94-p258,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p318,12248522.pdf,b1b65d0bb7d5df94-p262,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p319,12248522.pdf,b1b65d0bb7d5df94-p263,perceptual hash distance 0/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p320,12248522.pdf,b1b65d0bb7d5df94-p264,perceptual hash distance 4/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p321,12248522.pdf,b1b65d0bb7d5df94-p265,perceptual hash distance 1/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+near-identical render,12248530.pdf,aa7c802ceada98e7-p323,12248522.pdf,b1b65d0bb7d5df94-p267,perceptual hash distance 6/256,keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p313,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p1,declared derivation: extract p1 = handbook p313 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p314,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p2,declared derivation: extract p2 = handbook p314 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p315,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p3,declared derivation: extract p3 = handbook p315 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p316,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p4,declared derivation: extract p4 = handbook p316 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p317,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p5,declared derivation: extract p5 = handbook p317 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p318,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p6,declared derivation: extract p6 = handbook p318 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p319,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p7,declared derivation: extract p7 = handbook p319 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p321,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p9,declared derivation: extract p9 = handbook p321 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p322,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p10,declared derivation: extract p10 = handbook p322 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p323,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p11,declared derivation: extract p11 = handbook p323 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p324,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p12,declared derivation: extract p12 = handbook p324 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p325,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p13,declared derivation: extract p13 = handbook p325 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p326,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p14,declared derivation: extract p14 = handbook p326 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p327,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p15,declared derivation: extract p15 = handbook p327 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p328,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p16,declared derivation: extract p16 = handbook p328 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p330,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p18,declared derivation: extract p18 = handbook p330 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+declared derivation,Buildings.pdf,ebd2edc143e894d4-p331,TN_Type_Design_Drawings_Extract.pdf,3e1e55e10a961a97-p19,declared derivation: extract p19 = handbook p331 (printed page number matches),keep both; link (derived copy is not counted),NOT_REVIEWED
+exact duplicate file,Buildings.pdf,(file),Buildings.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,12144929.pdf,(file),12144929.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,1.ESB-Model.pdf,(file),1.ESB-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,1.pdf,(file),1.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,10.LB-Model.pdf,(file),10.LB-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,11.CH-1-Model.pdf,(file),11.CH-1-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,12.CH-2-Model.pdf,(file),12.CH-2-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,13.CH-3(1)-Model.pdf,(file),13.CH-3(1)-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,13.CH-3(2)-Model.pdf,(file),13.CH-3(2)-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,14.cement_godown.pdf,(file),14.cement_godown.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,15.vao_office.pdf,(file),15.vao_office.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,16.TF-Model.pdf,(file),16.TF-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,17.CS-Model.pdf,(file),17.CS-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,18.MC-Model.pdf,(file),18.MC-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,2.PDS-Model.pdf,(file),2.PDS-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,2.pdf,(file),2.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,3.Anganwadi-Model.pdf,(file),3.Anganwadi-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,3.pdf,(file),3.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,4.kitchen_shed.pdf,(file),4.kitchen_shed.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,4.pdf,(file),4.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,5.STG-Model.pdf,(file),5.STG-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,6.STB-Model.pdf,(file),6.STB-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,7.SHGB-Model.pdf,(file),7.SHGB-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,8.PSTR-Model.pdf,(file),8.PSTR-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,9.PO-Model.pdf,(file),9.PO-Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,AEE office Model.pdf,(file),AEE office Model.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Beam L.S-1.pdf,(file),Beam L.S-1.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Beam L.S-2.pdf,(file),Beam L.S-2.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Beam L.S-3.pdf,(file),Beam L.S-3.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Beam L.S-4.pdf,(file),Beam L.S-4.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Buildings.pdf,(file),Buildings.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Cross Section.pdf,(file),Cross Section.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Drain.pdf,(file),Drain.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,FF-ARC.pdf,(file),FF-ARC.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,FF-Roof.pdf,(file),FF-Roof.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,FF.pdf,(file),FF.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,GF Roof.pdf,(file),GF Roof.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,GF-ARC.pdf,(file),GF-ARC.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,GF.pdf,(file),GF.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,IAY drawing0001.pdf,(file),IAY drawing0001.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,IMSC.pdf,(file),IMSC.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Plinth beam.pdf,(file),Plinth beam.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Portico -Grade Beam.pdf,(file),Portico -Grade Beam.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Portico-Elevation.pdf,(file),Portico-Elevation.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Portico-Roof Beam 1.pdf,(file),Portico-Roof Beam 1.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Portico-Roof beam 2.pdf,(file),Portico-Roof beam 2.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,SF-ARC.pdf,(file),SF-ARC.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Sanitary.pdf,(file),Sanitary.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Stair case.pdf,(file),Stair case.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Tranining Hall-Roof.pdf,(file),Tranining Hall-Roof.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,Water Supply.pdf,(file),Water Supply.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)
+exact duplicate file,pvt-Model 29.09.11.pdf,(file),pvt-Model 29.09.11.pdf,(file),identical SHA-256,keep one copy; record both sources,AUTO (identical bytes)

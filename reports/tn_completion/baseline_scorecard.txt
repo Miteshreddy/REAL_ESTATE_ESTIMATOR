@@ -1,0 +1,23 @@
+AREA (basic, plinth)                              68.8%  FAIL                   TN Govt type-design sheets
+SHEET VIEW (basic)                                88.9%  FAIL                   TN Govt type-design sheets
+FLOOR (large)                                    100.0%  PASS                   Aparna refuge floor
+UNIT (large)                                     100.0%  PASS                   Aparna refuge floor
+ROOM / UNIT AREA (large)                          20.0%  FAIL                   Aparna refuge floor
+DOOR (large)                                             NOT MEASURED           Aparna refuge floor
+WINDOW (large)                                           NOT MEASURED           Aparna refuge floor
+COMMERCIAL / INSTITUTIONAL (TN)                          NOT MEASURED           none
+DOOR count (non-TN reference)                     20.8%  REFERENCE ONLY         Nalanda (Bihar) — NOT TN
+WINDOW count (non-TN reference)                    0.0%  REFERENCE ONLY         Nalanda (Bihar) — NOT TN
+ROOM AREA (non-TN reference)                      78.5%  REFERENCE ONLY         Uttarakhand Govt CAD — NOT TN
+DETECTOR DOOR F1 (TRAIN)                          88.3%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (TRAIN)                        91.8%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR DOOR F1 (VALIDATION)                     86.5%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (VALIDATION)                   89.8%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR DOOR F1 (TEST)                           86.9%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+DETECTOR WINDOW F1 (TEST)                         88.1%  REFERENCE ONLY         CubiCasa5K — NOT TN (generic pretraining)
+SYNTHETIC total vs exact geometry (dxf)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+SYNTHETIC total vs exact geometry (pdf)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+SYNTHETIC total vs exact geometry (png)          100.0%  SYNTHETIC — NOT REAL   generator (SYNTHETIC)
+TOTAL COST vs approved BOQ                               NOT VALIDATED          approved TN BOQs
+PWD RATE COMPLETENESS                             58.8%  COVERAGE (not accuracy) villa_g1 sample take-off
+FINAL: FAIL

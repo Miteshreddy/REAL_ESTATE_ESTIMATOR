@@ -1,0 +1,31 @@
+{
+ "samples": "villa_g1.dxf, compact_home.dxf, bungalow.dxf",
+ "priced": 90,
+ "total": 153,
+ "priced_pct": 58.8,
+ "unpriced": {
+  "excavation": "NEEDS RATE ANALYSIS",
+  "anti_termite": "NEEDS RATE",
+  "fw_found": "NEEDS RATE ANALYSIS",
+  "fw_slab": "NEEDS RATE ANALYSIS",
+  "fw_beam": "NEEDS RATE ANALYSIS",
+  "fw_col": "NEEDS RATE ANALYSIS",
+  "granite": "NEEDS RATE ANALYSIS",
+  "putty": "NEEDS RATE ANALYSIS",
+  "door_shutter": "NEEDS RATE ANALYSIS",
+  "door_frame": "NEEDS RATE ANALYSIS",
+  "window_alu": "NEEDS RATE ANALYSIS",
+  "grills": "NEEDS RATE ANALYSIS",
+  "elec_light": "NEEDS RATE",
+  "elec_power": "NEEDS RATE",
+  "elec_db": "NEEDS RATE",
+  "basin": "NEEDS RATE",
+  "sink": "NEEDS RATE ANALYSIS",
+  "cpvc": "NEEDS RATE",
+  "swr": "NEEDS RATE",
+  "tank": "NEEDS RATE ANALYSIS",
+  "modular_kitchen": "NEEDS RATE"
+ },
+ "schedule": "tn-pwd-sor-2025-26-amd-2025-08-08",
+ "measured": "2026-10-09T16:40:21"
+}
