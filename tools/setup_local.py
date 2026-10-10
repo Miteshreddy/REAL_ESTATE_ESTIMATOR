@@ -95,6 +95,8 @@ def fetch_large_files():
                 ptr = _pointer(path)
                 if not ptr:
                     continue
+                if os.environ.get("PWD_SKIP_LLM") == "1" and ".gguf" in f:  # server build without the language model
+                    continue
                 found += 1
                 rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
                 oid, size = ptr
