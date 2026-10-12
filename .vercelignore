@@ -1,0 +1,13 @@
+# Vercel serves only the static frontend; the Python backend and models run on Railway.
+backend
+data
+ml
+tools
+tn_corpus
+reports
+reports_v2
+deploy
+configs
+docs
+*.md
+!frontend/**
